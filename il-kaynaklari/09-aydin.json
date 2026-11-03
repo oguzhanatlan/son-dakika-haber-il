@@ -1,0 +1,223 @@
+{
+  "il": "Aydın",
+  "plaka": "09",
+  "slug": "aydin",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/aydin",
+  "buyuksehir": true,
+  "ilceler": [
+    "Bozdoğan",
+    "Buharkent",
+    "Çine",
+    "Didim",
+    "Efeler",
+    "Germencik",
+    "İncirliova",
+    "Karacasu",
+    "Karpuzlu",
+    "Koçarlı",
+    "Köşk",
+    "Kuşadası",
+    "Kuyucak",
+    "Nazilli",
+    "Söke",
+    "Sultanhisar",
+    "Yenipazar"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Aydın Valiliği",
+      "url": "https://www.aydin.gov.tr/",
+      "duyuru_url": "https://www.aydin.gov.tr/duyurular",
+      "haber_url": "https://www.aydin.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.aydin.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (ayrıca /validen-haberler). aydin.gov.tr www'li adrese açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Aydın Büyükşehir Belediyesi",
+      "url": "https://aydin.bel.tr/",
+      "duyuru_url": "https://aydin.bel.tr/duyuru/11/duyurular",
+      "haber_url": "https://aydin.bel.tr/haberler",
+      "basin_aciklamalari_url": "https://aydin.bel.tr/Basindahaberler",
+      "durum": 200,
+      "not": "Büyükşehir. www.aydin.bel.tr yönlenince adres aydin.bel.tr:443 olarak görünüyor; portsuz aydin.bel.tr kullan. /duyurular ve /haberler 200 dönüyor ancak ana sayfadaki bağlantılar /duyuru/11/duyurular ve /haberler. Haber kayıtları /detail/{id}/{slug} biçiminde. Ulaşım (otobüs güzergahları): /detail/5257/otobus-guzergahlarimiz; nöbetçi eczaneler: /detail/4745/nobetci-eczaneler."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Aydın İl Milli Eğitim Müdürlüğü",
+      "url": "https://aydin.meb.gov.tr/",
+      "duyuru_url": "https://aydin.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://aydin.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://aydin.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS 200 dönüyor. /acilduyurular/ 404 veriyor (Aydın'da kullanılmıyor); acil duyurular ana sayfada çıkıyor."
+    },
+    {
+      "tur": "su",
+      "kurum": "Aydın Büyükşehir Belediyesi Su ve Kanalizasyon İdaresi Genel Müdürlüğü (Aydın ASKİ)",
+      "url": "https://www.aydinaski.gov.tr/",
+      "duyuru_url": "https://www.aydinaski.gov.tr/index.php/duyurular/",
+      "haber_url": "https://www.aydinaski.gov.tr/index.php/category/haberler/",
+      "rss": "https://www.aydinaski.gov.tr/index.php/feed/",
+      "durum": 200,
+      "not": "Ayrı su idaresi (WordPress site). Duyurular ağırlıklı genel kurul/idari; planlı su kesintisi için ayrı bir sayfa bulunamadı, kesinti/arıza duyuruları sitede seyrek, daha çok belediye ve yerel basın üzerinden çıkıyor. Sitenin adresi aydinaski.gov.tr -> www.aydinaski.gov.tr yönleniyor. Mobil: appservices.aydinaski.gov.tr/mobil. Su analizi: /index.php/su-analiz-raporlari/. Karıştırma: aski.gov.tr Ankara ASKİ'dir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Adm Elektrik Dağıtım A.Ş. (ADM Elektrik, Aydem Enerji grubu)",
+      "url": "https://www.admelektrik.com.tr/",
+      "duyuru_url": "https://www.admelektrik.com.tr/bilgi-merkezi/planli-bakim-ve-iyilestirme-calismalari",
+      "haber_url": "https://www.admelektrik.com.tr/bilgi-merkezi/duyurular",
+      "durum": 200,
+      "not": "Şirketin kendi sitesinde Aydın, Denizli ve Muğla'ya hizmet verdiği yazıyor (hakkımızda sayfası). Planlı kesinti sayfası 'Planlı Çalışma Haritası' (harita/JS tabanlı, il-ilçe seçimi gerekebilir). Arıza bildirimi: portal.admelektrik.com.tr. aydemenerji.com.tr/tr/planli-kesintiler sayfası bot koruması nedeniyle 'Request Rejected' döndürüyor. Kuşadası Belediyesi gibi bazı ilçe belediyeleri planlı elektrik kesintisini kendi duyurularında da yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Aydın Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "https://www.enerya.com.tr/tr/kurumsal/basin-odasi/",
+      "durum": 200,
+      "not": "Enerya Enerji'nin Aydın dağıtım bölgesi (KAP/EPDK haberlerine göre lisans bölgesi Aydın'ın bir kısmını kapsıyor; Efeler, Bozdoğan, Buharkent genişletme haberleri var, tüm ilçelerde gaz olduğu doğrulanmadı). Ayrı Aydın alt sayfası yok; basın odası genel Enerya haberleri. Planlı gaz kesintisi duyurusu nadir. Acil hat 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Aydın İl Sağlık Müdürlüğü",
+      "url": "https://aydinism.saglik.gov.tr/",
+      "duyuru_url": "https://aydinism.saglik.gov.tr/TR-2564/duyurular.html",
+      "haber_url": "https://aydinism.saglik.gov.tr/TR-2321/haberler.html",
+      "durum": 200,
+      "not": "Adres aydinism.saglik.gov.tr (aydin.saglik.gov.tr DNS'te yok). Duyurular ağırlıklı personel/idari; halk sağlığı haberleri /haberler. Sayfa başlığı boş dönüyor ama içerik 200."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Aydın İl Emniyet Müdürlüğü",
+      "url": "https://aydin.pol.tr/",
+      "duyuru_url": "https://aydin.pol.tr/duyurular",
+      "haber_url": "https://aydin.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi aydin.pol.tr. Duyurular çoğunlukla idari; olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Aydın İl Jandarma Komutanlığı",
+      "url": "https://aydin.jandarma.gov.tr/",
+      "duyuru_url": "https://aydin.jandarma.gov.tr/duyurular",
+      "haber_url": "https://aydin.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Aydın Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://aydin.afad.gov.tr/",
+      "duyuru_url": "https://aydin.afad.gov.tr/duyurular",
+      "haber_url": "https://aydin.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Aydın birinci derece deprem bölgesi (Büyük Menderes grabeni); afet/orman yangını bilgilendirmeleri burada ve valilikte."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Aydın Adnan Menderes Üniversitesi",
+      "url": "https://www.adu.edu.tr/",
+      "duyuru_url": "https://haber.adu.edu.tr/duyuru/",
+      "haber_url": "https://haber.adu.edu.tr/",
+      "durum": 200,
+      "not": "Ana sitedeki /duyurular ve /haberler 200 dönüyor ancak asıl içerik haber.adu.edu.tr altında. Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Efeler Belediyesi",
+      "url": "https://www.efeler.bel.tr/",
+      "duyuru_url": "https://www.efeler.bel.tr/guncel/duyurular",
+      "haber_url": "https://www.efeler.bel.tr/guncel/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe, en kalabalık (yaklaşık 290 bin). /haberler ve /duyurular soft 404 ('Sayfa Bulunamadı' ama 200 dönüyor); doğru adresler /guncel/duyurular ve /guncel/haberler. Basın materyalleri: /kurumsal/basin-materyalleri."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Nazilli Belediyesi",
+      "url": "https://www.nazilli.bel.tr/home/",
+      "duyuru_url": "https://www.nazilli.bel.tr/duyurular.html",
+      "haber_url": "https://www.nazilli.bel.tr/haberler/1-tum-haberler.html",
+      "durum": 200,
+      "not": "Nüfusça ikinci büyük ilçe. Ana sayfa /home/; /haberler 500 veriyor, doğru adres /haberler.html veya /haberler/1-tum-haberler.html. Duyuru sayfasının başlığı boş dönüyor, içeriği doğrulanmadı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Söke Belediyesi",
+      "url": "https://www.soke.bel.tr/",
+      "duyuru_url": "https://www.soke.bel.tr/duyurular",
+      "haber_url": "https://www.soke.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı imar/ihale/meclis ilanları; haberler /haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kuşadası Belediyesi",
+      "url": "https://www.kusadasi.bel.tr/tr",
+      "duyuru_url": "https://www.kusadasi.bel.tr/tr/duyurular",
+      "haber_url": "https://www.kusadasi.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "Turizm ilçesi, yaz nüfusu çok artar. Ana sayfa https://www.kusadasi.bel.tr/tr üzerinden açılıyor. Planlı elektrik kesintisi duyuruları da burada yayımlanıyor (ör. '5-7 Kasım 2026 elektrik kesintisi duyurusu')."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Aydın Büyükşehir Belediyesi Ulaşım (otobüs güzergahları)",
+      "url": "https://aydin.bel.tr/detail/5257/otobus-guzergahlarimiz",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ayrı ulaşım işletmesi sitesi bulunamadı; otobüs güzergahları büyükşehir sitesinde. Ulaşım yatırımı ve yol çalışması haberleri aydin.bel.tr/haberler içinde çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Aydın İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://aydin.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "aydin.ktb.gov.tr açılmıyor (curl 000); güvenilir kaynak değil, kalıp adres olarak kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Ayd%C4%B1n+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Aydın Denge Haber",
+      "url": "https://www.aydindenge.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Aydın Ses Gazetesi",
+      "url": "https://www.aydinses.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Aydın Haber",
+      "url": "https://www.aydinhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Aydın bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/aydin/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (ADM Elektrik) ve ilçe bazlı kesinti takvimi",
+    "su kesintisi, içme suyu sorunu ve su analizi (Aydın ASKİ)",
+    "orman yangınları ve yangın sonrası tahliye/ulaşım kapanmaları (yaz aylarında)",
+    "deprem ve AFAD bilgilendirmeleri (Büyük Menderes grabeni, Ege fayları)",
+    "turizm sezonu: Kuşadası ve Didim, kruvaziyer, plaj ve yoğunluk haberleri",
+    "tarım: incir, zeytin, pamuk, kestane hasadı, don ve dolu zararı, fiyatlar",
+    "yağış, sel ve Büyük Menderes taşkını uyarıları; okul tatili",
+    "İzmir-Aydın otoyolu ve D550 yolları, trafik kazaları, ulaşım yatırımları"
+  ],
+  "notlar": "Valilik, büyükşehir belediyesi, MEB, emniyet, jandarma, AFAD, ASKİ ve ADM Elektrik sayfaları 200 dönüyor; erişimde yurt dışı IP engeli görülmedi. Dikkat: Efeler Belediyesi /haberler ve /duyurular soft 404 (200 dönüp 'Sayfa Bulunamadı' diyor), /guncel/... kullan; Nazilli /haberler 500, /haberler.html kullan; aydin.bel.tr www ile yönlenince :443 ekleniyor. Aydın ASKİ'de planlı su kesintisi için ayrı sayfa yok. ADM Elektrik planlı kesinti sayfası harita tabanlı; aydemenerji.com.tr bot koruması (Request Rejected) veriyor. Büyükşehir olduğu için 17 ilçenin tamamı büyükşehir sınırında; merkez ilçe Efeler. Kültür Turizm sitesi açılmıyor. Yerel gazete adaylarından aydingundem.com (park/yönlendirme), aydinpostasi, aydinhaberajansi, sokehaber, kusadasihaber, aydinaktuel vb. açılmadı veya bulunamadı, listeye alınmadı."
+}

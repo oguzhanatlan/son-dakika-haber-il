@@ -1,0 +1,224 @@
+{
+  "il": "Antalya",
+  "plaka": "07",
+  "slug": "antalya",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/antalya",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akseki",
+    "Aksu",
+    "Alanya",
+    "Demre",
+    "Döşemealtı",
+    "Elmalı",
+    "Finike",
+    "Gazipaşa",
+    "Gündoğmuş",
+    "İbradı",
+    "Kaş",
+    "Kemer",
+    "Kepez",
+    "Konyaaltı",
+    "Korkuteli",
+    "Kumluca",
+    "Manavgat",
+    "Muratpaşa",
+    "Serik"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Antalya Valiliği",
+      "url": "https://www.antalya.gov.tr/",
+      "duyuru_url": "https://www.antalya.gov.tr/duyurular",
+      "haber_url": "https://www.antalya.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.antalya.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, Vali'den haberler /validen-haberler, basın açıklamaları /basin-aciklamalari (hepsi 200). antalya.gov.tr www'ye yönleniyor. COP31 hazırlıkları için ayrı sayfa var: /cop31-duyurular (trafik tedbirleri vb.; 200)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Antalya Büyükşehir Belediyesi",
+      "url": "https://www.antalya.bel.tr/",
+      "duyuru_url": "https://www.antalya.bel.tr/tr/duyurular",
+      "haber_url": "https://www.antalya.bel.tr/tr/haberler",
+      "basin_aciklamalari_url": "https://www.antalya.bel.tr/tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /tr/duyurular, haberler /tr/haberler, basın açıklamaları /tr/basin-aciklamalari, etkinlikler /tr/etkinlikler (hepsi 200). Bağlı kurumlar: ASAT (su), Antalya Ulaşım A.Ş."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Antalya İl Milli Eğitim Müdürlüğü",
+      "url": "https://antalya.meb.gov.tr/",
+      "duyuru_url": "https://antalya.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://antalya.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular /www/duyurular/kategori/2 (200), duyuru RSS 200 dönüyor. /acilduyurular/ bu ilde 404; kar/yağış kaynaklı okul tatili kararları valilik (antalya.gov.tr) ve ilçe kaymakamlıkları duyurularında da aranmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Antalya Su ve Atıksu İdaresi Genel Müdürlüğü (ASAT)",
+      "url": "https://www.asat.gov.tr/",
+      "duyuru_url": "https://www.asat.gov.tr/tr/1/duyurular",
+      "haber_url": "https://www.asat.gov.tr/tr/1/haberler",
+      "kesinti_url": "https://kesinti.asat.gov.tr/dbo_kesintiListe/list",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi ASAT (belediyenin su işleri değil). Duyurular /tr/1/duyurular, haberler /tr/1/haberler (200). Arıza ve planlı su kesintisi listesi ayrı alt sitede: https://kesinti.asat.gov.tr/dbo_kesintiListe/list (200; tablo/liste tabanlı). Çağrı hattı 185. asat.gov.tr www.asat.gov.tr/tr/1 adresine yönleniyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Akdeniz Elektrik Dağıtım A.Ş. (AEDAŞ)",
+      "url": "https://www.akdenizedas.com.tr/",
+      "duyuru_url": "https://www.akdenizedas.com.tr/elektrik-kesintisi-sorgulama",
+      "kesinti_url": "https://kesinti.akdenizedas.com.tr/",
+      "durum": 200,
+      "not": "Kendi sitesindeki 'Elektrik Kesintisi Sorgulama' sayfasında il listesi Antalya, Burdur ve Isparta olarak görünüyor (Antalya doğrulandı). Planlı bakım/yatırım kesintileri bu sayfada il-ilçe seçilerek sorgulanıyor (form/JS tabanlı); gün sekmeleri (dün/bugün/ileri tarihler) var. Anlık arıza haritası: https://kesinti.akdenizedas.com.tr/ (200). Tüm duyurular: /tum-duyurular (200). Arıza hattı 186. Yerel basın (yenialanya.com, haberantalya.com) günlük planlı kesinti listesini ilçe ilçe yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Antalya Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "https://www.enerya.com.tr/tr/kurumsal/basin-odasi/",
+      "durum": 200,
+      "not": "Antalya dağıtım şirketi Enerya (Ahlatcı Holding); Enerya sitesinin alt şirket listesinde 'ENERYA ANTALYA GAZ DAĞITIM A.Ş.' yer alıyor, e-Devlet kaydı: turkiye.gov.tr/enerya-antalya-gaz-dagitim-as (200). Ayrı duyuru/planlı kesinti sayfası bulunamadı; basın odası /tr/kurumsal/basin-odasi/ (200). Gaz acil hattı 187. Hizmet alanı: Antalya merkez ilçeleri, Alanya, Döşemealtı, Korkuteli vb."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Antalya İl Sağlık Müdürlüğü",
+      "url": "https://antalyaism.saglik.gov.tr/",
+      "duyuru_url": "https://antalyaism.saglik.gov.tr/TR-223570/ana-duyurular.html",
+      "durum": 200,
+      "not": "Adres antalyaism.saglik.gov.tr (200). Ana duyurular /TR-223570/ana-duyurular.html, diğer duyurular /TR-140020/diger-duyurular.html (ikisi de 200). Duyurular ağırlıklı personel/atama kurası; halk sağlığı haberleri için ana sayfa taranmalı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Antalya İl Emniyet Müdürlüğü",
+      "url": "https://antalya.pol.tr/",
+      "duyuru_url": "https://antalya.pol.tr/duyurular",
+      "haber_url": "https://antalya.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi antalya.pol.tr. Duyurular /duyurular, haberler /haberler (200). /basin-aciklamalari 404. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Antalya İl Jandarma Komutanlığı",
+      "url": "https://antalya.jandarma.gov.tr/",
+      "duyuru_url": "https://antalya.jandarma.gov.tr/duyurular",
+      "haber_url": "https://antalya.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında (200)."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Antalya Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://antalya.afad.gov.tr/",
+      "duyuru_url": "https://antalya.afad.gov.tr/duyurular",
+      "haber_url": "https://antalya.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler (/haberler) 200. Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Akdeniz Üniversitesi",
+      "url": "https://www.akdeniz.edu.tr/",
+      "duyuru_url": "https://www.akdeniz.edu.tr/duyurular",
+      "haber_url": "https://www.akdeniz.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (200). Duyurular idari/akademik ağırlıklı. Not: Antalya'da ayrıca Antalya Bilim Üniversitesi (vakıf) ve Alanya Alaaddin Keykubat Üniversitesi (devlet) var; burada yalnızca Akdeniz Üniversitesi kaydedildi."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Muratpaşa Belediyesi",
+      "url": "https://muratpasa-bld.gov.tr/",
+      "duyuru_url": "https://muratpasa-bld.gov.tr/duyurular",
+      "haber_url": "https://muratpasa-bld.gov.tr/haberler",
+      "durum": 200,
+      "not": "Antalya merkez ilçesi (en kalabalık merkez ilçelerden). www.muratpasa.bel.tr açılmıyor (000); doğru alan adı muratpasa-bld.gov.tr. Duyurular ve haberler (/haberler) 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kepez Belediyesi",
+      "url": "https://www.kepez-bld.gov.tr/",
+      "duyuru_url": "https://www.kepez-bld.gov.tr/",
+      "haber_url": "https://www.kepez-bld.gov.tr/page_25_haberler",
+      "durum": 200,
+      "not": "Antalya merkez ilçesi (nüfusça en büyük). Haber listesi /page_25_haberler (200); haber detayları news_{id}_{slug} biçiminde. Ayrı bir /duyurular sayfası yok (ana sayfaya yönleniyor); duyurular ana sayfada. kepez-bld.tr aynı siteyi sunuyor. Dikkat: kepez.bel.tr Çanakkale Kepez Belediyesi'dir, karıştırma."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Konyaaltı Belediyesi",
+      "url": "https://www.konyaalti.bel.tr/",
+      "duyuru_url": "https://www.konyaalti.bel.tr/duyurular",
+      "haber_url": "https://www.konyaalti.bel.tr/haberler",
+      "durum": 200,
+      "not": "Antalya merkez ilçesi. Duyurular /duyurular, haberler /haberler (200)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Antalya Ulaşım A.Ş.",
+      "url": "https://www.antalyaulasim.com.tr/",
+      "duyuru_url": "https://www.antalyaulasim.com.tr/Haberler/Habericerik",
+      "durum": 200,
+      "not": "Büyükşehir bağlı şirketi: otobüs, Antray tramvay, nostaljik tramvay, Antalyakart. Haberler/duyurular /Haberler/Habericerik sayfasında (200); /duyurular ve /haberler 404. Tramvay sitesi: https://antray.antalyaulasim.com.tr."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Alanya Belediyesi",
+      "url": "https://www.alanya.bel.tr/",
+      "duyuru_url": "https://www.alanya.bel.tr/duyurular",
+      "haber_url": "https://www.alanya.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe dışında en kalabalık ve turizm açısından en çok haber çıkan ilçe belediyesi (isteğe bağlı ek kaynak; ilce_belediye listesine merkez ilçeler alındı). Haberler /haberler (200)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Antalya İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://antalya.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "antalya.ktb.gov.tr açılmıyor (curl 000, DNS/zaman aşımı). Kaynak olarak güvenilmemeli; adres kalıp gereği kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Antalya+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Antalya",
+      "url": "https://www.haberantalya.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Antalya Ekspres",
+      "url": "https://www.antalyaekspres.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Antalya Kent Haber",
+      "url": "https://antalyakenthaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Alanya (Antalya Haber)",
+      "url": "https://www.yenialanya.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (AEDAŞ; günlük ilçe ilçe kesinti listeleri)",
+    "planlı su kesintisi ve su arızaları (ASAT)",
+    "şiddetli yağış, sel/su baskını, fırtına ve olumsuz hava nedeniyle okul tatili/uyarılar",
+    "orman yangınları (yaz), yangın kaynaklı yol kapanması ve tahliyeler",
+    "COP31 Antalya hazırlıkları: trafik tedbirleri, yol kapatmaları, etkinlik duyuruları",
+    "turizm sezonu: otel/havalimanı, Antalya Havalimanı yoğunluğu, turist sayıları, deniz/plaj güvenliği",
+    "trafik: Antalya-Alanya/Kemer/Konya yolları, Antray ve otobüs sefer değişiklikleri",
+    "deprem (Akdeniz/Kıbrıs fay hattı) ve AFAD bilgilendirmeleri",
+    "tarım: sera ürünleri, narenciye, don ve dolu zararı"
+  ],
+  "notlar": "Valilik, büyükşehir belediyesi, MEB, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor; erişim testlerinde yurt dışı IP engeli görülmedi. İl MEB'de /acilduyurular/ 404 (okul tatili kararları valilik duyurularında da aranmalı). Su için ayrı idare ASAT (kesinti listesi kesinti.asat.gov.tr alt sitesinde, doğrudan kullanılabilir). Elektrik dağıtımı AEDAŞ (Antalya, Burdur, Isparta); planlı kesinti sorgusu il-ilçe form tabanlı, günlük kesinti listeleri yerel basında (yenialanya.com, haberantalya.com) daha kolay taranır. Doğalgaz Enerya Antalya; ayrı duyuru sayfası yok. İl Sağlık Müdürlüğü duyuruları ağırlıklı personel/atama içerikli. Kepez Belediyesi için doğru alan adı kepez-bld.gov.tr (kepez.bel.tr Çanakkale'dir); Muratpaşa için muratpasa-bld.gov.tr (muratpasa.bel.tr açılmıyor). Kültür Turizm Müdürlüğü sitesi açılmıyor. Reddedilen/dışarıda bırakılan yerel siteler: antalyahaber.com (parked/lander), antalyapostasi.com (açılmıyor), akdenizdenhaber.com (başka siteye yönleniyor)."
+}

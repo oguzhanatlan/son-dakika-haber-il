@@ -1,0 +1,199 @@
+{
+  "il": "Bilecik",
+  "plaka": "11",
+  "slug": "bilecik",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/bilecik",
+  "buyuksehir": false,
+  "ilceler": [
+    "Bozüyük",
+    "Gölpazarı",
+    "İnhisar",
+    "Merkez",
+    "Osmaneli",
+    "Pazaryeri",
+    "Söğüt",
+    "Yenipazar"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Bilecik Valiliği",
+      "url": "https://www.bilecik.gov.tr/",
+      "duyuru_url": "https://www.bilecik.gov.tr/duyurular",
+      "haber_url": "https://www.bilecik.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.bilecik.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200). Ana sayfada ayrıca 'Validen Haberler' (/validen-haberler) bölümü var."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Bilecik Belediyesi",
+      "url": "https://bilecik.bel.tr/",
+      "duyuru_url": "https://bilecik.bel.tr/Duyurular",
+      "haber_url": "https://bilecik.bel.tr/HaberArsivi",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Yol büyük/küçük harfe duyarlı biçimde (Duyurular, HaberArsivi) kullanılıyor; ana sayfada Haberler/{id} bağlantıları var. www.bilecik.bel.tr de 200 dönüyor. Duyurular çoğunlukla ihale/satış ilanı ve meclis gündemi."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Bilecik İl Milli Eğitim Müdürlüğü",
+      "url": "https://bilecik.meb.gov.tr/",
+      "duyuru_url": "https://bilecik.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://bilecik.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://bilecik.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber sayfaları ve duyuru RSS'i 200. /acilduyurular/ bu ilde 404 veriyor; kar tatili vb. acil duyurular için valilik duyuruları ve ana sayfa kontrol edilmeli."
+    },
+    {
+      "tur": "su",
+      "kurum": "Bilecik Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://bilecik.bel.tr/SuAbonelikIslemleri",
+      "duyuru_url": "https://bilecik.bel.tr/Duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (tel: 444 88 58). Planlı su kesintisi için ayrı bir sayfa bulunamadı; kesinti duyuruları genel /Duyurular, haber arşivi ve yerel basında çıkıyor. SuAbonelikIslemleri sayfası abonelik/tarife bilgisi içeriyor. İlçelerde (Bozüyük, Söğüt vb.) su hizmetini ilgili ilçe belediyesi yürütüyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Osmangazi Elektrik Dağıtım A.Ş. (OEDAŞ)",
+      "url": "https://www.osmangaziedas.com.tr/",
+      "duyuru_url": "https://www.osmangaziedas.com.tr/planli-kesinti-duyurulari",
+      "haber_url": "https://www.osmangaziedas.com.tr/sirketimizden-haberler",
+      "durum": 200,
+      "not": "OEDAŞ Afyonkarahisar, Bilecik, Eskişehir, Kütahya ve Uşak'ta hizmet veriyor (şirket sitesi meta açıklamasından doğrulandı). Bilecik SEDAŞ bölgesinde DEĞİL (SEDAŞ: Sakarya/Kocaeli/Bolu/Düzce). Planlı kesinti duyuruları 200 dönüyor; liste içeriği il/ilçe seçimi veya JS ile yüklenebilir, Bilecik filtresi gerekebilir."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Bilecik Bolu Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/bilecik-bolu",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Bilecik-Bolu dağıtım bölgesi (Bilecik, Bozüyük, Söğüt, Osmaneli, Gölpazarı, Pazaryeri, Yenipazar, İnhisar ve Bolu ilçeleri; şirket sayfasından doğrulandı; lisans: EPDK DAG/584-17/106). Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Bilecik İl Sağlık Müdürlüğü",
+      "url": "https://bilecikism.saglik.gov.tr/",
+      "duyuru_url": "https://bilecikism.saglik.gov.tr/TR-17647/duyurular.html",
+      "durum": 200,
+      "not": "Adres bilecikism.saglik.gov.tr. TR-xxxxx numaraları ile özeldir: başka ilin numarası (ör. TR-46346) yönlendirme ile Amasya'ya gidiyor, kullanma. Duyurular ağırlıklı personel/idari; ayrı haber sayfası ana sayfadan bulunamadı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Bilecik İl Emniyet Müdürlüğü",
+      "url": "https://bilecik.pol.tr/",
+      "duyuru_url": "https://bilecik.pol.tr/duyurular",
+      "haber_url": "https://bilecik.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi bilecik.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Bilecik İl Jandarma Komutanlığı",
+      "url": "https://bilecik.jandarma.gov.tr/",
+      "duyuru_url": "https://bilecik.jandarma.gov.tr/duyurular",
+      "haber_url": "https://bilecik.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Bilecik Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://bilecik.afad.gov.tr/",
+      "duyuru_url": "https://bilecik.afad.gov.tr/duyurular",
+      "haber_url": "https://bilecik.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Bilecik Şeyh Edebali Üniversitesi",
+      "url": "https://www.bilecik.edu.tr/",
+      "duyuru_url": "https://www.bilecik.edu.tr/duyurular",
+      "haber_url": "https://www.bilecik.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı (öğrenci işleri alt sitesi bilecik.edu.tr/ogrenciisleri). Kampüs haberleri /haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bozüyük Belediyesi",
+      "url": "https://bozuyuk.bel.tr/",
+      "duyuru_url": "https://bozuyuk.bel.tr/duyurular",
+      "haber_url": "https://bozuyuk.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe; sanayi ilçesi."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Söğüt Belediyesi",
+      "url": "https://sogut.bel.tr/",
+      "duyuru_url": "https://sogut.bel.tr/duyurular/",
+      "haber_url": "https://sogut.bel.tr/haberler/",
+      "durum": 200,
+      "not": "WordPress; /duyurular ve /haberler sonuna / ile yönleniyor. Ertuğrul Gazi'yi Anma ve Söğüt Şenlikleri haberleri burada. Ana sayfada içme suyu deposu/su çalışması haberleri de var."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Osmaneli Belediyesi",
+      "url": "https://osmaneli.bel.tr/",
+      "duyuru_url": "https://osmaneli.bel.tr/Events.aspx",
+      "haber_url": "https://osmaneli.bel.tr/News.aspx",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; ASP.NET site: haberler News.aspx, etkinlikler Events.aspx, içerik Post.aspx?id=N. Ayrı 'duyuru' sayfası yok, ana sayfada #duyurular bölümü var."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Bilecik İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://bilecik.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "bilecik.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli. Adres kalıp olarak denendi, arama sonucundan gelmedi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bilecik+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bilecik11",
+      "url": "https://bilecik11.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "11Haber (Bilecik Haberleri)",
+      "url": "https://11haber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bozüyük Haber",
+      "url": "https://www.bozuyukhaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bilecik Olay Haber",
+      "url": "https://www.bilecikolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bilecik Haber",
+      "url": "https://www.bilecikhaber.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (OEDAŞ)",
+    "su kesintisi ve içme suyu çalışmaları (Bilecik, Bozüyük, Söğüt)",
+    "kış kar yağışı, okul tatili ve yayla/köy yollarının kapanması",
+    "Bilecik-Bozüyük-Eskişehir ve D650/D200 çevre yolları ile otoyol trafik kazaları",
+    "orman yangınları (yaz aylarında)",
+    "Ertuğrul Gazi'yi Anma ve Söğüt Şenlikleri, kültür-turizm etkinlikleri",
+    "mermer ve seramik/sanayi (Bozüyük OSB) istihdam ve işçi haberleri",
+    "deprem ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, üniversite ve ilçe belediyesi sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. Bilecik elektrik için SEDAŞ değil OEDAŞ (Osmangazi EDAŞ) bölgesinde; doğalgaz Aksa Bilecik Bolu Doğal Gaz Dağıtım. Planlı su kesintisi için ayrı sayfa yok, bilecik.bel.tr/Duyurular ve yerel basına bakılmalı. MEB acil duyuru sayfası (/acilduyurular/) bu ilde 404. Sağlık Müdürlüğü bilecikism.saglik.gov.tr; sayfa numaraları (TR-xxxxx) ile özel. Osmaneli Belediyesi ASP.NET sitesinde standart /duyurular yok. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber siteleri yalnızca konu bulmak için; bilecikmanset.com bot doğrulaması (403) veriyor, listeye alınmadı; bilecikhaber.com, bozuyukhaber.com, bilecikgazetesi.com vb. açılmıyor."
+}

@@ -1,0 +1,192 @@
+{
+  "il": "Bingöl",
+  "plaka": "12",
+  "slug": "bingol",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/bingol",
+  "buyuksehir": false,
+  "ilceler": [
+    "Adaklı",
+    "Genç",
+    "Karlıova",
+    "Kiğı",
+    "Merkez",
+    "Solhan",
+    "Yayladere",
+    "Yedisu"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Bingöl Valiliği",
+      "url": "https://bingol.gov.tr/",
+      "duyuru_url": "https://bingol.gov.tr/duyurular",
+      "haber_url": "https://bingol.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://bingol.gov.tr/basin-bulteni",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; basın bülteni /basin-bulteni, vali haberleri /validen-haberler (hepsi 200). www.bingol.gov.tr de 200 dönüyor. Kar tatili/okul kararları genellikle burada ve MEB'de çıkar."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Bingöl Belediyesi",
+      "url": "https://bingol.bel.tr/tr",
+      "duyuru_url": "https://bingol.bel.tr/tr/duyurular",
+      "haber_url": "https://bingol.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. bingol.bel.tr /tr'ye yönleniyor. Duyurular ağırlıklı imar/plan tadilatı ilanları; haberler /tr/haberler. E-belediye: https://online.bingol.bel.tr (200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Bingöl İl Milli Eğitim Müdürlüğü",
+      "url": "https://bingol.meb.gov.tr/",
+      "duyuru_url": "https://bingol.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://bingol.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://bingol.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor. /acilduyurular/ bu ilde 404 veriyor; kar tatili duyuruları için Valilik duyurularına ve ana sayfaya bak."
+    },
+    {
+      "tur": "su",
+      "kurum": "Bingöl Belediyesi Su ve Kanalizasyon Hizmetleri",
+      "url": "https://bingol.bel.tr/tr/su-aboneligi",
+      "duyuru_url": "https://bingol.bel.tr/tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (BİSKİ vb.) bulunamadı; su ve kanalizasyon hizmetini belediye yürütüyor (abonelik: /tr/su-aboneligi, bağlantı: /tr/su-ve-kanalizasyon-cekme, ikisi de 200). Planlı su kesintisi için özel bir duyuru sayfası bulunamadı; kesinti duyuruları belediye duyuru/haber sayfalarında ve yerel basında çıkıyor olabilir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Fırat Elektrik Dağıtım A.Ş. (Fırat EDAŞ)",
+      "url": "https://www.firatedas.com.tr/",
+      "duyuru_url": "https://www.firatedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "haber_url": "https://www.firatedas.com.tr/BizdenHaberler/Duyurular",
+      "durum": 200,
+      "not": "Fırat EDAŞ Elazığ, Malatya, Bingöl ve Tunceli'de hizmet veriyor (arama sonuçları + şirketin sitesinde 'Bingöl İl Müdürlüğü' iletişim sayfası /Iletisim/Bingol ve 'Bingöl Bölgesi Planlı Kesintiler' tablosu ile doğrulandı). Planlı kesinti sayfası tablo/filtre tabanlı (il seçimi gerekebilir, JS ağırlıklı)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "ARH Doğalgaz Dağıtım A.Ş.",
+      "url": "https://arhdogalgaz.com.tr/",
+      "duyuru_url": "https://arhdogalgaz.com.tr/",
+      "durum": 200,
+      "not": "Bingöl doğalgaz dağıtımı ARH Doğalgaz (ARH Bingöl). Ayrı duyuru sayfası yok; ana sayfada 'haber-detay-*.html' biçiminde duyurular listeleniyor. www.arhdogalgaz.com.tr DNS'te çözülmüyor, www'siz alan adını kullan. Planlı gaz kesintisi duyurusu nadir; kesinti şikayetleri yerel basında geçiyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Bingöl İl Sağlık Müdürlüğü",
+      "url": "https://bingolism.saglik.gov.tr/",
+      "duyuru_url": "https://bingolism.saglik.gov.tr/TR-230372/duyurular.html",
+      "haber_url": "https://bingolism.saglik.gov.tr/TR-21723/haberler.html",
+      "durum": 200,
+      "not": "Nöbetçi eczane: https://bingolism.saglik.gov.tr/TR-244131/nobetci-eczane.html (200). Duyurular ağırlıklı idari; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Bingöl İl Emniyet Müdürlüğü",
+      "url": "https://bingol.pol.tr/",
+      "duyuru_url": "https://bingol.pol.tr/duyurular",
+      "haber_url": "https://bingol.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi bingol.pol.tr. Duyurular çoğunlukla idari (mübadele ilanı vb.); olay haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Bingöl İl Jandarma Komutanlığı",
+      "url": "https://bingol.jandarma.gov.tr/",
+      "duyuru_url": "https://bingol.jandarma.gov.tr/duyurular",
+      "haber_url": "https://bingol.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Bingöl Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://bingol.afad.gov.tr/",
+      "duyuru_url": "https://bingol.afad.gov.tr/duyurular",
+      "haber_url": "https://bingol.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Bingöl Üniversitesi",
+      "url": "https://www.bingol.edu.tr/tr",
+      "duyuru_url": "https://www.bingol.edu.tr/tr/duyurular",
+      "haber_url": "https://www.bingol.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "www'siz bingol.edu.tr/tr/duyurular 404 veriyor; www.bingol.edu.tr kullan. Duyurular idari/akademik ağırlıklı, kampüs haberleri /tr/haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Genç Belediyesi",
+      "url": "https://genc.bel.tr/tr",
+      "duyuru_url": "https://genc.bel.tr/tr/duyurular",
+      "haber_url": "https://genc.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra gelen büyük ilçelerden (Genç, Solhan, Karlıova). Sayfalar /tr altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Solhan Belediyesi",
+      "url": "https://solhan.bel.tr/",
+      "duyuru_url": "https://solhan.bel.tr/index.php/duyurular",
+      "haber_url": "https://solhan.bel.tr/index.php/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler doğrudan 404; index.php öneki ile (index.php/duyurular, index.php/haberler) 200 dönüyor. Ana sayfada haber listesi de var."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karlıova Belediyesi",
+      "url": "https://karliova.bel.tr/public_html/",
+      "duyuru_url": "https://karliova.bel.tr/public_html/duyurular",
+      "haber_url": "https://karliova.bel.tr/public_html/haberler",
+      "durum": 200,
+      "not": "Site yanlış yapılandırılmış: karliova.bel.tr köküne gidince dizin listesi ('Index of /') açılıyor; asıl site /public_html/ altında (200). Kök ve alt sayfalarda yapılandırma değişirse bozulabilir. karliova.gov.tr kaymakamlık sitesi olabilir, belediye değil."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bing%C3%B6l+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bingöl Kent Haber Gazetesi",
+      "url": "https://www.bingolkenthaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bingölün Sesi",
+      "url": "https://www.bingolunsesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çapakcur Gazetesi",
+      "url": "https://www.capakcurgazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bingöl Gazetesi (12bingolgazetesi)",
+      "url": "https://www.12bingolgazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Bingöl bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/bingol/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Karlıova, Yedisu, Kiğı, Adaklı, Genç)",
+    "deprem ve artçı sarsıntılar (Doğu Anadolu Fay Hattı; AFAD bilgilendirmeleri)",
+    "planlı elektrik kesintisi (Fırat EDAŞ)",
+    "su kesintisi ve içme suyu sorunları",
+    "doğalgaz kesintisi ve doğalgaz kaynaklı zehirlenme/kaçak haberleri",
+    "sel, taşkın ve heyelan uyarıları (Çapakcur, Murat nehri havzası)",
+    "Bingöl-Erzurum, Bingöl-Elazığ ve Bingöl-Muş yolları, Karlıova geçidi trafik kazaları ve yol durumu",
+    "Bingöl balı (coğrafi işaretli) hasadı, kayak (Hesarek) ve turizm: Yüzen Adalar, Kös Kaplıcaları"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma, AFAD ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. MEB'de /acilduyurular/ 404 (kar tatili için Valilik duyuruları + MEB ana sayfa). Su için ayrı idare ve planlı kesinti sayfası bulunamadı (belediye duyuruları + yerel basın). Fırat EDAŞ planlı kesinti sayfası tablo/JS tabanlı. ARH Doğalgaz için www'siz arhdogalgaz.com.tr kullan (www DNS yok). Solhan belediyesinde /index.php öneki gerekli; Karlıova belediyesi sitesi /public_html/ altında (kök dizin listesi gösteriyor). Bingöl Kültür ve Turizm Müdürlüğü (bingol.ktb.gov.tr) açılmıyor (curl 000), kayda alınmadı. Yerel haber siteleri olarak bingolgundem.com (başlıksız/boş), bingolekspres.com ve www.bingolgazetesi.com (başka siteye yönleniyor, güvenilmez) listeye alınmadı."
+}

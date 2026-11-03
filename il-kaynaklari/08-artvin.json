@@ -1,0 +1,201 @@
+{
+  "il": "Artvin",
+  "plaka": "08",
+  "slug": "artvin",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/artvin",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ardanuç",
+    "Arhavi",
+    "Borçka",
+    "Hopa",
+    "Kemalpaşa",
+    "Merkez",
+    "Murgul",
+    "Şavşat",
+    "Yusufeli"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Artvin Valiliği",
+      "url": "https://artvin.gov.tr/",
+      "duyuru_url": "https://artvin.gov.tr/duyurular",
+      "haber_url": "https://artvin.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://artvin.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (ayrıca /validen-haberler), basın açıklamaları /basin-aciklamalari ve /basin-bulteni; hepsi 200. Kar tatili/yol kapanması/afet uyarıları burada ve MEB sitesinde duyurulur."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Artvin Belediyesi",
+      "url": "https://www.artvin.bel.tr/",
+      "duyuru_url": "https://www.artvin.bel.tr/duyurular",
+      "haber_url": "https://www.artvin.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. /duyurular, /haberler ve /kamuoyuna-duyuru 200 dönüyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Artvin İl Milli Eğitim Müdürlüğü",
+      "url": "https://artvin.meb.gov.tr/",
+      "duyuru_url": "https://artvin.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://artvin.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://artvin.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları ile duyuru RSS'i 200. /acilduyurular/ bu ilde 404 veriyor; kar tatili vb. acil duyurular için ana sayfa ve valilik sitesine bakılmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Artvin Belediyesi Fen İşleri Müdürlüğü",
+      "url": "https://www.artvin.bel.tr/fen-isleri-mudurlugu",
+      "duyuru_url": "https://www.artvin.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; belediyenin müdürlük listesinde de ayrı Su ve Kanalizasyon Müdürlüğü görünmüyor (su-ve-kanalizasyon-mudurlugu ve su-isleri-mudurlugu 404). Planlı su kesintisi için özel sayfa bulunamadı; kesinti duyuruları genel /duyurular ve /haberler içinde ve yerel basında çıkabilir. Fen İşleri sayfası 200 (su hizmetleriyle ilişkisi doğrulanmadı, ilçe belediyeleri kendi sularını yönetiyor)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çoruh Elektrik Dağıtım A.Ş. (Çoruh EDAŞ)",
+      "url": "https://www.coruhedas.com.tr/",
+      "duyuru_url": "https://www.coruhedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "haber_url": "https://www.coruhedas.com.tr/BizdenHaberler/Duyurular",
+      "durum": 200,
+      "not": "Çoruh EDAŞ Artvin, Giresun, Gümüşhane, Rize ve Trabzon'da hizmet veriyor (arama sonuçlarında şirket bilgisi ve yerel haberlerle doğrulandı). Planlı kesinti sayfası 'Bakım Programı ve Kesinti Listesi' form/filtre tabanlı (il-ilçe seçimi gerekir, JS ile yükleniyor olabilir). /duyurular ve /planli-kesintiler adresleri yönetim girişine yönleniyor/404; yukarıdaki adresleri kullan. Arıza/bilgi hattı 186. www.ceas.com.tr açılmıyor, kullanma."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Artvin Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://akmercanartvingaz.com.tr/",
+      "duyuru_url": "https://akmercanartvingaz.com.tr/haberler-ve-duyurular",
+      "durum": 200,
+      "not": "Doğalgaz altyapısı yeni yaygınlaşıyor (örn. Hopa'da doğalgaz çalışma takvimi belediye sitesinde paylaşıldı). Site Next.js (JS) tabanlı; duyuru sayfası 200 dönüyor. Abone portalı: aybsportal.akmercan.com.tr. Acil hat 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Artvin İl Sağlık Müdürlüğü",
+      "url": "https://artvinism.saglik.gov.tr/",
+      "duyuru_url": "https://artvinism.saglik.gov.tr/TR-38385/duyurular.html",
+      "haber_url": "https://artvinism.saglik.gov.tr/TR-38389/haberler.html",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı personel/yerleştirme (aile hekimliği ek yerleştirme, yer değiştirme); halk sağlığı haberleri /haberler altında. Ana sayfa, duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Artvin İl Emniyet Müdürlüğü",
+      "url": "https://artvin.pol.tr/",
+      "duyuru_url": "https://artvin.pol.tr/duyurular",
+      "haber_url": "https://artvin.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi artvin.pol.tr. Duyurular çoğunlukla idari; olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Artvin İl Jandarma Komutanlığı",
+      "url": "https://artvin.jandarma.gov.tr/",
+      "duyuru_url": "https://artvin.jandarma.gov.tr/duyurular",
+      "haber_url": "https://artvin.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Ana sayfa, /duyurular ve /haberler 200. Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Artvin Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://artvin.afad.gov.tr/",
+      "duyuru_url": "https://artvin.afad.gov.tr/duyurular",
+      "haber_url": "https://artvin.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Ana sayfa, duyurular ve haberler 200. Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Artvin Çoruh Üniversitesi",
+      "url": "https://www.artvin.edu.tr/",
+      "duyuru_url": "https://www.artvin.edu.tr/tr/duyuru/tumu",
+      "haber_url": "https://www.artvin.edu.tr/tr/haber/tumu",
+      "durum": 200,
+      "not": "Duyurular /tr/duyuru/tumu, haberler /tr/haber/tumu (200). /duyurular ve /haberler 404. Birim haberleri /tr/birimdenhaber/tumu."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Arhavi Belediyesi",
+      "url": "https://arhavi.bel.tr/",
+      "duyuru_url": "https://arhavi.bel.tr/",
+      "haber_url": "https://arhavi.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusça en büyük ilçelerden. Ayrı duyuru sayfası yok (/duyurular ana sayfaya yönleniyor); haberler /haberler/ ve /category/haberler/ altında. İlk denemede bir kez bağlantı hatası (000) alındı, sonraki denemelerde 200; aralıklı yavaşlık olabilir. İlçe kaymakamlığı: arhavi.gov.tr (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Hopa Belediyesi",
+      "url": "https://hopa.bel.tr/",
+      "duyuru_url": "https://hopa.bel.tr/category/duyuru-ve-ilanlar/",
+      "haber_url": "https://hopa.bel.tr/category/belediyeden-haberler/",
+      "durum": 200,
+      "not": "WordPress; /duyurular ve /haberler 404, kategori sayfaları kullanılıyor (adresler ana sayfa bağlantılarından alındı). Doğalgaz çalışmaları, meclis toplantıları, kent geneli çalışmalar paylaşılıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Borçka Belediyesi",
+      "url": "https://www.borcka.bel.tr/",
+      "duyuru_url": "https://www.borcka.bel.tr/duyurular/",
+      "haber_url": "https://www.borcka.bel.tr/haberler/",
+      "durum": 200,
+      "not": "borcka.bel.tr www'ye yönleniyor; duyurular ve haberler sayfaları 200. Yusufeli (baraj/turizm) için de ayrıca bakılabilir."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Artvin İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://artvin.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "artvin.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; adres kalıba göre kaydedildi, arama sonucuyla doğrulanmadı. Ayrıca ilde ayrı bir toplu ulaşım işletmesi bulunamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Artvin+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Artvin Haber Ajansı",
+      "url": "https://artvinhaberajansi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Artvin Medya",
+      "url": "https://www.artvinmedya.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Serhad Artvin Gazetesi",
+      "url": "https://www.serhadartvin.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "HopaHaber.com.tr",
+      "url": "https://hopahaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "ArhaviHaber.com.tr",
+      "url": "https://arhavihaber.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi ve fırtına/yağış kaynaklı elektrik arızaları (Çoruh EDAŞ)",
+    "aşırı yağış, sel, taşkın, heyelan ve yol çökmesi (özellikle Hopa, Arhavi, Borçka, Kemalpaşa kıyı kesimi)",
+    "kar nedeniyle okul tatili ve yüksek rakımlı yolların kapanması (Şavşat, Ardanuç, Yusufeli, Karagöl-Sahara yolu)",
+    "Artvin-Erzurum, Artvin-Ardahan ve Karadeniz sahil yolu (D010) trafik, kapanma ve yol çalışmaları",
+    "baraj ve HES projeleri, Yusufeli Barajı, maden/taş ocağı ve çevre tartışmaları (Cerattepe vb.)",
+    "turizm: Karagöl, Macahel, Kafkasör Kültür ve Sanat Festivali, yayla şenlikleri, rafting",
+    "tarım: çay, fındık, kivi ve bal hasadı, fiyatlar ve alım noktaları",
+    "deprem ve afet bilgilendirmeleri (AFAD) ve Gürcistan sınır kapısı Sarp (Hopa) geçişleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, AFAD, sağlık, üniversite ve ilçe belediyelerinin ana adresleri 200 dönüyor; yurt dışı IP engeli görülmedi. MEB acil duyuru sayfası (/acilduyurular/) bu ilde yok (404). Su için ayrı idare veya planlı su kesintisi sayfası bulunamadı; artvin.bel.tr/duyurular ve haberler ile yerel basına bakılmalı. Çoruh EDAŞ kesinti listesi filtre/JS tabanlı; coruhedas.com.tr/duyurular yönetim girişine yönleniyor, BizdenHaberler/Duyurular kullanılmalı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber sitelerinden artvinhaber.com, hopahaber.com, arhavihaber.com, artvinajans.com ve benzeri tahmini alan adları açılmadı, listeye alınmadı; artvinmanset.com 403 veriyor."
+}

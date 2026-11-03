@@ -1,0 +1,194 @@
+{
+  "il": "Bolu",
+  "plaka": "14",
+  "slug": "bolu",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/bolu",
+  "buyuksehir": false,
+  "ilceler": [
+    "Dörtdivan",
+    "Gerede",
+    "Göynük",
+    "Kıbrıscık",
+    "Mengen",
+    "Merkez",
+    "Mudurnu",
+    "Seben",
+    "Yeniçağa"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Bolu Valiliği",
+      "url": "https://www.bolu.gov.tr/",
+      "duyuru_url": "https://www.bolu.gov.tr/duyurular",
+      "haber_url": "https://www.bolu.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.bolu.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, validen haberler /validen-haberler, il basın hareketleri /ilbasinhi (hepsi 200). bolu.gov.tr ve www.bolu.gov.tr ikisi de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Bolu Belediyesi",
+      "url": "https://www.bolu.bel.tr/",
+      "duyuru_url": "https://www.bolu.bel.tr/category/duyurular/",
+      "haber_url": "https://www.bolu.bel.tr/category/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. WordPress kategori sayfaları kullanılıyor. Site Cloudflare arkasında; ilk denemede bir kez bağlantı hatası (000) alındı, tekrar denemede 200 (aralıklı erişim sorunu olabilir). bolu.bel.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Bolu İl Milli Eğitim Müdürlüğü",
+      "url": "https://bolu.meb.gov.tr/",
+      "duyuru_url": "https://bolu.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://bolu.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://bolu.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları ile duyuru RSS'i 200 dönüyor. /acilduyurular/ bu ilde 404 veriyor; kar tatili vb. acil duyurular ana sayfada ve duyurular listesinde çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Bolu Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.bolu.bel.tr/suvekanalizasyon/",
+      "duyuru_url": "https://www.bolu.bel.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı; kesinti duyuruları belediyenin genel duyurular/haberler kategorisinde ve yerel basında çıkar. Ek sayfalar: abonelik https://www.bolu.bel.tr/su-abonelik-islemleri/ , su analiz raporları https://www.bolu.bel.tr/category/suanalizraporu/ (200)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Sakarya Elektrik Dağıtım A.Ş. (SEDAŞ)",
+      "url": "https://www.sedas.com/",
+      "duyuru_url": "https://www.sedas.com/Tr/SupplyContinuityUrl/PlannedView",
+      "haber_url": "https://www.sedas.com/Tr/1/TumDuyurular",
+      "durum": 200,
+      "not": "SEDAŞ Sakarya, Kocaeli, Bolu ve Düzce'de hizmet veriyor; resmi planlı kesinti sayfasının il seçim listesinde BOLU (kod 14) yer alıyor. Planlı kesinti sayfası form/JS tabanlı (il-ilçe seçimi gerekir); duyurular /Tr/1/TumDuyurular. sedas.com /Tr/ adresine yönleniyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Bilecik Bolu Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/bilecik-bolu",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "basin_aciklamalari_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Bilecik-Bolu dağıtım bölgesi (Aksa sitesindeki dağıtım bölgeleri listesinde yer alıyor). Arama sonuçlarına göre Gerede ilçesinde dağıtımı Kargaz yapıyor (resmi kaynaktan doğrulanmadı, https://www.kargaz.com.tr/ 200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Bolu İl Sağlık Müdürlüğü",
+      "url": "https://boluism.saglik.gov.tr/",
+      "duyuru_url": "https://boluism.saglik.gov.tr/TR-1526/duyurular.html",
+      "haber_url": "https://boluism.saglik.gov.tr/TR-1517/haberler.html",
+      "durum": 200,
+      "not": "Adres boluism.saglik.gov.tr. Duyurular ağırlıklı personel/eğitim; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Bolu İl Emniyet Müdürlüğü",
+      "url": "https://bolu.pol.tr/",
+      "duyuru_url": "https://bolu.pol.tr/duyurular",
+      "haber_url": "https://bolu.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi bolu.pol.tr; olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Bolu İl Jandarma Komutanlığı",
+      "url": "https://bolu.jandarma.gov.tr/",
+      "duyuru_url": "https://bolu.jandarma.gov.tr/duyurular",
+      "haber_url": "https://bolu.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Bolu Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://bolu.afad.gov.tr/",
+      "duyuru_url": "https://bolu.afad.gov.tr/duyurular",
+      "haber_url": "https://bolu.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Bolu Abant İzzet Baysal Üniversitesi",
+      "url": "https://www.ibu.edu.tr/",
+      "duyuru_url": "https://ajanda.ibu.edu.tr/duyuru/",
+      "durum": 200,
+      "not": "www.ibu.edu.tr /Website/Default.aspx'e yönleniyor. Genel duyurular ajanda.ibu.edu.tr/duyuru/ altında (200); /duyurular ve /Website/Duyurular.aspx 404. haber.ibu.edu.tr açılmıyor (000)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gerede Belediyesi",
+      "url": "https://www.gerede.bel.tr/",
+      "duyuru_url": "https://www.gerede.bel.tr/duyurular",
+      "haber_url": "https://www.gerede.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra en büyük ilçe (yaklaşık 34 bin). Ana sayfa /Default'a yönleniyor. Ana sayfada su sayacı değişimi gibi hizmet haberleri çıkıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Mudurnu Belediyesi",
+      "url": "https://mudurnu.bel.tr/",
+      "duyuru_url": "https://mudurnu.bel.tr/duyurular",
+      "haber_url": "https://mudurnu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça ikinci büyük ilçe (yaklaşık 20 bin). Duyurular çoğunlukla meclis toplantısı ilanları."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Göynük Belediyesi",
+      "url": "https://www.goynuk.bel.tr/",
+      "duyuru_url": "https://www.goynuk.bel.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Nüfusça üçüncü büyük ilçe (yaklaşık 16 bin, Mengen yaklaşık 15 bin ile yakın). WordPress kategori sayfaları; /duyurular, /haberler ve /category/haberler 404. Ayrı haber kategorisi bulunamadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Bolu İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://bolu.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "bolu.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli, tahmini kalıp adres olarak kaydedildi. Başka sık haber çıkaran ayrı resmi kurum (şehir içi ulaşım işletmesi vb.) bulunamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bolu+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bolu Gündem",
+      "url": "https://www.bolugundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bolu Takip",
+      "url": "https://www.bolutakip.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bolu Haber Ajansı",
+      "url": "https://www.boluhaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Bolu bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/bolu/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili (Bolu merkez ve yüksek rakımlı ilçeler: Kıbrıscık, Mengen, Mudurnu, Seben)",
+    "Bolu Dağı geçişi, Bolu Dağı Tüneli, TEM/D100 trafik yoğunluğu, kar ve sis nedeniyle yol kapanması ve kazalar",
+    "planlı elektrik kesintisi (SEDAŞ) ve su kesintisi/su kalitesi",
+    "Abant, Yedigöller, Gölcük ve Mudurnu/Göynük turizmi, hafta sonu ve bayram yoğunluğu, doğa yürüyüşü/kayak (Kartalkaya)",
+    "deprem (Kuzey Anadolu Fayı, Gerede ve Bolu çevresi) ve AFAD bilgilendirmeleri",
+    "orman yangını ve sel/heyelan uyarıları",
+    "Bolu Abant İzzet Baysal Üniversitesi ve öğrenci/kampüs haberleri",
+    "Bolu belediyesi hizmetleri, altyapı ve yol çalışmaları"
+  ],
+  "notlar": "Valilik, MEB, sağlık, emniyet, jandarma, AFAD sitelerinin duyuru/haber sayfaları 200 dönüyor. bolu.bel.tr Cloudflare arkasında, bir denemede geçici bağlantı hatası verdi. Su için ayrı idare ve planlı kesinti sayfası yok; bolu.bel.tr/category/duyurular ve yerel basına bakılmalı. SEDAŞ planlı kesinti sayfası form/JS tabanlı. Doğalgaz Aksa Bilecik-Bolu, Gerede'de muhtemelen Kargaz. MEB /acilduyurular/ bu ilde 404. Kültür Turizm sitesi açılmıyor. Yerel haber siteleri: boluhaber.com bakım sayfasına yönleniyor ('bakimdayiz'), boluyenihaber.com, bolutv.com.tr, boluhaberajansi.com, bolusonhaber.com, bolu14.com açılmıyor; listeye alınmadı. Erişim testlerinde yurt dışı IP engeli görülmedi."
+}

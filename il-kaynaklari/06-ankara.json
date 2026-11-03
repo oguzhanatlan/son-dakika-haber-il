@@ -1,0 +1,257 @@
+{
+  "il": "Ankara",
+  "plaka": "06",
+  "slug": "ankara",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/ankara",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akyurt",
+    "Altındağ",
+    "Ayaş",
+    "Bala",
+    "Beypazarı",
+    "Çamlıdere",
+    "Çankaya",
+    "Çubuk",
+    "Elmadağ",
+    "Etimesgut",
+    "Evren",
+    "Gölbaşı",
+    "Güdül",
+    "Haymana",
+    "Kahramankazan",
+    "Kalecik",
+    "Keçiören",
+    "Kızılcahamam",
+    "Mamak",
+    "Nallıhan",
+    "Polatlı",
+    "Pursaklar",
+    "Sincan",
+    "Şereflikoçhisar",
+    "Yenimahalle"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Ankara Valiliği",
+      "url": "https://ankara.gov.tr/",
+      "duyuru_url": "https://ankara.gov.tr/duyurular",
+      "haber_url": "https://ankara.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://ankara.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200). Eylem/etkinlik yasakları ve valilik kararları duyurular/basın açıklamaları altında çıkar. İlçe listesi: https://ankara.gov.tr/ilcelerimiz."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Ankara Büyükşehir Belediyesi",
+      "url": "https://www.ankara.bel.tr/",
+      "duyuru_url": "https://www.ankara.bel.tr/duyurular",
+      "haber_url": "https://www.ankara.bel.tr/haberler",
+      "basin_aciklamalari_url": "https://www.ankara.bel.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. /duyurular çoğunlukla idari (ilan, ihale, başvuru); olay/hizmet haberleri /haberler altında. Basın açıklamaları da ayrı sayfada (200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Ankara İl Milli Eğitim Müdürlüğü",
+      "url": "https://ankara.meb.gov.tr/",
+      "duyuru_url": "https://ankara.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://ankara.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://ankara.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları ile duyuru RSS'i 200 dönüyor. /acilduyurular/ ve /acilduyurular 404 veriyor (Ankara'da bu kalıp yok); acil duyurular (kar tatili vb.) için /www/duyurular/kategori/2 ve ana sayfa kullanılmalı. Kantin ihale duyuruları: /www/kantin-ihale-duyurulari/kategori/745."
+    },
+    {
+      "tur": "su",
+      "kurum": "Ankara Su ve Kanalizasyon İdaresi Genel Müdürlüğü (ASKİ)",
+      "url": "https://www.aski.gov.tr/",
+      "duyuru_url": "https://www.aski.gov.tr/tr/Kesinti.aspx",
+      "haber_url": "https://www.aski.gov.tr/tr/TumHaberler.aspx",
+      "durum": 200,
+      "not": "aski.gov.tr (www.aski.gov.tr/TR/Anasayfa'ya yönleniyor). Planlı ve plansız su kesintileri /tr/Kesinti.aspx sayfasında ilçe/mahalle ve etkilenen yerlerle listeleniyor (200; sunucu tarafı HTML, metin okunabiliyor). Haberler /tr/TumHaberler.aspx ve /tr/Duyurular (200). Adana ASKİ (adana-aski.gov.tr) ile karıştırma."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Başkent Elektrik Dağıtım A.Ş. (Başkent EDAŞ)",
+      "url": "https://www.baskentedas.com.tr/",
+      "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
+      "haber_url": "https://www.baskentedas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Başkent EDAŞ; Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'ta hizmet veriyor (şirketin kendi basın bültenlerinden doğrulandı; Enerjisa grubu). Kesinti sorgulama sayfası online.baskentedas.com.tr altında, form/JS tabanlı olabilir (curl 200 ama liste içeriği sayfada görünmeyebilir). Arıza bildirimi: https://online.baskentedas.com.tr/ariza-bildir. Planlı kesinti listeleri yerel basında da günlük yayımlanıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Başkent Doğalgaz Dağıtım Gayrimenkul Yatırım Ortaklığı A.Ş. (Başkentgaz)",
+      "url": "https://www.baskentdogalgaz.com.tr/",
+      "duyuru_url": "https://www.baskentdogalgaz.com.tr/duyurular",
+      "haber_url": "https://www.baskentdogalgaz.com.tr/haberler",
+      "basin_aciklamalari_url": "https://www.baskentdogalgaz.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Resmi site baskentdogalgaz.com.tr (baskentgaz.com.tr açılmıyor, curl 000). Duyurular, haberler ve basın bültenleri sayfaları 200. Planlı gaz kesintisi duyurusu nadir; fatura/tarife duyuruları ağırlıklı."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Ankara İl Sağlık Müdürlüğü",
+      "url": "https://ankaraism.saglik.gov.tr/",
+      "duyuru_url": "https://ankaraism.saglik.gov.tr/TR-60724/duyurular.html",
+      "durum": 200,
+      "not": "Adres ankaraism.saglik.gov.tr (200). Duyuru ve haber sayfaları ana sayfadaki bağlantılardan alındı ve 200 döndü (ana sayfada TR-156370/TR-340790 duyuru, TR-156373/TR-340791 haber gibi alternatif sayfalar da var). Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler.",
+      "haber_url": "https://ankaraism.saglik.gov.tr/TR-60718/haberler.html"
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Ankara İl Emniyet Müdürlüğü",
+      "url": "https://ankara.pol.tr/",
+      "duyuru_url": "https://ankara.pol.tr/duyurular",
+      "haber_url": "https://ankara.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi ankara.pol.tr (egm.gov.tr/ankara 404). Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri (200). Olay/operasyon haberleri /haberler, trafik ve idari duyurular /duyurular."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Ankara İl Jandarma Komutanlığı",
+      "url": "https://ankara.jandarma.gov.tr/",
+      "duyuru_url": "https://ankara.jandarma.gov.tr/duyurular",
+      "haber_url": "https://ankara.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Kırsal ilçelerdeki (Kahramankazan, Haymana, Nallıhan vb.) operasyon ve olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Ankara Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://ankara.afad.gov.tr/",
+      "duyuru_url": "https://ankara.afad.gov.tr/duyurular",
+      "haber_url": "https://ankara.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem verisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Duyuru/haber sayfaları 200."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Ankara Üniversitesi",
+      "url": "https://www.ankara.edu.tr/",
+      "duyuru_url": "https://www.ankara.edu.tr/duyurular",
+      "haber_url": "https://www.ankara.edu.tr/haberler",
+      "durum": 200,
+      "not": "Ankara'daki büyük devlet üniversiteleri: Hacettepe, ODTÜ, Gazi ve Ankara Hacı Bayram Veli ayrı kayıtlarda/notta. Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Hacettepe Üniversitesi",
+      "url": "https://www.hacettepe.edu.tr/",
+      "duyuru_url": "https://www.hacettepe.edu.tr/duyurular/",
+      "haber_url": "https://gazete.hacettepe.edu.tr/",
+      "durum": 200,
+      "not": "Kampüs haberleri gazete.hacettepe.edu.tr altında (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Orta Doğu Teknik Üniversitesi (ODTÜ)",
+      "url": "https://www.metu.edu.tr/",
+      "duyuru_url": "https://www.metu.edu.tr/announcements/home",
+      "haber_url": "https://haber.metu.edu.tr/tr/",
+      "durum": 200,
+      "not": "/news ve /announcements 404; doğru duyuru adresi /announcements/home, haberler haber.metu.edu.tr (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Gazi Üniversitesi",
+      "url": "https://gazi.edu.tr/",
+      "duyuru_url": "https://gazi.edu.tr/duyurular",
+      "haber_url": "https://gazi.edu.tr/haberler",
+      "durum": 200,
+      "not": "www.gazi.edu.tr açılmıyor (curl 000); www'suz gazi.edu.tr kullanılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çankaya Belediyesi",
+      "url": "https://www.cankaya.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "https://www.cankaya.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça en büyük ilçe. /duyurular 404; ayrı duyuru listesi bulunamadı (ihaleler: https://www.cankaya.bel.tr/ihaleler). Haberler /haberler altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Keçiören Belediyesi",
+      "url": "https://www.kecioren.bel.tr/",
+      "duyuru_url": "https://www.kecioren.bel.tr/duyurular.html",
+      "haber_url": "https://www.kecioren.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "Adresler .html uzantılı; /duyurular 404, /haberler ise 403 veriyor (eski kalıp), .html uzantılı sayfalar 200. Duyurular ağırlıklı imar/parselasyon ilanları."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yenimahalle Belediyesi",
+      "url": "https://www.yenimahalle.bel.tr/",
+      "duyuru_url": "https://www.yenimahalle.bel.tr/duyurular",
+      "haber_url": "https://www.yenimahalle.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça üçüncü büyük ilçe. Diğer büyük ilçeler (kayıt dışı): Mamak https://www.mamak.bel.tr/duyuru/ ve /haber/ (200; /duyurular ve /haberler hatalı), Etimesgut https://www.etimesgut.bel.tr/duyurular ve /haberler (200), Sincan https://www.sincan.bel.tr/duyurular ve /haberler (200)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "EGO Genel Müdürlüğü (Ankara toplu taşıma)",
+      "url": "https://www.ego.gov.tr/",
+      "duyuru_url": "https://www.ego.gov.tr/tr/duyurular",
+      "haber_url": "https://www.ego.gov.tr/tr/haberler",
+      "durum": 200,
+      "not": "Otobüs, metro ve hat değişikliği/sefer duyuruları (bayram ücretsiz ulaşım, arıza, güzergah değişikliği). X hesabı @egobilgi."
+    },
+    {
+      "tur": "diger",
+      "kurum": "ANKARAY (Ankara Büyükşehir Belediyesi raylı sistem)",
+      "url": "https://www.ankaray.com.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ana sayfa 200; /duyurular 404, ayrı duyuru sayfası doğrulanmadı. Metro/Ankaray arıza ve sefer duyuruları pratikte ego.gov.tr üzerinden yayımlanıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Ankara+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Ankara",
+      "url": "https://www.yeniankara.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Ankara",
+      "url": "https://www.haberankara.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bizim Ankara",
+      "url": "https://www.bizimankara.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazete Ankara",
+      "url": "https://www.gazeteankara.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ankara Ulus Gazetesi",
+      "url": "https://ankaraulusgazetesi.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Başkent EDAŞ) ve ilçe ilçe kesinti listeleri",
+    "ASKİ planlı/plansız su kesintisi ve su arızaları",
+    "toplu ulaşım: EGO otobüs, metro ve Ankaray arıza/sefer/ücret duyuruları",
+    "trafik düzenlemeleri, yol çalışmaları ve kapanan yollar (Ankara trafik, Eskişehir/Konya yolu, Çevre Yolu)",
+    "kar yağışı, buzlanma ve okulların tatil edilmesi (Valilik/MEB kararları)",
+    "Ankara Valiliği eylem ve etkinlik yasakları, toplantı/gösteri kararları",
+    "deprem ve AFAD bilgilendirmeleri",
+    "Ankara Büyükşehir Belediyesi kararları, ulaşım zammı ve hizmet duyuruları"
+  ],
+  "notlar": "Tüm resmi sitelerin ana ve duyuru/haber sayfaları 200 döndü; yurt dışı IP engeli gözlenmedi. EGM il sitesi ankara.pol.tr (egm.gov.tr/ankara 404). Sağlık Müdürlüğü ankaraism.saglik.gov.tr (duyuru: /TR-60724/duyurular.html, haber: /TR-60718/haberler.html). İl MEB'de /acilduyurular/ 404; duyurular /www/duyurular/kategori/2 ve RSS ile izlenmeli. ASKİ kesinti listesi /tr/Kesinti.aspx üzerinde düz HTML olarak okunabiliyor (planlı + plansız, ilçe/mahalle). Başkent EDAŞ kesinti sorgulama online.baskentedas.com.tr altında form/JS tabanlı; planlı kesinti listeleri günlük olarak yerel basında (Türkiye Gazetesi, İlksayfa vb.) da çıkıyor. Başkent Doğalgaz resmi alan adı baskentdogalgaz.com.tr (baskentgaz.com.tr açılmıyor). Keçiören Belediyesi sayfaları .html uzantılı; /haberler 403. Çankaya Belediyesi'nde ayrı duyuru sayfası yok. Mamak belediyesi /duyuru/ ve /haber/ (tekil) kullanıyor. Ankara'da 25 ilçe var; yukarıdaki ilçe listesi ilin resmi ilçe listesidir (ankara.gov.tr/ilcelerimiz sayfası JS tabanlı olduğundan metin olarak doğrulanamadı)."
+}

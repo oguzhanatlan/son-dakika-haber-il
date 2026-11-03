@@ -1,0 +1,203 @@
+{
+  "il": "Burdur",
+  "plaka": "15",
+  "slug": "burdur",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/burdur",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ağlasun",
+    "Altınyayla",
+    "Bucak",
+    "Çavdır",
+    "Çeltikçi",
+    "Gölhisar",
+    "Karamanlı",
+    "Kemer",
+    "Merkez",
+    "Tefenni",
+    "Yeşilova"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Burdur Valiliği",
+      "url": "https://www.burdur.gov.tr/",
+      "duyuru_url": "https://www.burdur.gov.tr/duyurular",
+      "haber_url": "https://www.burdur.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.burdur.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200). burdur.gov.tr www'ye yönlenmeden de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "T.C. Burdur Belediyesi",
+      "url": "https://burdur.bel.tr/",
+      "duyuru_url": "https://burdur.bel.tr/category/duyurular/",
+      "haber_url": "https://burdur.bel.tr/category/haberler/",
+      "rss": "https://burdur.bel.tr/feed/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. WordPress site: /duyurular ve /haberler 404; kategori sayfaları /category/duyurular/ (alt: /category/duyurular/ihaleler/) ve /category/haberler/ kullanılıyor. Genel RSS /feed/ (200). Meclis gündemi: /category/meclis-gundemi/."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Burdur İl Milli Eğitim Müdürlüğü",
+      "url": "https://burdur.meb.gov.tr/",
+      "duyuru_url": "https://burdur.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://burdur.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://burdur.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor. /acilduyurular/ bu ilde 404 veriyor; kar tatili vb. acil duyurular için ana sayfa, duyurular ve valilik duyuruları izlenmeli."
+    },
+    {
+      "tur": "su",
+      "kurum": "Burdur Belediyesi Su ve Kanalizasyon İşleri Müdürlüğü",
+      "url": "https://burdur.bel.tr/su-abonelik-islemleri/",
+      "duyuru_url": "https://burdur.bel.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon İşleri Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı (/su-kesintisi 404); kesinti duyuruları genel /category/duyurular/ ve /category/haberler/ içinde ve yerel basında çıkıyor. Şebeke suyu sertliği/kireç konusu yerel basında sık gündemde."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Akdeniz Elektrik Dağıtım A.Ş. (AEDAŞ)",
+      "url": "https://www.akdenizedas.com.tr/",
+      "duyuru_url": "https://www.akdenizedas.com.tr/elektrik-kesintisi",
+      "durum": 200,
+      "not": "AEDAŞ Antalya, Isparta ve Burdur'da hizmet veriyor (haber ve kurum kaynaklarıyla doğrulandı; Burdur için planlı kesinti haberleri AEDAŞ'a atfedilmiş). Kesinti sorgulama: https://www.akdenizedas.com.tr/elektrik-kesintisi-sorgulama ve https://kesinti.akdenizedas.com.tr/ (ikisi de 200; JS/form tabanlı, il-ilçe seçimi gerekir). Duyurular: /tum-duyurular, /bizden-haberler (200). www.aedas.com.tr açılmıyor (curl 000); doğru alan adı akdenizedas.com.tr."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Torosgaz Isparta Burdur Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.torosgaz.com.tr/",
+      "duyuru_url": "https://www.torosgaz.com.tr/Main/duyurular/",
+      "durum": 200,
+      "not": "Isparta ve Burdur dağıtım bölgesi (şirketin kendi sitesi ve e-Devlet kaydıyla doğrulandı). Duyurular /Main/duyurular/ altında; ayrı haber sayfası bulunamadı. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Burdur İl Sağlık Müdürlüğü",
+      "url": "https://burdurism.saglik.gov.tr/",
+      "duyuru_url": "https://burdurism.saglik.gov.tr/TR-182673/duyurular.html",
+      "haber_url": "https://burdurism.saglik.gov.tr/TR-185495/haberler.html",
+      "durum": 200,
+      "not": "Adres burdurism.saglik.gov.tr. Duyuru ve haber bağlantıları ana sayfadan alındı (TR-182673 / TR-185495); duyurular ağırlıklı personel/atama, halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Burdur İl Emniyet Müdürlüğü",
+      "url": "https://burdur.pol.tr/",
+      "duyuru_url": "https://burdur.pol.tr/duyurular",
+      "haber_url": "https://burdur.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi burdur.pol.tr. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri. Olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Burdur İl Jandarma Komutanlığı",
+      "url": "https://burdur.jandarma.gov.tr/",
+      "duyuru_url": "https://burdur.jandarma.gov.tr/duyurular",
+      "haber_url": "https://burdur.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Burdur Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://burdur.afad.gov.tr/",
+      "duyuru_url": "https://burdur.afad.gov.tr/duyurular",
+      "haber_url": "https://burdur.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Burdur Mehmet Akif Ersoy Üniversitesi",
+      "url": "https://www.mehmetakif.edu.tr/tr",
+      "duyuru_url": "https://www.mehmetakif.edu.tr/duyurular",
+      "haber_url": "https://www.mehmetakif.edu.tr/haberler",
+      "durum": 200,
+      "not": "mehmetakif.edu.tr /tr'ye yönleniyor; duyurular ve haberler ayrı sayfalar (200). Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bucak Belediyesi",
+      "url": "https://bucak.bel.tr/",
+      "duyuru_url": "https://bucak.bel.tr/duyurular",
+      "haber_url": "https://bucak.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusça en büyük ilçe (yaklaşık 68 bin). www.bucak.bel.tr kök alan adına yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gölhisar Belediyesi",
+      "url": "https://www.golhisar.bel.tr/",
+      "duyuru_url": "https://www.golhisar.bel.tr/",
+      "haber_url": "https://www.golhisar.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "Nüfusça üçüncü büyük ilçe (yaklaşık 24 bin). Eski tip .html adres yapısı; /haberler ve /duyurular 404. Haber listesi /haberler.html (200); ayrı duyuru listesi sayfası bulunamadı, duyurular ana sayfada (duyuru-*.html bağlantıları) yer alıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yeşilova Belediyesi",
+      "url": "https://www.yesilova.bel.tr/",
+      "duyuru_url": "https://www.yesilova.bel.tr/Kategori/duyurular.html",
+      "haber_url": "https://www.yesilova.bel.tr/Kategori/haberler.html",
+      "durum": 200,
+      "not": "Nüfusça dördüncü büyük ilçe (yaklaşık 14 bin). yesilova.bel.tr www'ye yönleniyor. Site var olmayan adreslere de 200 döndürüyor (soft 200); haber/duyuru adresleri ana sayfadaki .html yapısına göre (Kategori/haberler.html, Kategori/duyurular.html, Detay/*.html) kaydedildi, içerik doğrulaması gerekir."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Burdur İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://burdur.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "burdur.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; kalıp gereği kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Burdur+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Burdur Yenigün",
+      "url": "https://www.burduryenigun.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Burdur Gazetesi",
+      "url": "https://www.burdurgazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ses15 Gazetesi",
+      "url": "https://www.ses15.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "NNC Haber (Burdur - Bucak)",
+      "url": "https://www.nnchaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kıvılcım Haber Burdur",
+      "url": "https://www.kivilcimhaber.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (AEDAŞ)",
+    "şebeke suyu sertliği/kireç, su kesintisi ve su arızaları",
+    "Burdur Gölü'nün çekilmesi, alg patlaması ve çevre (koku, kuruma) haberleri",
+    "kar nedeniyle okul tatili ve yayla/yüksek kesim yollarının kapanması (Gölhisar, Tefenni, Karamanlı, Altınyayla)",
+    "deprem (Burdur-Fethiye fay zonu) ve AFAD bilgilendirmeleri",
+    "tarım ve hayvancılık: elma, şeker pancarı, don ve dolu zararı, hayvan pazarı",
+    "trafik kazaları (Burdur-Isparta, Burdur-Antalya, Bucak-Antalya yolları)",
+    "turizm: Salda Gölü, Sagalassos, Kremna ve yamaç paraşütü etkinlikleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma, AFAD ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor. Belediye sitesi WordPress: duyurular /category/duyurular/, haberler /category/haberler/, RSS /feed/. İl MEB'de /acilduyurular/ yok (404). Su için ayrı idare yok, planlı su kesintisi için özel sayfa bulunamadı; belediye duyuruları ve yerel basına bakılmalı. AEDAŞ kesinti sayfaları form/JS tabanlı; doğru alan adı akdenizedas.com.tr (aedas.com.tr açılmıyor). Doğalgaz dağıtımı Torosgaz (Isparta-Burdur). Burdur Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber siteleri: burdurhaber.com park/yönlendirme sayfası olduğu için, burdurmedya.com ise ajans sitesi olduğu için listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi (hepsi 200)."
+}

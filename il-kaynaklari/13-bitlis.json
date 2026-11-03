@@ -1,0 +1,198 @@
+{
+  "il": "Bitlis",
+  "plaka": "13",
+  "slug": "bitlis",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/bitlis",
+  "buyuksehir": false,
+  "ilceler": [
+    "Adilcevaz",
+    "Ahlat",
+    "Güroymak",
+    "Hizan",
+    "Merkez",
+    "Mutki",
+    "Tatvan"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Bitlis Valiliği",
+      "url": "https://www.bitlis.gov.tr/",
+      "duyuru_url": "https://www.bitlis.gov.tr/duyurular",
+      "haber_url": "https://www.bitlis.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, ayrıca Vali'den haberler /validen-haberler (üçü de 200). Basın duyuruları ve kamuoyuna duyurular (kar tatili, yasak/izin kararları, etkinlik) burada çıkıyor. bitlis.gov.tr www'li adrese de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Bitlis Belediyesi",
+      "url": "https://bitlis.bel.tr/",
+      "duyuru_url": "https://bitlis.bel.tr/duyurular/",
+      "haber_url": "https://bitlis.bel.tr/tum-haberler/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi (WordPress). Duyurular /duyurular/, haberler /tum-haberler/ (/haberler 404). İhaleler: /ihaleler/. www.bitlis.bel.tr bitlis.bel.tr'ye yönleniyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Bitlis İl Milli Eğitim Müdürlüğü",
+      "url": "https://bitlis.meb.gov.tr/",
+      "duyuru_url": "https://bitlis.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://bitlis.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://bitlis.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber sayfaları ve duyuru RSS'i 200 dönüyor. /acilduyurular/ bu ilde 404; kar tatili vb. acil duyurular ana sayfada ve Valilik duyurularında aranmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Bitlis Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://bitlis.bel.tr/su-ve-kanalizasyon-mudurlugu/",
+      "duyuru_url": "https://bitlis.bel.tr/duyurular/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (su arıza hattı 185). Su işleri sayfası: https://bitlis.bel.tr/su-isleri/ (200). Planlı su kesintisi için ayrı duyuru sayfası bulunamadı; kesinti duyuruları genel /duyurular/ ve /tum-haberler/ içinde ve yerel basında çıkıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Vangölü Elektrik Dağıtım A.Ş. (VEDAŞ)",
+      "url": "https://www.vedas.com.tr/",
+      "duyuru_url": "https://www.vedas.com.tr/planli-kesintiler-TR.html",
+      "haber_url": "https://www.vedas.com.tr/duyurular-TR.html",
+      "durum": 200,
+      "not": "VEDAŞ Van, Bitlis, Muş ve Hakkari'de hizmet veriyor (vedas.com.tr Hakkımızda sayfasında doğrulandı; çözüm merkezi 0 850 211 0 186 / 186). Sayfa 'Planlı Çalışma' başlığı altında; liste dinamik/JS tabanlı olabilir, sorgulama formu https://kat.vedas.com.tr/run/VEDAS/KESINTI_SORGULAMA/giris (bu adres curl ile açılmadı). Sitenin SSL zinciri doğrulanamıyor: curl -k ile 200, -k olmadan hata (000); www'li adres kullanılmalı. Sıkça kullanılan 'vedas.com' adresi ayrı bir siteye gidiyor, kullanma."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Doğugaz Bitlis Muş Doğalgaz Dağıtım A.Ş.",
+      "url": "https://www.dogugaz.com.tr/",
+      "duyuru_url": "https://www.dogugaz.com.tr/duyurular",
+      "haber_url": "https://www.dogugaz.com.tr/haberler",
+      "durum": 200,
+      "not": "EPDK lisansında 'Doğugaz Bitlis Bingöl Muş Doğalgaz Dağıtım A.Ş.' olarak geçen şirket; web sitesi Doğugaz markası altında Muş-Bitlis, Kars-Ardahan ve Iğdır bölgelerini kapsıyor (genel hat 444 49 21, acil 187). Ağırlıklı içerik ihale, tarife ve idari duyuru; planlı gaz kesintisi duyurusu nadir. Bitlis'e özgü bölge sayfası bulunamadı."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Bitlis İl Sağlık Müdürlüğü",
+      "url": "https://bitlisism.saglik.gov.tr/",
+      "duyuru_url": "https://bitlisism.saglik.gov.tr/TR-22178/duyurular.html",
+      "durum": 200,
+      "not": "Adres bitlisism.saglik.gov.tr. Duyurular /TR-22178/duyurular.html (200; ana sayfadaki bağlantıdan alındı), ağırlıklı personel/atama duyuruları. Haber sayfasının adresi doğrulanamadı (TR-22178/haberler.html tahmini adres, güvenilmez); halk sağlığı haberleri için ana sayfadaki haber bölümüne bakılmalı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Bitlis İl Emniyet Müdürlüğü",
+      "url": "https://bitlis.pol.tr/",
+      "duyuru_url": "https://bitlis.pol.tr/duyurular",
+      "haber_url": "https://bitlis.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi bitlis.pol.tr; duyurular ve haberler 200. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Bitlis İl Jandarma Komutanlığı",
+      "url": "https://bitlis.jandarma.gov.tr/",
+      "duyuru_url": "https://bitlis.jandarma.gov.tr/duyurular",
+      "haber_url": "https://bitlis.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında; hepsi 200."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Bitlis Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://bitlis.afad.gov.tr/",
+      "duyuru_url": "https://bitlis.afad.gov.tr/duyurular",
+      "haber_url": "https://bitlis.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Çığ, kar, don ve sel uyarıları için Valilik duyuruları da izlenmeli."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Bitlis Eren Üniversitesi",
+      "url": "https://www.beu.edu.tr/",
+      "duyuru_url": "https://www.beu.edu.tr/Duyurular",
+      "haber_url": "https://www.beu.edu.tr/Haberler",
+      "durum": 200,
+      "not": "Ana alan adı beu.edu.tr; www.bitliseren.edu.tr de var ama /Duyurular orada 404. Sitenin SSL zinciri doğrulanamıyor: curl -k ile 200, -k olmadan hata (000). Duyurular idari/akademik ağırlıklı (personel alımı, sınav sonuçları, Erasmus); kampüs haberleri /Haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tatvan Belediyesi",
+      "url": "https://www.tatvan.bel.tr/",
+      "duyuru_url": "https://www.tatvan.bel.tr/duyurular/",
+      "haber_url": "https://www.tatvan.bel.tr/haberler/",
+      "durum": 200,
+      "not": "İlin nüfusça en büyük ilçesi (merkezden de büyük; Van Gölü kıyısı). tatvan.bel.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Güroymak Belediyesi",
+      "url": "https://www.guroymak.bel.tr/",
+      "duyuru_url": "https://www.guroymak.bel.tr/duyurular/",
+      "haber_url": "https://www.guroymak.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Sonda eğik çizgi gerekli (/duyurular ve /haberler çizgisiz 404). Zorunlu su kesintisi duyuruları 'duyuru' bölümünde yayınlanıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ahlat Belediyesi",
+      "url": "https://ahlat.bel.tr/",
+      "duyuru_url": "https://www.ahlat.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir haber listesi adresi bulunamadı (/haberler ana sayfaya yönleniyor); haber ve duyurular 'duyuru-detay/...' bağlantılarıyla yayınlanıyor. Malazgirt/Ahlat Zaferi etkinlikleri ve turizm haberleri çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Bitlis İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://bitlis.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "bitlis.ktb.gov.tr curl ile açılmadı (000). Kaynak olarak güvenilmemeli; adres tahmine dayalı kalıp olduğu için işaretlendi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bitlis+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bitlis Haber (bitlishaber13.net)",
+      "url": "https://www.bitlishaber13.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tatvan Sesi Gazetesi",
+      "url": "https://www.tatvansesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bitlis Olay",
+      "url": "https://bitlisolay.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bitlis Postası",
+      "url": "https://www.bitlispostasi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Bitlis bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/bitlis/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Hizan, Mutki, Güroymak, Adilcevaz kesimi)",
+    "çığ uyarıları ve kış koşulları (Nemrut, Rahva Geçidi, Bitlis-Tatvan ve Tatvan-Van karayolu)",
+    "planlı elektrik kesintisi (VEDAŞ) ve kar/rüzgâr kaynaklı elektrik arızaları",
+    "su kesintisi ve içme suyu arızaları (belediyeler, Güroymak ana boru hattı vb.)",
+    "deprem ve AFAD bilgilendirmeleri (Van Gölü havzası, Bitlis-Muş fay kuşağı)",
+    "Van Gölü, Tatvan limanı, feribot seferleri ve Nemrut Krater Gölü turizmi",
+    "Ahlat tarihi ve Malazgirt Zaferi etkinlikleri, Selçuklu Meydan Mezarlığı turizmi",
+    "bal (Ahlat, Adilcevaz), kış turizmi, tarım ve hayvancılık haberleri",
+    "güvenlik: Valilik özel güvenlik bölgesi/yasak kararları, jandarma operasyonları"
+  ],
+  "notlar": "Valilik, belediye, MEB (duyuru+RSS), emniyet, jandarma ve AFAD sitelerinin duyuru/haber sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. MEB'de /acilduyurular/ 404 (kar tatili Valilik duyurularında/ana sayfada aranmalı). Su için ayrı idare yok, planlı su kesintisi sayfası yok; bitlis.bel.tr/duyurular/ ve yerel basına bakılmalı. VEDAŞ (www.vedas.com.tr) ve Bitlis Eren Üniversitesi (www.beu.edu.tr) siteleri SSL zinciri hatası veriyor (curl -k ile 200); VEDAŞ planlı kesinti sayfası JS/form tabanlı olabilir. Doğalgaz dağıtımı Doğugaz (Bitlis-Muş) bölgesi. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber sitelerinden bitlisdoguhaber.com, bitlisgazetesi.com, bitliscesaret.com, tatvanhaber.com, tatvanguncel.com, bitlishaberleri.com aynı boş/park sayfa (1036 bayt) döndürdüğü, tatvansesi.com satılık alan adı olduğu için listeye alınmadı (tatvansesi.com.tr çalışıyor). iha.com.tr 403 veriyor."
+}

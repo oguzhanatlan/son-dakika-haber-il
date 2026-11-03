@@ -1,0 +1,226 @@
+{
+  "il": "Balıkesir",
+  "plaka": "10",
+  "slug": "balikesir",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/balikesir",
+  "buyuksehir": true,
+  "ilceler": [
+    "Altıeylül",
+    "Ayvalık",
+    "Balya",
+    "Bandırma",
+    "Bigadiç",
+    "Burhaniye",
+    "Dursunbey",
+    "Edremit",
+    "Erdek",
+    "Gömeç",
+    "Gönen",
+    "Havran",
+    "İvrindi",
+    "Karesi",
+    "Kepsut",
+    "Manyas",
+    "Marmara",
+    "Savaştepe",
+    "Sındırgı",
+    "Susurluk"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Balıkesir Valiliği",
+      "url": "https://www.balikesir.gov.tr/",
+      "duyuru_url": "https://www.balikesir.gov.tr/duyurular",
+      "haber_url": "https://www.balikesir.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.balikesir.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; basın açıklamaları/bültenleri /basin-aciklamalari ve Vali'den haberler /validen-haberler altında. balikesir.gov.tr (www'siz) de 200."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Balıkesir Büyükşehir Belediyesi",
+      "url": "https://balikesir.bel.tr/",
+      "duyuru_url": "https://balikesir.bel.tr/duyurular",
+      "haber_url": "https://balikesir.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. www.balikesir.bel.tr, balikesir.bel.tr'ye yönleniyor. Duyurular ağırlıkla meclis gündemi/kararları, etkinlik ve kurs duyuruları; haberler /haberler. Ulaşım için ayrıca diğer kaydına bakın."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Balıkesir İl Milli Eğitim Müdürlüğü",
+      "url": "https://balikesir.meb.gov.tr/",
+      "duyuru_url": "https://balikesir.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://balikesir.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://balikesir.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular /www/duyurular/kategori/2, haberler /www/haberler/kategori/1, duyuru RSS'i 200. /acilduyurular/ bu ilde 404 (Amasya kalıbı geçerli değil); kar tatili vb. acil duyurular ana sayfa ve duyurular/valilik sayfasında aranmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Balıkesir Su ve Kanalizasyon İdaresi Genel Müdürlüğü (BASKİ / BALSU)",
+      "url": "https://www.balsu.gov.tr/",
+      "duyuru_url": "https://www.balsu.gov.tr/su-kesintileri",
+      "haber_url": "https://www.balsu.gov.tr/haberler",
+      "genel_duyuru_url": "https://www.balsu.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Büyükşehir su idaresi; site başlığı 'Balıkesir Su ve Kanalizasyon İdaresi Genel Müdürlüğü', logo/kısaltma BASKİ, alan adı balsu.gov.tr (baski.gov.tr açılmıyor, curl 000). Planlı/arıza su kesintileri /su-kesintileri sayfasında; genel duyurular /duyurular, haberler /haberler. Aynı kesintiler yerel basında (Gazete Merhaba vb.) günlük listeleniyor. Not: WebFetch aracı ana sayfada bir kez HTTP 500 aldı, curl ile 200."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Uludağ Elektrik Dağıtım A.Ş. (UEDAŞ)",
+      "url": "https://www.uedas.com.tr/",
+      "duyuru_url": "https://www.uedas.com.tr/tr/kesintiler",
+      "haber_url": "https://www.uedas.com.tr/tr/haberler",
+      "aktif_kesinti_url": "https://online.uedas.com.tr/#/AktifElektrikKesintileri",
+      "durum": 200,
+      "not": "UEDAŞ Bursa, Balıkesir, Çanakkale ve Yalova'da hizmet veriyor (uedas.com.tr işletme sayfalarında Balıkesir ayrı bölge olarak listeli: /tr/isletmeler?il=2&tip=1). Planlı kesinti listesi /tr/kesintiler; anlık/aktif kesinti panosu https://online.uedas.com.tr/#/AktifElektrikKesintileri (JS/SPA, curl yalnızca kabuğu görür). Duyurular /tr/duyurular, haberler /tr/haberler. https://www.uedas.com.tr/planli-kesintiler adresi 403 veriyor; kullanma."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Balıkesir Doğalgaz Dağıtım A.Ş. (BALGAZ)",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/balikesir",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "basin_bultenleri_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Balıkesir bölgesi: Balıkesir (merkez), Dursunbey, Savaştepe, Sındırgı, Ayvalık, Gömeç, İvrindi, Havran, Edremit, Burhaniye, Kepsut, Bigadiç (Aksa sayfasından doğrulandı). Bandırma ve Erdek ayrı lisans: Aksa Doğalgaz Bandırma https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/bandirma (200). Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Balıkesir İl Sağlık Müdürlüğü",
+      "url": "https://balikesirism.saglik.gov.tr/",
+      "duyuru_url": "https://balikesirism.saglik.gov.tr/TR-18307/duyurular.html",
+      "haber_url": "https://balikesirism.saglik.gov.tr/TR-18305/haberler.html",
+      "durum": 200,
+      "not": "Adres balikesirism.saglik.gov.tr. Duyuru/haber sayfa numaraları ile özeldir: Amasya'nın TR-46346 numaralı adresi Balıkesir'de Amasya sitesine yönleniyor, kullanma; doğru olanlar TR-18307 (duyurular) ve TR-18305 (haberler). Duyurular ağırlıklı personel/sınav; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Balıkesir İl Emniyet Müdürlüğü",
+      "url": "https://balikesir.pol.tr/",
+      "duyuru_url": "https://balikesir.pol.tr/duyurular",
+      "haber_url": "https://balikesir.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi balikesir.pol.tr; olay/operasyon haberleri /haberler. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Balıkesir İl Jandarma Komutanlığı",
+      "url": "https://balikesir.jandarma.gov.tr/",
+      "duyuru_url": "https://balikesir.jandarma.gov.tr/duyurular",
+      "haber_url": "https://balikesir.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Balıkesir Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://balikesir.afad.gov.tr/",
+      "duyuru_url": "https://balikesir.afad.gov.tr/duyurular",
+      "haber_url": "https://balikesir.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Sayfa başlığı 'Balıkesir İl Afet ve Acil Durum Müdürlüğü'. Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Balıkesir aktif fay (Sındırgı, Gönen, Edremit Körfezi) bölgesi; deprem haberi sık."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Balıkesir Üniversitesi",
+      "url": "https://balikesir.edu.tr/",
+      "duyuru_url": "https://balikesir.edu.tr/duyurular",
+      "haber_url": "https://balikesir.edu.tr/haberler",
+      "durum": 200,
+      "not": "www.balikesir.edu.tr, balikesir.edu.tr'ye yönleniyor. Duyurular idari/akademik ağırlıklı; kampüs haberleri /haberler. haber.balikesir.edu.tr açılmıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Altıeylül Belediyesi",
+      "url": "https://www.altieylul.bel.tr/",
+      "duyuru_url": "https://www.altieylul.bel.tr/Gundem/Duyurular",
+      "haber_url": "https://www.altieylul.bel.tr/Gundem",
+      "durum": 200,
+      "not": "Merkez ilçe (büyükşehir). Duyurular /Gundem/Duyurular; haberler ana sayfada ve /Gundem altında (haber detayı /Gundem/HaberDetay?haberId=...); ayrıca /Gundem/BasindaAltieylul, /Gundem/Etkinlikler. /Gundem/Haberler 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karesi Belediyesi",
+      "url": "https://www.karesi.bel.tr/",
+      "duyuru_url": "https://www.karesi.bel.tr/duyurular",
+      "haber_url": "https://www.karesi.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe (büyükşehir)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bandırma Belediyesi",
+      "url": "https://www.bandirma.bel.tr/",
+      "duyuru_url": "https://www.bandirma.bel.tr/haberler?kategori=duyurular",
+      "haber_url": "https://www.bandirma.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça en büyük merkez dışı ilçe. Duyurular ve haberler aynı /haberler sayfasında kategoriyle ayrılıyor (?kategori=duyurular, ?kategori=meclis-kararlari); imar/askı ilanları çok. Yerel basın: /faaliyetler?kategori=yerel-basin."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Edremit Belediyesi",
+      "url": "https://www.edremit.bel.tr/",
+      "duyuru_url": "https://www.edremit.bel.tr/Guncel/Duyurular/",
+      "haber_url": "https://www.edremit.bel.tr/Guncel/Haberler/",
+      "durum": 200,
+      "not": "Edremit Körfezi'nin en büyük ilçesi; turizm sezonunda haber yoğun."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Balıkesir Toplu Taşıma A.Ş. (BTT)",
+      "url": "https://www.balikesirulasim.com.tr/",
+      "duyuru_url": "https://www.balikesirulasim.com.tr/duyurular",
+      "haber_url": "https://www.balikesirulasim.com.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesinin %100 iştiraki; otobüs hat/güzergah değişiklikleri, Balkart ve ücretsiz ulaşım duyuruları. Duyuru detayı /duyuru/{slug}. Büyükşehir ulaşım yönetimi: https://balikesir.bel.tr/ulasim-yonetimi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bal%C4%B1kesir+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazete Merhaba",
+      "url": "https://gazetemerhaba.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Balıkesir Gerçek",
+      "url": "https://www.balikesirgercek.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Balıkesir Haber Ajansı",
+      "url": "https://www.balikesirhaberajansi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Balıkesir Artı Haber",
+      "url": "https://www.balikesirartihaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Balıkesir bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/balikesir/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (UEDAŞ; ilçe ilçe günlük kesinti listeleri)",
+    "planlı su kesintisi ve boru arızası (BASKİ/BALSU), içme suyu ve baraj/yağış durumu",
+    "deprem (Sındırgı, Gönen, Edremit Körfezi, Marmara Denizi) ve AFAD bilgilendirmeleri",
+    "orman yangını (Edremit, Ayvalık, Gömeç, Burhaniye, Havran, Kazdağları kesimi) ve yaz sezonu yangın yasakları",
+    "kar nedeniyle okul tatili ve yolların kapanması (Dursunbey, Sındırgı, Bigadiç, Uludağ-Kazdağı yükseltileri)",
+    "Edremit Körfezi/Ayvalık turizm sezonu, zeytin hasadı ve zeytinyağı fiyatları, tarım (don, dolu, kuraklık)",
+    "Bandırma Limanı, Bandırma-Bursa/İzmir-Çanakkale yolları ve trafik kazaları, Bandırma Onyedi Eylül Üniversitesi",
+    "toplu taşıma değişiklikleri (BTT, Balkart), ücretsiz ulaşım günleri ve belediye meclis kararları"
+  ],
+  "notlar": "Valilik, büyükşehir, MEB, emniyet, jandarma, AFAD, BASKİ/BALSU, UEDAŞ, Aksa ve ilçe belediyeleri 200 dönüyor; yurt dışı IP engeli gözlenmedi. Su idaresi BASKİ'nin güncel alan adı balsu.gov.tr (baski.gov.tr açılmıyor); planlı su kesintisi için /su-kesintileri kullan. Elektrik: UEDAŞ /tr/kesintiler (planlı) ve online.uedas.com.tr (anlık, SPA) JS tabanlı olabilir; yerel basın aynı listeleri günlük yayımlıyor. İl MEB'de /acilduyurular/ yok (404), İl Sağlık'ta duyuru/haber numaraları TR-18307 ve TR-18305 (Amasya numarasını kullanma). Doğalgaz: Aksa Balıkesir (merkez + Körfez ilçeleri) ve Aksa Bandırma (Bandırma, Erdek) ayrı bölgeler; Susurluk ise Aksa Mustafakemalpaşa-Susurluk-Karacabey bölgesinde. Merkez ilçeler Altıeylül ve Karesi. Kültür Turizm Müdürlüğü sitesi ktb.gov.tr il siteleri genelde açılmadığından denenmedi."
+}
