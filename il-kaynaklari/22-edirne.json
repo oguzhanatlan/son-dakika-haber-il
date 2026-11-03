@@ -1,0 +1,193 @@
+{
+  "il": "Edirne",
+  "plaka": "22",
+  "slug": "edirne",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/edirne",
+  "buyuksehir": false,
+  "ilceler": [
+    "Enez",
+    "Havsa",
+    "İpsala",
+    "Keşan",
+    "Lalapaşa",
+    "Merkez",
+    "Meriç",
+    "Süloğlu",
+    "Uzunköprü"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Edirne Valiliği",
+      "url": "https://www.edirne.gov.tr/",
+      "duyuru_url": "https://www.edirne.gov.tr/duyurular",
+      "haber_url": "https://www.edirne.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200 dönüyor (soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Edirne Belediyesi",
+      "url": "https://www.edirne.bel.tr/",
+      "duyuru_url": "https://www.edirne.bel.tr/gundem/duyurular",
+      "haber_url": "https://www.edirne.bel.tr/gundem",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyurular /gundem/duyurular; haber listesi /gundem (tek tek haberler /gundem/haberdetay?haberid=...). /duyurular ve /haberler 404. Etkinlikler: /gundem/etkinlikler."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Edirne İl Milli Eğitim Müdürlüğü",
+      "url": "https://edirne.meb.gov.tr/",
+      "duyuru_url": "https://edirne.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://edirne.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://edirne.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adreslerinin hepsi 200 dönüyor."
+    },
+    {
+      "tur": "su",
+      "kurum": "Edirne Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.edirne.bel.tr/kurumsal/mudurlukdetaybirim?birimid=21",
+      "duyuru_url": "https://www.edirne.bel.tr/gundem/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (e-posta sukanalmd@edirne.bel.tr). Planlı su kesintisi için ayrı bir sayfa bulunamadı; kesinti ve su sıkıntısı duyuruları belediyenin genel duyuru/gündem sayfasında ve yerel basında çıkıyor. İl merkezinin suyu Süloğlu ve Kayalıköy barajları ile Paşaçayırı kuyularından sağlanıyor (kuraklıkta baraj seviyesi haber konusu oluyor)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Trakya Elektrik Dağıtım A.Ş. (TREDAŞ)",
+      "url": "https://www.tredas.com.tr/",
+      "duyuru_url": "https://www.tredas.com.tr/tr/planli-elektrik-kesintileri",
+      "durum": 200,
+      "not": "TREDAŞ Edirne, Kırklareli ve Tekirdağ'da hizmet veriyor (IC Holding sayfası ve haber arama sonuçlarıyla doğrulandı). Planlı kesintiler: /tr/planli-elektrik-kesintileri, anlık kesintiler: /tr/anlik-elektrik-kesintileri, tablo: /tr/kesintiler-tablosu (üçü de 200); sayfalar form/JS tabanlı olabilir, il-ilçe seçimi gerekebilir. Genel duyurular: https://www.tredas.com.tr/tr/duyurular. www.tredas.com.tr/planli-kesintiler ve /tr/planli-kesintiler 404."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "GAZDAŞ Trakya Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://gazdastrakya.com.tr/",
+      "duyuru_url": "https://gazdastrakya.com.tr/category/duyurular/",
+      "haber_url": "https://gazdastrakya.com.tr/haberler/",
+      "durum": 200,
+      "not": "e-Devlet Edirne doğalgaz şirketleri listesinde GAZDAŞ Trakya yer alıyor; Edirne (Merkez, İpsala, Enez, Keşan, Uzunköprü) yetkili işlem merkezleri var. Planlı/plansız kesinti sayfası: https://online.gazdastrakya.com.tr/planli-plansiz-kesintiler (200, büyük olasılıkla dinamik). Acil hat 187. www.gazdas.com.tr açılmıyor; gazdastrakya.com.tr kullan. Trakyagaz.com.tr endüstriyel gaz firması, dağıtım şirketi değil."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Edirne İl Sağlık Müdürlüğü",
+      "url": "https://edirneism.saglik.gov.tr/",
+      "duyuru_url": "https://edirneism.saglik.gov.tr/TR-22920/duyurular.html",
+      "haber_url": "https://edirneism.saglik.gov.tr/TR-129571/haberler.html",
+      "durum": 200,
+      "not": "Adres edirneism.saglik.gov.tr. Alt sayfa kimlikleri ana sayfa bağlantılarından alındı (TR-22920 duyurular, TR-129571 haberler, TR-98198 haber arşivi). Not: Amasya dosyasındaki TR-46346 kimliği Edirne'de yanlışlıkla başka ile yönleniyor, kullanma."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Edirne İl Emniyet Müdürlüğü",
+      "url": "https://edirne.pol.tr/",
+      "duyuru_url": "https://edirne.pol.tr/duyurular",
+      "haber_url": "https://edirne.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi edirne.pol.tr. Üçü de 200, 'bulunamadı' içeriği yok. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Edirne İl Jandarma Komutanlığı",
+      "url": "https://edirne.jandarma.gov.tr/",
+      "duyuru_url": "https://edirne.jandarma.gov.tr/duyurular",
+      "haber_url": "https://edirne.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon (kaçakçılık, düzensiz göçmen vb.) haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Edirne Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://edirne.afad.gov.tr/",
+      "duyuru_url": "https://edirne.afad.gov.tr/duyurular",
+      "haber_url": "https://edirne.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Trakya Üniversitesi",
+      "url": "https://www.trakya.edu.tr/",
+      "duyuru_url": "https://www.trakya.edu.tr/tum-duyurular",
+      "haber_url": "https://www.trakya.edu.tr/tum-haberler",
+      "durum": 200,
+      "not": "Edirne'deki devlet üniversitesi. /duyurular ve /haberler 404; doğru adresler /tum-duyurular, /tum-haberler (ayrıca /tum-etkinlikler, /diger-haberler). Duyurular idari/akademik ağırlıklı. Trakya Üniversitesi Sağlık Uygulama ve Araştırma Hastanesi de sık haber konusu."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Keşan Belediyesi",
+      "url": "https://www.kesan.bel.tr/",
+      "duyuru_url": "https://www.kesan.bel.tr/duyurular",
+      "haber_url": "https://www.kesan.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra en büyük ilçe (yaklaşık 85 bin nüfus, 2024). Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Uzunköprü Belediyesi",
+      "url": "https://uzunkopru.bel.tr/",
+      "duyuru_url": "https://uzunkopru.bel.tr/duyurular/",
+      "haber_url": "https://uzunkopru.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Nüfusça üçüncü büyük (yaklaşık 59 bin). Sitenin SSL sertifikası/zinciri hatalı: normal curl 000 (SSL hatası, çıkış kodu 60), curl -k ile 200. Tarayıcı/WebFetch'te sorun çıkabilir. www.uzunkopru.bel.tr de aynı sorunu veriyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İpsala Belediyesi",
+      "url": "https://www.ipsala.bel.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ana sayfa tek sayfa uygulaması gibi; /duyurular ve /haberler da index.html'e yönleniyor (soft), ayrı duyuru/haber listesi bulunamadı. Kapıkule'ye yakın Bulgaristan sınırındaki ilçe; haberler için ağırlıkla Google Haberler kullanılmalı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Edirne İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://edirne.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "edirne.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; adres kayıt için saklandı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Edirne+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Edirne Haber",
+      "url": "https://www.edirnehaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "ETV - Edirne Televizyonu",
+      "url": "https://www.edirnetv.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "DHA Edirne bölümü (ajans)",
+      "url": "https://www.dha.com.tr/edirne/merkez-haber/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (TREDAŞ) ve doğalgaz kesintisi (GAZDAŞ Trakya)",
+    "içme suyu sıkıntısı, barajların (Süloğlu, Kayalıköy) kuraklık ve doluluk durumu, su kesintileri",
+    "Meriç, Tunca ve Arda nehirlerinde taşkın/sel uyarıları ve yağış",
+    "Kapıkule ve İpsala sınır kapıları: tır kuyrukları, yolcu yoğunluğu, kaçakçılık yakalamaları",
+    "düzensiz göçmen operasyonları ve sınır güvenliği haberleri",
+    "Kırkpınar Yağlı Güreşleri ve Edirne Kakava, Tunca festivalleri, Selimiye ve tarihî mekânlar",
+    "tarım: ayçiçeği, buğday ve pirinç hasadı, don/dolu zararı, çiftçi destekleri",
+    "kar nedeniyle okul tatili ve yol kapanması, Trakya bölgesinde fırtına ve hava durumu"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, sağlık, belediye ve Trakya Üniversitesi sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve içeriklerinde 'bulunamadı' soft 404 işareti yok. Edirne Belediyesi duyuruları /gundem/duyurular altında, haberler /gundem ana listesinde. Trakya Üniversitesi duyuruları /tum-duyurular. Elektrik şirketi TREDAŞ (planlı kesinti sayfası form/JS tabanlı). Doğalgaz dağıtımcısı GAZDAŞ Trakya (gazdastrakya.com.tr). Su için ayrı idare yok. Uzunköprü Belediyesi SSL hatası veriyor (curl -k gerekir). Kültür Turizm Müdürlüğü sitesi açılmıyor. Yurt dışı IP engeli görülmedi. Yerel haber sitelerinden edirnehaber.net 'Coming Soon' sayfası olduğu için listeye alınmadı; diğer aday alan adları (edirnehaber.com.tr, edirnehaberleri.com vb.) açılmadı."
+}

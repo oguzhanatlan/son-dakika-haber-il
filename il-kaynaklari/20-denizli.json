@@ -1,0 +1,216 @@
+{
+  "il": "Denizli",
+  "plaka": "20",
+  "slug": "denizli",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/denizli",
+  "buyuksehir": true,
+  "ilceler": [
+    "Acıpayam",
+    "Babadağ",
+    "Baklan",
+    "Bekilli",
+    "Beyağaç",
+    "Bozkurt",
+    "Buldan",
+    "Çal",
+    "Çameli",
+    "Çardak",
+    "Çivril",
+    "Güney",
+    "Honaz",
+    "Kale",
+    "Merkezefendi",
+    "Pamukkale",
+    "Sarayköy",
+    "Serinhisar",
+    "Tavas"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Denizli Valiliği",
+      "url": "https://www.denizli.gov.tr/",
+      "duyuru_url": "https://www.denizli.gov.tr/duyurular",
+      "haber_url": "https://www.denizli.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar (ikisi de 200, soft-404 yok). Kar tatili, yol, olağanüstü durum ve basın duyuruları burada."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Denizli Büyükşehir Belediyesi",
+      "url": "https://www.denizli.bel.tr/",
+      "duyuru_url": "https://www.denizli.bel.tr/duyurular",
+      "haber_url": "https://www.denizli.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi (19 ilçe). /duyurular ihale ve idari ilanlar ağırlıklı, haberler /haberler. Ana sayfada DESKİ, Denizli Ulaşım ve kapalı yollar bağlantıları var; /Haberler (büyük H) ve /ulasim 404 veriyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Denizli İl Milli Eğitim Müdürlüğü",
+      "url": "https://denizli.meb.gov.tr/",
+      "duyuru_url": "https://denizli.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://denizli.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://denizli.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor. Okul tatili gibi kararlar valilik duyurularında da çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Denizli Su ve Kanalizasyon İdaresi Genel Müdürlüğü (DESKİ)",
+      "url": "https://www.deski.gov.tr/",
+      "duyuru_url": "https://www.deski.gov.tr/tum-duyurular",
+      "haber_url": "https://www.deski.gov.tr/tum-haberler",
+      "ariza_url": "https://sukesinti.deski.gov.tr/",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi DESKİ. Planlı/plansız su kesintisi için 'DESKİ Arıza Bilgileri Portalı' https://sukesinti.deski.gov.tr/ (www.deski.gov.tr/su-kesintisi buraya yönleniyor; 200, JS tabanlı olabilir). /tum-duyurular ağırlıkla ihale/meclis/kampanya; kesinti haberleri portal ve yerel basında. Ana sayfa büyükşehir haberlerini de gösteriyor. Akbaş Barajı doluluk duyurusu: https://www.deski.gov.tr/duyuru/akbas-baraji-doluluk-orani."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "ADM Elektrik Dağıtım A.Ş. (Aydem Grubu)",
+      "url": "https://www.admelektrik.com.tr/",
+      "duyuru_url": "https://www.admelektrik.com.tr/bilgi-merkezi/planli-bakim-ve-iyilestirme-calismalari",
+      "haber_url": "https://www.admelektrik.com.tr/bilgi-merkezi/duyurular",
+      "durum": 200,
+      "not": "Aydın, Denizli ve Muğla'da hizmet veriyor (aydemenerji.com.tr elektrik dağıtım sayfasında doğrulandı). Planlı kesintiler 'Planlı Bakım ve İyileştirme Çalışmaları' sayfasında harita/liste (JS ve harita çerezi gerektirebilir); /planli-kesintiler 404. Arıza hattı 186. Yerel basın günlük kesinti listesini ADM kaynaklı yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Denizli Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "https://www.enerya.com.tr/tr/kurumsal/basin-odasi/",
+      "durum": 200,
+      "not": "Eski adı Kentgaz; Enerya Enerji A.Ş. bağlı ortaklığı (KAP ve e-Devlet kaydıyla doğrulandı). Denizli'ye özel ayrı sayfa bulunamadı (/denizli 404); basın odası genel Enerya haberleri. Acil/arıza hattı 187. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Denizli İl Sağlık Müdürlüğü",
+      "url": "https://denizliism.saglik.gov.tr/",
+      "duyuru_url": "https://denizliism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres denizliism.saglik.gov.tr. Duyuru/haber alt sayfa adresi taranmadı; ana sayfa 200, soft-404 yok. Ana sayfadaki duyuru ve haber bölümlerine bakılmalı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Denizli İl Emniyet Müdürlüğü",
+      "url": "https://denizli.pol.tr/",
+      "duyuru_url": "https://denizli.pol.tr/duyurular",
+      "haber_url": "https://denizli.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi denizli.pol.tr. Duyuru ve haber sayfaları 200. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Denizli İl Jandarma Komutanlığı",
+      "url": "https://denizli.jandarma.gov.tr/",
+      "duyuru_url": "https://denizli.jandarma.gov.tr/duyurular",
+      "haber_url": "https://denizli.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında; sayfalar 200."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Denizli Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://denizli.afad.gov.tr/",
+      "duyuru_url": "https://denizli.afad.gov.tr/duyurular",
+      "haber_url": "https://denizli.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Pamukkale Üniversitesi",
+      "url": "https://www.pau.edu.tr/",
+      "duyuru_url": "https://www.pau.edu.tr/pau/tr/duyurular",
+      "haber_url": "https://haber.pau.edu.tr/",
+      "durum": 200,
+      "not": "Doğru duyuru adresi /pau/tr/duyurular (www.pau.edu.tr/duyurular ve /haberler 500 veriyor). Duyurular idari/akademik; kampüs haberleri haber.pau.edu.tr. (www.pamukkale.edu.tr açılmıyor, 000.)"
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Pamukkale Belediyesi",
+      "url": "https://www.pamukkale.bel.tr/",
+      "duyuru_url": "https://www.pamukkale.bel.tr/duyurular",
+      "haber_url": "https://www.pamukkale.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçelerden biri (nüfusça en büyük). Duyuru ve haber sayfaları 200. Karahayıt ve travertenler bu ilçede."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Merkezefendi Belediyesi",
+      "url": "https://www.merkezefendi.bel.tr/",
+      "duyuru_url": "https://www.merkezefendi.bel.tr/duyurular.aspx",
+      "haber_url": "https://www.merkezefendi.bel.tr/haberler.aspx",
+      "durum": 200,
+      "not": "Merkez ilçelerden biri. ASP.NET site: /duyurular ve /haberler 404, doğru adresler .aspx uzantılı (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çivril Belediyesi",
+      "url": "https://www.civril.bel.tr/",
+      "duyuru_url": "https://www.civril.bel.tr/duyurular",
+      "haber_url": "https://www.civril.bel.tr/haberler2",
+      "durum": 200,
+      "not": "Merkez ilçeler dışında nüfusu en büyük ilçelerden. Haberler /haberler2; /duyurular-genel ve /duyurular-ilanlar da var."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Denizli Ulaşım A.Ş.",
+      "url": "https://denizliulasim.com.tr/",
+      "duyuru_url": "https://denizliulasim.com.tr/haberler",
+      "haber_url": "https://denizliulasim.com.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesinin toplu taşıma şirketi. Haberler ve hat duyuruları (güzergah değişikliği, yeni hat) tek sayfada /haberler. SvelteKit tabanlı; veri HTML içine gömülü. (www.denizliulasim.com farklı bir taksi sitesi, kullanma.)"
+    },
+    {
+      "tur": "diger",
+      "kurum": "Denizli İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://denizli.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "denizli.ktb.gov.tr açılmıyor (curl 000); denizlikulturturizm.gov.tr de açılmadı. Kaynak olarak güvenilmemeli; adres kalıba göre kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Denizli+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberdenizli.com",
+      "url": "https://www.haberdenizli.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Denizli Haber",
+      "url": "https://www.denizlihaber.com/",
+      "rss": "https://www.denizlihaber.com/feed/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik (Gazete Birlik)",
+      "url": "https://www.gazetebirlik.com/yerel-haberler",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazete ABC",
+      "url": "https://www.gazeteabc.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (ADM Elektrik) ve planlı/plansız su kesintisi (DESKİ)",
+    "içme suyu ve baraj doluluğu (Akbaş Barajı), kuraklık ve su kısıtlaması",
+    "deprem ve AFAD bilgilendirmeleri (Büyük Menderes grabeni)",
+    "orman yangınları ve yaz sıcakları",
+    "kar nedeniyle okul tatili ve yüksek ilçelerde (Çameli, Acıpayam, Tavas, Çal) yol kapanmaları",
+    "Pamukkale travertenleri, Hierapolis ve Karahayıt turizmi; etkinlikler",
+    "toplu taşıma: Denizli Ulaşım hat/güzergah değişiklikleri ve ücret zamları",
+    "tekstil/ihracat ve sanayi (organize sanayi, iş kapanışları ve istihdam)",
+    "tarım: üzüm, zeytin, dolu ve don zararı"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma ve AFAD duyuru/haber sayfaları 200 dönüyor (soft 404 kontrolü temiz); yurt dışı IP engeli görülmedi. Sağlık müdürlüğü denizliism.saglik.gov.tr üzerinde; alt sayfa adresi taranmadı. Su kesintisi için DESKİ arıza portalı sukesinti.deski.gov.tr; elektrik için ADM Elektrik planlı kesinti sayfası harita/JS tabanlı, günlük kesinti listeleri yerel basında da çıkıyor. Doğalgaz Enerya (eski Kentgaz). Pamukkale Üniversitesi'nin doğru duyuru adresi /pau/tr/duyurular (www.pau.edu.tr/duyurular 500). Merkezefendi Belediyesi sitesi .aspx uzantılı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel gazete ipuçları yalnızca konu bulmak içindir; denizlitv.com başlıksız, denizlihaberler.com 'Yakında' sayfası, denizlihaber20.com ve denizlihaberajansi.com açılmıyor, bunlar listeye alınmadı."
+}

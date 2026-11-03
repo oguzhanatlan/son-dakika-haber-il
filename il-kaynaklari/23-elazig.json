@@ -1,0 +1,199 @@
+{
+  "il": "Elazığ",
+  "plaka": "23",
+  "slug": "elazig",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/elazig",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ağın",
+    "Alacakaya",
+    "Arıcak",
+    "Baskil",
+    "Karakoçan",
+    "Keban",
+    "Kovancılar",
+    "Maden",
+    "Merkez",
+    "Palu",
+    "Sivrice"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Elazığ Valiliği",
+      "url": "https://www.elazig.gov.tr/",
+      "duyuru_url": "https://www.elazig.gov.tr/duyurular",
+      "haber_url": "https://www.elazig.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.elazig.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar; kar tatili gibi valilik kararları basın açıklaması olarak yayımlanıyor. Ayrıca /validen-haberler sayfası var."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Elazığ Belediyesi",
+      "url": "https://www.elazig.bel.tr/",
+      "duyuru_url": "https://www.elazig.bel.tr/duyurular/",
+      "haber_url": "https://www.elazig.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Su kesintisi duyuruları ayrı sayfada değil, /haberler ve /duyurular içinde yayımlanıyor. Ayrıca /etkinlikler/, /ihale-ilanlari/, /meclis-kararlari/."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Elazığ İl Milli Eğitim Müdürlüğü",
+      "url": "https://elazig.meb.gov.tr/",
+      "duyuru_url": "https://elazig.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://elazig.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://elazig.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor; sayfalarda 'bulunamadı' ifadesi yok."
+    },
+    {
+      "tur": "su",
+      "kurum": "Elazığ Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.elazig.bel.tr/mudurluk/su-ve-kanalizasyon-mudurlugu/",
+      "duyuru_url": "https://www.elazig.bel.tr/duyurular/",
+      "haber_url": "https://www.elazig.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı/arızalı su kesintileri belediyenin haber/duyuru yazıları olarak çıkıyor (ör. 'Elazığ Belediyesi'nden Planlı Su Kesintisi Duyurusu'); ayrı bir kesinti listesi sayfası bulunamadı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Fırat Elektrik Dağıtım A.Ş. (Fırat EDAŞ)",
+      "url": "https://www.firatedas.com.tr/",
+      "duyuru_url": "https://www.firatedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "haber_url": "https://www.firatedas.com.tr/BizdenHaberler/Duyurular",
+      "durum": 200,
+      "not": "Fırat EDAŞ Elazığ, Malatya, Bingöl ve Tunceli'de elektrik dağıtımı yapıyor (şirketin kendi 'Hakkımızda/Tarihçe' sayfasında doğrulandı; merkezi Elazığ). Bakım programı ve kesinti listesi sayfası il/ilçe seçimli filtre ile çalışıyor (form/JS tabanlı, düz curl ile liste çekilemiyor)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Elazığ Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/elazig",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "basin_aciklamalari_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz grubu; yatırım bölgeleri Elazığ merkez, Karakoçan, Kovancılar, Palu, Sivrice, Keban, Baskil ve bazı belde/köyler. Duyuru ve basın bülteni sayfaları grup geneli; Elazığ'a özgü planlı gaz kesintisi duyurusu nadir. Eski elaziggaz.com.tr adresi açılmıyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Elazığ İl Sağlık Müdürlüğü",
+      "url": "https://elazigism.saglik.gov.tr/",
+      "duyuru_url": "https://elazigism.saglik.gov.tr/TR-51373/duyurular.html",
+      "haber_url": "https://elazigism.saglik.gov.tr/TR-51372/haberler.html",
+      "durum": 200,
+      "not": "Adres elazigism.saglik.gov.tr. Duyurular ağırlıklı personel/atama/aile hekimliği; halk sağlığı haberleri /haberler. Dikkat: Amasya örneğindeki TR-46346/TR-46350 kimlikleri bu ilde geçersiz (Amasya sitesine yönleniyor), doğru kimlikler TR-51373 ve TR-51372."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Elazığ İl Emniyet Müdürlüğü",
+      "url": "https://elazig.pol.tr/",
+      "duyuru_url": "https://elazig.pol.tr/duyurular",
+      "haber_url": "https://elazig.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi elazig.pol.tr (egm.gov.tr/elazig 404). Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Elazığ İl Jandarma Komutanlığı",
+      "url": "https://elazig.jandarma.gov.tr/",
+      "duyuru_url": "https://elazig.jandarma.gov.tr/duyurular",
+      "haber_url": "https://elazig.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Elazığ Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://elazig.afad.gov.tr/",
+      "duyuru_url": "https://elazig.afad.gov.tr/duyurular",
+      "haber_url": "https://elazig.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. 24 Ocak 2020 Sivrice depremi nedeniyle bölgede deprem haberleri sık çıkıyor."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Fırat Üniversitesi",
+      "url": "https://www.firat.edu.tr/tr",
+      "duyuru_url": "https://www.firat.edu.tr/tr/page/announcement",
+      "haber_url": "https://www.firat.edu.tr/tr/page/news",
+      "durum": 200,
+      "not": "www.firat.edu.tr /tr'ye yönleniyor. Duyurular idari/akademik (ilan, kayıt, sınav) ağırlıklı; kampüs haberleri /tr/page/news. Etkinlikler: /tr/page/event."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kovancılar Belediyesi",
+      "url": "https://www.kovancilar.bel.tr/",
+      "duyuru_url": "https://www.kovancilar.bel.tr/duyurular",
+      "haber_url": "https://www.kovancilar.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusça en büyük ilçe (2024 TÜİK yaklaşık 38,6 bin)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karakoçan Belediyesi",
+      "url": "https://www.karakocan.bel.tr/",
+      "duyuru_url": "https://www.karakocan.bel.tr/duyurular",
+      "haber_url": "https://www.karakocan.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça ikinci büyük ilçe (2024 TÜİK yaklaşık 28,6 bin)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Palu Belediyesi",
+      "url": "https://www.palu.bel.tr/",
+      "duyuru_url": "https://www.palu.bel.tr/duyurular",
+      "haber_url": "https://www.palu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça üçüncü büyük ilçe (2024 TÜİK yaklaşık 17,9 bin). Sivrice Belediyesi (sivrice.bel.tr) 403 verdi, listeye alınmadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Elazığ İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://elazig.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Doğrulanmadı: ktb.gov.tr il siteleri genelde açılmıyor, brief gereği zaman harcanmadı. Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Elaz%C4%B1%C4%9F+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Günışığı Gazetesi",
+      "url": "https://www.gunisigigazetesi.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kanal 23",
+      "url": "https://kanal23.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "GZT23 (Gazete 23)",
+      "url": "https://www.gzt23.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Elazığ Son Baskı",
+      "url": "https://www.elazigsonbaski.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Fırat EDAŞ) ve planlı/arızalı su kesintisi (Elazığ Belediyesi)",
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Karakoçan, Maden, Palu, Alacakaya, Ağın, Sivrice kesimi)",
+    "deprem ve AFAD bilgilendirmeleri (Doğu Anadolu Fay Hattı, 2020 Sivrice depremi sonrası hassasiyet)",
+    "Hazar Gölü, Keban Barajı ve Karakaya Barajı su seviyesi ile balıkçılık/turizm",
+    "Harput, Buzluk Mağarası ve Hazar Gölü turizmi, kültürel etkinlikler",
+    "Elazığ trafik kazaları ve Elazığ-Malatya/Bingöl/Diyarbakır karayolları durumu",
+    "Fırat Üniversitesi, öğrenci yurtları ve kayıt/yerleştirme duyuruları",
+    "tarım ve hayvancılık: kayısı/üzüm hasadı, don ve dolu zararı; madencilik (Maden ilçesi bakır)"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, üniversite ve ilçe belediye sitelerinin duyuru/haber sayfaları 200 dönüyor ve soft 404 görünmüyor. Kritik ayrıntılar: Sağlık Müdürlüğü alt sayfa kimlikleri TR-51373 (duyuru) ve TR-51372 (haber), Amasya'dakilerle aynı değil. Su için ayrı idare yok; kesinti duyuruları elazig.bel.tr haber/duyuru akışında. Fırat EDAŞ kesinti listesi form/JS tabanlı. Kültür Turizm Müdürlüğü sitesi doğrulanamadı. Yurt dışı IP engeli gözlenmedi (sivrice.bel.tr 403 verdi)."
+}

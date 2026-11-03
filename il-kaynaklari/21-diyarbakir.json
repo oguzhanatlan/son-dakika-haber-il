@@ -1,0 +1,226 @@
+{
+  "il": "Diyarbakır",
+  "plaka": "21",
+  "slug": "diyarbakir",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/diyarbakir",
+  "buyuksehir": true,
+  "ilceler": [
+    "Bağlar",
+    "Bismil",
+    "Çermik",
+    "Çınar",
+    "Çüngüş",
+    "Dicle",
+    "Eğil",
+    "Ergani",
+    "Hani",
+    "Hazro",
+    "Kayapınar",
+    "Kocaköy",
+    "Kulp",
+    "Lice",
+    "Silvan",
+    "Sur",
+    "Yenişehir"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Diyarbakır Valiliği",
+      "url": "https://www.diyarbakir.gov.tr/",
+      "duyuru_url": "https://www.diyarbakir.gov.tr/duyurular",
+      "haber_url": "https://www.diyarbakir.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200 dönüyor, soft 404 yok."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Diyarbakır Büyükşehir Belediyesi",
+      "url": "https://diyarbakir.bel.tr/",
+      "duyuru_url": "https://diyarbakir.bel.tr/duyurular",
+      "haber_url": "https://diyarbakir.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Site JS (Next.js) tabanlı; /icerik/duyurular ve /icerik/haberler da /duyurular ve /haberler'e yönleniyor. Sayfalardaki 'bulunamadı' ifadeleri arayüz metin sözlüğünden, gerçek 404 değil. Ulaşım bilgisi: https://diyarbakir.bel.tr/hizmetler/ulastirma-hizmetleri (200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Diyarbakır İl Milli Eğitim Müdürlüğü",
+      "url": "https://diyarbakir.meb.gov.tr/",
+      "duyuru_url": "https://diyarbakir.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://diyarbakir.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://diyarbakir.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor. /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Diyarbakır Su ve Kanalizasyon İdaresi Genel Müdürlüğü (DİSKİ)",
+      "url": "https://diski.gov.tr/",
+      "duyuru_url": "https://diski.gov.tr/duyuru/",
+      "haber_url": "https://diski.gov.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir belediyesine bağlı ayrı su idaresi. Planlı kesinti/arıza duyuruları 'DİSKİ Su Kesintisi Duyurusu' başlıklı yazılar olarak /duyuru/ altında (örn. /duyuru/diski-su-kesintisi-duyurusu-3/); ayrı bir planlı kesinti listesi sayfası yok (/planli-su-kesintileri 404). Duyurular karışık: genel kurul, ihale, sınav, arıza/kesinti. www.diski.gov.tr diski.gov.tr'ye yönleniyor. disky.gov.tr gibi benzer adresler açılmıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Dicle Elektrik Dağıtım A.Ş. (DEDAŞ)",
+      "url": "https://www.dedas.com.tr/",
+      "duyuru_url": "https://www.dedas.com.tr/planli-kesinti",
+      "haber_url": "https://www.dedas.com.tr/haberler",
+      "durum": 200,
+      "not": "DEDAŞ Diyarbakır, Batman, Mardin, Siirt, Şanlıurfa ve Şırnak'ta hizmet veriyor (dağıtım bölgesi arama sonuçları ve basın haberleriyle doğrulandı; DEDAŞ sitesi doğrudan e-Devlet/EPDK'dan ayrıca teyit edilmedi). Site Angular tabanlı (JS), planlı kesinti sayfası curl ile içerik vermez; /duyurular da 200. Planlı kesintiler yerel basında da yayımlanıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Diyarbakır Doğalgaz Dağıtım A.Ş. (Diyargaz)",
+      "url": "https://www.diyargaz.com.tr/",
+      "duyuru_url": "https://www.diyargaz.com.tr/contents",
+      "durum": 200,
+      "not": "Sitenin başlığı 'Diyarbakır Doğalgaz Dağıtım A.Ş.'. Duyurular /contents altında (örn. Bismil, Çermik, Ergani ve Silvan ilçeleri için duyuru, CNG/LNG ihale ilanları). Duyuru sayısı az; planlı gaz kesintisi nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Diyarbakır İl Sağlık Müdürlüğü",
+      "url": "https://diyarbakirism.saglik.gov.tr/",
+      "duyuru_url": "https://diyarbakirism.saglik.gov.tr/TR-131289/duyurular.html",
+      "haber_url": "https://diyarbakirism.saglik.gov.tr/TR-143003/haberler.html",
+      "durum": 200,
+      "not": "Adres diyarbakirism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler. Alt sayfa adresleri ana sayfadaki bağlantılardan alındı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Diyarbakır İl Emniyet Müdürlüğü",
+      "url": "https://diyarbakir.pol.tr/",
+      "duyuru_url": "https://diyarbakir.pol.tr/duyurular",
+      "haber_url": "https://diyarbakir.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi diyarbakir.pol.tr; duyuru ve haber sayfaları 200, soft 404 yok."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Diyarbakır İl Jandarma Komutanlığı",
+      "url": "https://diyarbakir.jandarma.gov.tr/",
+      "duyuru_url": "https://diyarbakir.jandarma.gov.tr/duyurular",
+      "haber_url": "https://diyarbakir.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Diyarbakır Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://diyarbakir.afad.gov.tr/",
+      "duyuru_url": "https://diyarbakir.afad.gov.tr/duyurular",
+      "haber_url": "https://diyarbakir.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Dicle Üniversitesi",
+      "url": "https://dicle.edu.tr/",
+      "duyuru_url": "https://dicle.edu.tr/duyurular",
+      "haber_url": "https://dicle.edu.tr/haberler",
+      "durum": 200,
+      "not": "www.dicle.edu.tr dicle.edu.tr'ye yönleniyor. Duyurular idari/akademik ağırlıklı, haberler ayrı sayfada."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kayapınar Belediyesi",
+      "url": "https://www.kayapinar.bel.tr/",
+      "duyuru_url": "https://kayapinar.bel.tr/duyurular",
+      "haber_url": "https://kayapinar.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçelerden en kalabalıklarından biri; duyuru ve haber sayfaları 200, soft 404 yok."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bağlar Belediyesi",
+      "url": "https://www.baglar.bel.tr/tr",
+      "duyuru_url": "https://www.baglar.bel.tr/tr/cat/duyuru",
+      "haber_url": "https://www.baglar.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "baglar.bel.tr www.baglar.bel.tr/tr'ye yönleniyor. /tr/duyurular 404; duyurular /tr/cat/duyuru altında (meclis çalışmaları, imar ilanları ağırlıklı)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yenişehir Belediyesi",
+      "url": "https://yenisehir.bel.tr/",
+      "duyuru_url": "https://yenisehir.bel.tr/duyurular",
+      "haber_url": "https://yenisehir.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe; duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sur Belediyesi",
+      "url": "https://www.sur.bel.tr/",
+      "duyuru_url": "https://www.sur.bel.tr/duyuru",
+      "haber_url": "https://www.sur.bel.tr/haber",
+      "durum": 200,
+      "not": "Tarihi kent merkezi (Surlar, Hevsel Bahçeleri). /duyurular ve /haberler 404; doğru adresler tekil /duyuru ve /haber."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Diyarbakır Büyükşehir Belediyesi Ulaşım Hizmetleri",
+      "url": "https://diyarbakir.bel.tr/hizmetler/ulastirma-hizmetleri",
+      "duyuru_url": "https://diyarbakir.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Belediye otobüs/ulaşım bilgisi belediye sitesinde; ayrı bir ulaşım işletmesi sitesi doğrulanmadı. Yol kapatma, trafik düzenlemesi ve hat değişiklikleri /duyurular içinde çıkıyor (örn. Göçmenler Caddesi trafiğe kapatılacak, kent içi hız sınırı düzenlemesi)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Diyarbakır İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://diyarbakir.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "diyarbakir.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli, adres tahmine dayalı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Diyarbak%C4%B1r+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Diyarbakır Söz",
+      "url": "https://diyarbakirsoz.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Diyarbakır Son Haber",
+      "url": "https://www.diyarbakirsonhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Diyarbakırda Bugün",
+      "url": "https://www.diyarbakirdabugun.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "DHA Diyarbakır (Demirören Haber Ajansı, bölge sayfası)",
+      "url": "https://www.dha.com.tr/diyarbakir/merkez-haber/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Diyarbakır bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/diyarbakir/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi ve arızalar (DEDAŞ), elektrik kesintisine bağlı su arzı sorunları",
+    "su kesintisi ve içme suyu arızaları (DİSKİ), Dicle Barajı ve şehir merkezi su arıtma projeleri",
+    "yaz aşırı sıcaklığı, kış kar/buzlanma nedeniyle okul tatili ve yol kapanması (Lice, Kulp, Hani, Dicle ilçeleri)",
+    "sağanak yağış, su baskını ve sel uyarıları",
+    "trafik düzenlemeleri, yol kapatmaları ve toplu taşıma hat değişiklikleri (Büyükşehir)",
+    "tarım ve hayvancılık: Diyarbakır karpuzu, buğday/arpa hasadı, don ve dolu zararı",
+    "turizm ve kültür: Diyarbakır Surları, Hevsel Bahçeleri, Ulu Cami, Dicle Köprüsü, festival ve etkinlikler",
+    "deprem ve AFAD bilgilendirmeleri (Doğu Anadolu Fay hattı yakınlığı)"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, DİSKİ, Dicle Üniversitesi ve ilçe belediyelerinin duyuru/haber alt sayfaları 200 dönüyor. Büyükşehir belediyesi sitesi Next.js tabanlı (içerik JS ile yüklenebilir); 'bulunamadı' ifadeleri arayüz sözlüğünden gelir. Su idaresi ayrı: DİSKİ (diski.gov.tr), planlı kesinti duyuruları /duyuru/ altında karışık biçimde. DEDAŞ sitesi Angular/JS, planlı kesinti sayfası curl ile boş görünür. Sağlık Müdürlüğü diyarbakirism.saglik.gov.tr üzerinde. Sur Belediyesi'nde tekil /duyuru ve /haber, Bağlar'da /tr/cat/duyuru kullanılıyor. Kültür Turizm Müdürlüğü sitesi doğrulanamadı. Yerel haber siteleri kontrol edildi: diyarbakirhaber.com satılık alan adı, diyarbakirgundem.com boş sayfa, ozgurhabergazetesi.com dizin listesi gösteriyor; bunlar listeye alınmadı. Erişim testlerinde yurt dışı IP engeli görülmedi."
+}

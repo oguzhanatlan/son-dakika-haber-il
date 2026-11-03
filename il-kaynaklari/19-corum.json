@@ -1,0 +1,193 @@
+{
+  "il": "Çorum",
+  "plaka": "19",
+  "slug": "corum",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/corum",
+  "buyuksehir": false,
+  "ilceler": [
+    "Alaca",
+    "Bayat",
+    "Boğazkale",
+    "Dodurga",
+    "İskilip",
+    "Kargı",
+    "Laçin",
+    "Mecitözü",
+    "Merkez",
+    "Oğuzlar",
+    "Ortaköy",
+    "Osmancık",
+    "Sungurlu",
+    "Uğurludağ"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Çorum Valiliği",
+      "url": "https://www.corum.gov.tr/",
+      "duyuru_url": "https://www.corum.gov.tr/duyurular",
+      "haber_url": "https://www.corum.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; her ikisi de 200 dönüyor, soft 404 yok. corum.gov.tr de 200."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Çorum Belediyesi",
+      "url": "https://www.corum.bel.tr/",
+      "duyuru_url": "https://www.corum.bel.tr/duyurular",
+      "haber_url": "https://www.corum.bel.tr/haberler",
+      "durum": 468,
+      "not": "Büyükşehir değil, il merkez belediyesi. Site Cloudflare arkasında; bu ortamdan tüm istekler HTTP 468 (özel engel kodu) dönüyor, içerik alınamadı. Alt sayfa adresleri (/duyurular, /haberler) doğrulanamadı, tahmini; erişilebilen ortamdan kontrol edilmeli. Belediye haberleri için yerel basın ve Google Haberler kullanılabilir."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Çorum İl Milli Eğitim Müdürlüğü",
+      "url": "https://corum.meb.gov.tr/",
+      "duyuru_url": "https://corum.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://corum.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://corum.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber sayfaları ve duyuru RSS'i 200 dönüyor. Kar tatili vb. duyurular genelde Valilik sitesinden de yayımlanır."
+    },
+    {
+      "tur": "su",
+      "kurum": "Çorum Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.corum.bel.tr/",
+      "duyuru_url": "https://www.corum.bel.tr/duyurular",
+      "durum": 468,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti Çorum Belediyesi yürütüyor. corum.bel.tr bu ortamdan 468 veriyor (Cloudflare engeli), planlı su kesintisi sayfası bulunamadı/doğrulanamadı. Kesinti duyuruları belediye duyuruları ve yerel basında çıkıyor. Baraj doluluğu/tasarruf çağrıları ilde sık haber konusu."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Yeşilırmak Elektrik Dağıtım A.Ş. (YEDAŞ)",
+      "url": "https://www.yedas.com/",
+      "duyuru_url": "https://www.yedas.com/planli-kesinti",
+      "durum": 200,
+      "not": "YEDAŞ Samsun, Ordu, Sinop, Amasya ve Çorum'da hizmet veriyor (arama sonuçları ve YEDAŞ yatırım haberleri; ör. DHA'da Osmancık YEDAŞ yatırımı haberi). Planlı kesinti sayfası harita/JS tabanlı, il-ilçe seçimi gerekebilir; yedas.com.tr SSL hatası verebilir, yedas.com kullan. Çorum'a özel bölge sayfası bulunamadı."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Çorumgaz Doğalgaz Dağıtım Sanayi ve Ticaret A.Ş. (Çorumgaz)",
+      "url": "https://www.corumgaz.com.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ahlatcı Holding bünyesinde, EPDK lisanslı dağıtım şirketi. Ayrı duyuru/basın sayfası bulunamadı (/duyurular ve /basin-aciklamalari 404). Basın açıklamaları PDF olarak /Dokumanlar/ altında yayımlanıyor (örn. çorumgaz_basınaçıklaması_08112024-post.pdf). Acil hat 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Çorum İl Sağlık Müdürlüğü",
+      "url": "https://corumism.saglik.gov.tr/",
+      "duyuru_url": "https://corumism.saglik.gov.tr/TR-486/duyurular.html",
+      "haber_url": "https://corumism.saglik.gov.tr/TR-484/haberler.html",
+      "durum": 200,
+      "not": "Adres corumism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /TR-484/haberler.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Çorum İl Emniyet Müdürlüğü",
+      "url": "https://corum.pol.tr/",
+      "duyuru_url": "https://corum.pol.tr/duyurular",
+      "haber_url": "https://corum.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi corum.pol.tr. Olay haberleri /haberler; duyurular çoğunlukla idari."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Çorum İl Jandarma Komutanlığı",
+      "url": "https://corum.jandarma.gov.tr/",
+      "duyuru_url": "https://corum.jandarma.gov.tr/duyurular",
+      "haber_url": "https://corum.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Çorum Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://corum.afad.gov.tr/",
+      "duyuru_url": "https://corum.afad.gov.tr/duyurular",
+      "haber_url": "https://corum.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Hitit Üniversitesi",
+      "url": "https://hitit.edu.tr/tr",
+      "duyuru_url": "https://hitit.edu.tr/tr/hitit/arsiv/duyuru",
+      "haber_url": "https://hitit.edu.tr/tr/hitit/arsiv/haber",
+      "durum": 200,
+      "not": "Ana adres hitit.edu.tr/tr'ye yönleniyor. /tr/duyurular 500 veriyor; arşiv sayfaları (/tr/hitit/arsiv/duyuru, /arsiv/haber) 200. Kampüs haberleri ayrıca https://haber.hitit.edu.tr/ (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sungurlu Belediyesi",
+      "url": "https://sungurlu.bel.tr/",
+      "duyuru_url": "https://sungurlu.bel.tr/icerik/gundem-ve-duyurular/duyurular",
+      "haber_url": "https://sungurlu.bel.tr/icerik/haberler",
+      "durum": 200,
+      "not": "SSL sertifika zinciri hatası: curl -k gerekiyor, normal doğrulamada bağlanamaz (exit 60); -k ile ana sayfa ve duyuru/haber sayfaları 200. Nüfusça merkezden sonra en büyük ilçelerden."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Osmancık Belediyesi",
+      "url": "https://osmancik.bel.tr/",
+      "duyuru_url": "https://osmancik.bel.tr/duyurular",
+      "haber_url": "https://osmancik.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Alaca Belediyesi",
+      "url": "https://www.alaca.bel.tr/",
+      "duyuru_url": "https://www.alaca.bel.tr/",
+      "haber_url": "https://www.alaca.bel.tr/haberler/",
+      "durum": 200,
+      "not": "WordPress; ayrı duyuru liste sayfası bulunamadı, duyurular ana sayfada ve yazı olarak çıkıyor. alaca.bel.tr www'ye yönlenir."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Çorum İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://corum.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "corum.ktb.gov.tr bu ortamdan açılmıyor (curl 000, bağlantı kesiliyor); arama sonuçlarında sayfaları var. Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%C3%87orum+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çorum Haber Gazetesi",
+      "url": "https://corumhaber.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çorum Hakimiyet",
+      "url": "https://www.corumhakimiyet.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Çorum bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/corum/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "içme suyu / baraj doluluğu, kuraklık ve su tasarrufu çağrıları, planlı su kesintisi",
+    "planlı elektrik kesintisi (YEDAŞ)",
+    "kar nedeniyle okul tatili ve yolların kapanması (Kargı, Uğurludağ, Osmancık, Bayat kesimi)",
+    "Çorum-Ankara/Samsun/Amasya yolları ve trafik kazaları",
+    "tarım: nohut, buğday, Osmancık pirinci; kuraklık, don ve dolu zararı",
+    "leblebi, Çorum baklavası ve şekeri gibi yöresel ürünler, coğrafi işaret ve fuarlar",
+    "Hattuşa, Alacahöyük, Boğazkale tarihi alanları ve turizm/kültür etkinlikleri",
+    "deprem (Kuzey Anadolu Fay Hattı yakınlığı) ve AFAD bilgilendirmeleri",
+    "Çorum FK ve yerel spor haberleri"
+  ],
+  "notlar": "Valilik, MEB, sağlık, emniyet, jandarma, AFAD sitelerinin duyuru/haber sayfaları 200 dönüyor (soft 404 yok). Çorum Belediyesi (corum.bel.tr) Cloudflare nedeniyle bu ortamdan HTTP 468 veriyor; alt sayfaları doğrulanamadı, belediye ve su kesintisi için yerel basına ve Google Haberler'e güvenmek gerekebilir. Su için ayrı idare yok. Elektrik YEDAŞ (planlı kesinti sayfası harita/JS tabanlı); doğalgaz Çorumgaz (duyuru sayfası yok). Sungurlu Belediyesi sitesi SSL zinciri hatalı (-k gerekir). Hitit Üniversitesi /tr/duyurular 500 veriyor, arşiv sayfalarını kullan. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel gazetelerde corumhaber.com satılık/boş domain, corumpostasi.com ve corumgazetesi.com açılmıyor; listeye alınmadı. Yurt dışı IP engeli gözlenmedi."
+}

@@ -1,0 +1,188 @@
+{
+  "il": "Çankırı",
+  "plaka": "18",
+  "slug": "cankiri",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/cankiri",
+  "buyuksehir": false,
+  "ilceler": [
+    "Atkaracalar",
+    "Bayramören",
+    "Çerkeş",
+    "Eldivan",
+    "Ilgaz",
+    "Kızılırmak",
+    "Korgun",
+    "Kurşunlu",
+    "Merkez",
+    "Orta",
+    "Şabanözü",
+    "Yapraklı"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Çankırı Valiliği",
+      "url": "https://www.cankiri.gov.tr/",
+      "duyuru_url": "https://www.cankiri.gov.tr/duyurular",
+      "haber_url": "https://www.cankiri.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ayrıca /validen-haberler (200) sayfası var. cankiri.gov.tr www'ye yönleniyor. /basin-aciklamalari ve /basin-duyurulari 404 (Hata/Page404)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Çankırı Belediyesi",
+      "url": "https://cankiri.bel.tr/",
+      "duyuru_url": "https://cankiri.bel.tr/duyurular",
+      "haber_url": "https://cankiri.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. www.cankiri.bel.tr de cankiri.bel.tr'ye yönleniyor. Duyurular içinde içme suyu analiz raporları ve su sayaçlarıyla ilgili duyurular da çıkıyor (/duyurular/icme-suyu-analiz-raporlari)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Çankırı İl Milli Eğitim Müdürlüğü",
+      "url": "https://cankiri.meb.gov.tr/",
+      "duyuru_url": "https://cankiri.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://cankiri.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://cankiri.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adresleri 200 dönüyor. Kar/olumsuz hava tatili duyuruları valilik (cankiri.gov.tr) ve MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Çankırı Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://cankiri.bel.tr/mudurlukler/su-ve-kanalizasyon-mudurlugu/15",
+      "duyuru_url": "https://cankiri.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı duyuru sayfası bulunamadı (cankiri.bel.tr/su-kesintisi 404); kesinti/arıza duyuruları genel /duyurular ve /haberler içinde ve yerel basında çıkıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Başkent Elektrik Dağıtım A.Ş. (Başkent EDAŞ)",
+      "url": "https://baskentedas.com.tr/",
+      "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
+      "durum": 200,
+      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'ta hizmet veriyor (şirketin kendi sitesindeki 'Başkent EDAŞ Çankırı'nın enerji altyapısını güçlendirmeye devam ediyor' basın bülteni ve arama sonuçlarıyla doğrulandı). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekebilir). baskentedas.com.tr/planli-kesinti 200 dönse de /hata/404'e yönleniyor (soft 404), kullanma. Basın bültenleri: https://baskentedas.com.tr/basin-bultenleri (200)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Kargaz Doğalgaz Dağıtım Sanayi ve Ticaret A.Ş. (KarGaz)",
+      "url": "https://www.kargaz.com.tr/",
+      "duyuru_url": "https://www.kargaz.com.tr/HaberVeDuyurular.aspx",
+      "durum": 200,
+      "not": "KarGaz Karabük, Kastamonu, Çankırı, Kurşunlu, Gerede, Tosya, Safranbolu, Korgun ve Seydiler bölgesinde dağıtım yapıyor (kargaz.com.tr ana sayfasından doğrulandı). Haber ve duyurular HaberVeDuyurular.aspx sayfasında; planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Çankırı İl Sağlık Müdürlüğü",
+      "url": "https://cankirism.saglik.gov.tr/",
+      "duyuru_url": "https://cankirism.saglik.gov.tr/TR-205107/duyurular.html",
+      "haber_url": "https://cankirism.saglik.gov.tr/TR-42972/haberler.html",
+      "durum": 200,
+      "not": "Adres cankirism.saglik.gov.tr (kalıptaki cankiriism.saglik.gov.tr DNS'te yok, curl 000; cankiri.saglik.gov.tr de açılmıyor). Duyurular ağırlıklı personel/aile hekimliği/sertifika eğitimi; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Çankırı İl Emniyet Müdürlüğü",
+      "url": "https://cankiri.pol.tr/",
+      "duyuru_url": "https://cankiri.pol.tr/duyurular",
+      "haber_url": "https://cankiri.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi cankiri.pol.tr. Duyuru ve haber alt sayfaları 200 dönüyor; sayfa başlığı boş geliyor ama içerik var."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Çankırı İl Jandarma Komutanlığı",
+      "url": "https://cankiri.jandarma.gov.tr/",
+      "duyuru_url": "https://cankiri.jandarma.gov.tr/duyurular",
+      "haber_url": "https://cankiri.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Çankırı Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://cankiri.afad.gov.tr/",
+      "duyuru_url": "https://cankiri.afad.gov.tr/duyurular",
+      "haber_url": "https://cankiri.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Çankırı Karatekin Üniversitesi",
+      "url": "https://www.karatekin.edu.tr/",
+      "duyuru_url": "https://www.karatekin.edu.tr/tum-duyurular",
+      "haber_url": "https://www.karatekin.edu.tr/tum-haberler",
+      "durum": 200,
+      "not": "/duyurular ve /tr 404; doğru adresler /tum-duyurular ve /tum-haberler. Duyurular idari/akademik ağırlıklı, kampüs haberleri /tum-haberler altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çerkeş Belediyesi",
+      "url": "https://www.cerkes.bel.tr/",
+      "duyuru_url": "https://www.cerkes.bel.tr/duyurular",
+      "haber_url": "https://www.cerkes.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusça en büyük ilçe (yaklaşık 17 bin). Duyurularda imar askı ilanı gibi güncel ilanlar var."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Orta Belediyesi",
+      "url": "https://orta.bel.tr/",
+      "duyuru_url": "https://orta.bel.tr/duyurular",
+      "durum": 403,
+      "not": "Bu ortamdan curl ile 403 dönüyor (bot/IP engeli olabilir); adres kaydedildi ama içeriği doğrulanamadı, alt sayfa adresleri tahmini. Nüfusça ilçe sıralamasında ikinci (yaklaşık 14,7 bin)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ilgaz Belediyesi",
+      "url": "https://www.ilgaz.bel.tr/",
+      "duyuru_url": "https://www.ilgaz.bel.tr/TümHaberler/tabid/18721/",
+      "durum": 200,
+      "not": "DNN tabanlı site; /duyurular ve /haberler 404. Haber ve duyurular 'TümHaberler' sayfasında (ihale ilanları ağırlıklı). ilgaz.bel.tr (www'siz) açılmıyor (000), www'li adres kullanılmalı. Ilgaz Dağı kayak merkezi ve kış yolu haberleri için önemli ilçe."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Çankırı İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://cankiri.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "cankiri.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%C3%87ank%C4%B1r%C4%B1+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Olay 18",
+      "url": "https://www.olay18.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çankırı'da Yeni Gün Gazetesi",
+      "url": "https://www.cankiriyenigun.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çankırı Haber",
+      "url": "https://www.cankirihaber.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Başkent EDAŞ)",
+    "kar nedeniyle okul tatili ve köy yollarının kapanması",
+    "Ilgaz Dağı / Ilgaz geçidi kar, buzlanma ve yol durumu (Ankara-Kastamonu karayolu)",
+    "su kesintisi, içme suyu analizi ve altyapı çalışmaları",
+    "trafik kazaları (D100, Çankırı-Ankara, Çankırı-Kastamonu, Çankırı-Çorum yolları)",
+    "Çankırı Tuz Mağarası / Yer Altı Tuz Şehri ve turizm etkinlikleri",
+    "tarım ve hayvancılık: hayvan pazarları, kuraklık/don zararı, buğday ve nohut hasadı",
+    "deprem (Kuzey Anadolu Fay Hattı yakınlığı, Çerkeş-Ilgaz-Orta çevresi) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor; soft 404 kontrolünde 'bulunamadı' ifadesi çıkmadı (cankiri.bel.tr/duyurular'daki tek eşleşme arama kutusunun JS metni). Sağlık Müdürlüğü cankirism.saglik.gov.tr üzerinde (cankiriism yok). Karatekin duyuruları /tum-duyurular. Su için ayrı idare yok, planlı su kesintisi için özel sayfa bulunamadı; cankiri.bel.tr/duyurular ve haberler ile yerel basına bakılmalı. Başkent EDAŞ kesinti sorgulaması form/JS tabanlı (online.baskentedas.com.tr); baskentedas.com.tr/planli-kesinti soft 404. Orta Belediyesi (orta.bel.tr) 403 veriyor, Ilgaz Belediyesi sitesi eski DNN yapısında. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber siteleri: cankirigundem.com 'Yakında' sayfası olduğu için listeye alınmadı; olay18.com açılıyor ama sayfa başlığı boş (içerik JS tabanlı olabilir). Erişim testleri yurt dışı IP engeli göstermedi (orta.bel.tr dışında)."
+}

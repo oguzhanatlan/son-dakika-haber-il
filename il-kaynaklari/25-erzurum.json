@@ -1,0 +1,227 @@
+{
+  "il": "Erzurum",
+  "plaka": "25",
+  "slug": "erzurum",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/erzurum",
+  "buyuksehir": true,
+  "ilceler": [
+    "Aşkale",
+    "Aziziye",
+    "Çat",
+    "Hınıs",
+    "Horasan",
+    "İspir",
+    "Karaçoban",
+    "Karayazı",
+    "Köprüköy",
+    "Narman",
+    "Oltu",
+    "Olur",
+    "Palandöken",
+    "Pasinler",
+    "Pazaryolu",
+    "Şenkaya",
+    "Tekman",
+    "Tortum",
+    "Uzundere",
+    "Yakutiye"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Erzurum Valiliği",
+      "url": "https://erzurum.gov.tr/",
+      "duyuru_url": "https://erzurum.gov.tr/duyurular",
+      "haber_url": "https://erzurum.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, vali haberleri /validen-haberler (hepsi 200). www.erzurum.gov.tr de açılıyor. Basın açıklaması için ayrı sayfa bulunamadı (/basin-aciklamalari 404)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Erzurum Büyükşehir Belediyesi",
+      "url": "https://www.erzurum.bel.tr/",
+      "duyuru_url": "https://www.erzurum.bel.tr/duyurular",
+      "haber_url": "https://www.erzurum.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /duyurular, haberler /haberler (200). Ulaşım bilgileri ulasim.erzurum.bel.tr altında."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Erzurum İl Milli Eğitim Müdürlüğü",
+      "url": "https://erzurum.meb.gov.tr/",
+      "duyuru_url": "https://erzurum.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://erzurum.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://erzurum.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ilk denemede 500 verdi, sonraki denemede 200 döndü (aralıklı hata olabilir; tekrar dene). /www/duyurular/kategori/1 haberler sayfasına yönleniyor. Duyuru RSS 200. /acilduyurular/ 404, kullanma."
+    },
+    {
+      "tur": "su",
+      "kurum": "Erzurum Su ve Kanalizasyon İdaresi Genel Müdürlüğü (ESKİ)",
+      "url": "https://eski.gov.tr/",
+      "duyuru_url": "https://eski.gov.tr/duyurular",
+      "haber_url": "https://eski.gov.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesine bağlı ayrı su idaresi (Eskişehir'in ESKİ'si ile karıştırma; eski.gov.tr Erzurum'a ait, sayfa başlığı doğrulandı). Planlı su kesintileri '/{gg}{aa}{yyyy}-tarihli-su-kesintisi' biçiminde ayrı sayfalar olarak yayımlanıyor ve ana sayfada/duyurular listesinde çıkıyor. /su-kesintileri 404. Büyükşehir sitesindeki bağlantı da eski.gov.tr'ye gidiyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
+      "url": "https://arasedas.com/",
+      "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
+      "durum": 200,
+      "not": "Aras EDAŞ merkezi Erzurum; Erzurum, Ağrı, Ardahan, Bayburt, Erzincan, Iğdır ve Kars'a hizmet veriyor (arama sonuçlarıyla doğrulandı). Planlı kesinti sayfası il/ilçe/yıl/ay seçimli form (JS) tabanlı; içeriği doğrudan curl ile alınamayabilir. www.arasedas.com arasedas.com'a yönleniyor (/planli-kesinti 404)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "PALEN Enerji Doğalgaz Dağıtım Endüstri ve Ticaret A.Ş.",
+      "url": "https://palen.com.tr/",
+      "duyuru_url": "https://palen.com.tr/category/duyurular/",
+      "haber_url": "https://palen.com.tr/category/haberler/",
+      "durum": 200,
+      "not": "Erzurum doğalgaz dağıtım lisansı sahibi (Palmet Enerji grubu). Planlı/plansız kesinti sayfası: https://online.palen.com.tr/planli-plansiz-kesintiler (200). Planlı kesinti bilgilendirmeleri /category/duyurular/ içinde de çıkıyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Erzurum İl Sağlık Müdürlüğü",
+      "url": "https://erzurumism.saglik.gov.tr/",
+      "duyuru_url": "https://erzurumism.saglik.gov.tr/TR-22/duyurular.html",
+      "durum": 200,
+      "not": "Adres erzurumism.saglik.gov.tr. Duyuru sayfası 200; ağırlıklı idari/personel duyuruları olabilir."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Erzurum İl Emniyet Müdürlüğü",
+      "url": "https://erzurum.pol.tr/",
+      "duyuru_url": "https://erzurum.pol.tr/duyurular",
+      "haber_url": "https://erzurum.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi erzurum.pol.tr; duyurular ve haberler 200, 'bulunamadı' içeriği yok."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Erzurum İl Jandarma Komutanlığı",
+      "url": "https://erzurum.jandarma.gov.tr/",
+      "duyuru_url": "https://erzurum.jandarma.gov.tr/duyurular",
+      "haber_url": "https://erzurum.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler 200."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Erzurum Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://erzurum.afad.gov.tr/",
+      "duyuru_url": "https://erzurum.afad.gov.tr/duyurular",
+      "haber_url": "https://erzurum.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Atatürk Üniversitesi",
+      "url": "https://atauni.edu.tr/",
+      "duyuru_url": "https://atauni.edu.tr/tum-duyurular/",
+      "haber_url": "https://atauni.edu.tr/tum-haberler/",
+      "durum": 200,
+      "not": "www.atauni.edu.tr atauni.edu.tr'ye yönleniyor. /duyurular ve /haberler 404; doğru adresler /tum-duyurular/ ve /tum-haberler/."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Erzurum Teknik Üniversitesi",
+      "url": "https://erzurum.edu.tr/",
+      "duyuru_url": "https://erzurum.edu.tr/duyuru/index/30/1/",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; duyuru listesi /duyuru/index/30/1/ (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yakutiye Belediyesi",
+      "url": "https://www.yakutiye.bel.tr/",
+      "duyuru_url": "https://www.yakutiye.bel.tr/icerikliste.php?Id=2&s=1",
+      "haber_url": "https://www.yakutiye.bel.tr/icerikliste.php?Id=1&s=1",
+      "durum": 200,
+      "not": "Merkez ilçe. /duyurular ve /haberler 404; ana sayfadaki 'Tüm Duyurular' (Id=2) ve 'Tüm Etkinlikler/Güncel Haberler' (Id=1) listeleri kullanılıyor. 'Basında biz': Id=15."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Palandöken Belediyesi",
+      "url": "https://www.palandoken.bel.tr/",
+      "duyuru_url": "https://www.palandoken.bel.tr/duyurular",
+      "haber_url": "https://www.palandoken.bel.tr/haberler",
+      "durum": 0,
+      "not": "Merkez ilçe (Palandöken kayak merkezi). Sertifika/TLS sorunu: normal curl 000 döndürüyor, curl -k ile ana sayfa ve /duyurular 200 (http://www... 301 ile https'e yönleniyor). /haberler -k ile 500 verdi; haber bağlantıları ana sayfada '/haber/...' biçiminde. Sonuç: erişimde sertifika hatasına karşı -k gerekebilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Aziziye Belediyesi",
+      "url": "https://www.aziziye.bel.tr/",
+      "duyuru_url": "https://aziziye.bel.tr/duyurular",
+      "haber_url": "https://aziziye.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe. Duyurular ve haberler 200."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Erzurum Büyükşehir Belediyesi Ulaşım (ErzurumKart / Kentkart)",
+      "url": "https://ulasim.erzurum.bel.tr/",
+      "duyuru_url": "https://ulasim.erzurum.bel.tr/trafik/",
+      "durum": 200,
+      "not": "ulasim.erzurum.bel.tr erzurum.kentkart.com'a yönleniyor (200). Otobüs sefer saatleri ve trafik sayfası (/trafik/ 200). Ulaşımla ilgili duyurular ayrıca erzurum.bel.tr/duyurular içinde çıkar."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Erzurum İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://erzurum.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "erzurum.ktb.gov.tr curl ile açılmıyor (000, timeout/bağlantı hatası); arama sonuçlarında PDF bağlantıları görünüyor ama site güvenilir kaynak olarak kullanılamıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Erzurum+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Erzurum Gazetesi",
+      "url": "https://www.erzurumgazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Erzurum Yeni Haber",
+      "url": "https://www.erzurumyenihaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Palandöken Gazetesi",
+      "url": "https://www.palandokengazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Erzurum Ajans",
+      "url": "https://www.erzurumajans.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Erzurum bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/erzurum/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve eğitime ara (uzun ve sert kış, çok düşük sıcaklık)",
+    "kar, buzlanma ve tipi nedeniyle yol kapanması (Erzurum-Trabzon/Bayburt, Aşkale, Tortum, Palandöken geçidi, köy yolları)",
+    "Palandöken ve Konaklı kayak sezonu, kayak merkezi haberleri, kış turizmi",
+    "planlı elektrik kesintisi (Aras EDAŞ) ve planlı su kesintisi (ESKİ)",
+    "doğalgaz kesintisi ve arızaları (PALEN), kış aylarında ısınma sorunları",
+    "deprem (Doğu Anadolu fay hatları) ve AFAD bilgilendirmeleri",
+    "Atatürk Üniversitesi ve Erzurum Teknik Üniversitesi öğrenci haberleri, yurt ve ulaşım",
+    "kış şartlarında trafik kazaları ve don/çığ uyarıları"
+  ],
+  "notlar": "Valilik, büyükşehir belediyesi, emniyet, jandarma, AFAD, sağlık, ESKİ, PALEN ve Aziziye siteleri 200 dönüyor. Su: ayrı kurum ESKİ (eski.gov.tr), planlı kesintiler tarih adlı ayrı duyuru sayfaları olarak /duyurular ve ana sayfada. Elektrik: Aras EDAŞ planlı kesinti sayfası form/JS tabanlı. Doğalgaz: PALEN. İl MEB duyuru sayfası ilk denemede 500 verdi, sonra 200 (aralıklı). Palandöken Belediyesi sitesinin TLS sertifikası sorunlu (curl -k gerekir). Yakutiye Belediyesi eski tip PHP site, duyuru/haber 'icerikliste.php?Id=2/1' ile. Atatürk Üniversitesi duyuruları /tum-duyurular/ altında. Kültür Turizm sitesi açılmıyor. Reddedilen yerel siteler: erzurumsonhaber.com (spam/alan adı değişmiş), erzurumhaber.com, erzurumsesi.com, erzurumpusula.com.tr, dogu-ekspres.com (curl 000); haberekspres.com.tr İzmir sitesi çıktı. Yurt dışı IP engeli gözlenmedi."
+}

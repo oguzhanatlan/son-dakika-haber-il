@@ -1,0 +1,195 @@
+{
+  "il": "Çanakkale",
+  "plaka": "17",
+  "slug": "canakkale",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/canakkale",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ayvacık",
+    "Bayramiç",
+    "Biga",
+    "Bozcaada",
+    "Çan",
+    "Eceabat",
+    "Ezine",
+    "Gelibolu",
+    "Gökçeada",
+    "Lapseki",
+    "Merkez",
+    "Yenice"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Çanakkale Valiliği",
+      "url": "https://canakkale.gov.tr/",
+      "duyuru_url": "https://canakkale.gov.tr/duyurular",
+      "haber_url": "https://canakkale.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://canakkale.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200, soft 404 yok)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "T.C. Çanakkale Belediyesi",
+      "url": "https://canakkale.bel.tr/tr/sayfa/home",
+      "duyuru_url": "https://www.canakkale.bel.tr/tr/sayfa/1213-genel-duyurular",
+      "haber_url": "https://www.canakkale.bel.tr/tr/sayfa/1140-haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. canakkale.bel.tr ana sayfası /tr/sayfa/home adresine yönleniyor. /duyurular ve /haberler doğrudan çalışmıyor (ana sayfaya yönleniyor); gerçek listeler /tr/sayfa/1213-genel-duyurular (genel duyurular, ağırlıkla idari/ilan) ve /tr/sayfa/1140-haberler (alt: /1140-tum-haberler). Listeler JS ile yüklenebilir. Planlı su kesintisi duyuruları haberler altında yayımlanıyor (ör. /tr/sayfa/1140-haberler/11572-su-kesintisi). İhale ilanları /tr/sayfa/1425-ihale-ilanlari, cenaze ilanları /tr/sayfa/1214-cenaze-ilanlari. Sayfalardaki 'Sonuç Bulunamadı' ifadesi sadece JS şablonu, soft 404 değil."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Çanakkale İl Milli Eğitim Müdürlüğü",
+      "url": "https://canakkale.meb.gov.tr/",
+      "duyuru_url": "https://canakkale.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://canakkale.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://canakkale.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor. Kar/fırtına kaynaklı tatil duyuruları genelde Valilik ve MEB duyurularında çıkar (Gökçeada, Bozcaada, Ayvacık, Bayramiç, Yenice gibi ilçelerde)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Çanakkale Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.canakkale.bel.tr/tr/sayfa/1140-haberler",
+      "duyuru_url": "https://www.canakkale.bel.tr/tr/sayfa/1140-haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil; ayrı bir su idaresi (ASKİ/MASKİ benzeri) sitesi bulunamadı. Merkez ilçede su hizmetini belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor ve planlı su kesintilerini belediye sitesinde 'Su Kesintisi' başlıklı haberlerle duyuruyor (ör. https://www.canakkale.bel.tr/tr/sayfa/1140-haberler/11572-su-kesintisi, .../10582-su-kesintisi-duyurusu; hepsi 200). Ayrı bir planlı kesinti listesi sayfası yok; haberler listesinde 'su kesintisi' başlıklarını ara. Diğer ilçelerde su kesintisini ilgili ilçe belediyesi duyurur. Atikhisar Barajı kaynaklı kuraklık/su kısıtı haberleri de bu kaynakta çıkabilir. Çağrı merkezi 444 17 17."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Uludağ Elektrik Dağıtım A.Ş. (UEDAŞ)",
+      "url": "https://www.uedas.com.tr/",
+      "duyuru_url": "https://www.uedas.com.tr/tr/kesintiler",
+      "haber_url": "https://www.uedas.com.tr/tr/haberler",
+      "durum": 200,
+      "not": "UEDAŞ Bursa, Balıkesir, Çanakkale ve Yalova'da hizmet veriyor (uedas.com.tr ana sayfasındaki bölge müdürlükleri menüsünden doğrulandı). Planlı kesinti sayfası /tr/kesintiler (200); canlı sorgu: https://online.uedas.com.tr/#/AktifElektrikKesintileri (200, JS/SPA tabanlı, il-ilçe seçimi gerekebilir). /planli-kesintiler adresi 403 veriyor, kullanma. Duyurular: https://www.uedas.com.tr/tr/duyurular (200). Arıza/kesinti hattı Alo 186. Planlı kesinti listelerini yerel basın da günlük derliyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Çanakkale Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/canakkale",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "basin_aciklamalari_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Çanakkale dağıtım bölgesi (merkez ve ilçelerde abonelik/gaz verme çalışmaları, ör. Lapseki, Ayvacık, Gelibolu). Duyurular ve basın bültenleri şirket geneli; planlı gaz kesintisi duyurusu nadir. Bölge sayfası şirket bilgilerini gösteriyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Çanakkale İl Sağlık Müdürlüğü",
+      "url": "https://canakkaleism.saglik.gov.tr/",
+      "duyuru_url": "https://canakkaleism.saglik.gov.tr/TR-34848/duyurular.html",
+      "haber_url": "https://canakkaleism.saglik.gov.tr/TR-34846/haberler.html",
+      "durum": 200,
+      "not": "Adres canakkaleism.saglik.gov.tr. Duyurular ağırlıkla personel/atama ve eğitim duyuruları; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Çanakkale İl Emniyet Müdürlüğü",
+      "url": "https://canakkale.pol.tr/",
+      "duyuru_url": "https://canakkale.pol.tr/duyurular",
+      "haber_url": "https://canakkale.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi canakkale.pol.tr; duyuru ve haber sayfaları 200, soft 404 yok. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Çanakkale İl Jandarma Komutanlığı",
+      "url": "https://canakkale.jandarma.gov.tr/",
+      "duyuru_url": "https://canakkale.jandarma.gov.tr/duyurular",
+      "haber_url": "https://canakkale.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200 dönüyor; operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Çanakkale Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://canakkale.afad.gov.tr/",
+      "duyuru_url": "https://canakkale.afad.gov.tr/duyurular",
+      "haber_url": "https://canakkale.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Çanakkale deprem (Ayvacık-Ezine-Biga hattı, Marmara/Saros) açısından önemli."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Çanakkale Onsekiz Mart Üniversitesi (ÇOMÜ)",
+      "url": "https://www.comu.edu.tr/",
+      "duyuru_url": "https://www.comu.edu.tr/duyurular.html",
+      "haber_url": "https://www.comu.edu.tr/haberler.html",
+      "durum": 200,
+      "not": "ÖNEMLİ: www.comu.edu.tr/duyurular ve /haberler (uzantısız) HTTP 200 dönüyor ama sayfa 'ARADIĞINIZ SAYFA BULUNAMADI' (soft 404). Doğru liste adresi .html uzantılı: /duyurular.html; tekil duyurular duyuru-NNNNN.html, haberler haber-NNNNN.html biçiminde (ana sayfada bağlantılar var). Birimlere ait alt alan adları da var (ör. guby.comu.edu.tr). Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Biga Belediyesi",
+      "url": "https://www.biga.bel.tr/",
+      "duyuru_url": "https://www.biga.bel.tr/duyurular",
+      "haber_url": "https://www.biga.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe. biga.bel.tr www'ye yönleniyor; sayfa başlıkları 'Duyurular' ve 'Haberler' (soft 404 değil)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gelibolu Belediyesi",
+      "url": "https://gelibolu.bel.tr/",
+      "duyuru_url": "https://gelibolu.bel.tr/haberler",
+      "haber_url": "https://gelibolu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Haberler ve duyurular birleşik: sayfa başlığı 'Haberler ve Duyurular'. /duyurular 404 veriyor, kullanma. Tekil haberler /haber/{slug} biçiminde. Cenaze ilanları /cenazeilanlari."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çan Belediyesi",
+      "url": "https://www.can.bel.tr/",
+      "duyuru_url": "https://www.can.bel.tr/kategori/duyurular/",
+      "haber_url": "https://www.can.bel.tr/",
+      "durum": 200,
+      "not": "WordPress benzeri kategori yapısı: /duyurular ve /haberler 404; /kategori/duyurular/ 200 (başlık 'Duyurular | Çan Belediyesi'). Ayrı haber listesi sayfası yok, haberler ana sayfada ve /kategori/faaliyetlerimiz/ altında. Ana su isale hattı vb. altyapı çalışmaları ana sayfada duyuruluyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "GESTAŞ Deniz Ulaşım (Geyikli ve Çanakkale Deniz Taşımacılık)",
+      "url": "https://www.gdu.com.tr/",
+      "duyuru_url": "https://www.gdu.com.tr/gduonline/sefer-tarifeleri",
+      "durum": 0,
+      "not": "Arama sonuçlarında resmi site gdu.com.tr olarak geçiyor ancak bu ortamdan bağlantı sıfırlanıyor (curl 000, exit 56; DNS çözülüyor, BigIP bot/IP engeli olabilir). gestas.com.tr ise ilgisiz bir aydınlatma firması (kullanma). Boğaz hatları (Çanakkale-Eceabat, Gelibolu-Lapseki), Bozcaada ve Gökçeada seferlerinin fırtına/sis iptal ve tarife değişikliği duyuruları çok haber çıkarır; sefer iptal bilgisi için çağrı merkezi 444 0 752. Doğrulama için yedek (resmî değil, derleyici): https://www.feribotseferleri.com.tr/duyurular. Tarayıcıdan/TR IP ile elle doğrulanmalı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Çanakkale İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://canakkale.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "canakkale.ktb.gov.tr açılmıyor (curl 000); ktb il siteleri genelde erişilemiyor. Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%C3%87anakkale+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çanakkale Olay",
+      "url": "https://www.canakkaleolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çanakkale Haber",
+      "url": "https://www.canakkalehaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (UEDAŞ) ve ilçe bazlı kesinti listeleri",
+    "planlı su kesintisi ve kuraklık/Atikhisar Barajı su kısıtı",
+    "Çanakkale Boğazı feribot seferlerinin fırtına/sis nedeniyle iptali, Gökçeada-Bozcaada hatları ve tarife değişiklikleri",
+    "orman yangınları (Biga, Çan, Ezine, Gelibolu, Ayvacık, Bayramiç; yaz aylarında) ve Boğaz'da gemi trafiğinin askıya alınması",
+    "deprem (Ayvacık-Ezine-Biga hattı, Marmara/Saros) ve AFAD bilgilendirmeleri",
+    "kar/fırtına nedeniyle okul tatili ve yolların kapanması (Gökçeada, Bozcaada, Bayramiç, Yenice, Ayvacık)",
+    "turizm ve anma: 18 Mart Çanakkale Zaferi, Gelibolu Yarımadası Tarihi Alan, Troya, Bozcaada ve Gökçeada sezon haberleri",
+    "tarım: zeytin ve peynir/domates üretimi, Biga-Çan bölgesi kömür/maden ve sanayi haberleri"
+  ],
+  "notlar": "Valilik, MEB, sağlık, emniyet, jandarma ve AFAD siteleri düzgün çalışıyor, duyuru ve haber alt sayfaları 200 (soft 404 yok). Belediye sitesi (canakkale.bel.tr) /duyurular ve /haberler adreslerini ana sayfaya yönlendiriyor; gerçek listeler /tr/sayfa/1213-genel-duyurular ve /tr/sayfa/1140-haberler. Planlı su kesintisi duyuruları belediyenin haberler listesinde 'Su Kesintisi' başlığıyla çıkıyor. Elektrik dağıtımı UEDAŞ; /tr/kesintiler ve online.uedas.com.tr JS tabanlı, /planli-kesintiler 403. ÇOMÜ'de /duyurular ve /haberler soft 404; .html uzantılı adresler (duyurular.html) kullanılmalı. Deniz ulaşımı (GESTAŞ, gdu.com.tr) bu ortamdan erişilemedi (bağlantı sıfırlanıyor), TR IP ile elle doğrulanmalı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yurt dışı IP engeli gov.tr sitelerinde görülmedi. Yerel gazete olarak yalnızca canakkaleolay.com ve canakkalehaber.com doğrulandı (200); başka yerel siteler doğrulanamadığı için eklenmedi."
+}

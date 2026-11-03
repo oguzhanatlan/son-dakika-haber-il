@@ -1,0 +1,221 @@
+{
+  "il": "Bursa",
+  "plaka": "16",
+  "slug": "bursa",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/bursa",
+  "buyuksehir": true,
+  "ilceler": [
+    "Büyükorhan",
+    "Gemlik",
+    "Gürsu",
+    "Harmancık",
+    "İnegöl",
+    "İznik",
+    "Karacabey",
+    "Keles",
+    "Kestel",
+    "Mudanya",
+    "Mustafakemalpaşa",
+    "Nilüfer",
+    "Orhaneli",
+    "Orhangazi",
+    "Osmangazi",
+    "Yenişehir",
+    "Yıldırım"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Bursa Valiliği",
+      "url": "https://www.bursa.gov.tr/",
+      "duyuru_url": "https://www.bursa.gov.tr/duyurular",
+      "haber_url": "https://www.bursa.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.bursa.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200, soft 404 yok). Okul tatili, yol kapanması gibi valilik kararları burada."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Bursa Büyükşehir Belediyesi",
+      "url": "https://www.bursa.bel.tr/",
+      "duyuru_url": "https://www.bursa.bel.tr/duyuru",
+      "haber_url": "https://www.bursa.bel.tr/haber",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /duyuru, haberler /haber (tekil sayfa /duyuru/{slug}, /haber/{slug}); /duyurular ve /haberler 404. Trafik düzenlemeleri, ilçelerdeki su kesintisi duyuruları (ör. Mustafakemalpaşa) ve etkinlikler burada."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Bursa İl Milli Eğitim Müdürlüğü",
+      "url": "https://bursa.meb.gov.tr/",
+      "duyuru_url": "https://bursa.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://bursa.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor. /acilduyurular/ 404 (kullanma). Kar/hava nedeniyle okul tatili kararları genelde Valilik sayfasında ve burada duyurulur."
+    },
+    {
+      "tur": "su",
+      "kurum": "Bursa Su ve Kanalizasyon İdaresi Genel Müdürlüğü (BUSKİ)",
+      "url": "https://www.buski.gov.tr/",
+      "duyuru_url": "https://www.buski.gov.tr/gunluk-su-kesintileri",
+      "haber_url": "https://www.buski.gov.tr/gundem/haberler",
+      "durum": 200,
+      "not": "Planlı/günlük su kesintisi sayfası: /gunluk-su-kesintileri (ayrıca /gunluk-calisma, /gundem/duyurular). SSL ara sertifika zinciri eksik: curl -k olmadan https 000 dönüyor (sertifika doğrulama hatası), curl -k ile hepsi 200; http://www.buski.gov.tr/ ana sayfası düz curl ile 200. Tarayıcıda sorunsuz açılması beklenir; programatik erişimde -k veya fetch aracı gerekebilir. Liste mahalle bazlı, güncel tarih/saat içerir; bazı bölümler JS ile yükleniyor olabilir. Alo 185 hattı. Not: buski.gov.tr (www'siz) açılmıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Uludağ Elektrik Dağıtım A.Ş. (UEDAŞ)",
+      "url": "https://www.uedas.com.tr/",
+      "duyuru_url": "https://www.uedas.com.tr/tr/kesintiler",
+      "haber_url": "https://www.uedas.com.tr/tr/haberler",
+      "durum": 200,
+      "not": "UEDAŞ Bursa, Balıkesir, Çanakkale ve Yalova'da hizmet veriyor (resmi sitede Bölge Müdürlükleri: Bursa, Balıkesir, Çanakkale, Yalova). Ana sayfada Bursa planlı kesintileri ilçe/mahalle/saat olarak düz metin listeleniyor; /tr/kesintiler sayfası 200. Aktif kesinti sorgusu JS tabanlı: https://online.uedas.com.tr/#/AktifElektrikKesintileri (200). Duyurular: https://www.uedas.com.tr/tr/duyurular."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Bursa Doğal Gaz Dağıtım A.Ş. (Aksa Doğalgaz Bursa; eski Bursagaz)",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/bursa",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "haber_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Bursagaz, SOCAR Türkiye'den Aksa Doğalgaz'a devredildi; bursagaz.com ve bursagaz.com.tr Aksa Doğalgaz sitesini gösteriyor/yönleniyor. Duyuru ve basın bülteni sayfaları genel (tüm bölgeler); sayfalar JS ağırlıklı. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Bursa İl Sağlık Müdürlüğü",
+      "url": "https://bursaism.saglik.gov.tr/",
+      "duyuru_url": "https://bursaism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres bursaism.saglik.gov.tr. Duyuru/haber listeleri ana sayfada ve menüde (alt sayfa adresleri TR-xxxxx kodlu; ana sayfadan izlenmeli). Duyurular ağırlıklı idari/personel."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Bursa İl Emniyet Müdürlüğü",
+      "url": "https://bursa.pol.tr/",
+      "duyuru_url": "https://bursa.pol.tr/duyurular",
+      "haber_url": "https://bursa.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi bursa.pol.tr. Operasyon/olay haberleri /haberler altında. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Bursa İl Jandarma Komutanlığı",
+      "url": "https://bursa.jandarma.gov.tr/",
+      "duyuru_url": "https://bursa.jandarma.gov.tr/duyurular",
+      "haber_url": "https://bursa.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Bursa Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://bursa.afad.gov.tr/",
+      "duyuru_url": "https://bursa.afad.gov.tr/duyurular",
+      "haber_url": "https://bursa.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Bursa Uludağ Üniversitesi",
+      "url": "https://www.uludag.edu.tr/",
+      "duyuru_url": "https://www.uludag.edu.tr/duyuru",
+      "haber_url": "https://www.uludag.edu.tr/haber",
+      "durum": 200,
+      "not": "Duyuru /duyuru, haber /haber (/duyurular 404). Duyurular akademik/idari ağırlıklı; kampüs haberleri /haber altında. Bursa'da ayrıca Bursa Teknik Üniversitesi (btu.edu.tr) var, doğrulanmadı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Osmangazi Belediyesi",
+      "url": "https://osmangazi.bel.tr/",
+      "duyuru_url": "https://osmangazi.bel.tr/duyurular",
+      "haber_url": "https://osmangazi.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça en büyük merkez ilçe. Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Nilüfer Belediyesi",
+      "url": "https://nilufer.bel.tr/",
+      "duyuru_url": "https://nilufer.bel.tr/duyurular",
+      "haber_url": "https://nilufer.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe; duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yıldırım Belediyesi",
+      "url": "https://yildirim.bel.tr/",
+      "duyuru_url": "https://yildirim.bel.tr/duyurular.html",
+      "haber_url": "https://yildirim.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "Merkez ilçe; sayfalar .html uzantılı (/duyurular ve /haberler 404)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İnegöl Belediyesi",
+      "url": "https://inegol.bel.tr/",
+      "duyuru_url": "https://inegol.bel.tr/",
+      "haber_url": "https://inegol.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez dışı en büyük ilçe. Duyurular ana sayfadaki 'Duyurular' alanında (/duyurular/{slug} tekil sayfalar; /duyurular listesi ana sayfaya yönleniyor). Haberler /haberler ve /haber/genel."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Bursa Ulaşım Ticaret ve Turizm Yatırımları A.Ş. (BURULAŞ)",
+      "url": "https://www.burulas.com.tr/",
+      "duyuru_url": "https://www.burulas.com.tr/gundem/duyurular",
+      "haber_url": "https://www.burulas.com.tr/gundem/haberler",
+      "durum": 200,
+      "not": "Otobüs, metro (Bursaray/Emek-Şehir Hastanesi hattı) ve toplu ulaşım işletmesi. Güzergah değişiklikleri, bayram/özel gün ücretsiz ulaşım, hat iptalleri duyuruda. /duyurular ve /haberler yönlendirmeli/JS sayfa; /gundem/... kullan. Kurum adı sitedeki resmi unvanıdır, tam unvan doğrulanmadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Bursa İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://bursa.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "bursa.ktb.gov.tr açılmıyor (curl 000); alternatif alan adı da açılmadı. Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bursa+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bursa Hakimiyet",
+      "url": "https://www.bursahakimiyet.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bursa'da Bugün",
+      "url": "https://www.bursadabugun.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Bursa",
+      "url": "https://www.haberbursa.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazete Bursa",
+      "url": "https://www.gazetebursa.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "BUSKİ planlı/acil su kesintisi (Osmangazi, Nilüfer, Yıldırım ve ilçeler)",
+    "UEDAŞ planlı elektrik kesintisi (ilçe/mahalle bazlı liste)",
+    "Uludağ'da kar, kar nedeniyle okul tatili ve Uludağ yolunun kapanması/zincir şartı",
+    "deprem (Marmara/Güney Marmara fay hatları, İznik ve Gemlik çevresi) ve AFAD açıklamaları",
+    "toplu ulaşım: metro (Bursaray), BURULAŞ hat ve güzergah değişiklikleri, trafik düzenlemeleri ve yol çalışmaları",
+    "orman yangını ve sel/taşkın uyarıları (yaz-sonbahar, Nilüfer Çayı)",
+    "sanayi, otomotiv ve organize sanayi bölgesi haberleri; fabrika yangını/iş kazası",
+    "tarım ve gıda: şeftali, kestane, İnegöl köftesi, Karacabey/Yenişehir ovası; İznik, Cumalıkızık ve Bursa kültür-turizm etkinlikleri"
+  ],
+  "notlar": "Valilik, büyükşehir belediyesi, MEB, emniyet, jandarma, AFAD ve UEDAŞ siteleri düz curl ile 200 dönüyor (yurt dışı IP engeli görülmedi). BUSKİ (www.buski.gov.tr) SSL ara sertifika zinciri eksik olduğu için doğrulamalı https curl 000 veriyor; -k ile açılıyor, planlı kesinti sayfası /gunluk-su-kesintileri. Büyükşehir belediyesi duyuru ve haber adresleri /duyuru ve /haber (çoğul değil). Yıldırım Belediyesi sayfaları .html uzantılı; İnegöl duyuruları ana sayfada. UEDAŞ'ın kesinti sorgusu JS tabanlı, ana sayfada ise Bursa planlı kesintileri düz metin listelenir. Doğalgaz: Bursagaz Aksa Doğalgaz'a devredilmiş, bursagaz.com Aksa sitesini gösteriyor. Kültür Turizm Müdürlüğü sitesi açılmıyor. Sağlık Müdürlüğü alt sayfaları kodlu adreslerde, ana sayfadan izlenmeli. Bursa Teknik Üniversitesi ve diğer ilçe belediyeleri (Mudanya, Gemlik, Mustafakemalpaşa vb.) kontrol edilmedi."
+}

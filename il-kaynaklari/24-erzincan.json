@@ -1,0 +1,193 @@
+{
+  "il": "Erzincan",
+  "plaka": "24",
+  "slug": "erzincan",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/erzincan",
+  "buyuksehir": false,
+  "ilceler": [
+    "Çayırlı",
+    "İliç",
+    "Kemah",
+    "Kemaliye",
+    "Merkez",
+    "Otlukbeli",
+    "Refahiye",
+    "Tercan",
+    "Üzümlü"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Erzincan Valiliği",
+      "url": "https://www.erzincan.gov.tr/",
+      "duyuru_url": "https://www.erzincan.gov.tr/duyurular",
+      "haber_url": "https://www.erzincan.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; alt sayfalarda 'bulunamadı' yok."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Erzincan Belediyesi",
+      "url": "https://erzincan.bel.tr/",
+      "duyuru_url": "https://erzincan.bel.tr/duyurular",
+      "haber_url": "https://erzincan.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. www.erzincan.bel.tr, erzincan.bel.tr'ye yönleniyor. Duyurular ağırlıklı meclis gündemi/yönetmelik; ihaleler https://erzincan.bel.tr/ihaleler/1 (200). Ayrı su kesintisi sayfası ana menüde yok."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Erzincan İl Milli Eğitim Müdürlüğü",
+      "url": "https://erzincan.meb.gov.tr/",
+      "duyuru_url": "https://erzincan.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://erzincan.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://erzincan.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adresleri 200 dönüyor. Kar tatili duyuruları genelde valilik ve MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Erzincan Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://erzincan.bel.tr/",
+      "duyuru_url": "https://erzincan.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Büyükşehir olmadığı için ayrı su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı (erzincan.bel.tr/su-kesintileri, /su-kesintisi, /su-ve-kanalizasyon-mudurlugu 404). Kesinti duyuruları /duyurular, /haberler ve yerel basında aranmalı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
+      "url": "https://www.arasedas.com/",
+      "duyuru_url": "https://www.arasedas.com/bilgilendirme/planli_bakim_kesintileri",
+      "durum": 200,
+      "not": "Aras EDAŞ Erzincan, Erzurum, Bayburt, Ağrı, Kars, Iğdır ve Ardahan'da hizmet veriyor (arasedas.com ana sayfa metninden doğrulandı). Planlı kesinti sayfası il/ilçe/yıl/ay filtreli, JS tabanlı form; sonuçlar dinamik yükleniyor. www.arasedas.com, arasedas.com'a yönleniyor; www.arasedas.com.tr açılmıyor (000)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Erzincan Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "https://www.enerya.com.tr/tr/kurumsal/basin-odasi/",
+      "durum": 200,
+      "not": "Enerya Enerji (Ahlatcı) grubu; Erzincan lisansı Kemaliye'yi de kapsayacak şekilde EPDK tarafından genişletildi. Erzincan'a özel ayrı site/sayfa bulunamadı (enerya.com.tr/erzincan 404); grup sitesi ve basın odası kullanılır. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Erzincan İl Sağlık Müdürlüğü",
+      "url": "https://erzincanism.saglik.gov.tr/",
+      "duyuru_url": "https://erzincanism.saglik.gov.tr/TR-11360/duyurular.html",
+      "durum": 200,
+      "not": "Adres erzincanism.saglik.gov.tr. Duyuru ve haber alt sayfaları ana sayfa bağlantılarından alındı ve 200 dönüyor; ayrıca /TR-366051/onemli-duyurular.html var.",
+      "haber_url": "https://erzincanism.saglik.gov.tr/TR-11362/haberler.html"
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Erzincan İl Emniyet Müdürlüğü",
+      "url": "https://erzincan.pol.tr/",
+      "duyuru_url": "https://erzincan.pol.tr/duyurular",
+      "haber_url": "https://erzincan.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi erzincan.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Erzincan İl Jandarma Komutanlığı",
+      "url": "https://erzincan.jandarma.gov.tr/",
+      "duyuru_url": "https://erzincan.jandarma.gov.tr/duyurular",
+      "haber_url": "https://erzincan.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Erzincan Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://erzincan.afad.gov.tr/",
+      "duyuru_url": "https://erzincan.afad.gov.tr/duyurular",
+      "haber_url": "https://erzincan.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Erzincan Kuzey Anadolu Fay Hattı üzerindedir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Erzincan Binali Yıldırım Üniversitesi",
+      "url": "https://ebyu.edu.tr/",
+      "duyuru_url": "https://ebyu.edu.tr/category/duyurular/",
+      "haber_url": "https://ebyu.edu.tr/category/haberler/",
+      "durum": 200,
+      "not": "www.ebyu.edu.tr, ebyu.edu.tr'ye yönleniyor. WordPress kategori sayfaları. www.erzincan.edu.tr açılmıyor (000)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tercan Belediyesi",
+      "url": "https://tercan.bel.tr/",
+      "duyuru_url": "https://tercan.bel.tr/duyurular",
+      "haber_url": "https://tercan.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra büyük ilçelerden (nüfus sırası kesin doğrulanmadı). Sayfalardaki 'İçerik bulunamadı' yalnızca arama betiğine ait."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Refahiye Belediyesi",
+      "url": "https://refahiye.bel.tr/",
+      "duyuru_url": "https://refahiye.bel.tr/duyurular",
+      "haber_url": "https://refahiye.bel.tr/haberler",
+      "durum": 200,
+      "not": "Yüksek rakımlı ilçe; kar/yol haberleri çıkabilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Üzümlü Belediyesi",
+      "url": "https://uzumlu.bel.tr/",
+      "duyuru_url": "https://uzumlu.bel.tr/category/duyuru/",
+      "haber_url": "https://uzumlu.bel.tr/category/haber/",
+      "durum": 200,
+      "not": "WordPress kategori sayfaları; ayrıca /category/ilan-ve-haberler/ var. Diğer ilçe belediyeleri: kemah.bel.tr (200, /duyurular 200), kemaliye.bel.tr (200)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Erzincan İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://erzincan.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "erzincan.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli, tahmini kalıp adresi kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Erzincan+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Güncel Erzincan",
+      "url": "https://www.erzincanguncel.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Erzincan Medya",
+      "url": "https://www.erzincanmedya.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Erzincan Haber",
+      "url": "http://www.erzincanhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Erzincan 24 Haber",
+      "url": "http://www.erzincan24.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "deprem ve artçı sarsıntılar (Kuzey Anadolu Fay Hattı), AFAD açıklamaları",
+    "kar nedeniyle okul tatili, köy yollarının kapanması (Refahiye, Tercan, Kemah kesimi)",
+    "planlı elektrik kesintisi (Aras EDAŞ)",
+    "su kesintisi ve içme suyu arızaları",
+    "Fırat/Karasu taşkını, sel ve heyelan uyarıları",
+    "Erzincan-Sivas/Erzurum/Gümüşhane karayolu trafik kazaları ve yol çalışmaları",
+    "tarım ve hayvancılık: don/dolu zararı, Erzincan tulum peyniri, kiraz-üzüm hasadı, ham ipek ve kayısı",
+    "turizm: Girlevik Şelalesi, Karanlık Kanyon, Kemaliye (Eğin) ve Kemaliye rafting/yürüyüş yolu, Ergan Dağı Kayak Merkezi"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD ve üniversite sitelerinin duyuru/haber sayfaları 200 dönüyor; soft 404 kontrolü yapıldı (sorun yok). Su için ayrı idare ve planlı su kesintisi sayfası yok; erzincan.bel.tr/duyurular, /haberler ve yerel basına bakılmalı. Aras EDAŞ planlı kesinti sayfası il/ilçe seçimli JS formu. Sağlık Müdürlüğü erzincanism.saglik.gov.tr üzerinde. Kültür Turizm sitesi açılmıyor. Yerel haber sitelerinden erzincanhaber.com ve erzincan24.com yalnızca http ile açılıyor (https curl 000). İlçeler için Kemah ve Kemaliye belediyeleri de açılıyor. Erişim testleri yurt dışı IP engeli göstermedi."
+}
