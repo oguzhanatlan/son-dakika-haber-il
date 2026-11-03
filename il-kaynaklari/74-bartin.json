@@ -1,0 +1,186 @@
+{
+  "il": "Bartın",
+  "plaka": "74",
+  "slug": "bartin",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/bartin",
+  "buyuksehir": false,
+  "ilceler": [
+    "Amasra",
+    "Kurucaşile",
+    "Merkez",
+    "Ulus"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Bartın Valiliği",
+      "url": "https://www.bartin.gov.tr/",
+      "duyuru_url": "https://www.bartin.gov.tr/duyurular",
+      "haber_url": "https://www.bartin.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler; vali haberleri ayrıca /validen-haberler (200). bartin.gov.tr www'ye yönleniyor. Kar tatili, yol kapanması vb. açıklamalar burada çıkar."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Bartın Belediyesi",
+      "url": "https://www.bartin.bel.tr/",
+      "duyuru_url": "https://www.bartin.bel.tr/duyurular",
+      "haber_url": "https://www.bartin.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi (bartin.bel.tr www'ye yönlenir). Duyurular /duyurular (ağırlıkla meclis/ihale/vefat ilanı), güncel haberler /haberler. Ayrıca /etkinlikler, /nobetci-eczaneler."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Bartın İl Milli Eğitim Müdürlüğü",
+      "url": "https://bartin.meb.gov.tr/",
+      "duyuru_url": "https://bartin.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://bartin.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://bartin.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS adresleri 200 dönüyor. /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Bartın Belediyesi (su hizmeti)",
+      "url": "https://www.bartin.bel.tr/",
+      "duyuru_url": "https://www.bartin.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (BASKİ vb.) bulunamadı; su hizmetini Bartın Belediyesi yürütüyor. Planlı su kesintisi için ayrı duyuru sayfası yok (/su-kesintisi, /su-ve-kanalizasyon-mudurlugu 404); kesinti ve arıza duyuruları /haberler ve belediyenin sosyal medyasında/yerel basında çıkıyor. Bartın'da su sıkıntısı ve iletim hattı arızaları sık gündemde (ör. Eylül 2025'te iletim hattı arızası; belediye yeni sondaj kuyularıyla su kaynağı güçlendirme haberleri yayımlıyor). Amasra'nın suyu da Bartın hattına bağlı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Başkent Elektrik Dağıtım A.Ş. (Başkent EDAŞ)",
+      "url": "https://www.baskentedas.com.tr/",
+      "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
+      "haber_url": "https://www.baskentedas.com.tr/basin-bultenleri",
+      "durum": 0,
+      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'ta hizmet veriyor (şirketin 'Başkent EDAŞ Bartın'ın enerji altyapısını güçlendirmeye devam ediyor' basın bülteni ve Enerji Bakanı'nın Bartın il koordinasyon toplantısı haberiyle doğrulandı). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir). Basın bültenleri sayfası 200. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Batıkar Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://akmercanenerji.com.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Bartın doğalgaz dağıtım lisansı Akmercan Batıkar Doğal Gaz Dağıtım A.Ş.'de (Zonguldak-Bartın bölgesi; Ulus ilçesi lisansa 2024'te eklendi; e-Devlet dağıtım şirketleri listesinde de var). Şirketin Bartın'a özel sayfası ve duyuru sayfası bulunamadı; Akmercan Enerji sitesi Bartın'ı iller listesinde gösteriyor (JS tabanlı, alt sayfa yok). akmercangaz.com.tr bu siteye iframe ile yönleniyor ve hızlı isteklerde 429 (rate limit) veriyor. Planlı gaz kesintisi duyurusu nadir; acil arıza hattı 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Bartın İl Sağlık Müdürlüğü",
+      "url": "https://bartinism.saglik.gov.tr/",
+      "duyuru_url": "https://bartinism.saglik.gov.tr/TR-55511/duyurular.html",
+      "haber_url": "https://bartinism.saglik.gov.tr/TR-55510/haberler.html",
+      "durum": 200,
+      "not": "Adres bartinism.saglik.gov.tr. Duyurular ağırlıklı personel/atama/ihale; halk sağlığı haberleri /haberler. Tahmini TR-xxxxx adresleri soft 404 ('Sayfa Bulunmadı') veriyor; yukarıdaki adresler ana sayfadan alınıp doğrulandı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Bartın İl Emniyet Müdürlüğü",
+      "url": "https://bartin.pol.tr/",
+      "duyuru_url": "https://bartin.pol.tr/duyurular",
+      "haber_url": "https://bartin.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi bartin.pol.tr; olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Bartın İl Jandarma Komutanlığı",
+      "url": "https://bartin.jandarma.gov.tr/",
+      "duyuru_url": "https://bartin.jandarma.gov.tr/duyurular",
+      "haber_url": "https://bartin.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Bartın Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://bartin.afad.gov.tr/",
+      "duyuru_url": "https://bartin.afad.gov.tr/duyurular",
+      "haber_url": "https://bartin.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Sel/taşkın ve fırtına uyarıları valilik ve AFAD haberlerinde çıkar."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Bartın Üniversitesi",
+      "url": "https://www.bartin.edu.tr/",
+      "duyuru_url": "https://www.bartin.edu.tr/arsiv/duyuru-arsiv.html",
+      "haber_url": "https://www.bartin.edu.tr/arsiv/haber-arsiv.html",
+      "durum": 200,
+      "not": "Duyuru ve haber arşivleri 200; ana sayfada güncel duyuru/haberler listeleniyor. Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ulus Belediyesi",
+      "url": "https://www.ulus.bel.tr/",
+      "duyuru_url": "https://www.ulus.bel.tr/haberler/duyurular/",
+      "haber_url": "https://www.ulus.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusça en büyük ilçe. Ulus'ta doğalgaz Şubat 2025'te kullanıma açıldı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Amasra Belediyesi",
+      "url": "https://amasra.bel.tr/",
+      "duyuru_url": "https://amasra.bel.tr/BartinAmasra/Duyurular",
+      "haber_url": "https://amasra.bel.tr/BartinAmasra/Haberler",
+      "basin_aciklamalari_url": "https://amasra.bel.tr/BartinAmasra/BasinAciklamasi",
+      "durum": 200,
+      "not": "Turizm ve Amasra Taşkömürü/Karadeniz gazı haberleri nedeniyle yüksek ilgi. www.amasra.bel.tr de 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kurucaşile Belediyesi",
+      "url": "https://kurucasile.bel.tr/",
+      "duyuru_url": "https://kurucasile.bel.tr/sayfa/duyurular",
+      "haber_url": "https://kurucasile.bel.tr/sayfa/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; liste sayfaları /sayfa/duyurular ve /sayfa/haberler. Tekil içerikler /duyuru/... ve /haber/... biçiminde."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Bartın İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://bartin.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "bartin.ktb.gov.tr açılmıyor (curl 000, DNS/bağlantı yok); kaynak olarak güvenilmemeli."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Meteoroloji Genel Müdürlüğü (Bartın uyarıları)",
+      "url": "https://www.mgm.gov.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ulusal site (200); Bartın için fırtına/yağış/kar uyarıları. Bartın'a özel sabit adres doğrulanmadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bart%C4%B1n+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bartın Hergün Gazetesi",
+      "url": "https://www.bartinhergungazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "BartınPostası",
+      "url": "https://www.bartinpostasi.net/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar/fırtına nedeniyle okul tatili ve yolların kapanması",
+    "sağanak, sel ve Bartın Irmağı taşkını uyarıları",
+    "Bartın'da su kesintisi ve iletim hattı arızaları, su kaynağı çalışmaları",
+    "planlı elektrik kesintisi (Başkent EDAŞ) ve fırtınada elektrik kesintileri",
+    "Amasra turizmi, deniz ve plaj ile sezonluk etkinlikler",
+    "Karadeniz doğalgazı, Amasra/Ulus/Kurucaşile doğalgaz yatırımları",
+    "Amasra Taşkömürü ve maden işçileri, madencilik haberleri",
+    "Bartın Limanı ve Bartın Üniversitesi (yurt, KYK, kayıt) haberleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık, üniversite ve ilçe belediyesi duyuru/haber sayfaları 200 dönüyor (soft 404 kontrolü yapıldı). Sağlık Müdürlüğü bartinism.saglik.gov.tr üzerinde; sayfa adresleri TR-numaralı, tahmini numaralar 'Sayfa Bulunmadı' dönüyor. Su için ayrı idare ve planlı kesinti sayfası yok; bartin.bel.tr/haberler ve yerel basına bakılmalı. Başkent EDAŞ kesinti sorgulama sayfası form/JS tabanlı. Doğalgaz dağıtımcısı Akmercan Batıkar; kendi duyuru sayfası bulunamadı, sitesi JS tabanlı ve hızlı isteklerde 429 veriyor. Kültür Turizm sitesi açılmıyor. Yerel gazete olarak yalnızca açılan ve güncel içerik veren iki site alındı; bartinhaber.org parked, bartinmedya.com reklam ajansı, bartinhaber74.com 403 verdi. Erişim testleri yurt dışı IP engeli göstermedi."
+}

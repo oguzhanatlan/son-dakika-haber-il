@@ -4,33 +4,211 @@
   "slug": "adana",
   "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/adana",
   "buyuksehir": true,
-  "ilceler": ["Aladağ", "Ceyhan", "Çukurova", "Feke", "İmamoğlu", "Karaisalı", "Karataş", "Kozan", "Pozantı", "Saimbeyli", "Sarıçam", "Seyhan", "Tufanbeyli", "Yumurtalık", "Yüreğir"],
+  "ilceler": [
+    "Aladağ",
+    "Ceyhan",
+    "Çukurova",
+    "Feke",
+    "İmamoğlu",
+    "Karaisalı",
+    "Karataş",
+    "Kozan",
+    "Pozantı",
+    "Saimbeyli",
+    "Sarıçam",
+    "Seyhan",
+    "Tufanbeyli",
+    "Yumurtalık",
+    "Yüreğir"
+  ],
   "resmi": [
-    {"tur": "valilik", "kurum": "Adana Valiliği", "url": "https://adana.gov.tr/", "duyuru_url": "https://adana.gov.tr/duyurular", "haber_url": "https://adana.gov.tr/haberler", "basin_aciklamalari_url": "https://adana.gov.tr/basin-aciklamalari", "durum": 200, "not": "Duyurular /duyurular, haberler /haberler, basın açıklamaları (kar/okul tatili, yasaklar, valilik kararları) /basin-aciklamalari. Hepsi 200."},
-    {"tur": "belediye", "kurum": "Adana Büyükşehir Belediyesi", "url": "https://www.adana.bel.tr/", "duyuru_url": "https://www.adana.bel.tr/tr/duyurular", "haber_url": "https://www.adana.bel.tr/tr/haberler", "durum": 200, "not": "Doğrulama sırasında ilk turda tüm adresler 200 döndü; sonraki tekrar denemelerde (hızlı ardışık istek sonrası) zaman aşımı (000) alındı, yani site aralıklı yavaş/istek sınırlı. Routine'de aralıklı istek yapın, hata olursa tekrar deneyin."},
-    {"tur": "il_meb", "kurum": "Adana İl Milli Eğitim Müdürlüğü", "url": "https://adana.meb.gov.tr/", "duyuru_url": "https://adana.meb.gov.tr/www/duyurular/kategori/1", "haber_url": "https://adana.meb.gov.tr/www/haberler/kategori/1", "durum": 200, "not": "/www/duyurular/kategori/1 isteği /www/haberler/kategori/1 adresine yönlendirildi (200); duyurular için ana sayfadaki Duyurular bölümüne bakın."},
-    {"tur": "su", "kurum": "Adana Su ve Kanalizasyon İdaresi Genel Müdürlüğü (ASKİ)", "url": "https://www.adana-aski.gov.tr/web/default.aspx", "duyuru_url": "https://www.adana-aski.gov.tr/web/calismadetay.aspx", "haber_url": "https://www.adana-aski.gov.tr/web/haberlistesi.aspx", "durum": 200, "not": "Alan adı adana-aski.gov.tr (aski.gov.tr Ankara ASKİ'sine aittir, karıştırılmamalı). Ana sayfada 'Günlük Çalışma Noktaları' bölümü ve calismadetay.aspx (çalışma/kesinti detayları) var; sayfa içeriği dinamik yüklenebilir. Planlı kesintiler yerel basında da ASKİ kaynaklı çıkıyor. X: @adanaaski."},
-    {"tur": "elektrik", "kurum": "Toroslar Elektrik Dağıtım A.Ş. (Toroslar EDAŞ, Enerjisa)", "url": "https://www.toroslaredas.com.tr/", "duyuru_url": "https://online.toroslaredas.com.tr/elektrik-kesintisi-sorgulama", "durum": 200, "not": "Resmi sitede Adana, Osmaniye, Gaziantep, Mersin, Kilis ve Hatay dağıtım bölgesi olarak yazıyor (doğrulandı). Planlı kesinti il/ilçe seçilerek sorgulanır (form tabanlı, düz HTML liste değil); çağrı merkezi 186. Basın bültenleri /basin-bulteni altında."},
-    {"tur": "dogalgaz", "kurum": "Aksa Çukurova Doğalgaz Dağıtım A.Ş.", "url": "https://www.aksadogalgaz.com.tr/tr", "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular", "durum": 200, "not": "Adana, Mersin, Hatay ve Osmaniye bölgesi dağıtım şirketi (haber kaynaklarından; Aksa Doğalgaz çatı sitesi). Adana'ya özel arıza/kesinti duyurusu nadir; duyurular sayfası kurumsal ağırlıklı."},
-    {"tur": "saglik", "kurum": "Adana İl Sağlık Müdürlüğü", "url": "https://adanaism.saglik.gov.tr/", "duyuru_url": "https://adanaism.saglik.gov.tr/TR,1/duyurular.html", "haber_url": "https://adanaism.saglik.gov.tr/TR,1/haberler.html", "durum": 200, "not": "Alan adı adanaism.saglik.gov.tr (adana.saglik.gov.tr çözümlenmiyor)."},
-    {"tur": "emniyet", "kurum": "Adana İl Emniyet Müdürlüğü", "url": "https://adana.pol.tr/", "duyuru_url": "https://adana.pol.tr/duyurular", "haber_url": "https://adana.pol.tr/haberler", "durum": 200, "not": "Kendi alan adı adana.pol.tr; egm.gov.tr/adana adresi 404 veriyor. Operasyon/asayiş haberleri /haberler altında."},
-    {"tur": "jandarma", "kurum": "Adana İl Jandarma Komutanlığı", "url": "https://adana.gov.tr/il-jandarma-komutanligi", "duyuru_url": "https://www.jandarma.gov.tr/", "durum": 200, "not": "İle özel bağımsız jandarma sitesi bulunamadı; valilik altındaki tanıtım sayfası ve Jandarma Genel Komutanlığı ana sitesi (200) kaydedildi. Jandarma haberleri için valilik basın açıklamaları ve Google News ipucu kullanılmalı."},
-    {"tur": "afad", "kurum": "Adana İl Afet ve Acil Durum Müdürlüğü (AFAD)", "url": "https://adana.afad.gov.tr/", "duyuru_url": "https://adana.afad.gov.tr/duyurular", "durum": 200, "not": "Alternatif il sayfası: https://www.afad.gov.tr/adana (200). Valilik altındaki sayfa: https://adana.gov.tr/il-afet-acil-durum-mudurlugu (200). Deprem verisi için AFAD ulusal deprem sayfası kullanılabilir."},
-    {"tur": "universite", "kurum": "Çukurova Üniversitesi", "url": "https://www.cu.edu.tr/", "duyuru_url": "https://www.cu.edu.tr/", "durum": 200, "not": "Ayrı bir duyuru/haber liste adresi doğrulanamadı (/duyurular, /haberler vb. 404). Haber ve duyurular ana sayfada /haber-detay/... ve /arges-duyurular/... bağlantıları olarak listeleniyor; ana sayfa taranmalı."},
-    {"tur": "universite", "kurum": "Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi", "url": "https://www.atu.edu.tr/", "duyuru_url": "https://www.atu.edu.tr/", "durum": 200, "not": "Duyuru liste adresi doğrulanamadı (/duyurular, /haberler 404); ana sayfadan taranmalı."},
-    {"tur": "ilce_belediye", "kurum": "Seyhan Belediyesi", "url": "https://seyhan.bel.tr/", "duyuru_url": "https://seyhan.bel.tr/duyurular.php", "haber_url": "https://seyhan.bel.tr/haberler.php", "durum": 200, "not": "Nüfusça en büyük ilçe."},
-    {"tur": "ilce_belediye", "kurum": "Yüreğir Belediyesi", "url": "https://yuregir.bel.tr/", "duyuru_url": "https://yuregir.bel.tr/category/duyurular/", "haber_url": "https://yuregir.bel.tr/category/haberler/", "durum": 200, "not": ""},
-    {"tur": "ilce_belediye", "kurum": "Çukurova Belediyesi", "url": "https://cukurova.bel.tr/", "duyuru_url": "https://cukurova.bel.tr/tum-duyurular.html", "haber_url": "https://cukurova.bel.tr/haberler.html", "durum": 200, "not": "Ana sayfada belediye başkan vekili seçimi gündemli duyuru görüldü (belediye siyasi gündemi)."},
-    {"tur": "ilce_belediye", "kurum": "Sarıçam Belediyesi", "url": "https://www.saricam.bel.tr/", "duyuru_url": "https://www.saricam.bel.tr/duyurular", "durum": 200, "not": "Dördüncü büyük merkez ilçe; isteğe bağlı."},
-    {"tur": "diger", "kurum": "Adana Büyükşehir Belediyesi Ulaşım Bilgi (otobüs ve metro)", "url": "https://ulasimbilgi.adana.bel.tr/", "duyuru_url": "https://ulasimbilgi.adana.bel.tr/Metro", "durum": 200, "not": "İlk turda 200; sonraki denemelerde zaman aşımı (adana.bel.tr alt alan adı, aralıklı yavaş). Otobüs hatları /Otobusler, metro /Metro. Ulaşım ana sayfası: https://www.adana.bel.tr/tr/hizmetlerimiz/ulasim"},
-    {"tur": "diger", "kurum": "Adana İl Kültür ve Turizm Müdürlüğü", "url": "https://adana.gov.tr/il-kultur-ve-turizm-mudurlugu", "duyuru_url": "https://adana.gov.tr/il-kultur-ve-turizm-mudurlugu", "durum": 200, "not": "Bakanlığın il sitesi (adana.ktb.gov.tr) çözümlenmedi (000); valilik altındaki tanıtım sayfası kaydedildi. Festival bilgisi için https://adana.gov.tr/festivaller (Altın Koza, Portakal Çiçeği Karnavalı vb.) bakılabilir."}
+    {
+      "tur": "valilik",
+      "kurum": "Adana Valiliği",
+      "url": "https://adana.gov.tr/",
+      "duyuru_url": "https://adana.gov.tr/duyurular",
+      "haber_url": "https://adana.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://adana.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, basın açıklamaları (kar/okul tatili, yasaklar, valilik kararları) /basin-aciklamalari. Hepsi 200."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Adana Büyükşehir Belediyesi",
+      "url": "https://www.adana.bel.tr/",
+      "duyuru_url": "https://www.adana.bel.tr/tr/duyurular",
+      "haber_url": "https://www.adana.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "Doğrulama sırasında ilk turda tüm adresler 200 döndü; sonraki tekrar denemelerde (hızlı ardışık istek sonrası) zaman aşımı (000) alındı, yani site aralıklı yavaş/istek sınırlı. Routine'de aralıklı istek yapın, hata olursa tekrar deneyin."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Adana İl Milli Eğitim Müdürlüğü",
+      "url": "https://adana.meb.gov.tr/",
+      "duyuru_url": "https://adana.meb.gov.tr/www/duyurular/kategori/1",
+      "haber_url": "https://adana.meb.gov.tr/www/haberler/kategori/1",
+      "durum": 200,
+      "not": "/www/duyurular/kategori/1 isteği /www/haberler/kategori/1 adresine yönlendirildi (200); duyurular için ana sayfadaki Duyurular bölümüne bakın."
+    },
+    {
+      "tur": "su",
+      "kurum": "Adana Su ve Kanalizasyon İdaresi Genel Müdürlüğü (ASKİ)",
+      "url": "https://www.adana-aski.gov.tr/web/default.aspx",
+      "duyuru_url": "https://www.adana-aski.gov.tr/web/calismadetay.aspx",
+      "haber_url": "https://www.adana-aski.gov.tr/web/haberlistesi.aspx",
+      "durum": 200,
+      "not": "Alan adı adana-aski.gov.tr (aski.gov.tr Ankara ASKİ'sine aittir, karıştırılmamalı). Ana sayfada 'Günlük Çalışma Noktaları' bölümü ve calismadetay.aspx (çalışma/kesinti detayları) var; sayfa içeriği dinamik yüklenebilir. Planlı kesintiler yerel basında da ASKİ kaynaklı çıkıyor. X: @adanaaski."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Toroslar Elektrik Dağıtım A.Ş. (Toroslar EDAŞ, Enerjisa)",
+      "url": "https://www.toroslaredas.com.tr/",
+      "duyuru_url": "https://online.toroslaredas.com.tr/elektrik-kesintisi-sorgulama",
+      "durum": 200,
+      "not": "Resmi sitede Adana, Osmaniye, Gaziantep, Mersin, Kilis ve Hatay dağıtım bölgesi olarak yazıyor (doğrulandı). Planlı kesinti il/ilçe seçilerek sorgulanır (form tabanlı, düz HTML liste değil); çağrı merkezi 186. Basın bültenleri /basin-bulteni altında."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Çukurova Doğalgaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Adana, Mersin, Hatay ve Osmaniye bölgesi dağıtım şirketi (haber kaynaklarından; Aksa Doğalgaz çatı sitesi). Adana'ya özel arıza/kesinti duyurusu nadir; duyurular sayfası kurumsal ağırlıklı."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Adana İl Sağlık Müdürlüğü",
+      "url": "https://adanaism.saglik.gov.tr/",
+      "duyuru_url": "https://adanaism.saglik.gov.tr/TR,1/duyurular.html",
+      "haber_url": "https://adanaism.saglik.gov.tr/TR,1/haberler.html",
+      "durum": 200,
+      "not": "Alan adı adanaism.saglik.gov.tr (adana.saglik.gov.tr çözümlenmiyor)."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Adana İl Emniyet Müdürlüğü",
+      "url": "https://adana.pol.tr/",
+      "duyuru_url": "https://adana.pol.tr/duyurular",
+      "haber_url": "https://adana.pol.tr/haberler",
+      "durum": 200,
+      "not": "Kendi alan adı adana.pol.tr; egm.gov.tr/adana adresi 404 veriyor. Operasyon/asayiş haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Adana İl Jandarma Komutanlığı",
+      "url": "https://adana.gov.tr/il-jandarma-komutanligi",
+      "duyuru_url": "https://www.jandarma.gov.tr/",
+      "durum": 200,
+      "not": "İle özel bağımsız jandarma sitesi bulunamadı; valilik altındaki tanıtım sayfası ve Jandarma Genel Komutanlığı ana sitesi (200) kaydedildi. Jandarma haberleri için valilik basın açıklamaları ve Google News ipucu kullanılmalı."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Adana İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://adana.afad.gov.tr/",
+      "duyuru_url": "https://adana.afad.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Alternatif il sayfası: https://www.afad.gov.tr/adana (200). Valilik altındaki sayfa: https://adana.gov.tr/il-afet-acil-durum-mudurlugu (200). Deprem verisi için AFAD ulusal deprem sayfası kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Çukurova Üniversitesi",
+      "url": "https://www.cu.edu.tr/",
+      "duyuru_url": "https://www.cu.edu.tr/",
+      "durum": 200,
+      "not": "Ayrı bir duyuru/haber liste adresi doğrulanamadı (/duyurular, /haberler vb. 404). Haber ve duyurular ana sayfada /haber-detay/... ve /arges-duyurular/... bağlantıları olarak listeleniyor; ana sayfa taranmalı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi",
+      "url": "https://www.atu.edu.tr/",
+      "duyuru_url": "https://www.atu.edu.tr/",
+      "durum": 200,
+      "not": "Duyuru liste adresi doğrulanamadı (/duyurular, /haberler 404); ana sayfadan taranmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Seyhan Belediyesi",
+      "url": "https://seyhan.bel.tr/",
+      "duyuru_url": "https://seyhan.bel.tr/duyurular.php",
+      "haber_url": "https://seyhan.bel.tr/haberler.php",
+      "durum": 200,
+      "not": "Nüfusça en büyük ilçe."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yüreğir Belediyesi",
+      "url": "https://yuregir.bel.tr/",
+      "duyuru_url": "https://yuregir.bel.tr/category/duyurular/",
+      "haber_url": "https://yuregir.bel.tr/category/haberler/",
+      "durum": 200,
+      "not": ""
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çukurova Belediyesi",
+      "url": "https://cukurova.bel.tr/",
+      "duyuru_url": "https://cukurova.bel.tr/tum-duyurular.html",
+      "haber_url": "https://cukurova.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "Ana sayfada belediye başkan vekili seçimi gündemli duyuru görüldü (belediye siyasi gündemi)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sarıçam Belediyesi",
+      "url": "https://www.saricam.bel.tr/",
+      "duyuru_url": "https://www.saricam.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Dördüncü büyük merkez ilçe; isteğe bağlı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Adana Büyükşehir Belediyesi Ulaşım Bilgi (otobüs ve metro)",
+      "url": "https://ulasimbilgi.adana.bel.tr/",
+      "duyuru_url": "https://ulasimbilgi.adana.bel.tr/Metro",
+      "durum": 200,
+      "not": "İlk turda 200; sonraki denemelerde zaman aşımı (adana.bel.tr alt alan adı, aralıklı yavaş). Otobüs hatları /Otobusler, metro /Metro. Ulaşım ana sayfası: https://www.adana.bel.tr/tr/hizmetlerimiz/ulasim"
+    },
+    {
+      "tur": "diger",
+      "kurum": "Adana İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://adana.gov.tr/il-kultur-ve-turizm-mudurlugu",
+      "duyuru_url": "https://adana.gov.tr/il-kultur-ve-turizm-mudurlugu",
+      "durum": 200,
+      "not": "Bakanlığın il sitesi (adana.ktb.gov.tr) çözümlenmedi (000); valilik altındaki tanıtım sayfası kaydedildi. Festival bilgisi için https://adana.gov.tr/festivaller (Altın Koza, Portakal Çiçeği Karnavalı vb.) bakılabilir."
+    }
   ],
   "ipucu": [
-    {"tur": "google_news_rss", "url": "https://news.google.com/rss/search?q=Adana+when:1d&hl=tr&gl=TR&ceid=TR:tr", "durum": 200},
-    {"tur": "yerel_gazete", "ad": "Gazete Birlik", "url": "https://www.gazetebirlik.com/", "durum": 200},
-    {"tur": "yerel_gazete", "ad": "Yeni Adana Gazetesi", "url": "https://www.yeniadana.com.tr/", "durum": 200},
-    {"tur": "yerel_gazete", "ad": "Adana Haber", "url": "https://adanahaber.com/", "durum": 200},
-    {"tur": "yerel_gazete", "ad": "Adana Medya", "url": "https://www.adanamedya.com/", "durum": 403, "not": "Bot kullanıcı aracısına 403 veriyor; yalnızca konu bulmak için, erişilemezse atla."}
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Adana+when:1d&hl=tr&gl=TR&ceid=TR:tr",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazete Birlik",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Adana Gazetesi",
+      "url": "https://www.yeniadana.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Adana Haber",
+      "url": "https://adanahaber.com/",
+      "durum": 0,
+      "not": "[DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Adana Medya",
+      "url": "https://www.adanamedya.com/",
+      "durum": 403,
+      "not": "Bot kullanıcı aracısına 403 veriyor; yalnızca konu bulmak için, erişilemezse atla."
+    }
   ],
   "deger_konulari": [
     "planlı elektrik kesintisi (Toroslar EDAŞ, Seyhan/Yüreğir/Çukurova/Sarıçam mahalle listeleri)",

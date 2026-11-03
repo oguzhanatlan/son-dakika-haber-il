@@ -7,7 +7,7 @@ Yerel haber routine'lerinin okuduğu dosyalar. **Bu repo gizli (private) olmalı
 - `il-promptlari/`: her il routine'inin kısa promptu ve zamanlaması
 - `araclar/prompt_uret.py`: kaynak dosyalarından promptları ve bu tabloyu yeniden üretir
 
-Toplam 65 il.
+Toplam 81 il.
 
 | Plaka | İl | Saat | Prompt |
 |---|---|---|---|
@@ -76,3 +76,19 @@ Toplam 65 il.
 | 63 | Şanlıurfa | 07:27 ve 16:27 | il-promptlari/63-sanliurfa.md |
 | 64 | Uşak | 07:38 ve 16:38 | il-promptlari/64-usak.md |
 | 65 | Van | 07:49 ve 16:49 | il-promptlari/65-van.md |
+| 66 | Yozgat | 08:05 ve 17:05 | il-promptlari/66-yozgat.md |
+| 67 | Zonguldak | 08:16 ve 17:16 | il-promptlari/67-zonguldak.md |
+| 68 | Aksaray | 08:27 ve 17:27 | il-promptlari/68-aksaray.md |
+| 69 | Bayburt | 08:38 ve 17:38 | il-promptlari/69-bayburt.md |
+| 70 | Karaman | 08:49 ve 17:49 | il-promptlari/70-karaman.md |
+| 71 | Kırıkkale | 09:05 ve 18:05 | il-promptlari/71-kirikkale.md |
+| 72 | Batman | 09:16 ve 18:16 | il-promptlari/72-batman.md |
+| 73 | Şırnak | 09:27 ve 18:27 | il-promptlari/73-sirnak.md |
+| 74 | Bartın | 09:38 ve 18:38 | il-promptlari/74-bartin.md |
+| 75 | Ardahan | 09:49 ve 18:49 | il-promptlari/75-ardahan.md |
+| 76 | Iğdır | 10:05 ve 19:05 | il-promptlari/76-igdir.md |
+| 77 | Yalova | 10:16 ve 19:16 | il-promptlari/77-yalova.md |
+| 78 | Karabük | 10:27 ve 19:27 | il-promptlari/78-karabuk.md |
+| 79 | Kilis | 10:38 ve 19:38 | il-promptlari/79-kilis.md |
+| 80 | Osmaniye | 10:49 ve 19:49 | il-promptlari/80-osmaniye.md |
+| 81 | Düzce | 07:05 ve 16:05 | il-promptlari/81-duzce.md |

@@ -126,8 +126,8 @@
       "url": "https://www.tarsus.edu.tr/",
       "duyuru_url": "https://www.tarsus.edu.tr/Website/Duyurular",
       "haber_url": "https://www.tarsus.edu.tr/Website/Haberler",
-      "durum": 200,
-      "not": "SSL sertifika hatası: normal curl 000 (exit 60) dönüyor, curl -k ile 200; tarayıcıdan/WebFetch ile açılma durumu değişebilir. Soft 404 kontrolü temiz."
+      "durum": 0,
+      "not": "SSL sertifika hatası: normal curl 000 (exit 60) dönüyor, curl -k ile 200; tarayıcıdan/WebFetch ile açılma durumu değişebilir. Soft 404 kontrolü temiz. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "ilce_belediye",

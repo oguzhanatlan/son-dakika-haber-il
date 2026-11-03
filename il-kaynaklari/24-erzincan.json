@@ -170,13 +170,15 @@
       "tur": "yerel_gazete",
       "ad": "Erzincan Haber",
       "url": "http://www.erzincanhaber.com/",
-      "durum": 200
+      "durum": 0,
+      "not": "[DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "yerel_gazete",
       "ad": "Erzincan 24 Haber",
       "url": "http://www.erzincan24.com/",
-      "durum": 200
+      "durum": 0,
+      "not": "[DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     }
   ],
   "deger_konulari": [

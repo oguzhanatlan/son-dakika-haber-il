@@ -69,8 +69,8 @@
       "url": "https://www.baskentedas.com.tr/",
       "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
       "haber_url": "https://www.baskentedas.com.tr/basin-bultenleri",
-      "durum": 200,
-      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'ta hizmet veriyor (şirketin kendi basın bülteni 'Başkent EDAŞ Kastamonu'nun enerji altyapısını güçlendirmeye devam ediyor' ve arama sonuçlarıyla doğrulandı). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir); anasayfada /sss/elektrik-kesintisi (200) de var. /planli-kesintiler 404."
+      "durum": 0,
+      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'ta hizmet veriyor (şirketin kendi basın bülteni 'Başkent EDAŞ Kastamonu'nun enerji altyapısını güçlendirmeye devam ediyor' ve arama sonuçlarıyla doğrulandı). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir); anasayfada /sss/elektrik-kesintisi (200) de var. /planli-kesintiler 404. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "dogalgaz",

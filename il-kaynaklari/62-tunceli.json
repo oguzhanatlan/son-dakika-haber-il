@@ -163,7 +163,8 @@
       "tur": "yerel_gazete",
       "ad": "Tunceli Bülten",
       "url": "https://tuncelibulten.net/",
-      "durum": 200
+      "durum": 0,
+      "not": "[DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "yerel_gazete",

@@ -1,0 +1,190 @@
+{
+  "il": "Karabük",
+  "plaka": "78",
+  "slug": "karabuk",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/karabuk",
+  "buyuksehir": false,
+  "ilceler": [
+    "Eflani",
+    "Eskipazar",
+    "Merkez",
+    "Ovacık",
+    "Safranbolu",
+    "Yenice"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Karabük Valiliği",
+      "url": "https://www.karabuk.gov.tr/",
+      "duyuru_url": "https://www.karabuk.gov.tr/duyurular",
+      "haber_url": "https://www.karabuk.gov.tr/haberler",
+      "durum": 200,
+      "not": "karabuk.gov.tr de 200 dönüyor. Duyurular ve haberler ayrı sayfalar."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Karabük Belediyesi",
+      "url": "https://www.karabuk.bel.tr/",
+      "duyuru_url": "https://www.karabuk.bel.tr/duyurular.asp",
+      "haber_url": "https://www.karabuk.bel.tr/haberler.asp",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Klasik ASP site: duyurular.asp (planlı su kesintisi duyuruları da burada, ör. duyurular.asp?bm=...), haberler haberler.asp / haber.asp?id=...; /duyurular ve /haberler 404 verir. Bazı duyuru bm= bağlantıları ana sayfaya yönleniyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Karabük İl Milli Eğitim Müdürlüğü",
+      "url": "https://karabuk.meb.gov.tr/",
+      "duyuru_url": "https://karabuk.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://karabuk.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://karabuk.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve RSS 200 dönüyor, soft 404 yok. Kar tatili vb. için /acilduyurular/ denenmedi."
+    },
+    {
+      "tur": "su",
+      "kurum": "Karabük Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.karabuk.bel.tr/mudurlukler.asp?m=2&katid=46",
+      "duyuru_url": "https://www.karabuk.bel.tr/duyurular.asp",
+      "durum": 200,
+      "not": "Ayrı su idaresi yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı sayfa yok; kesinti/arıza duyuruları belediyenin genel duyurular.asp sayfasında (ör. 'Su Kesintisi Duyurusu', isale hattı arızası). Safranbolu'da su hizmeti Safranbolu Belediyesi'nde."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Başkent Elektrik Dağıtım A.Ş. (Başkent EDAŞ)",
+      "url": "https://www.baskentedas.com.tr/",
+      "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
+      "durum": 0,
+      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'a hizmet veriyor (şirketin Karabük basın bültenleri ve haber arşivi ile doğrulandı). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir). Basın bültenleri: https://www.baskentedas.com.tr/basin-bultenleri. /planli-kesintiler adresi 404. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "KARGAZ - Karabük Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://www.kargaz.com.tr/",
+      "duyuru_url": "https://www.kargaz.com.tr/HaberVeDuyurular.aspx",
+      "durum": 200,
+      "not": "ÇEDAŞ (Çorumgaz/Kargaz/Sürmeligaz) grubu; Karabük doğal gaz dağıtımı. Planlı gaz kesintisi duyurusu nadir; duyurular HaberVeDuyurular.aspx altında."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Karabük İl Sağlık Müdürlüğü",
+      "url": "https://karabukism.saglik.gov.tr/",
+      "duyuru_url": "https://karabukism.saglik.gov.tr/TR-17077/duyurular.html",
+      "haber_url": "https://karabukism.saglik.gov.tr/TR-17082/haberler.html",
+      "durum": 200,
+      "not": "Adres karabukism.saglik.gov.tr. Duyurular ağırlıklı personel/atama. /TR-1/duyurular.html 'Sayfa Bulunmadı' (soft 404) veriyor, doğru sayfa TR-17077."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Karabük İl Emniyet Müdürlüğü",
+      "url": "https://karabuk.pol.tr/",
+      "duyuru_url": "https://karabuk.pol.tr/duyurular",
+      "haber_url": "https://karabuk.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi karabuk.pol.tr; olay haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Karabük İl Jandarma Komutanlığı",
+      "url": "https://karabuk.jandarma.gov.tr/",
+      "duyuru_url": "https://karabuk.jandarma.gov.tr/duyurular",
+      "haber_url": "https://karabuk.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Karabük Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://karabuk.afad.gov.tr/",
+      "duyuru_url": "https://karabuk.afad.gov.tr/duyurular",
+      "haber_url": "https://karabuk.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Karabük Üniversitesi",
+      "url": "https://karabuk.edu.tr/",
+      "duyuru_url": "https://karabuk.edu.tr/1-3-list-Tum-Duyurular",
+      "haber_url": "https://karabuk.edu.tr/1-2-list-Tum-Haberler",
+      "durum": 200,
+      "not": "www.karabuk.edu.tr/duyurular 404; doğru liste sayfaları 1-3-list-Tum-Duyurular ve 1-2-list-Tum-Haberler. Ayrıca kbumedya.karabuk.edu.tr kampüs haberleri."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Safranbolu Belediyesi",
+      "url": "https://www.safranbolu.bel.tr/",
+      "duyuru_url": "https://www.safranbolu.bel.tr/safranbolu-duyurulari",
+      "haber_url": "https://www.safranbolu.bel.tr/safranbolu-haber",
+      "durum": 200,
+      "not": "Merkezden sonra en büyük ilçe. /duyurular/ ve /haberler/ de 200 dönüyor ama ana liste sayfaları safranbolu-duyurulari ve safranbolu-haber. Toplu taşıma: /toplu-tasima. Su hizmeti de belediyede (su abonelik duyuruları burada)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Eskipazar Belediyesi",
+      "url": "http://www.eskipazar.bel.tr/",
+      "duyuru_url": "http://www.eskipazar.bel.tr/duyurular",
+      "haber_url": "http://www.eskipazar.bel.tr/haberler",
+      "durum": 200,
+      "not": "Yalnızca http ile açılıyor; https://eskipazar.bel.tr ve https://www.eskipazar.bel.tr bağlanamadı (curl 000). Nüfus sırasında Safranbolu'dan sonra."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yenice Belediyesi",
+      "url": "https://www.yenice.bel.tr/",
+      "duyuru_url": "https://www.yenice.bel.tr/category/haberler/",
+      "haber_url": "https://www.yenice.bel.tr/category/haberler/",
+      "durum": 200,
+      "not": "WordPress; ayrı duyuru kategorisi bulunamadı (/category/duyurular 404), haber ve duyurular /category/haberler/ altında."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Karabük İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://karabuk.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "karabuk.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; ktb.gov.tr il siteleri genelde açılmıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Karab%C3%BCk+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karabük Postası",
+      "url": "https://karabukpostasi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karabük Gazetesi",
+      "url": "https://karabukgazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karabük Derin Haber",
+      "url": "https://www.karabukderinhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ajans Karabük",
+      "url": "https://www.ajanskarabuk.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "su kesintisi ve içme suyu sorunları (isale hattı arızaları, kireçli su, şehir merkezi mahalleleri)",
+    "planlı elektrik kesintisi (Başkent EDAŞ)",
+    "kar nedeniyle okul tatili ve yayla/köy yollarının kapanması (Yenice, Eskipazar, Ovacık, Eflani)",
+    "Safranbolu turizmi: tarihî çarşı, UNESCO mirası, festival ve etkinlikler",
+    "Karabük Üniversitesi: sınav, öğrenci alımı, yurt ve burs duyuruları",
+    "demir-çelik sanayii (Kardemir), istihdam ve OSB haberleri",
+    "orman yangını, sel ve heyelan uyarıları; deprem ve AFAD bilgilendirmeleri",
+    "Karabük-Safranbolu-Zonguldak/Bartın yolları ve trafik kazaları"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, üniversite, KARGAZ ve Başkent EDAŞ sayfaları 200 dönüyor (yurt dışı IP engeli görülmedi). Karabük Belediyesi eski ASP tabanlı: duyurular.asp, haberler.asp; /duyurular 404. Planlı su kesintisi için ayrı sayfa yok, duyurular.asp'e bakılmalı. Başkent EDAŞ kesinti sorgulama form/JS tabanlı. Sağlık Müdürlüğünde doğru duyuru sayfası TR-17077 (TR-1 soft 404). Eskipazar Belediyesi yalnızca http ile açılıyor. Kültür Turizm Müdürlüğü sitesi açılmıyor. Ulaşım için ayrı kurum sayfası eklenmedi."
+}

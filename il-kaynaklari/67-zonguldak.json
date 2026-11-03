@@ -1,0 +1,204 @@
+{
+  "il": "Zonguldak",
+  "plaka": "67",
+  "slug": "zonguldak",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/zonguldak",
+  "buyuksehir": false,
+  "ilceler": [
+    "Alaplı",
+    "Çaycuma",
+    "Devrek",
+    "Ereğli",
+    "Gökçebey",
+    "Kilimli",
+    "Kozlu",
+    "Merkez"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Zonguldak Valiliği",
+      "url": "https://zonguldak.gov.tr/",
+      "duyuru_url": "https://zonguldak.gov.tr/duyurular",
+      "haber_url": "https://zonguldak.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://zonguldak.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (üçü de 200, soft 404 değil). Kar tatili/yağış kararları genelde basın açıklaması veya duyuru olarak çıkar."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Zonguldak Belediyesi",
+      "url": "https://zonguldak.bel.tr/",
+      "duyuru_url": "https://zonguldak.bel.tr/duyurular",
+      "haber_url": "https://zonguldak.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyurular /duyurular, haberler /haberler (200). Meclis gündemleri ve yağış/ekip çalışmaları haber olarak yayımlanıyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Zonguldak İl Milli Eğitim Müdürlüğü",
+      "url": "https://zonguldak.meb.gov.tr/",
+      "duyuru_url": "https://zonguldak.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://zonguldak.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://zonguldak.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor. Kar tatili kararları asıl olarak Valilik sayfasında da aranmalı. /acilduyurular/ denenmedi."
+    },
+    {
+      "tur": "su",
+      "kurum": "Zonguldak Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://zonguldak.bel.tr/",
+      "duyuru_url": "https://zonguldak.bel.tr/duyurular",
+      "haber_url": "https://zonguldak.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ZESKİ vb.) bulunamadı; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı sayfa yok (zonguldak.bel.tr/su-kesintileri 404); arıza/kesinti duyuruları genel /haberler ve /duyurular içinde çıkıyor (örnek: /haberler/su-kesintisi-duyurusu, 2020 tarihli). Ereğli, Çaycuma, Devrek gibi ilçelerde su hizmeti ilgili ilçe belediyesindedir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Başkent Elektrik Dağıtım A.Ş. (Başkent EDAŞ)",
+      "url": "https://www.baskentedas.com.tr/",
+      "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
+      "durum": 0,
+      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Kastamonu, Karabük, Kırıkkale ve Zonguldak'ta hizmet veriyor (baskentedas.com.tr basın bülteninden doğrulandı; Zonguldak'ta 425 bini aşkın müşteri). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir); www.baskentedas.com.tr/planli-kesintiler gibi tahmini adresler hata sayfasına düşüyor. Basın bültenleri: https://baskentedas.com.tr/basin-bulteni/... [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Batıkar Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://akmercanbatikargaz.com.tr/",
+      "duyuru_url": "https://akmercanbatikargaz.com.tr/haberler-ve-duyurular",
+      "durum": 200,
+      "not": "Zonguldak (e-Devlet doğalgaz şirketleri listesinde Zonguldak için görünüyor; web adresi e-Devlet sayfasından alındı). Site Next.js/JS tabanlı, duyuru listesi JS ile yükleniyor. Karadeniz Ereğli ilçesi ayrı dağıtımcıda: Aksa Düzce Ereğli Doğal Gaz Dağıtım A.Ş. (https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/duzce-eregli, 200). Gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Zonguldak İl Sağlık Müdürlüğü",
+      "url": "https://zonguldakism.saglik.gov.tr/",
+      "duyuru_url": "https://zonguldakism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres zonguldakism.saglik.gov.tr. Duyuru/haber alt sayfasının adresi ana sayfa bağlantılarından ayrıca doğrulanmadı; ana sayfadaki Duyurular/Haberler bölümüne bakılmalı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Zonguldak İl Emniyet Müdürlüğü",
+      "url": "https://zonguldak.pol.tr/",
+      "duyuru_url": "https://zonguldak.pol.tr/duyurular",
+      "haber_url": "https://zonguldak.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi zonguldak.pol.tr. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri (200). Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Zonguldak İl Jandarma Komutanlığı",
+      "url": "https://zonguldak.jandarma.gov.tr/",
+      "duyuru_url": "https://zonguldak.jandarma.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Ana sayfa ve /duyurular 200 (soft 404 değil). /haberler alt sayfası ayrıca denenmedi."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Zonguldak Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://zonguldak.afad.gov.tr/",
+      "duyuru_url": "https://zonguldak.afad.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Deprem verisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Zonguldak Bülent Ecevit Üniversitesi",
+      "url": "https://www.beun.edu.tr/",
+      "duyuru_url": "https://www.beun.edu.tr/tr/announcements",
+      "haber_url": "https://www.beun.edu.tr/tr/news",
+      "durum": 200,
+      "not": "Duyurular /tr/announcements, haberler /tr/news, etkinlikler /tr/events (hepsi 200). Eski /tr/duyurular adresi 404; duyuru.beun.edu.tr ve haber.beun.edu.tr DNS'te yok. Çoğunlukla idari/akademik duyuru."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karadeniz Ereğli Belediyesi",
+      "url": "https://www.kdzeregli.bel.tr/",
+      "duyuru_url": "https://www.kdzeregli.bel.tr/duyurular",
+      "haber_url": "https://www.kdzeregli.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça en büyük ilçe (Ereğli ~174 bin). Dikkat: eregli.bel.tr Konya Ereğli'ye aittir, karıştırma. Resmi adı Karadeniz Ereğli; Google Haberler aramasında 'Karadeniz Ereğli' veya 'Ereğli' kullanılabilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çaycuma Belediyesi",
+      "url": "https://caycuma.bel.tr/",
+      "duyuru_url": "https://caycuma.bel.tr/duyurular/",
+      "haber_url": "https://caycuma.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra gelen ilçe (~90 bin). WordPress; alt sayfalar sonda eğik çizgiyle."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Devrek Belediyesi",
+      "url": "https://devrek.bel.tr/",
+      "duyuru_url": "https://devrek.bel.tr/duyurular",
+      "haber_url": "https://devrek.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200 (soft 404 değil)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Zonguldak İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://zonguldak.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "zonguldak.ktb.gov.tr DNS çözülmüyor / açılmıyor (curl 000). Kaynak olarak güvenilmemeli; il kalıbından gelen adres kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Zonguldak+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Zonguldak Pusula",
+      "url": "https://www.pusulagazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Halkın Sesi Gazetesi",
+      "url": "https://www.halkinsesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kanal B Zonguldak",
+      "url": "https://www.kanalbzonguldak.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İmza Gazetesi",
+      "url": "https://www.imzagazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tempo Gazetesi",
+      "url": "https://www.tempogazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kdz Ereğli Haber",
+      "url": "https://www.kdzereglihaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar ve yağış nedeniyle okul tatili (Valilik kararı, il geneli veya ilçe bazlı)",
+    "şiddetli yağış, sel ve su baskını uyarıları (Karadeniz kıyısı; Ereğli, Devrek, Çaycuma)",
+    "planlı elektrik kesintisi (Başkent EDAŞ)",
+    "su kesintisi ve su arızaları (Zonguldak Belediyesi, ilçe belediyeleri)",
+    "maden ocağı kazaları, madenci olayları ve kömür havzası gündemi (TTK, özel maden ocakları, Kozlu)",
+    "Erdemir ve Ereğli sanayisi haberleri, iş kazaları",
+    "heyelan, yol kapanması ve Zonguldak-Ankara/İstanbul kara yolu ile feribot/deniz ulaşımı",
+    "Karadeniz doğalgaz keşfi (Çaycuma-1 kuyusu) ve enerji yatırımları",
+    "deprem (Kuzey Anadolu Fay Hattı yakınlığı, 1999 Düzce depremi etkisi) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, ilçe belediyeleri ve Zonguldak Bülent Ecevit Üniversitesi duyuru/haber alt sayfaları 200 dönüyor ve soft 404 içermiyor. Sağlık Müdürlüğü zonguldakism.saglik.gov.tr üzerinde; alt duyuru sayfası ayrıca doğrulanmadı. Su için ayrı idare ve planlı kesinti sayfası yok; zonguldak.bel.tr/haberler ve /duyurular ile yerel basına bakılmalı. Başkent EDAŞ kesinti sorgulaması form/JS tabanlı. Doğalgaz: Zonguldak merkez ve çevresi Akmercan Batıkar, Karadeniz Ereğli Aksa Düzce Ereğli. Kültür Turizm Müdürlüğü sitesi açılmıyor. Test ortamındaki yönlendirici (DNS) olmayan alan adlarını 192.168.1.1'e yönlendirip 200 benzeri sayfa döndürebildiği için tahmini adresler (zonguldakpusula.com, duyuru.beun.edu.tr vb.) listeye alınmadı; yalnızca başlık içeriği doğrulanan adresler kaydedildi. Yurt dışı IP engeli gözlenmedi."
+}

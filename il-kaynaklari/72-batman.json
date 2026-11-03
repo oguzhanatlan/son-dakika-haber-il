@@ -1,0 +1,201 @@
+{
+  "il": "Batman",
+  "plaka": "72",
+  "slug": "batman",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/batman",
+  "buyuksehir": false,
+  "ilceler": [
+    "Beşiri",
+    "Gercüş",
+    "Hasankeyf",
+    "Kozluk",
+    "Merkez",
+    "Sason"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Batman Valiliği",
+      "url": "https://www.batman.gov.tr/",
+      "duyuru_url": "https://www.batman.gov.tr/duyurular",
+      "haber_url": "https://www.batman.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.batman.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (üçü de 200; olmayan adres gerçek 404 veriyor, soft 404 yok). Valilik ayrıca yerel basın listesini https://www.batman.gov.tr/yerel-basin altında tutuyor (200). Sayfalar ağır (~400 KB)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Batman Belediyesi",
+      "url": "https://www.batman.bel.tr/",
+      "duyuru_url": "https://www.batman.bel.tr/duyurular",
+      "haber_url": "https://www.batman.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. /duyurular ve /haberler gerçek sayfalar. DİKKAT: bu sitede olmayan her adres 200 dönen soft 404 (ana sayfayı gösteriyor); örn. /su-kesintisi, /ulasim, /zzqq aynı boş ana sayfa. Duyurular çoğunlukla ilan/meclis kararı/metruk yapı duyurusu; hizmet haberleri /haberler altında."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Batman İl Milli Eğitim Müdürlüğü",
+      "url": "https://batman.meb.gov.tr/",
+      "duyuru_url": "https://batman.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://batman.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://batman.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adresleri 200 dönüyor. Kar tatili/okul tatili gibi acil duyurular genelde Valilik duyurularında ve MEB ana sayfasında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Batman Belediyesi Su ve Kanalizasyon Müdürlüğü (BASKİ)",
+      "url": "https://www.batman.bel.tr/birim/su-ve-kanalizasyon-mudurlugu",
+      "duyuru_url": "https://www.batman.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi sitesi yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü (BASKİ) yürütüyor (arıza hattı Alo 185). Planlı su kesintisi için özel bir sayfa bulunamadı (batman.bel.tr/su-kesintisi vb. soft 404); kesinti duyuruları belediye /haberler, /duyurular ve yerel basında çıkıyor (örn. mahalle bazlı vana değişimi kesintileri). Su analiz raporu: https://www.batman.bel.tr/icerik/su-analiz-raporu (200). batmanbaski.com, batmanbaski.gov.tr, baski.gov.tr açılmıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Dicle Elektrik Dağıtım A.Ş. (DEDAŞ)",
+      "url": "https://www.dedas.com.tr/",
+      "duyuru_url": "https://www.dedas.com.tr/planli-kesintiler",
+      "haber_url": "https://www.dedas.com.tr/basin-odasi",
+      "durum": 200,
+      "not": "DEDAŞ Diyarbakır, Şanlıurfa, Mardin, Batman, Siirt ve Şırnak'ta hizmet veriyor (arama sonuçlarındaki şirket bilgileriyle doğrulandı; resmi sitede ayrı Batman sayfası yok). Site Angular tabanlı tek sayfa uygulaması: sunucu her adrese 200 ve aynı HTML döndürüyor (soft 404); /planli-kesintiler uygulamanın gerçek rotası ama içerik JS ile yükleniyor, il/ilçe seçimi gerekebilir. Diğer rotalar: /duyurular, /basin-odasi, /ariza-bildirimi. Arıza hattı 186. Planlı kesinti listeleri yerel basında da yayımlanıyor (Batman Rehber Gazetesi vb.)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Siirt Batman Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/siirt-batman",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "haber_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Batman, Siirt, Kurtalan, Kozluk, Beşiri vb. yatırım bölgelerini kapsıyor (şirket bilgileri sayfasından doğrulandı). Duyurular ve basın bültenleri tüm Aksa bölgeleri için ortak sayfada; Batman'a özgü planlı gaz kesintisi duyurusu nadir. Olmayan sayfa gerçek 404 veriyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Batman İl Sağlık Müdürlüğü",
+      "url": "https://batmanism.saglik.gov.tr/",
+      "duyuru_url": "https://batmanism.saglik.gov.tr/TR-280503/duyurular.html",
+      "haber_url": "https://batmanism.saglik.gov.tr/TR-24434/haberler.html",
+      "durum": 200,
+      "not": "Adres batmanism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /TR-24434/haberler.html. Bakanlık duyuruları: /TR-228153/bakanlik-duyurulari.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Batman İl Emniyet Müdürlüğü",
+      "url": "https://batman.pol.tr/",
+      "duyuru_url": "https://batman.pol.tr/duyurular",
+      "haber_url": "https://batman.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi batman.pol.tr; duyuru ve haber sayfaları 200. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri (200). Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Batman İl Jandarma Komutanlığı",
+      "url": "https://batman.jandarma.gov.tr/",
+      "duyuru_url": "https://batman.jandarma.gov.tr/duyurular",
+      "haber_url": "https://batman.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon ve olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Batman Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://batman.afad.gov.tr/",
+      "duyuru_url": "https://batman.afad.gov.tr/duyurular",
+      "haber_url": "https://batman.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Batman Üniversitesi",
+      "url": "https://batman.edu.tr/",
+      "duyuru_url": "https://batman.edu.tr/tum-duyurular",
+      "haber_url": "https://batman.edu.tr/tum-haberler",
+      "durum": 200,
+      "not": "www.batman.edu.tr batman.edu.tr'ye yönleniyor. Duyurular idari/akademik (ilan, sınav, kayıt) ağırlıklı; haberler /tum-haberler (sayfa çok büyük, ~800 KB). Dikkat: olmayan sayfalar 200 ile 97 baytlık 404.php yönlendirmesi veriyor (soft 404). Eski adres /Birimler/index.php?s=duyurular artık çalışmıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kozluk Belediyesi",
+      "url": "https://www.kozluk.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe (2024: yaklaşık 59 bin). Ana sayfa 200 ama alt sayfalar (/duyurular, /haberler) 404; /index.php/duyurular her adreste ana sayfayı döndürüyor (soft 404). Ana sayfadaki 'duyuru/...' ve 'haber/...' bağlantıları da 404 veriyor; haberleri ana sayfadan okumak veya Google Haberler/yerel basın kullanmak gerekir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Beşiri Belediyesi",
+      "url": "https://www.besiri.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "",
+      "durum": 200,
+      "not": "2024 nüfusu yaklaşık 32 bin. Kozluk sitesiyle aynı altyapı: ana sayfa 200, alt sayfalar (/duyurular, /haberler, /duyuru/...) 404, /index.php/... her adreste ana sayfa (soft 404). Ana sayfada imar/askı ilanı duyuruları görünüyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sason Belediyesi",
+      "url": "https://www.sason.bel.tr/",
+      "duyuru_url": "",
+      "durum": 403,
+      "not": "2024 nüfusu yaklaşık 29 bin. www.sason.bel.tr ve sason.bel.tr 403 Forbidden veriyor (yurt dışı IP engeli olabilir); resmi adres arama sonuçlarında tutarsız (sasonbel.com açılmıyor, curl 000). Alternatif: Sason Kaymakamlığı https://www.sason.gov.tr/ (200). Belediye X hesabı: @sasonbelediye."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Sason Kaymakamlığı",
+      "url": "https://www.sason.gov.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Sason belediye sitesi 403 olduğu için yedek olarak kaydedildi; duyuru/haber alt adresi doğrulanmadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Batman İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://batman.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "batman.ktb.gov.tr açılmıyor (curl 000, DNS/bağlantı hatası). Hasankeyf ve turizm haberleri için Valilik ve belediye haberlerine bakılmalı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Batman+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Batman Çağdaş Gazetesi",
+      "url": "https://www.batmancagdas.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Batman Rehber Gazetesi",
+      "url": "https://batmanrehbergazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Batman Yön Gazetesi",
+      "url": "https://www.batmanyon.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Batman Sonsöz Gazetesi",
+      "url": "https://www.batmansonsoz.net/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (DEDAŞ) ve kaçak elektrik kaynaklı kesintiler",
+    "mahalle bazlı planlı su kesintisi ve içme suyu hattı çalışmaları (BASKİ, Alo 185)",
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Sason, Kozluk, Beşiri yüksek kesimleri)",
+    "yaz aylarında aşırı sıcak hava, anız ve orman yangınları",
+    "Hasankeyf turizmi, Ilısu Barajı ve Dicle Nehri ile ilgili gelişmeler",
+    "Batman çayı/Dicle taşkın ve sel uyarıları, meteoroloji uyarıları",
+    "petrol/enerji sektörü ve TPAO saha haberleri, istihdam",
+    "deprem (Doğu Anadolu Fay hattı yakınlığı) ve AFAD bilgilendirmeleri",
+    "Batman Üniversitesi akademik takvim, kayıt ve sınav duyuruları"
+  ],
+  "notlar": "Valilik, emniyet, jandarma, AFAD ve MEB sitelerinin duyuru/haber alt sayfaları gerçek içerikle 200 dönüyor. Belediye (batman.bel.tr) ve DEDAŞ (dedas.com.tr) sitelerinde olmayan adresler de 200 döndürüyor (soft 404); yalnızca belirtilen rotalar güvenilir. Planlı su kesintisi için ayrı sayfa yok; kesintiler belediye /haberler, /duyurular ve yerel basında yayımlanıyor. DEDAŞ planlı kesinti sayfası JS/harita tabanlı, içerik düz curl ile alınamaz. Kozluk ve Beşiri belediye sitelerinin alt sayfaları 404 veriyor, Sason belediye sitesi 403 (yurt dışı IP engeli olabilir); ilçe haberleri için Google Haberler ve yerel basına başvurulmalı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Doğalgaz bölgesi Siirt ile ortak (Aksa Siirt Batman). Batman büyükşehir değil; ayrı bir ulaşım işletmesi sitesi bulunamadı (belediye /ulasim soft 404). Erişim testleri dışında yurt dışı IP engeli yalnızca Sason belediyesinde şüpheli."
+}

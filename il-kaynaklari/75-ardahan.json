@@ -1,0 +1,196 @@
+{
+  "il": "Ardahan",
+  "plaka": "75",
+  "slug": "ardahan",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/ardahan",
+  "buyuksehir": false,
+  "ilceler": [
+    "Çıldır",
+    "Damal",
+    "Göle",
+    "Hanak",
+    "Merkez",
+    "Posof"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Ardahan Valiliği",
+      "url": "https://www.ardahan.gov.tr/",
+      "duyuru_url": "https://www.ardahan.gov.tr/duyurular",
+      "haber_url": "https://www.ardahan.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler; ayrıca Vali'den haberler /validen-haberler ve ihale ilanları /ihale-ilanlari sayfaları var."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Ardahan Belediyesi",
+      "url": "https://ardahan.bel.tr/",
+      "duyuru_url": "https://ardahan.bel.tr/duyurular",
+      "haber_url": "https://ardahan.bel.tr/haber-arsivi",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. /haberler 404; haber listesi /haber-arsivi (tekil haberler /haberler/{slug}-{id}). Duyurular /duyurular altında (/duyurular/duyuru-NNN). www.ardahan.bel.tr de 200 dönüyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Ardahan İl Milli Eğitim Müdürlüğü",
+      "url": "https://ardahan.meb.gov.tr/",
+      "duyuru_url": "https://ardahan.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://ardahan.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor. Kar tatili vb. duyurular için ayrıca valilik duyuruları ve resmî haber akışına bakılmalı (Ardahan kış koşulları nedeniyle okul tatili sık gündeme gelir)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Ardahan Belediyesi Su ve Kanalizasyon Hizmetleri",
+      "url": "https://ardahan.bel.tr/",
+      "duyuru_url": "https://ardahan.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) bulunamadı; su hizmetini il merkez belediyesi yürütüyor (belediye sitesinde 'atıksu arıtma tesisi' ve 'sondaj kuyusu' proje sayfaları var). Planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı; kesinti/arıza duyuruları belediye duyurular, haber-arsivi ve yerel basında çıkıyor. Kışın donma nedeniyle su sıkıntısı haberlere konu olabiliyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
+      "url": "https://arasedas.com/",
+      "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
+      "durum": 0,
+      "not": "Aras EDAŞ (Erzurum merkezli) Ağrı, Ardahan, Bayburt, Erzincan, Erzurum, Iğdır ve Kars'ta hizmet veriyor (arama sonuçları ve Çalık Holding sayfasıyla doğrulandı). Planlı Bakım Kesintileri sayfası il/ilçe/yıl/ay seçimli form (JS ile yükleniyor, curl ile liste görünmez). www.arasedas.com yönlendirmeyle arasedas.com'a gidiyor; arasedas.com.tr açılmıyor (000). Arıza/çağrı: 444 7 850. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Doğugaz Kars Ardahan Doğalgaz Dağıtım A.Ş. (eski adı Kargaz)",
+      "url": "https://www.dogugaz.com.tr/",
+      "duyuru_url": "https://www.dogugaz.com.tr/haberler",
+      "durum": 200,
+      "not": "Doğugaz, Kars-Ardahan bölgesindeki Kargaz'ı bünyesine katmış (Doğugaz sitesinden doğrulandı). Duyurular çoğunlukla ihale/tarife (haberdetay/...). Eski site www.kargaz.com.tr hâlâ 200 dönüyor (HaberVeDuyurular.aspx). Bölge alt alan adı karsardahan.dogugaz.com.tr açılmıyor (000). Planlı gaz kesintisi duyurusu nadir; Göle ve Çıldır'da CNG ile gaz temini ihaleleri duyuruluyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Ardahan İl Sağlık Müdürlüğü",
+      "url": "https://ardahanism.saglik.gov.tr/",
+      "duyuru_url": "https://ardahanism.saglik.gov.tr/TR-19133/duyurular.html",
+      "haber_url": "https://ardahanism.saglik.gov.tr/TR-19170/haberler.html",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı personel/atama (aile hekimliği yerleştirme, lojman); halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Ardahan İl Emniyet Müdürlüğü",
+      "url": "https://ardahan.pol.tr/",
+      "duyuru_url": "https://ardahan.pol.tr/duyurular",
+      "haber_url": "https://ardahan.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi ardahan.pol.tr. Sayfa başlığı boş dönüyor ama içerik açılıyor; olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Ardahan İl Jandarma Komutanlığı",
+      "url": "https://ardahan.jandarma.gov.tr/",
+      "duyuru_url": "https://ardahan.jandarma.gov.tr/duyurular",
+      "haber_url": "https://ardahan.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Ardahan Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://ardahan.afad.gov.tr/",
+      "duyuru_url": "https://ardahan.afad.gov.tr/duyurular",
+      "haber_url": "https://ardahan.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Kış (çığ, kar, don) uyarıları valilik duyurularında da çıkar."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Ardahan Üniversitesi",
+      "url": "https://www.ardahan.edu.tr/",
+      "duyuru_url": "https://www.ardahan.edu.tr/Home/Duyurular",
+      "haber_url": "https://www.ardahan.edu.tr/Home/Haberler",
+      "durum": 200,
+      "not": "/duyurular 404; doğru adresler /Home/Duyurular ve /Home/Haberler (sayfadaki 'bulunamadı' ifadesi yalnızca sesli okuma uyarısı, soft 404 değil). ardahan.edu.tr de 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Göle Belediyesi",
+      "url": "https://gole.bel.tr/",
+      "duyuru_url": "https://gole.bel.tr/duyurular",
+      "haber_url": "https://gole.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlçe nüfusunda merkezden sonra gelen büyük ilçelerden. /haberler 200 ama liste boş ('Kayıt bulunamadı') görünebiliyor; imar ve belediye duyuruları /duyurular altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çıldır Belediyesi",
+      "url": "https://cildir.bel.tr/",
+      "duyuru_url": "https://cildir.bel.tr/duyuru",
+      "haber_url": "https://cildir.bel.tr/haber",
+      "durum": 200,
+      "not": "Çıldır Gölü turizmi (kızaklı kış etkinlikleri, balık avı) haberleri için önemli; tekil haberler haber-detay?id=N biçiminde."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Posof Belediyesi",
+      "url": "https://posof.bel.tr/",
+      "duyuru_url": "https://posof.bel.tr/duyuru-ilan",
+      "haber_url": "https://posof.bel.tr/belediyeden-haberler",
+      "durum": 200,
+      "not": "Nüfus sıralaması resmî kaynakla doğrulanmadı (Merkez, Göle, Çıldır sonrası Posof/Hanak/Damal birbirine yakın). Hanak Belediyesi: https://www.hanak.bel.tr/ (200) tek sayfalık site, /haberler ve /duyurular 404; Damal Belediyesi için www.damal.bel.tr 404, resmî site bulunamadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Ardahan İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://ardahan.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "ardahan.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli. Adres kalıptan geldiği için kaydedildi, arama sonucuyla doğrulanamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Ardahan+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ardahan Haberi (Ardahan Haber Gazete)",
+      "url": "https://www.ardahanhaberi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ardahan Haber (ardahanhaber.com.tr)",
+      "url": "https://www.ardahanhaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Ardahan bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/ardahan/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "TRT Haber Ardahan yerel haberler",
+      "url": "https://www.trthaber.com/yerelhaberler/ardahan/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İşçi Haber Ardahan (toplayıcı)",
+      "url": "https://www.iscihaber.net/ardahan",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve kapanan köy yolları",
+    "aşırı soğuk hava, eksi 30 derece altı sıcaklıklar ve donma",
+    "çığ riski, kar yağışı ve Ardahan-Kars/Artvin/Erzurum karayolu kapanmaları (Sahara/Çam, Şavşat yolu)",
+    "planlı elektrik kesintisi (Aras EDAŞ) ve kışın fırtına/kar kaynaklı elektrik arızaları",
+    "kışın su donması, su sıkıntısı ve su şebekesi arızaları",
+    "Çıldır Gölü: buz üstü balık avı, kızaklı kış etkinlikleri, turizm",
+    "hayvancılık, kaz ve kış yem desteği, Ardahan bal ve kaşar/peynir üretimi",
+    "doğalgaz tüketimi, faturalar ve ısınma (hane başı gaz tüketiminde ülke birincisi)",
+    "Gürcistan sınırı (Posof Aktaş kapısı, Türkgözü) ve sınır güvenliği/kaçakçılık operasyonları"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 değil. Belediye haber listesi /haber-arsivi (/haberler 404). Üniversite adresleri /Home/Duyurular ve /Home/Haberler. Aras EDAŞ planlı kesinti sayfası JS/form tabanlı; Doğugaz bölge alt alan adı (karsardahan.dogugaz.com.tr) açılmıyor, www.dogugaz.com.tr/haberler kullan. Kültür Turizm Müdürlüğü sitesi açılmıyor. Ayrı bir su idaresi yok (belediye yürütüyor). Yerel haber siteleri az: ardahanhaberi.com ve ardahanhaber.com.tr aktif; ardahanmedya.com spam yönlendirme, ardahanmedya.com.tr ise ilgisiz bir haber7gazete kopyası olduğundan listeye alınmadı; birçok tahmin edilen yerel alan adı (ardahanhaber.com, ardahanolay.com vb.) açılmıyor. Erişim testleri yurt dışı IP engeli göstermedi."
+}

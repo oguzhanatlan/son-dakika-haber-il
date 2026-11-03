@@ -1,0 +1,193 @@
+{
+  "il": "Kırıkkale",
+  "plaka": "71",
+  "slug": "kirikkale",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kirikkale",
+  "buyuksehir": false,
+  "ilceler": [
+    "Bahşılı",
+    "Balışeyh",
+    "Çelebi",
+    "Delice",
+    "Karakeçili",
+    "Keskin",
+    "Merkez",
+    "Sulakyurt",
+    "Yahşihan"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kırıkkale Valiliği",
+      "url": "https://www.kirikkale.gov.tr/",
+      "duyuru_url": "https://www.kirikkale.gov.tr/duyurular",
+      "haber_url": "https://www.kirikkale.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; her ikisi de 200 dönüyor (soft 404 kontrolü temiz)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kırıkkale Belediyesi",
+      "url": "https://kirikkale.bel.tr/",
+      "duyuru_url": "https://kirikkale.bel.tr/default.asp?sayfa=duyurular",
+      "haber_url": "https://kirikkale.bel.tr/default.asp?sayfa=haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Klasik ASP site; /duyurular ve /haberler 404, doğru adresler default.asp?sayfa=duyurular ve ?sayfa=haberler. İhaleler: ?sayfa=ihaleler. E-belediye: https://ebelediyem.kirikkale.bel.tr/anasayfa."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kırıkkale İl Milli Eğitim Müdürlüğü",
+      "url": "https://kirikkale.meb.gov.tr/",
+      "duyuru_url": "https://kirikkale.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://kirikkale.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://kirikkale.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular, haberler ve duyuru RSS'i 200 dönüyor (haber sayfası bir denemede geçici 500 verdi, tekrarda 200). /acilduyurular/ 404; kar tatili vb. duyuruları valilik ve MEB duyuruları üzerinden takip et."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kırıkkale Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://kirikkale.bel.tr/default.asp?sayfa=mudurlukler",
+      "duyuru_url": "https://kirikkale.bel.tr/default.asp?sayfa=duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (müdürlükler sayfasında 'Su ve Kanalizasyon Müdürlüğü' ve 'Yeşil Vadi Su Birliği' listeli). Planlı su kesintisi için ayrı duyuru sayfası bulunamadı; kesinti/arıza duyuruları belediye duyuruları, haberleri ve yerel basında çıkıyor. Su faturası/ödeme: ebelediyem.kirikkale.bel.tr."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Başkent Elektrik Dağıtım A.Ş. (Başkent EDAŞ)",
+      "url": "https://www.baskentedas.com.tr/",
+      "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
+      "durum": 0,
+      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'ta hizmet veriyor (şirketin kendi sitesinde 'Başkent EDAŞ Kırıkkale'de enerji altyapısını güçlendirmeye devam ediyor' basın bülteni var: baskentedas.com.tr/basin-bulteni). Planlı kesinti sorgulama sayfası il-ilçe-mahalle seçimli form/JS tabanlı; içerik curl ile okunamaz. SSS: https://www.baskentedas.com.tr/sss/elektrik-kesintisi. Basın bültenleri: https://www.baskentedas.com.tr/basin-bulteni. /planli-kesintiler gibi tahmin adresler 404. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Kırgaz Kırıkkale Doğalgaz Dağıtım Pazarlama A.Ş.",
+      "url": "https://www.kirgaz.com.tr/",
+      "duyuru_url": "https://www.kirgaz.com.tr/basin-odasi",
+      "durum": 200,
+      "not": "Kırıkkale doğalgaz dağıtım şirketi (EPDK lisansı 2004). Duyuru/haberler 'Basın Odası' altında (/haberdetay/{id}). /duyurular 500 veriyor. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kırıkkale İl Sağlık Müdürlüğü",
+      "url": "https://kirikkaleism.saglik.gov.tr/",
+      "duyuru_url": "https://kirikkaleism.saglik.gov.tr/TR-36151/duyurular.html",
+      "durum": 200,
+      "not": "Adres kirikkaleism.saglik.gov.tr. DİKKAT: TR-46346/duyurular.html (başka illerin kalıbı) bu sitede Amasya İSM'ye yönleniyor; doğru duyuru sayfası TR-36151. Duyurular ağırlıklı personel/lojman/ihale; halk sağlığı haberleri ana sayfada."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kırıkkale İl Emniyet Müdürlüğü",
+      "url": "https://kirikkale.pol.tr/",
+      "duyuru_url": "https://kirikkale.pol.tr/duyurular",
+      "haber_url": "https://kirikkale.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kirikkale.pol.tr; duyuru ve haber sayfaları 200. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kırıkkale İl Jandarma Komutanlığı",
+      "url": "https://kirikkale.jandarma.gov.tr/",
+      "duyuru_url": "https://kirikkale.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kirikkale.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kırıkkale Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kirikkale.afad.gov.tr/",
+      "duyuru_url": "https://kirikkale.afad.gov.tr/duyurular",
+      "haber_url": "https://kirikkale.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kırıkkale Üniversitesi",
+      "url": "https://kku.edu.tr/",
+      "duyuru_url": "https://kku.edu.tr/Anasayfa/Duyuru/Tumu",
+      "haber_url": "https://kku.edu.tr/Anasayfa/Haber/Tumu",
+      "durum": 200,
+      "not": "www.kku.edu.tr kök alan adına yönleniyor. /duyurular 404; doğru adres /Anasayfa/Duyuru/Tumu ve /Anasayfa/Haber/Tumu. Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yahşihan Belediyesi",
+      "url": "https://www.yahsihan.bel.tr/",
+      "duyuru_url": "https://www.yahsihan.bel.tr/",
+      "haber_url": "https://www.yahsihan.bel.tr/haberler.php",
+      "durum": 200,
+      "not": "Merkez ilçeden sonra en kalabalık ilçelerden. /duyurular ve /haberler 200 dönse de soft 404 (sayfada 'Sayfa Bulunamadı'); haber listesi /haberler.php, duyurular ana sayfada (/duyuru/{id}/{slug}). Ayrı duyuru liste sayfası bulunamadı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Keskin Belediyesi",
+      "url": "https://www.keskin.bel.tr/",
+      "duyuru_url": "https://www.keskin.bel.tr/haberler",
+      "haber_url": "https://www.keskin.bel.tr/haberler",
+      "durum": 200,
+      "not": "keskin.bel.tr www'ye yönlenir. /duyurular 404; duyuru ve haberler birlikte /haberler altında (/haberdetay/{id})."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Delice Belediyesi",
+      "url": "https://delice.bel.tr/",
+      "duyuru_url": "https://delice.bel.tr/haberler.html",
+      "haber_url": "https://delice.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; haber/ilan listesi /haberler.html (/haber/{slug}/{id}/). İçerik ağırlıklı ihale ve ilan."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kırıkkale İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://kirikkale.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "kirikkale.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=K%C4%B1r%C4%B1kkale+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kırıkkale Haber (kirikkalehaber.com.tr)",
+      "url": "https://kirikkalehaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kırıkkale Gazete",
+      "url": "https://kirikkalegazete.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kırıkkale Haber (kirikkalehaber.net)",
+      "url": "https://www.kirikkalehaber.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Kırıkkale bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/kirikkale/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Başkent EDAŞ)",
+    "su kesintisi ve şebeke arızaları, altyapı (su/kanalizasyon) çalışmaları",
+    "sağanak, sel ve su baskını uyarıları (alt geçit ve caddelerin su altında kalması)",
+    "kar nedeniyle okul tatili ve yol kapanması (özellikle Keskin, Delice, Sulakyurt kesimi)",
+    "sanayi: Tüpraş Kırıkkale Rafinerisi, MKE ve organize sanayi bölgesi (iş kazası, yangın, istihdam/işçi alımı)",
+    "Kırıkkale Üniversitesi ve okul duyuruları (sınav, kayıt, personel alımı)",
+    "Ankara-Kırıkkale-Kırşehir yolları ve trafik kazaları",
+    "deprem ve AFAD bilgilendirmeleri",
+    "tarım: kuraklık, dolu ve don zararı, hububat hasadı"
+  ],
+  "notlar": "Valilik, emniyet, jandarma, AFAD, il MEB ve il sağlık sitelerinin duyuru/haber sayfaları 200 dönüyor; yurt dışı IP engeli gözlenmedi. Belediye sitesi eski ASP yapısında: duyurular default.asp?sayfa=duyurular, haberler ?sayfa=haberler (/duyurular 404). Su için ayrı idare ve planlı kesinti sayfası yok (belediye Su ve Kanalizasyon Müdürlüğü). Elektrik: Başkent EDAŞ, kesinti sorgulama formu JS tabanlı. Sağlık Müdürlüğü'nde TR-46346 kalıbı Amasya'ya yönleniyor, TR-36151 kullan. Yahşihan Belediyesi'nin /duyurular ve /haberler sayfaları soft 404; /haberler.php kullan. Kültür Turizm sitesi açılmıyor. Yerel haber sitesi olarak denenen kirikkalehaber.com, kirikkalegundem.com, kirikkaleilgazetesi.com vb. açılmadı (curl 000); listedeki üç yerel site açılıyor ama yalnızca konu bulmak için kullanılmalı."
+}

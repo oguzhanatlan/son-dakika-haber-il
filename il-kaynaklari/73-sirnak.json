@@ -1,0 +1,191 @@
+{
+  "il": "Şırnak",
+  "plaka": "73",
+  "slug": "sirnak",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/sirnak",
+  "buyuksehir": false,
+  "ilceler": [
+    "Beytüşşebap",
+    "Cizre",
+    "Güçlükonak",
+    "İdil",
+    "Merkez",
+    "Silopi",
+    "Uludere"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Şırnak Valiliği",
+      "url": "https://sirnak.gov.tr/",
+      "duyuru_url": "https://sirnak.gov.tr/duyurular",
+      "haber_url": "https://sirnak.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://sirnak.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (validen haberler: /validen-haberler), basın açıklamaları /basin-aciklamalari. Okul tatili/eylem yasağı gibi kararlar basın açıklamasında çıkabilir."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Şırnak Belediyesi",
+      "url": "https://www.sirnak.bel.tr/",
+      "duyuru_url": "https://www.sirnak.bel.tr/tum-duyurular/",
+      "rss": "https://www.sirnak.bel.tr/feed/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi (WordPress). Duyurular /tum-duyurular/ (ihale, 18. madde askı ilanı ağırlıklı). Ayrı haber sayfası yok (/haberler/ 404); WordPress RSS: /feed/ (200). Ana sayfada site bot-check (imunify) yönlendirmesi olabilir."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Şırnak İl Milli Eğitim Müdürlüğü",
+      "url": "https://sirnak.meb.gov.tr/",
+      "duyuru_url": "https://sirnak.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://sirnak.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://sirnak.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ilk denemede bir kez 500 döndü, tekrar denemede 200 (aralıklı hata olabilir). Duyuru RSS 200. Okul tatili/ders kesme kararları valilik/kaymakamlık açıklamasında da çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Şırnak Belediyesi Su ve Kanalizasyon İşleri Müdürlüğü",
+      "url": "https://www.sirnak.bel.tr/birimler/",
+      "duyuru_url": "https://www.sirnak.bel.tr/tum-duyurular/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi yok; hizmeti belediyenin Su ve Kanalizasyon İşleri Müdürlüğü yürütüyor (birimler sayfasında müdür listeli). Planlı su kesintisi için ayrı sayfa bulunamadı; duyurular /tum-duyurular/ ve /feed/ ile sosyal medyada (Facebook: sirnakbel, X: SirnakBel) çıkıyor. Cizre/Silopi/İdil sularını kendi belediyeleri yönetir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Dicle Elektrik Dağıtım A.Ş. (DEDAŞ)",
+      "url": "https://www.dedas.com.tr/",
+      "duyuru_url": "https://www.dedas.com.tr/planli-kesinti",
+      "durum": 200,
+      "not": "DEDAŞ Diyarbakır, Mardin, Batman, Siirt, Şanlıurfa ve Şırnak'ta hizmet veriyor (arama sonuçları ve Şırnak planlı kesinti haberleriyle doğrulandı; dedas.com.tr ana sayfası 'Dicle Elektrik' başlıklı). Planlı kesinti sayfası JS/form tabanlı olabilir (il-ilçe seçimi); e-Devlet'te de 'planlı kesinti sorgulama' var. Duyurular: https://www.dedas.com.tr/duyurular (200). www.dicleedas.com.tr / dicle-edas.com.tr açılmıyor (kullanma)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Hakkari Şırnak Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://akmercan.com.tr/",
+      "duyuru_url": "https://akmercan.com.tr/haberler-ve-duyurular",
+      "durum": 200,
+      "not": "Şirket adı turkiye.gov.tr doğalgaz dağıtım listesinde Şırnak için doğrulandı. Akmercan grubunun genel sitesi (Next.js, JS tabanlı); Şırnak'a özel ayrı sayfa bulunamadı. akmercangaz.com.tr 429/000 döndü. İdil'de doğalgaz hattı çalışmaları sürüyor; hizmet kapsamı ilçelere göre değişebilir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Şırnak İl Sağlık Müdürlüğü",
+      "url": "https://sirnakism.saglik.gov.tr/",
+      "duyuru_url": "https://sirnakism.saglik.gov.tr/TR-364178/duyurular.html",
+      "durum": 200,
+      "not": "Adres sirnakism.saglik.gov.tr. Dikkat: Amasya'daki duyuru kimliği (TR-46346) yönlendirme yapıyor, doğru duyuru adresi TR-364178. Nöbetçi eczane: https://sirnakism.saglik.gov.tr/TR,679/sirnak-nobetci-eczane.html"
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Şırnak İl Emniyet Müdürlüğü",
+      "url": "https://sirnak.pol.tr/",
+      "duyuru_url": "https://sirnak.pol.tr/duyurular",
+      "haber_url": "https://sirnak.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi sirnak.pol.tr. /duyurular ilk denemede bir kez bağlantı hatası (000) verdi, tekrarda 200. Olay haberleri /haberler (200)."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Şırnak İl Jandarma Komutanlığı",
+      "url": "https://sirnak.jandarma.gov.tr/",
+      "duyuru_url": "https://sirnak.jandarma.gov.tr/duyurular",
+      "haber_url": "https://sirnak.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Şırnak Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://sirnak.afad.gov.tr/",
+      "duyuru_url": "https://sirnak.afad.gov.tr/duyurular",
+      "haber_url": "https://sirnak.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Şırnak Üniversitesi",
+      "url": "https://www.sirnak.edu.tr/",
+      "duyuru_url": "https://www.sirnak.edu.tr/tr/duyurular/",
+      "haber_url": "https://www.sirnak.edu.tr/tr/haberler/",
+      "durum": 200,
+      "not": "Ana adres /tr'ye yönleniyor. /duyurular 500 veriyor; doğru adresler /tr/duyurular/ ve /tr/haberler/ (200). Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Cizre Belediyesi",
+      "url": "https://www.cizre.bel.tr/",
+      "duyuru_url": "https://www.cizre.bel.tr/Kategori/duyurular.html",
+      "haber_url": "https://www.cizre.bel.tr/Kategori/haberler.html",
+      "durum": 200,
+      "not": "cizre.bel.tr www'ye yönlenir. Kategori sayfaları: Kategori/duyurular.html, Kategori/haberler.html (200). Nüfusça en büyük ilçe."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Silopi Belediyesi",
+      "url": "https://silopi.bel.tr/",
+      "duyuru_url": "https://silopi.bel.tr/kategori/duyurular/",
+      "haber_url": "https://silopi.bel.tr/kategori/haberler/",
+      "durum": 200,
+      "not": "WordPress kategori sayfaları; www.silopi.bel.tr apex'e yönlenir. Nüfusça merkezle birlikte en büyük ilçelerden."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İdil Belediyesi",
+      "url": "https://idil.bel.tr/",
+      "duyuru_url": "https://idil.bel.tr/duyurular",
+      "haber_url": "https://idil.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler; ayrıca /duyuru/{slug} ve /haber/{slug} biçimli kayıtlar. Doğalgaz hattı çalışmaları haberlerde geçiyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Şırnak İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://sirnak.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "sirnak.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli. Adres kalıptan geldiği için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%C5%9E%C4%B1rnak+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Şırnak Haber",
+      "url": "https://sirnakhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Şırnak Haber 73",
+      "url": "https://sirnakhaber73.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Cizre Haberleri",
+      "url": "https://www.cizrehaberleri.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Habur Gündem",
+      "url": "https://www.haburgundem.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi ve sık kesinti şikayetleri (DEDAŞ)",
+    "kar nedeniyle okul tatili ve köy/yayla yollarının kapanması (Beytüşşebap, Uludere, Merkez)",
+    "Cudi ve Gabar bölgesi: petrol/doğalgaz arama ve üretim haberleri",
+    "Habur Sınır Kapısı, Cizre-Silopi gümrük ve tır trafiği",
+    "yaz sıcakları, içme suyu kesintileri ve su sıkıntısı (Cizre, Silopi, İdil)",
+    "operasyon, güvenlik ve valilik açıklamaları (eylem yasağı, özel güvenlik bölgesi kararları)",
+    "doğalgaz altyapısı ve abonelik gelişmeleri (Cizre, Silopi, İdil)",
+    "deprem ve AFAD bilgilendirmeleri; sel ve taşkın uyarıları (Dicle, Hezil çayı)"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, sağlık, DEDAŞ ve belediye sitelerinin duyuru/haber alt sayfaları 200 dönüyor (MEB duyuru ve emniyet duyurular sayfaları ilk denemede bir kez 500/000 verdi, tekrarda 200: aralıklı hata olabilir). Soft-404 kontrolü yapıldı ('bulunamad' geçmiyor); Cizre sayfasındaki tek eşleşme dil seçici JS metni. Şırnak Belediyesi sitesinde ayrı haber sayfası yok, /feed/ RSS ve /tum-duyurular/ kullanılmalı; su kesintisi için özel sayfa yok. Sağlık müdürlüğü duyuru adresi TR-364178 (TR-46346 Amasya'ya yönlendiriyor). Üniversite /duyurular 500 veriyor, /tr/duyurular/ kullanılmalı. Doğalgaz dağıtıcısı Akmercan Hakkari Şırnak (akmercan.com.tr JS tabanlı, Şırnak'a özel sayfa yok). Kültür Turizm sitesi açılmıyor. sirnakgazetesi.com ve sirnakgundem.com başlıksız/boş döndü, listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

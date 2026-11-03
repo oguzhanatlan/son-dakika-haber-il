@@ -1,0 +1,182 @@
+{
+  "il": "Iğdır",
+  "plaka": "76",
+  "slug": "igdir",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/igdir",
+  "buyuksehir": false,
+  "ilceler": [
+    "Aralık",
+    "Karakoyunlu",
+    "Merkez",
+    "Tuzluca"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Iğdır Valiliği",
+      "url": "https://www.igdir.gov.tr/",
+      "duyuru_url": "https://www.igdir.gov.tr/duyurular",
+      "haber_url": "https://www.igdir.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.igdir.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200, soft 404 yok). Kar tatili vb. valilik açıklamaları buradan ve yerel basından çıkıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Iğdır Belediyesi",
+      "url": "https://www.igdir.bel.tr/",
+      "duyuru_url": "https://www.igdir.bel.tr/duyurular",
+      "haber_url": "https://www.igdir.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. DİKKAT: www'siz igdir.bel.tr 'Index of /' (dizin listesi) döndürüyor, mutlaka www.igdir.bel.tr kullan. /duyurular ve /haberler 200 (soft 404 yok)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Iğdır İl Milli Eğitim Müdürlüğü",
+      "url": "https://igdir.meb.gov.tr/",
+      "duyuru_url": "https://igdir.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://igdir.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://igdir.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor. Kar tatili kararları genelde valilik sayfası ve yerel basında da yer alır."
+    },
+    {
+      "tur": "su",
+      "kurum": "Iğdır Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.igdir.bel.tr/",
+      "duyuru_url": "https://www.igdir.bel.tr/su-kesintisi",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi yok; hizmeti belediye yürütüyor. www.igdir.bel.tr/su-kesintisi sayfası 200 dönüyor (başlık 'SU KESİNTİSİ!'), ancak curl çıktısında güncel duyuru metni görünmedi, içerik dinamik yüklenebilir; genel /duyurular ve yerel basınla birlikte izlenmeli. Ana sayfada ayrıca 'atik-su-aritma' sayfası var."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
+      "url": "https://arasedas.com/",
+      "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
+      "durum": 0,
+      "not": "Aras EDAŞ Erzurum, Erzincan, Bayburt, Ağrı, Kars, Ardahan ve Iğdır'da hizmet veriyor (arama sonuçlarındaki kurum bilgisinden; arasedas.com ana sayfasında il listesi açıkça yazmıyor, Iğdır doğrulaması ikincil kaynaklara dayanıyor). Planlı kesinti sayfası il/ilçe/yıl/ay filtreli, JS ile yükleniyor (curl ile sonuç listesi görünmüyor). www.arasedas.com, arasedas.com'a yönleniyor. Çağrı merkezi 444 78 50. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Doğugaz Iğdır Doğalgaz Dağıtım A.Ş.",
+      "url": "https://www.dogugaz.com.tr/",
+      "duyuru_url": "https://www.dogugaz.com.tr/duyurular",
+      "haber_url": "https://dogugaz.com.tr/haberler",
+      "durum": 200,
+      "not": "Iğdır bölgesi doğalgaz dağıtıcısı. Eski adres serhatgaz.com.tr açılmıyor (curl 000), kullanma. Ana sayfada Aralık ve Karakoyunlu ilçeleri CNG/ihale duyuruları ile tarife duyuruları var. Abone portalı: https://igdir.dogugaz.com.tr/ (200, AYBS+ Portal). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Iğdır İl Sağlık Müdürlüğü",
+      "url": "https://igdirism.saglik.gov.tr/",
+      "duyuru_url": "https://igdirism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres igdirism.saglik.gov.tr. Ana sayfa 200; duyuru/haber alt sayfasının adresi doğrulanamadı (tahmin edilen /TR-0/duyurular.html ana sayfaya yönleniyor), duyurular ana sayfadan izlenmeli. İçme suyu uyarıları gibi halk sağlığı duyuruları bu kurumdan da çıkıyor."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Iğdır İl Emniyet Müdürlüğü",
+      "url": "https://igdir.pol.tr/",
+      "duyuru_url": "https://igdir.pol.tr/duyurular",
+      "haber_url": "https://igdir.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi igdir.pol.tr. Duyuru ve haber sayfaları 200 (soft 404 yok)."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Iğdır İl Jandarma Komutanlığı",
+      "url": "https://igdir.jandarma.gov.tr/",
+      "duyuru_url": "https://igdir.jandarma.gov.tr/duyurular",
+      "haber_url": "https://igdir.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon ve olay haberleri /haberler altında. Sınır ili olduğu için kaçakçılık/göçmen yakalama haberleri sık çıkar."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Iğdır Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://igdir.afad.gov.tr/",
+      "duyuru_url": "https://igdir.afad.gov.tr/duyurular",
+      "haber_url": "https://igdir.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200. Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Iğdır Üniversitesi",
+      "url": "https://www.igdir.edu.tr/",
+      "duyuru_url": "https://www.igdir.edu.tr/en_GB/blog/duyurular-7",
+      "haber_url": "https://www.igdir.edu.tr/en_GB/blog/haberler-3",
+      "durum": 200,
+      "not": "Ana sayfa /en_GB'ye yönleniyor ancak içerik Türkçe; duyurular /blog/duyurular-7, haberler /blog/haberler-3 altında. /duyurular 404 veriyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tuzluca Belediyesi",
+      "url": "https://www.tuzluca.bel.tr/",
+      "duyuru_url": "https://www.tuzluca.bel.tr/duyurular",
+      "haber_url": "https://www.tuzluca.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ana sayfa 200. Sitedeki bağlantılar (duyurular, haberler, haber-kategori/genel-haberler) curl ile 404 dönüyor; olası bot/yönlendirme sorunu, alt sayfa adresleri bu nedenle doğrulanamadı. Haber ve duyuruları ana sayfadan okumak gerekebilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Aralık Belediyesi",
+      "url": "https://www.aralik.bel.tr/",
+      "duyuru_url": "",
+      "durum": 403,
+      "not": "Arama sonucuyla bulunan resmî adres; curl ile 403 dönüyor (bot koruması/erişim engeli). Alt sayfa adresleri doğrulanamadı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karakoyunlu Belediyesi",
+      "url": "http://www.karakoyunlu.bel.tr/",
+      "duyuru_url": "http://www.karakoyunlu.bel.tr/duyurular",
+      "haber_url": "http://www.karakoyunlu.bel.tr/haberler",
+      "durum": 200,
+      "not": "https (www'siz) adres açılmıyor (curl 000); http://www.karakoyunlu.bel.tr çalışıyor. Duyurular ve haberler 200 (soft 404 yok)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Iğdır İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://igdir.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "igdir.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; kalıp adres olduğu için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=I%C4%9Fd%C4%B1r+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeşil Iğdır Gazetesi",
+      "url": "https://www.yesiligdir.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Aras Gazetesi",
+      "url": "https://www.arasgazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi (Iğdır yerel haberleri)",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili (il geneli ve köy bazlı taşımalı eğitim ara verme)",
+    "planlı elektrik kesintisi (Aras EDAŞ) ve kış aylarında arıza/kesinti",
+    "içme suyu kesintisi, şebeke arızası ve su kalitesi uyarıları",
+    "deprem ve AFAD bilgilendirmeleri (Ağrı Dağı/Doğu Anadolu fay hatları yakınlığı)",
+    "sınır güvenliği: kaçakçılık ve düzensiz göçmen yakalamaları (İran, Ermenistan, Nahçıvan sınırı)",
+    "tarım: Iğdır kayısısı, pamuk ve çeltik hasadı, don ve dolu zararı",
+    "Aras Nehri taşkını ve Nahçıvan sınır kapısı (Dilucu) ile ilgili gelişmeler",
+    "doğalgaz abonelik/tarife ve ilçelere doğalgaz yayılımı (Doğugaz)"
+  ],
+  "notlar": "Belediye için mutlaka www.igdir.bel.tr kullan (www'siz adres dizin listesi döndürüyor). Valilik, MEB, emniyet, jandarma, AFAD, Doğugaz ve Karakoyunlu duyuru/haber sayfaları 200. İl Sağlık Müdürlüğü için duyuru alt sayfası bulunamadı, ana sayfa izlenmeli. Su kesintisi sayfası (www.igdir.bel.tr/su-kesintisi) var ama içerik dinamik. Aras EDAŞ planlı kesinti sayfası JS/filtre tabanlı. Tuzluca alt sayfaları curl ile 404, Aralık Belediyesi 403 verdi (bot koruması olabilir); ayrıca bot engelini aşmak için farklı UA denemesi yapılmadı. Doğugaz'ın eski adresi serhatgaz.com.tr çalışmıyor. Kültür Turizm sitesi açılmıyor. Iğdır Üniversitesi ana sayfası /en_GB'ye yönleniyor ama Türkçe içerik. Eşzamanlı olarak yurt dışı IP engeli belirtisi görülmedi (diğer gov.tr siteleri 200)."
+}

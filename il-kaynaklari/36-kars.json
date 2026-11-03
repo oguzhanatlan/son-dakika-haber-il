@@ -56,8 +56,8 @@
       "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
       "url": "https://arasedas.com/",
       "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
-      "durum": 200,
-      "not": "Aras EDAŞ Erzurum, Ağrı, Ardahan, Bayburt, Erzincan, Iğdır ve Kars'ta hizmet veriyor (şirketin kendi sitesindeki tanıtım metniyle Kars doğrulandı; genel merkez Erzurum). Planlı kesinti sayfası il/ilçe/yıl/ay filtreli, JS tabanlı (il seçimi gerekli). Çağrı merkezi 850 200 20 20. www.arasedas.com arasedas.com'a yönleniyor."
+      "durum": 0,
+      "not": "Aras EDAŞ Erzurum, Ağrı, Ardahan, Bayburt, Erzincan, Iğdır ve Kars'ta hizmet veriyor (şirketin kendi sitesindeki tanıtım metniyle Kars doğrulandı; genel merkez Erzurum). Planlı kesinti sayfası il/ilçe/yıl/ay filtreli, JS tabanlı (il seçimi gerekli). Çağrı merkezi 850 200 20 20. www.arasedas.com arasedas.com'a yönleniyor. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "dogalgaz",
@@ -136,8 +136,8 @@
       "url": "http://www.digor.bel.tr/",
       "duyuru_url": "",
       "haber_url": "",
-      "durum": 200,
-      "not": "Ana sayfa 200 dönüyor ama içerik boş/bozuk (başlıksız, ~1 KB, gb2312 charset'li bir betik); kaynak olarak güvenilmemeli. Selim, Arpaçay (arpacay.bel.tr 403), Akyaka, Susuz belediye siteleri bulunamadı/açılmadı."
+      "durum": 0,
+      "not": "Ana sayfa 200 dönüyor ama içerik boş/bozuk (başlıksız, ~1 KB, gb2312 charset'li bir betik); kaynak olarak güvenilmemeli. Selim, Arpaçay (arpacay.bel.tr 403), Akyaka, Susuz belediye siteleri bulunamadı/açılmadı. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "diger",

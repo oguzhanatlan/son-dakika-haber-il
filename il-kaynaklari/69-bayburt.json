@@ -1,0 +1,181 @@
+{
+  "il": "Bayburt",
+  "plaka": "69",
+  "slug": "bayburt",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/bayburt",
+  "buyuksehir": false,
+  "ilceler": [
+    "Aydıntepe",
+    "Demirözü",
+    "Merkez"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Bayburt Valiliği",
+      "url": "https://www.bayburt.gov.tr/",
+      "duyuru_url": "https://bayburt.gov.tr/duyurular",
+      "haber_url": "https://bayburt.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://bayburt.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; basın açıklamaları da ayrı (200). Sayfalarda 'bulunamadı' ifadesi yok (soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Bayburt Belediyesi",
+      "url": "https://bayburt.bel.tr/",
+      "duyuru_url": "https://bayburt.bel.tr/duyurular",
+      "haber_url": "https://bayburt.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyurular ağırlıklı imar/askı ilanı, ön tahsis, personel; haberler /haberler. Ayrıca /etkinlikler, /ihaleler, /askiilanlari, /sayfa/nobetci-eczaneler, /sayfa/bayburt-belediyesi-toplu-ulasim-arac-kalkis-saatleri."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Bayburt İl Milli Eğitim Müdürlüğü",
+      "url": "https://bayburt.meb.gov.tr/",
+      "duyuru_url": "https://bayburt.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://bayburt.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://bayburt.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS adresleri 200 dönüyor; kar tatili vb. duyurular için valilik duyuruları ve yerel basın da izlenmeli."
+    },
+    {
+      "tur": "su",
+      "kurum": "Bayburt Belediyesi Su ve Kanalizasyon İşleri (belediye müdürlükleri)",
+      "url": "https://bayburt.bel.tr/sayfa/su-abonelik",
+      "duyuru_url": "https://bayburt.bel.tr/duyurular",
+      "haber_url": "https://bayburt.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) bulunamadı; su hizmeti belediyenin birimlerince yürütülüyor (su abonelik sayfası: /sayfa/su-abonelik; müdürlükler: https://bayburt.bel.tr/mudurlukler). Planlı su kesintisi için özel bir duyuru sayfası bulunamadı (bayburt.bel.tr/su-kesintisi 404); kesinti duyuruları genel /duyurular, /haberler ve yerel basında çıkabilir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
+      "url": "https://arasedas.com/",
+      "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
+      "durum": 0,
+      "not": "Aras EDAŞ Erzurum, Ağrı, Ardahan, Bayburt, Erzincan, Iğdır ve Kars'a hizmet veriyor (genel merkez Erzurum; WebSearch ve Çalık Holding kaynaklı doğrulama). Çoruh EDAŞ Bayburt'a hizmet VERMİYOR. Planlı Bakım Kesintileri sayfası il/ilçe/yıl/ay filtreli, JS tabanlı (içerik sayfa kaynağında yok; il=Bayburt seçilmeli). www.arasedas.com apex alan adına yönleniyor; www.arasedas.com.tr açılmıyor (000). Çağrı merkezi 186 / 444 7 850 olarak aranır. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Gümüşhane Bayburt Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/gumushane-bayburt",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "haber_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Gümüşhane-Bayburt dağıtım bölgesi (şirket ünvanı sayfada doğrulandı). Duyuru ve basın bülteni sayfaları genel Aksa sayfaları; planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Bayburt İl Sağlık Müdürlüğü",
+      "url": "https://bayburtism.saglik.gov.tr/",
+      "duyuru_url": "https://bayburtism.saglik.gov.tr/TR-19558/duyurular.html",
+      "haber_url": "https://bayburtism.saglik.gov.tr/TR-19551/haberler.html",
+      "durum": 200,
+      "not": "Adres bayburtism.saglik.gov.tr. Alt sayfa kimlikleri ile (TR-19558 duyurular, TR-19551 haberler) 200 dönüyor ve 'bulunamadı' içermiyor. DİKKAT: Amasya şablonundaki TR-46346/TR-46350 numaraları Bayburt'ta Amasya'ya yönleniyor, kullanma. Sitede ayrıca 'yerel medya sitelerimiz' listesi var."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Bayburt İl Emniyet Müdürlüğü",
+      "url": "https://bayburt.pol.tr/",
+      "duyuru_url": "https://bayburt.pol.tr/duyurular",
+      "haber_url": "https://bayburt.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi bayburt.pol.tr. Olay/operasyon haberleri /haberler; duyurular ağırlıklı idari."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Bayburt İl Jandarma Komutanlığı",
+      "url": "https://bayburt.jandarma.gov.tr/",
+      "duyuru_url": "https://bayburt.jandarma.gov.tr/duyurular",
+      "haber_url": "https://bayburt.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Bayburt Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://bayburt.afad.gov.tr/",
+      "duyuru_url": "https://bayburt.afad.gov.tr/duyurular",
+      "haber_url": "https://bayburt.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Bayburt Üniversitesi",
+      "url": "https://www.bayburt.edu.tr/tr",
+      "duyuru_url": "https://www.bayburt.edu.tr/tr/duyurular",
+      "haber_url": "https://www.bayburt.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "www.bayburt.edu.tr/duyurular ve /haberler /tr/ altına yönleniyor. Duyurular idari/akademik ağırlıklı. haber.bayburt.edu.tr açılmıyor (000)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Aydıntepe Belediyesi",
+      "url": "https://aydintepe.bel.tr/",
+      "duyuru_url": "https://aydintepe.bel.tr/duyurular",
+      "haber_url": "https://aydintepe.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez dışındaki iki ilçeden biri; ikisi de listede. Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Demirözü Belediyesi",
+      "url": "https://demirozu.bel.tr/",
+      "duyuru_url": "https://demirozu.bel.tr/duyurular",
+      "haber_url": "https://demirozu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200. Sayfadaki 'İçerik bulunamadı' ifadesi arama şablonundaki JS metnidir, soft 404 değil."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Bayburt İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://bayburt.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "bayburt.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; il ktb siteleri genelde erişilemiyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Bayburt+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bayburt Haber",
+      "url": "https://www.bayburthaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bayburt Manşet",
+      "url": "https://www.bayburtmanset.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bayburt Gündem",
+      "url": "https://www.bayburtgundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bayburt Medya",
+      "url": "https://www.bayburtmedya.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve yolların kapanması (sert kış, Kop Dağı ve Bayburt-Erzurum/Trabzon yolları)",
+    "Kop Dağı Geçidi ve Zigana yönü yol durumu, buzlanma ve trafik kazaları",
+    "planlı elektrik kesintisi (Aras EDAŞ) ve kar kaynaklı elektrik arızaları",
+    "doğalgaz faturaları ve yüksek doğalgaz tüketimi (ülkenin en soğuk illerinden)",
+    "Çoruh Nehri ve Baksı Müzesi, Bayburt Kalesi, Aydıntepe Yeraltı Şehri gibi turizm ve kültür haberleri",
+    "tarım ve hayvancılık: hububat, bakliyat, kırmızı et, arıcılık ve kırsal destekler",
+    "deprem ve AFAD bilgilendirmeleri",
+    "Bayburt Üniversitesi, öğrenci yurtları ve sınav/kayıt duyuruları"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık, üniversite ve ilçe belediyesi sitelerinin duyuru/haber sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. Aras EDAŞ planlı kesinti sayfası (arasedas.com/bilgilendirme/planli_bakim_kesintileri) JS ile il/ilçe filtreli çalışıyor, sayfa kaynağında liste yok. Su için ayrı idare yok; planlı su kesintisi duyuruları bayburt.bel.tr/duyurular ve yerel basında aranmalı. İl Sağlık Müdürlüğü alt sayfa kimlikleri ile (TR-19558, TR-19551) kullanılmalı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber siteleri için bayburtpostasi.com, bayburtolay.com, bayburtgazetesi.com açılmadı (000), listeye alınmadı. Bayburt'ta yalnızca 3 ilçe var (Merkez, Aydıntepe, Demirözü)."
+}

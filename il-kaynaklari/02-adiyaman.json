@@ -147,7 +147,8 @@
       "tur": "yerel_gazete",
       "ad": "Adıyamanlılar Net",
       "url": "https://www.adiyamanlilar.net/",
-      "durum": 200
+      "durum": 0,
+      "not": "[DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "yerel_gazete",

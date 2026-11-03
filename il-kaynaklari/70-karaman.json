@@ -1,0 +1,198 @@
+{
+  "il": "Karaman",
+  "plaka": "70",
+  "slug": "karaman",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/karaman",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ayrancı",
+    "Başyayla",
+    "Ermenek",
+    "Kazımkarabekir",
+    "Merkez",
+    "Sarıveliler"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Karaman Valiliği",
+      "url": "https://www.karaman.gov.tr/",
+      "duyuru_url": "https://www.karaman.gov.tr/duyurular",
+      "haber_url": "https://www.karaman.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.karaman.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar; hepsi 200 (soft 404 yok). karaman.gov.tr de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Karaman Belediyesi",
+      "url": "https://www.karaman.bel.tr/Anasayfa.aspx",
+      "duyuru_url": "https://www.karaman.bel.tr/Menu/32/Duyurular.aspx",
+      "haber_url": "https://www.karaman.bel.tr/Menu/31/Haberler.aspx",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. ASP.NET site; ana sayfa Anasayfa.aspx'e yönleniyor. Menüler: /Menu/31/Haberler.aspx (haberler), /Menu/32/Duyurular.aspx (duyurular); ayrıca /Duyurular.aspx ve /Haberler.aspx de 200 dönüyor. Tekil haber adresi biçimi /Haber/{id}/{baslik}.aspx. İhale ilanları: /Dokumanlar/37/Ihale-Ilanlari.aspx."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Karaman İl Milli Eğitim Müdürlüğü",
+      "url": "https://karaman.meb.gov.tr/",
+      "duyuru_url": "https://karaman.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://karaman.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://karaman.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular, haberler ve duyuru RSS'i 200 dönüyor (RSS geçerli XML). Kar tatili vb. için valilik ve MEB duyuruları birlikte izlenmeli."
+    },
+    {
+      "tur": "su",
+      "kurum": "Karaman Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.karaman.bel.tr/Anasayfa.aspx",
+      "duyuru_url": "https://www.karaman.bel.tr/Menu/32/Duyurular.aspx",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediye yürütüyor. Planlı su kesintisi için ayrı sayfa bulunamadı; kesinti/arıza duyuruları belediye duyuru ve haber sayfaları ile yerel basında çıkıyor. Su analizi: https://www.karaman.bel.tr/Dokumanlar/40/Su-Analiz-Sonuclari.aspx ve bakiye klor: https://www.karaman.bel.tr/Dokumanlar/41/Bakiye-Klor-Olcum-Sonuclari.aspx (ikisi de 200). Şebeke suyu kalitesi (petrol hidrokarbonu iddiaları) ve baraj seviyesi/kuraklık yerel gündemde."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Meram Elektrik Dağıtım A.Ş. (MEDAŞ)",
+      "url": "https://www.meramedas.com.tr/tr",
+      "duyuru_url": "https://www.meramedas.com.tr/tr/planli-kesintiler.html",
+      "haber_url": "https://www.meramedas.com.tr/tr/duyurular",
+      "durum": 200,
+      "not": "MEDAŞ Konya, Karaman, Aksaray, Niğde, Nevşehir ve Kırşehir'de hizmet veriyor (şirket sitesinde Karaman bölgesi listeli; arama sonuçlarıyla da doğrulandı). Planlı kesinti sayfası form/JS tabanlı olabilir, il-ilçe seçimi gerekebilir; yerel basında günlük kesinti listeleri de çıkıyor. Arıza hattı 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Karaman Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ahlatcı (AHGAZ/Enerya) grubu; enerya.com.tr il seçim menüsünde Karaman listeli, Karaman bölgesi Enerya Karaman Gaz Dağıtım A.Ş. olarak gösteriliyor. Karaman'a özel duyuru/haber sayfası bulunamadı (enerya.com.tr/karaman 404). Müşteri hizmetleri ofisleri: https://www.enerya.com.tr/tr/iletisim/musteri-hizmetleri-ofisleri/ (200). Çağrı merkezi 444 8 429, doğalgaz acil 187. EPDK lisans kapsamı ilçe/mahalle bazlı (Ayrancı, Başyayla, merkez bazı mahalleler vb.); kapsam netleştirilmeli."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Karaman İl Sağlık Müdürlüğü",
+      "url": "https://karamanism.saglik.gov.tr/",
+      "duyuru_url": "https://karamanism.saglik.gov.tr/TR-11558/duyurular.html",
+      "haber_url": "https://karamanism.saglik.gov.tr/TR-11426/haberler.html",
+      "durum": 200,
+      "not": "Adres karamanism.saglik.gov.tr. Duyurular ağırlıklı idari/personel; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Karaman İl Emniyet Müdürlüğü",
+      "url": "https://karaman.pol.tr/",
+      "duyuru_url": "https://karaman.pol.tr/duyurular",
+      "haber_url": "https://karaman.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi karaman.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Karaman İl Jandarma Komutanlığı",
+      "url": "https://karaman.jandarma.gov.tr/",
+      "duyuru_url": "https://karaman.jandarma.gov.tr/duyurular",
+      "haber_url": "https://karaman.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Karaman Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://karaman.afad.gov.tr/",
+      "duyuru_url": "https://karaman.afad.gov.tr/duyurular",
+      "haber_url": "https://karaman.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Karamanoğlu Mehmetbey Üniversitesi",
+      "url": "https://www.kmu.edu.tr/",
+      "duyuru_url": "https://www.kmu.edu.tr/tumduyurular/tr",
+      "haber_url": "https://kmu.edu.tr/basin",
+      "durum": 200,
+      "not": "Tüm duyurular /tumduyurular/tr (200; sayfadaki 'bulunamadı' ifadesi yalnızca boş arama sonucu şablonu, soft 404 değil). Haberler basin.kmu.edu.tr -> kmu.edu.tr/basin; etkinlikler etkinlik.kmu.edu.tr. /duyurular ve /haberler 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ermenek Belediyesi",
+      "url": "https://ermenek.bel.tr/",
+      "duyuru_url": "https://ermenek.bel.tr/duyurular",
+      "haber_url": "https://ermenek.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe. Duyurular /duyuru/{baslik}; içerik seyrek güncelleniyor olabilir (eski ilanlar ana sayfada)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ayrancı Belediyesi",
+      "url": "https://ayranci.bel.tr/",
+      "duyuru_url": "https://ayranci.bel.tr/duyurular",
+      "haber_url": "https://ayranci.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular çoğunlukla idari ilan/hıfzısıhha kurul kararı; haber akışı seyrek."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sarıveliler Belediyesi",
+      "url": "https://sariveliler.bel.tr/",
+      "duyuru_url": "https://sariveliler.bel.tr/sayfa/Duyurular",
+      "haber_url": "https://sariveliler.bel.tr/sayfa/Haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; /sayfa/Duyurular ve /sayfa/Haberler kullanılıyor. Tekil haber /haber/{baslik}/{id}/. Kazımkarabekir Belediyesi (kazimkarabekir.bel.tr) açılmadı (curl 000), bu yüzden listeye alınmadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Karaman İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://karaman.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "karaman.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Karaman+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karaman Haber (karaman.gen.tr)",
+      "url": "https://www.karaman.gen.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karaman Haber (karamanhaber.com)",
+      "url": "https://www.karamanhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karaman Gündem",
+      "url": "https://www.karamangundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karaman Haberleri",
+      "url": "https://www.karamanhaberleri.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "TRT Haber Karaman yerel haberler",
+      "url": "https://www.trthaber.com/yerelhaberler/karaman/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "içme suyu: şebeke suyu kalitesi, su kesintileri, baraj seviyesi ve kuraklık",
+    "planlı elektrik kesintisi (MEDAŞ)",
+    "tarım: elma hasadı, don ve dolu zararı, kuraklık ve sulama, ürün fiyatları",
+    "kar nedeniyle okul tatili ve yolların kapanması (Ermenek, Sarıveliler, Başyayla yayla/dağ yolları)",
+    "Karaman-Konya, Karaman-Mersin (D715/D750) ve Ermenek yolu trafik kazaları",
+    "Ermenek ve Gökçeseki barajları, Göksu havzası, taşkın ve heyelan uyarıları",
+    "deprem ve AFAD bilgilendirmeleri",
+    "sanayi, OSB ve istihdam; Karamanoğlu Mehmetbey Üniversitesi etkinlikleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD ve sağlık müdürlüğü duyuru/haber alt sayfaları 200 dönüyor, soft 404 yok. Belediye sitesi ASP.NET (/Menu/31 haberler, /Menu/32 duyurular). Su için ayrı idare ve planlı kesinti sayfası yok; belediye duyuruları ve yerel basına bakılmalı. MEDAŞ planlı kesinti sayfası form/JS tabanlı olabilir. Doğalgaz dağıtıcısı Enerya Karaman Gaz Dağıtım A.Ş.; il özel duyuru sayfası yok. KMÜ duyuruları /tumduyurular/tr altında. Kültür Turizm (ktb) ve Kazımkarabekir Belediyesi siteleri açılmıyor. Erişim testleri yurt dışı IP engeli göstermedi."
+}

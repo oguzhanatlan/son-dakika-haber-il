@@ -1,0 +1,192 @@
+{
+  "il": "Aksaray",
+  "plaka": "68",
+  "slug": "aksaray",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/aksaray",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ağaçören",
+    "Eskil",
+    "Gülağaç",
+    "Güzelyurt",
+    "Merkez",
+    "Ortaköy",
+    "Sarıyahşi",
+    "Sultanhanı"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Aksaray Valiliği",
+      "url": "https://www.aksaray.gov.tr/",
+      "duyuru_url": "https://www.aksaray.gov.tr/duyurular",
+      "haber_url": "https://www.aksaray.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; her ikisi de 200 ve içerik dolu."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Aksaray Belediyesi",
+      "url": "https://aksaray.bel.tr/",
+      "duyuru_url": "https://aksaray.bel.tr/Duyrular.aspx",
+      "haber_url": "https://aksaray.bel.tr/Haberler.aspx",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. ASP.NET site: duyuru listesi sayfasının adı yazım hatalı olarak /Duyrular.aspx (doğru yazımlı /Duyurular.aspx 404'e yönleniyor). Detaylar DuyuruDetay.aspx?icerikId=... ve HaberDetay.aspx?icerikId=... biçiminde. www.aksaray.bel.tr de 200 dönüyor ama /duyurular yolu 404."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Aksaray İl Milli Eğitim Müdürlüğü",
+      "url": "https://aksaray.meb.gov.tr/",
+      "duyuru_url": "https://aksaray.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://aksaray.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor. Kar tatili vb. kararlar için ayrıca valilik duyurularına bakılmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Aksaray Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://aksaray.bel.tr/",
+      "duyuru_url": "https://aksaray.bel.tr/Haberler.aspx",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (e-posta sukanalizasyon@aksaray.bel.tr, su arıza/kesinti hattı 185). Planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı; kesinti duyuruları belediyenin haber/duyuru sayfalarında, belediyenin X hesabında (@aksaraybel) ve yerel basında (yenigungazete.com) çıkıyor. Doğrulanmış özel sayfa yok."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Meram Elektrik Dağıtım A.Ş. (MEDAŞ)",
+      "url": "https://www.meramedas.com.tr/",
+      "duyuru_url": "https://www.meramedas.com.tr/tr/planli-kesintiler.html",
+      "haber_url": "https://www.meramedas.com.tr/tr/duyurular",
+      "durum": 200,
+      "not": "MEDAŞ Aksaray, Karaman, Kırşehir, Konya, Nevşehir ve Niğde'de hizmet veriyor (kurumun kendi sitesinin açıklamasında Aksaray geçiyor; yerel basında Aksaray planlı kesintileri MEDAŞ kaynaklı). Planlı kesinti sayfası iframe/JS tabanlı (cc.meramedas.com.tr/pub/web/planlikesintiler.html); il-ilçe seçimi gerekir. Metin olarak kesinti listesi çekmek zor; yerel basındaki (yenigungazete.com) derlemeler yardımcı olabilir. Arıza hattı 186. www.medas.com.tr alan adı açılmıyor (000)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Aksaray Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "https://www.enerya.com.tr/",
+      "durum": 200,
+      "not": "Aksaray merkez ve bazı ilçelerde (Aratol, Hamidiye, Sultanhanı vb.) doğalgaz dağıtımı (Ahlatcı Holding / Enerya grubu). Şirket e-Devlet'te kayıtlı: https://www.turkiye.gov.tr/enerya-aksaray-gaz-dagitim-as (200). Ayrı bir il duyuru sayfası bulunamadı (enerya.com.tr/duyurular 404, enerya.com.tr/aksaray 404); basın odası /tr/kurumsal/basin-odasi altında. Acil/arıza hattı 187. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Aksaray İl Sağlık Müdürlüğü",
+      "url": "https://aksarayism.saglik.gov.tr/",
+      "duyuru_url": "https://aksarayism.saglik.gov.tr/",
+      "haber_url": "https://aksarayism.saglik.gov.tr/TR-20556/haberler.html",
+      "durum": 200,
+      "not": "Adres aksarayism.saglik.gov.tr. Duyuru listesi için ayrı sabit sayfa belirlenemedi: duyurular ana sayfada listeleniyor (Amasya'daki /TR-46346/duyurular.html kalıbı Aksaray'da geçerli değil, Amasya sitesine yönlendiriyor; kullanma). Ana sayfa duyuruları ağırlıklı personel/atama; halk sağlığı haberleri /TR-20556/haberler.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Aksaray İl Emniyet Müdürlüğü",
+      "url": "https://aksaray.pol.tr/",
+      "duyuru_url": "https://aksaray.pol.tr/duyurular",
+      "haber_url": "https://aksaray.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi aksaray.pol.tr. /duyurular ve /haberler 200 dönüyor ancak sayfa <title> etiketi boş (şablon); içeriği doğrulamak için sayfa gövdesine bakılmalı."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Aksaray İl Jandarma Komutanlığı",
+      "url": "https://aksaray.jandarma.gov.tr/",
+      "duyuru_url": "https://aksaray.jandarma.gov.tr/duyurular",
+      "haber_url": "https://aksaray.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Aksaray Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://aksaray.afad.gov.tr/",
+      "duyuru_url": "https://aksaray.afad.gov.tr/duyurular",
+      "haber_url": "https://aksaray.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Aksaray Üniversitesi",
+      "url": "https://www.aksaray.edu.tr/",
+      "duyuru_url": "https://www.aksaray.edu.tr/duyurular",
+      "haber_url": "https://haber.aksaray.edu.tr/",
+      "durum": 200,
+      "not": "Ayrıca https://www.aksaray.edu.tr/haberler 200 dönüyor. Duyurular idari/akademik ağırlıklı; kampüs haberleri haber.aksaray.edu.tr altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ortaköy Belediyesi",
+      "url": "https://ortakoy.bel.tr/",
+      "duyuru_url": "https://ortakoy.bel.tr/tum-duyurular",
+      "haber_url": "https://ortakoy.bel.tr/tum-haberler",
+      "durum": 200,
+      "not": "İlçe nüfusu ~31 bin (merkez hariç en büyük). Duyuru ve haber listeleri 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Eskil Belediyesi",
+      "url": "https://eskil.bel.tr/",
+      "duyuru_url": "https://eskil.bel.tr/category/duyurular/",
+      "haber_url": "https://eskil.bel.tr/category/haber/",
+      "durum": 200,
+      "not": "İlçe nüfusu ~28 bin. WordPress kategori sayfaları; www.eskil.bel.tr eskil.bel.tr'ye yönleniyor, /duyurular ve /haberler 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gülağaç Belediyesi",
+      "url": "https://gulagac.bel.tr/",
+      "duyuru_url": "https://gulagac.bel.tr/duyurular",
+      "haber_url": "https://gulagac.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlçe nüfusu ~19 bin (üçüncü büyük). Ayrıca /duyurular.html ve /haberler.html biçimleri de 200."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Aksaray İl Kültür ve Turizm Müdürlüğü",
+      "url": "",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Kültür Turizm il siteleri (ktb.gov.tr) genelde açılmıyor; bu ilde denenmedi ve kaynak olarak eklenmedi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Aksaray+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Aksaray Yenigün Gazetesi",
+      "url": "https://yenigungazete.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Aksarayhaber",
+      "url": "https://www.aksarayhaber.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Aksaray68Haber",
+      "url": "https://www.aksaray68haber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Aksaray",
+      "url": "https://www.haberaksaray.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (MEDAŞ) ve mahalle bazlı su kesintisi",
+    "kar nedeniyle okul tatili ve Aksaray-Konya/Ankara/Nevşehir yollarında kar-buzlanma, tipi",
+    "Hasan Dağı ve çevresinde kış koşulları; Ihlara Vadisi ve Kapadokya hattı turizmi, Güzelyurt-Ihlara etkinlikleri",
+    "trafik kazaları: Ankara-Adana (E90/D750) ve Aksaray-Nevşehir kara yolu",
+    "tarım: şeker pancarı, patates, soğan hasadı; don, dolu ve kuraklık zararı",
+    "su kaynakları ve yeraltı suyu çekilmesi, Tuz Gölü çevresi çökme/obruk uyarıları",
+    "Aksaray Üniversitesi, öğrenci yurdu ve kampüs duyuruları",
+    "deprem (Orta Anadolu, Tuz Gölü Fay Zonu) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, MEB, jandarma, AFAD, üniversite ve ilçe belediyeleri (Ortaköy, Eskil, Gülağaç) duyuru/haber sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. Aksaray Belediyesi sitesi eski ASP.NET: duyuru listesi /Duyrular.aspx (yazım hatalı, doğru yolu bu), haber listesi /Haberler.aspx. Planlı su kesintisi için özel sayfa yok; belediye haberleri ve yenigungazete.com/aksarayhaber.net derlemeleri kullanılmalı (su hattı 185). MEDAŞ planlı kesinti sayfası iframe/form tabanlı (cc.meramedas.com.tr). İl Sağlık Müdürlüğü duyuruları ana sayfada; sabit duyuru alt sayfası bulunamadı. Emniyet sitesinde title boş. Kültür Turizm Müdürlüğü eklenmedi. Elektrik dağıtımının MEDAŞ'a ait olduğu kurumun kendi sitesinden doğrulandı."
+}

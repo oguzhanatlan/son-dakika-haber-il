@@ -1,0 +1,201 @@
+{
+  "il": "Yozgat",
+  "plaka": "66",
+  "slug": "yozgat",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/yozgat",
+  "buyuksehir": false,
+  "ilceler": [
+    "Akdağmadeni",
+    "Aydıncık",
+    "Boğazlıyan",
+    "Çandır",
+    "Çayıralan",
+    "Çekerek",
+    "Kadışehri",
+    "Merkez",
+    "Saraykent",
+    "Sarıkaya",
+    "Sorgun",
+    "Şefaatli",
+    "Yenifakılı",
+    "Yerköy"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Yozgat Valiliği",
+      "url": "https://www.yozgat.gov.tr/",
+      "duyuru_url": "https://www.yozgat.gov.tr/duyurular",
+      "haber_url": "https://www.yozgat.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.yozgat.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar; valilik haberleri ayrıca /validen-haberler (200). yozgat.gov.tr www'li adrese yönleniyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Yozgat Belediyesi",
+      "url": "https://yozgat.bel.tr/",
+      "duyuru_url": "https://yozgat.bel.tr/duyurular",
+      "haber_url": "https://yozgat.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. www.yozgat.bel.tr kök adrese yönleniyor. Müdürlükler: /mudurlukler. Çağrı merkezi 0354 666 66 66."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Yozgat İl Milli Eğitim Müdürlüğü",
+      "url": "https://yozgat.meb.gov.tr/",
+      "duyuru_url": "https://yozgat.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://yozgat.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://yozgat.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor. /acilduyurular/ 404 (kar tatili vb. duyuruları valilik ve duyurular sayfasında aranmalı)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Yozgat Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://yozgat.bel.tr/mudurlukler",
+      "duyuru_url": "https://yozgat.bel.tr/duyurular",
+      "haber_url": "https://yozgat.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (arıza hattı Alo 185). Planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı; kesinti ve su tasarrufu duyuruları belediye /duyurular, /haberler sayfalarında ve yerel basında çıkıyor. Barajda su azalması nedeniyle su tasarrufu çağrıları yapılmış."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çamlıbel Elektrik Dağıtım A.Ş. (ÇEDAŞ)",
+      "url": "https://www.cedas.com.tr/",
+      "duyuru_url": "https://www.cedas.com.tr/elektrik-kesintisi",
+      "haber_url": "https://www.cedas.com.tr/tum-duyurular",
+      "durum": 200,
+      "not": "ÇEDAŞ Sivas, Tokat ve Yozgat'ta hizmet veriyor (haber kaynaklarında ve arama sonuçlarında doğrulandı; şirketin kendi sayfasında il adı metinde bulunamadı). Planlı kesinti: /elektrik-kesintisi ve /elektrik-kesintisi-sorgulama (form/JS tabanlı, il-ilçe seçimi gerekebilir). Kesinti sorgu alt sitesi kesinti.cedas.com.tr SSL sertifikası süresi dolmuş (curl 000). Kesinti listeleri yerel basında da yayımlanıyor. Diğer sayfalar: /bizden-haberler."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Sürmeli Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş. (SürmeliGaz)",
+      "url": "https://www.surmeligaz.com.tr/",
+      "duyuru_url": "https://www.surmeligaz.com.tr/HaberVeDuyurular.aspx",
+      "durum": 200,
+      "not": "Şirketin kendi sitesine göre dağıtım bölgesi Yozgat, Yerköy, Boğazlıyan, Sorgun, Saray, Çiçekdağı ve Köseli; Çekerek'te çalışmalar sürüyor. Genel merkez Yozgat. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Yozgat İl Sağlık Müdürlüğü",
+      "url": "https://yozgatism.saglik.gov.tr/",
+      "duyuru_url": "https://yozgatism.saglik.gov.tr/TR-17451/duyurular-ilanlar.html",
+      "haber_url": "https://yozgatism.saglik.gov.tr/TR-47010/onemli-duyurular.html",
+      "durum": 200,
+      "not": "Adres yozgatism.saglik.gov.tr. Duyuru sayfa numaraları ile (TR-xxxxx) çalışıyor; diğer illerin numaraları (ör. Amasya TR-46346) Yozgat'ta geçerli değil, yanlış ile yönleniyor. Duyurular ağırlıklı personel/ilan; halk sağlığı bilgileri 'Önemli Duyurular'da."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Yozgat İl Emniyet Müdürlüğü",
+      "url": "https://yozgat.pol.tr/",
+      "duyuru_url": "https://yozgat.pol.tr/duyurular",
+      "haber_url": "https://yozgat.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi yozgat.pol.tr; olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Yozgat İl Jandarma Komutanlığı",
+      "url": "https://yozgat.jandarma.gov.tr/",
+      "duyuru_url": "https://yozgat.jandarma.gov.tr/duyurular",
+      "haber_url": "https://yozgat.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Yozgat Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://yozgat.afad.gov.tr/",
+      "duyuru_url": "https://yozgat.afad.gov.tr/duyurular",
+      "haber_url": "https://yozgat.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Yozgat Bozok Üniversitesi",
+      "url": "https://www.bozok.edu.tr/",
+      "duyuru_url": "https://www.bozok.edu.tr/",
+      "haber_url": "https://www.bozok.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ana sayfada listeleniyor (/duyurular ve /duyuru adresleri ana sayfaya yönleniyor, ayrı liste sayfası bulunamadı; tekil duyuru biçimi bozok.edu.tr/duyuru/...). Haber listesi /haberler (200). Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sorgun Belediyesi",
+      "url": "https://sorgun.bel.tr/",
+      "duyuru_url": "https://sorgun.bel.tr/duyurular",
+      "haber_url": "https://sorgun.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlin merkezden sonra en büyük ilçelerinden; ilin sanayi ve ticaret merkezi. www adrese giren kök adrese yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Boğazlıyan Belediyesi",
+      "url": "https://bogazliyan.bel.tr/",
+      "duyuru_url": "https://bogazliyan.bel.tr/duyurular",
+      "haber_url": "https://bogazliyan.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı olarak mezbaha kesim listeleri gibi idari ilanlar."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yerköy Belediyesi",
+      "url": "https://www.yerkoy.bel.tr/",
+      "duyuru_url": "https://www.yerkoy.bel.tr/duyuru",
+      "haber_url": "https://www.yerkoy.bel.tr/haber",
+      "durum": 200,
+      "not": "Tekil sayfalar duyuru/... ve haber/... biçiminde; liste sayfaları /duyuru ve /haber (200, ayrıca /duyurular ve /haberler de 200 dönüyor)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Yozgat İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://yozgat.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "yozgat.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; adres kalıba göre kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Yozgat+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yozgat Çamlık Gazetesi",
+      "url": "https://www.yozgatcamlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "YozgatOlay.com",
+      "url": "https://www.yozgatolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Sorgun Haber",
+      "url": "https://sorgunhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Sorgun Medya Gazetesi",
+      "url": "https://www.sorgunmedya.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (ÇEDAŞ) ve köy bazlı kesinti listeleri",
+    "içme suyu sıkıntısı, baraj doluluğu, su kesintisi ve tasarruf çağrıları",
+    "kar nedeniyle okul tatili ve kapanan köy yolları",
+    "Yozgat-Sivas / Yozgat-Ankara / Sorgun-Yerköy yolları ve trafik kazaları",
+    "tarım ve hayvancılık: don, dolu, kuraklık, buğday-nohut hasadı, Boğazlıyan tarım haberleri",
+    "Çamlık Milli Parkı, Sarıkaya Roma Hamamı ve termal turizm, festivaller (Sürmeli Şenlikleri)",
+    "deprem ve AFAD bilgilendirmeleri",
+    "doğalgaz arızası ve abonelik/bağlantı duyuruları (SürmeliGaz)"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 değil. Sağlık Müdürlüğü yozgatism.saglik.gov.tr üzerinde; sayfa numaraları ile tanımlı (başka il numarası kullanma). Su için ayrı idare ve planlı kesinti sayfası yok; yozgat.bel.tr/duyurular ve haberler ile yerel basına bakılmalı. ÇEDAŞ planlı kesinti sayfası form/JS tabanlı; kesinti.cedas.com.tr SSL süresi dolmuş. Bozok Üniversitesi duyuruları ana sayfada, ayrı liste sayfası yok. Kültür Turizm sitesi açılmıyor. Yerel haber siteleri: yozgatgundem.com park sayfasına yönleniyor, yozgatgazetesi.com 2019'dan kalma eski içerik, yozgatileri/yozgathaber/yozgatturk vb. açılmıyor; bunlar listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

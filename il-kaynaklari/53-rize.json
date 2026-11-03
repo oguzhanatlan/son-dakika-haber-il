@@ -132,8 +132,8 @@
       "url": "https://www.cayeli.bel.tr/",
       "duyuru_url": "https://www.cayeli.bel.tr/duyurular",
       "haber_url": "https://www.cayeli.bel.tr/haberler",
-      "durum": 200,
-      "not": "Duyuru/haber sayfaları 200 (sayfada 'bulunamad' geçişi yalnızca gömülü bir script kaynağından, gerçek 404 değil). Tekil duyurular /tr/duyurular/{no} biçiminde."
+      "durum": 0,
+      "not": "Duyuru/haber sayfaları 200 (sayfada 'bulunamad' geçişi yalnızca gömülü bir script kaynağından, gerçek 404 değil). Tekil duyurular /tr/duyurular/{no} biçiminde. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "ilce_belediye",
@@ -141,8 +141,8 @@
       "url": "https://pazar.bel.tr/",
       "duyuru_url": "https://pazar.bel.tr/duyurular",
       "haber_url": "https://pazar.bel.tr/haberler",
-      "durum": 200,
-      "not": "www.pazar.bel.tr, pazar.bel.tr'ye yönleniyor. Duyuru ve haber sayfaları 200, soft 404 yok. Nüfusça Ardeşen ve Çayeli ile birlikte merkezden sonra en büyük ilçeler arasında."
+      "durum": 0,
+      "not": "www.pazar.bel.tr, pazar.bel.tr'ye yönleniyor. Duyuru ve haber sayfaları 200, soft 404 yok. Nüfusça Ardeşen ve Çayeli ile birlikte merkezden sonra en büyük ilçeler arasında. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "diger",

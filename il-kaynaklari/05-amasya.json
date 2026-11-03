@@ -108,8 +108,8 @@
       "url": "https://www.amasya.edu.tr/",
       "duyuru_url": "https://www.amasya.edu.tr/duyurular",
       "haber_url": "https://haber.amasya.edu.tr/",
-      "durum": 200,
-      "not": "Duyurular idari/akademik ağırlıklı; kampüs haberleri haber.amasya.edu.tr altında (200)."
+      "durum": 0,
+      "not": "Duyurular idari/akademik ağırlıklı; kampüs haberleri haber.amasya.edu.tr altında (200). [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "ilce_belediye",
@@ -162,7 +162,8 @@
       "tur": "yerel_gazete",
       "ad": "Merzifon Bilgi Gazetesi",
       "url": "https://www.merzifonbilgigazetesi.com/",
-      "durum": 200
+      "durum": 0,
+      "not": "[DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "yerel_gazete",

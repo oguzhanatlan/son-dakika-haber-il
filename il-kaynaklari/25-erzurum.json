@@ -69,8 +69,8 @@
       "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
       "url": "https://arasedas.com/",
       "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
-      "durum": 200,
-      "not": "Aras EDAŞ merkezi Erzurum; Erzurum, Ağrı, Ardahan, Bayburt, Erzincan, Iğdır ve Kars'a hizmet veriyor (arama sonuçlarıyla doğrulandı). Planlı kesinti sayfası il/ilçe/yıl/ay seçimli form (JS) tabanlı; içeriği doğrudan curl ile alınamayabilir. www.arasedas.com arasedas.com'a yönleniyor (/planli-kesinti 404)."
+      "durum": 0,
+      "not": "Aras EDAŞ merkezi Erzurum; Erzurum, Ağrı, Ardahan, Bayburt, Erzincan, Iğdır ve Kars'a hizmet veriyor (arama sonuçlarıyla doğrulandı). Planlı kesinti sayfası il/ilçe/yıl/ay seçimli form (JS) tabanlı; içeriği doğrudan curl ile alınamayabilir. www.arasedas.com arasedas.com'a yönleniyor (/planli-kesinti 404). [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "dogalgaz",

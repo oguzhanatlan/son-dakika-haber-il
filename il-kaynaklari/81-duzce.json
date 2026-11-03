@@ -1,0 +1,201 @@
+{
+  "il": "Düzce",
+  "plaka": "81",
+  "slug": "duzce",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/duzce",
+  "buyuksehir": false,
+  "ilceler": [
+    "Akçakoca",
+    "Cumayeri",
+    "Çilimli",
+    "Gölyaka",
+    "Gümüşova",
+    "Kaynaşlı",
+    "Merkez",
+    "Yığılca"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Düzce Valiliği",
+      "url": "https://duzce.gov.tr/",
+      "duyuru_url": "https://duzce.gov.tr/duyurular",
+      "haber_url": "https://duzce.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://duzce.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (üçü de 200, soft 404 değil). www.duzce.gov.tr de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Düzce Belediyesi",
+      "url": "https://www.duzce.bel.tr/",
+      "duyuru_url": "https://www.duzce.bel.tr/duyurular",
+      "haber_url": "https://www.duzce.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. /duyurular ağırlıklı imar uygulaması ilanları; su kesintisi vb. duyurular /haber/... adreslerinde (ör. /haber/su-kesintisi-yapilacak) ve /haberler listesinde çıkıyor. duzce.bel.tr ve www.duzce.bel.tr ikisi de açılıyor. Beyaz Masa 153."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Düzce İl Milli Eğitim Müdürlüğü",
+      "url": "https://duzce.meb.gov.tr/",
+      "duyuru_url": "https://duzce.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://duzce.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://duzce.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS adresleri 200 dönüyor. /acilduyurular/ 404 (kullanılamaz); kar tatili gibi duyurular valilik ve MEB duyuru sayfasında aranmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Düzce Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.duzce.bel.tr/",
+      "duyuru_url": "https://www.duzce.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (DÜSKİ/ASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Özel bir planlı su kesintisi sayfası yok (/su-kesintisi, /duski gibi adresler 200 dönse de ana sayfayı gösteriyor = soft 404, kullanılmamalı). Kesinti duyuruları haber olarak yayımlanıyor: https://www.duzce.bel.tr/haber/su-kesintisi-yapilacak gibi; /haberler listesinde 'su kesintisi' geçenlere bakılmalı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Sakarya Elektrik Dağıtım A.Ş. (SEDAŞ)",
+      "url": "https://www.sedas.com/Tr/",
+      "duyuru_url": "https://www.sedas.com/Tr/1/TumDuyurular",
+      "basin_aciklamalari_url": "https://www.sedas.com/Tr/1/Basin_Bultenleri_URL",
+      "durum": 200,
+      "not": "SEDAŞ Sakarya, Kocaeli, Bolu ve Düzce illerinde hizmet veriyor (SEDAŞ'ın kendi sitesindeki dağıtım faaliyetleri sayfası ve arama sonuçlarıyla doğrulandı). Ana sayfada 'Planlı Kesinti Sorgulama' bölümü form/harita (JS) tabanlı; ayrı bir statik planlı kesinti liste sayfası yok (/Tr/1/PlanliKesinti gibi adresler 200 dönse de genel sayfa = soft 404). Günlük kesinti listeleri yerel basında ve haber sitelerinde 'Düzce elektrik kesintisi SEDAŞ' başlığıyla yayımlanıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Düzce Ereğli Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/duzce-eregli",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "basin_aciklamalari_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın 'Düzce Ereğli' dağıtım bölgesi (Aksa sitesindeki dağıtım bölgeleri listesinden doğrulandı). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Düzce İl Sağlık Müdürlüğü",
+      "url": "https://duzceism.saglik.gov.tr/",
+      "duyuru_url": "https://duzceism.saglik.gov.tr/TR-23963/duyurular.html",
+      "haber_url": "https://duzceism.saglik.gov.tr/TR-22500/haberler.html",
+      "durum": 200,
+      "not": "Adres duzceism.saglik.gov.tr. Duyurular ağırlıklı personel/sınav; halk sağlığı haberleri /haberler sayfasında. Sayfa başlığı boş dönüyor ama içerik açılıyor."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Düzce İl Emniyet Müdürlüğü",
+      "url": "https://duzce.pol.tr/",
+      "duyuru_url": "https://duzce.pol.tr/duyurular",
+      "haber_url": "https://duzce.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi duzce.pol.tr. Olay/operasyon haberleri /haberler altında. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri"
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Düzce İl Jandarma Komutanlığı",
+      "url": "https://duzce.jandarma.gov.tr/",
+      "duyuru_url": "https://duzce.jandarma.gov.tr/duyurular",
+      "haber_url": "https://duzce.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon ve olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Düzce Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://duzce.afad.gov.tr/",
+      "duyuru_url": "https://duzce.afad.gov.tr/duyurular",
+      "haber_url": "https://duzce.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Düzce 1999 depremi nedeniyle afet/deprem hazırlığı haberleri sık."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Düzce Üniversitesi",
+      "url": "https://www.duzce.edu.tr/",
+      "duyuru_url": "https://haber.duzce.edu.tr/duyurular",
+      "haber_url": "https://haber.duzce.edu.tr/haberler",
+      "durum": 200,
+      "not": "SSL sertifika zinciri eksik: düz curl 000 (exit 60) veriyor, curl -k ile 200 (www.duzce.edu.tr, duzce.edu.tr, haber.duzce.edu.tr). Tarayıcıda/başka istemcilerde açılabilir; sertifika doğrulamasını kapatmak gerekebilir. Duyurular ve haberler haber.duzce.edu.tr haber portalında. www.duzce.edu.tr/duyurular 404. Personel duyuruları: https://personel.duzce.edu.tr/duyurular (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Akçakoca Belediyesi",
+      "url": "https://www.akcakoca.bel.tr/",
+      "duyuru_url": "https://www.akcakoca.bel.tr/duyurular",
+      "haber_url": "https://www.akcakoca.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe (~41 bin). Site Nuxt/JS tabanlı (SPA): her alt adres 200 dönüyor, /duyurular ve /haberler gerçekten var mı curl ile ayırt edilemedi; tarayıcı/JS ile doğrulanmalı. akcakoca.bel.tr (www'suz) açılmıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gölyaka Belediyesi",
+      "url": "https://www.golyaka.bel.tr/",
+      "duyuru_url": "https://www.golyaka.bel.tr/haberler",
+      "haber_url": "https://www.golyaka.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça 3. büyük ilçe (~21 bin). /duyurular 404; ilanlar ana sayfadaki detay/... bağlantılarında, haberler /haberler altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kaynaşlı Belediyesi",
+      "url": "https://www.kaynasli.bel.tr/",
+      "duyuru_url": "https://www.kaynasli.bel.tr/haberler/",
+      "haber_url": "https://www.kaynasli.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Nüfusça 4. büyük ilçe (~20 bin; Gölyaka ile çok yakın). /duyurular 404; ilanlar /haberler/ilan/... altında, haberler /haberler/ sayfasında."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Düzce İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://duzce.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "duzce.ktb.gov.tr açılmıyor (curl 000, timeout/bağlantı hatası; arama sonuçlarında adres görünüyor). Kaynak olarak güvenilmemeli; adres arama sonucundan geldiği için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=D%C3%BCzce+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Düzce Postası",
+      "url": "https://www.duzcepostasi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Düzce Damla Gazetesi",
+      "url": "https://www.duzcedamla.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Düzce Son Söz",
+      "url": "https://www.duzcesonsoz.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Düzce",
+      "url": "https://www.haberduzce.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Akçakoca Gazetesi",
+      "url": "https://www.akcakocagazetesi.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (SEDAŞ) ve su kesintisi (Düzce Belediyesi)",
+    "deprem (1999 Düzce depremi, Kuzey Anadolu Fay Hattı) ve AFAD bilgilendirmeleri",
+    "sel, taşkın ve aşırı yağış uyarıları (Melen Çayı havzası, Akçakoca, Gölyaka, Cumayeri)",
+    "kar yağışı, okul tatili ve Yığılca, Gölyaka, Kaynaşlı yayla/yol kapanmaları",
+    "TEM/D100 otoyolu ve Bolu Dağı geçişi trafik kazaları, yol çalışmaları",
+    "Akçakoca sahil turizmi, Karadeniz plajları ve yaz sezonu, Samandere ve Aydınpınar şelaleleri",
+    "sanayi, OSB ve istihdam haberleri; Düzce Üniversitesi duyuruları",
+    "fındık hasadı ve fiyatları, tarım ve hayvancılık, orman yangını riski"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık ve SEDAŞ siteleri açılıyor; duyuru/haber alt sayfaları 200 ve soft 404 değil. Su için ayrı idare yok; kesintiler duzce.bel.tr/haberler içinde ayrı haber olarak çıkıyor. SEDAŞ planlı kesinti sorgulaması JS/form tabanlı, yerel basındaki 'Düzce elektrik kesintisi' haberleri alternatif kaynak. Düzce Üniversitesi sitelerinde SSL zinciri eksik (curl -k gerekir). Akçakoca Belediyesi sitesi JS (Nuxt) tabanlı, curl ile içerik doğrulanamadı. Kültür Turizm Müdürlüğü sitesi açılmıyor. İl MEB /acilduyurular/ 404. Eleme: duzcehaber.com yalnızca parked/lander sayfasına yönlendiriyor, duzcehaberler.com askıya alınmış; ikisi de listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

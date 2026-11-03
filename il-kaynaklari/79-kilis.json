@@ -1,0 +1,183 @@
+{
+  "il": "Kilis",
+  "plaka": "79",
+  "slug": "kilis",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kilis",
+  "buyuksehir": false,
+  "ilceler": [
+    "Elbeyli",
+    "Merkez",
+    "Musabeyli",
+    "Polateli"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kilis Valiliği",
+      "url": "https://kilis.gov.tr/",
+      "duyuru_url": "https://kilis.gov.tr/duyurular",
+      "haber_url": "https://kilis.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler; ayrıca Vali haberleri /validen-haberler (200). /basin-aciklamalari 404."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kilis Belediyesi",
+      "url": "https://www.kilis.bel.tr/",
+      "duyuru_url": "https://www.kilis.bel.tr/index.php/category/haber/",
+      "haber_url": "https://www.kilis.bel.tr/index.php/category/haber/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. kilis.bel.tr www'ye yönleniyor. WordPress sitesi; ayrı /duyurular ve /haberler yok (404), tüm haber/duyurular /index.php/category/haber/ kategorisinde (sayfalama: /page/2/). Alt kategori: /index.php/category/haber/hizmet_birimleri/gunluk-faaliyetler/."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kilis İl Milli Eğitim Müdürlüğü",
+      "url": "https://kilis.meb.gov.tr/",
+      "duyuru_url": "https://kilis.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://kilis.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://kilis.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular, haberler ve duyuru RSS'i 200 dönüyor (soft 404 değil). Kar/sis vb. okul tatili kararları genelde valilik ve MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kilis Belediyesi Su İşleri Müdürlüğü",
+      "url": "https://www.kilis.bel.tr/index.php/category/haber/birimler/su-isleri-mudurlugu/",
+      "duyuru_url": "https://www.kilis.bel.tr/index.php/category/haber/birimler/su-isleri-mudurlugu/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su İşleri Müdürlüğü yürütüyor (arıza hattı Alo 185). Planlı su kesintisi için ayrı bir sayfa yok; kesinti duyuruları belediyenin haber kategorisinde ve yerel basında (Kilis Kent Haber, Kilis Postası) çıkıyor. İçme suyu arıtma tesisi analiz sonuçları belediye ana sayfasında link olarak var. Kategori sayfası güncel olmayabilir (son görülen yazılar 2024 tarihli); güncel kesintiler için /category/haber/ ve yerel basına da bak."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Toroslar Elektrik Dağıtım A.Ş. (Toroslar EDAŞ)",
+      "url": "https://www.toroslaredas.com.tr/",
+      "duyuru_url": "https://online.toroslaredas.com.tr/elektrik-kesintisi-sorgulama",
+      "haber_url": "https://www.toroslaredas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Toroslar EDAŞ (Enerjisa) Adana, Osmaniye, Gaziantep, Mersin, Kilis ve Hatay'da hizmet veriyor (resmi ana sayfa metninden doğrulandı: 'Kilis ve Hatay illerinin elektrik dağıtım şebekesi'). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir). www.toroslaredas.com.tr/planli-kesintiler ve /duyurular soft 404 (200 dönüp /hata/404'e yönleniyor); kullanma. Arıza hattı 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Gazdaş Gaziantep Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://gazdasgaziantep.com.tr/",
+      "duyuru_url": "https://gazdasgaziantep.com.tr/category/duyurular/",
+      "haber_url": "https://gazdasgaziantep.com.tr/haberler/",
+      "durum": 200,
+      "not": "Gaziantep-Kilis dağıtım bölgesi lisansı (Kilis şubesi: Şehitsakıp Mah. Zekeriya Korkmaz Bulvarı No:246, Kilis Merkez). Planlı/plansız kesinti sayfası: https://online.gazdasgaziantep.com.tr/planli-plansiz-kesintiler (200, JS tabanlı olabilir). /duyurular 404; doğru adres /category/duyurular/. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kilis İl Sağlık Müdürlüğü",
+      "url": "https://kilisism.saglik.gov.tr/",
+      "duyuru_url": "https://kilisism.saglik.gov.tr/TR-23716/duyurular.html",
+      "haber_url": "https://kilisism.saglik.gov.tr/TR-23717/haberler.html",
+      "durum": 200,
+      "not": "Adres kilisism.saglik.gov.tr. Duyurular az (biyosidal eğitim vb. idari); halk sağlığı haberleri /TR-23717/haberler.html. Haber ve duyuru sekmeleri ana sayfada da listeleniyor."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kilis İl Emniyet Müdürlüğü",
+      "url": "https://kilis.pol.tr/",
+      "duyuru_url": "https://kilis.pol.tr/duyurular",
+      "haber_url": "https://kilis.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kilis.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kilis İl Jandarma Komutanlığı",
+      "url": "https://kilis.jandarma.gov.tr/",
+      "duyuru_url": "https://kilis.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kilis.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kilis Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kilis.afad.gov.tr/",
+      "duyuru_url": "https://kilis.afad.gov.tr/duyurular",
+      "haber_url": "https://kilis.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kilis 7 Aralık Üniversitesi",
+      "url": "https://www.kilis.edu.tr/tr",
+      "duyuru_url": "https://www.kilis.edu.tr/tr/duyurular",
+      "haber_url": "https://www.kilis.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "kilis.edu.tr www.kilis.edu.tr/tr'ye yönleniyor. Alt birimler ayrı alt alan adlarında (personel.kilis.edu.tr, ogrenciisleri.kilis.edu.tr, sks.kilis.edu.tr). Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Polateli Belediyesi",
+      "url": "https://polatelibelediyesi.bel.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Statik HTML site (index.html, h1..h7.html, k1..k7.html sayfaları); düzenli duyuru/haber listesi bulunamadı (/duyurular ve /haberler 404). polateli.bel.tr alan adı açılmıyor (000). Resmi ilçe sitesi Kaymakamlık: https://www.polateli.gov.tr/ (duyuru: /duyurular, haber: /haberler; ikisi de 200). Facebook/Instagram: polatelibld."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Elbeyli Belediyesi",
+      "url": "https://elbeyli.bel.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Küçük site; ayrı duyuru/haber sayfası bulunamadı (/duyurular, /haberler 404), ana sayfada akış var. Düzenli içerik az."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Musabeyli Belediyesi",
+      "url": "https://musabeyli.bel.tr/",
+      "duyuru_url": "https://musabeyli.bel.tr/sayfa/Duyurular",
+      "haber_url": "https://musabeyli.bel.tr/sayfa/Haberler",
+      "durum": 200,
+      "not": "Duyurular /sayfa/Duyurular, haberler /sayfa/Haberler (200); tekil içerikler /duyuru/... ve /haber/... biçiminde. İçerik seyrek. Kilis'te ilçe belediyeleri küçük (en büyük ilçe merkez), bu üç belediye diğer üç ilçeyi kapsıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kilis İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://kilis.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "kilis.ktb.gov.tr açılmıyor (curl 000, DNS/bağlantı yok). Kaynak olarak güvenilmemeli; adres kalıba göre kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Kilis+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kilis Kent Haber",
+      "url": "https://www.kiliskenthaber.com/",
+      "rss": "https://www.kiliskenthaber.com/xml/rss.php",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kilis Postası",
+      "url": "https://www.kilispostasi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kilis Olay",
+      "url": "https://www.kilisolay.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Toroslar EDAŞ)",
+    "su kesintisi ve içme suyu hat çalışmaları (FRIT-II altyapı projesi), su sıkıntısı",
+    "sınır ili: Suriye sınırı, sınır güvenliği, kaçakçılık ve göçmen operasyonları (jandarma/emniyet)",
+    "trafik kazaları ve Kilis-Gaziantep yolu, polis/jandarma olay haberleri",
+    "deprem (Doğu Anadolu Fayı yakınlığı, 6 Şubat sonrası) ve AFAD bilgilendirmeleri",
+    "tarım: zeytin, Kilis yağlık zeytini ve zeytinyağı hasadı, kuraklık/don zararı, hububat",
+    "okul tatili kararları (aşırı sıcak, kar/yağış, sis) ve MEB duyuruları",
+    "kültür ve gastronomi: Acıdan Gelen Lezzet Festivali, Kilis tescilli ürünleri, 7 Aralık kurtuluş günü etkinlikleri"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, üniversite ve sağlık sitelerinin duyuru/haber alt sayfaları 200 dönüyor; içerik 'bulunamadı' içermiyor (soft 404 kontrolü yapıldı). Belediye sitesi (kilis.bel.tr) WordPress: ayrı duyuru/haber sayfası yok, hepsi /index.php/category/haber/ altında; su işleri için kategori sayfası var ama planlı su kesintisi için ayrı sayfa yok, yerel basına bak. Toroslar EDAŞ www.toroslaredas.com.tr/planli-kesintiler soft 404; kesinti sorgulama online.toroslaredas.com.tr'de form/JS tabanlı. Gazdaş Gaziantep planlı kesinti sayfası online.gazdasgaziantep.com.tr altında (JS). Polateli ve Elbeyli belediye siteleri çok seyrek içerik sunuyor; Polateli için Kaymakamlık sitesi (polateli.gov.tr) daha düzenli. Kültür Turizm Müdürlüğü sitesi açılmıyor. Erişim testleri yurt dışı IP engeli göstermedi (hepsi 200). Yerel basın: kilishaber.com, kilis79.com, kilisgazetesi.com açılmadı, listeye alınmadı."
+}

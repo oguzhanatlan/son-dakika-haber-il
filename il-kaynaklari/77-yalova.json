@@ -1,0 +1,186 @@
+{
+  "il": "Yalova",
+  "plaka": "77",
+  "slug": "yalova",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/yalova",
+  "buyuksehir": false,
+  "ilceler": [
+    "Altınova",
+    "Armutlu",
+    "Çınarcık",
+    "Çiftlikköy",
+    "Merkez",
+    "Termal"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Yalova Valiliği",
+      "url": "https://www.yalova.gov.tr/",
+      "duyuru_url": "https://www.yalova.gov.tr/duyurular",
+      "haber_url": "https://www.yalova.gov.tr/haberler",
+      "durum": 200,
+      "not": "yalova.gov.tr ile www.yalova.gov.tr ikisi de açılıyor. Duyurular ve haberler ayrı sayfalar; soft 404 değil (içerikte 'bulunamad' yok)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Yalova Belediyesi",
+      "url": "https://yalova.bel.tr/",
+      "duyuru_url": "https://yalova.bel.tr/duyurular",
+      "haber_url": "https://yalova.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. www.yalova.bel.tr de 200. Duyurular ağırlıkla meclis gündemi, personel/sınav ve nikah duyuruları; etkinlikler etkinlik.yalova.bel.tr altında."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Yalova İl Milli Eğitim Müdürlüğü",
+      "url": "https://yalova.meb.gov.tr/",
+      "duyuru_url": "https://yalova.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://yalova.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor. /acilduyurular/ 404 (kullanma)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Yalova Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://yalova.bel.tr/sayfa/su-ve-kanalizasyon-hizmetleri",
+      "duyuru_url": "https://yalova.bel.tr/duyurular",
+      "haber_url": "https://yalova.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı (yalova.bel.tr/su-kesintisi 404); kesinti duyuruları belediye duyuru/haber sayfalarında ve yerel basında çıkıyor. Yalova son yıllarda baraj doluluğu düşük olduğu için su kesintisi/acil su eylem planı gündeminde (basın kaynaklı)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Uludağ Elektrik Dağıtım A.Ş. (UEDAŞ) - Yalova Bölge Müdürlüğü",
+      "url": "https://www.uedas.com.tr/",
+      "duyuru_url": "https://www.uedas.com.tr/tr/kesintiler",
+      "durum": 200,
+      "not": "UEDAŞ Bursa, Balıkesir, Çanakkale ve Yalova'da hizmet veriyor (UEDAŞ sitesinde Yalova Bölge Müdürlüğü listeli; Yalova kesinti haberleri basında UEDAŞ kaynaklı). /tr/kesintiler sayfası 'Planlı Kesintiler' başlıklı, içerik JS/form tabanlı (/planli-kesintiler/sec.asp ile yükleniyor). Canlı arıza/kesinti haritası: https://online.uedas.com.tr/#/AktifElektrikKesintileri (200, SPA). /planli-kesinti 404. UEDAŞ duyuruları: https://www.uedas.com.tr/tr/duyurular (200)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Marmara Yalova Gaz Dağıtım A.Ş. (MarmaraGaz Yalova)",
+      "url": "https://www.marmarayalovagaz.com.tr/",
+      "duyuru_url": "https://www.marmarayalovagaz.com.tr/basin/genel-duyurular",
+      "haber_url": "https://www.marmarayalovagaz.com.tr/basin/bizden-haberler",
+      "basin_aciklamalari_url": "https://www.marmarayalovagaz.com.tr/basin/basin-bultenleri",
+      "durum": 200,
+      "not": "Şirket adı sitedeki telif satırından alındı. Planlı gaz kesintisi duyurusu nadir; genel duyurular /basin/genel-duyurular altında."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Yalova İl Sağlık Müdürlüğü",
+      "url": "https://yalovaism.saglik.gov.tr/",
+      "duyuru_url": "https://yalovaism.saglik.gov.tr/TR-49249/duyurular.html",
+      "haber_url": "https://yalovaism.saglik.gov.tr/TR-49254/haberler.html",
+      "durum": 200,
+      "not": "Adres yalovaism.saglik.gov.tr. Duyurular çoğunlukla idari/personel; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Yalova İl Emniyet Müdürlüğü",
+      "url": "https://yalova.pol.tr/",
+      "duyuru_url": "https://yalova.pol.tr/duyurular",
+      "haber_url": "https://yalova.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi yalova.pol.tr. Ana sayfa ve /duyurular, /haberler 200 (ilk denemede /duyurular bir kez zaman aşımına uğradı, tekrarda 200). Sayfa başlığı boş, liste içerik HTML'de var."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Yalova İl Jandarma Komutanlığı",
+      "url": "https://yalova.jandarma.gov.tr/",
+      "duyuru_url": "https://yalova.jandarma.gov.tr/duyurular",
+      "haber_url": "https://yalova.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Yalova Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://yalova.afad.gov.tr/",
+      "duyuru_url": "https://yalova.afad.gov.tr/duyurular",
+      "haber_url": "https://yalova.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Yalova Üniversitesi",
+      "url": "https://www.yalova.edu.tr/",
+      "duyuru_url": "https://www.yalova.edu.tr/tr/Duyuru",
+      "haber_url": "https://www.yalova.edu.tr/tr/Haber",
+      "durum": 200,
+      "not": "Duyurular idari/akademik (BAP, TÜBİTAK, İŞKUR vb.). /duyurular ve /tr/duyurular 404; doğru yol /tr/Duyuru ve /tr/Haber (büyük harf)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çiftlikköy Belediyesi",
+      "url": "https://www.yalovaciftlikkoy.bel.tr/",
+      "duyuru_url": "https://www.yalovaciftlikkoy.bel.tr/duyurular",
+      "haber_url": "https://www.yalovaciftlikkoy.bel.tr/haberler",
+      "durum": 200,
+      "not": "Resmî alan adı yalovaciftlikkoy.bel.tr (ciftlikkoy.bel.tr açılmıyor, curl 000). İlçe nüfusça merkezden sonra en büyüklerden."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çınarcık Belediyesi",
+      "url": "https://cinarcik.bel.tr/",
+      "duyuru_url": "https://cinarcik.bel.tr/guncel/duyurular",
+      "haber_url": "https://cinarcik.bel.tr/guncel/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler sırasıyla /guncel/duyurular ve /guncel/haberler adreslerine yönleniyor. Yazlık/turizm ilçesi; yaz nüfusu çok artıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Altınova Belediyesi",
+      "url": "https://altinova.bel.tr/",
+      "duyuru_url": "https://altinova.bel.tr/duyurular",
+      "haber_url": "https://altinova.bel.tr/haberler",
+      "durum": 200,
+      "not": "Sitenin SSL sertifikası doğrulanamıyor (curl exit 60); curl -k ile 200. Tarayıcı/WebFetch tabanlı okumada sertifika hatası çıkabilir."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Yalova İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://yalova.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "yalova.ktb.gov.tr açılmıyor (curl 000). Güvenilir kaynak olarak kullanma; adres kalıp gereği kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Yalova+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yalova Gazetesi",
+      "url": "https://www.yalovagazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yalova Online",
+      "url": "https://www.yalovaonline.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Yalova bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/yalova/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "su kesintisi, baraj doluluğu ve kuraklık/acil su eylem planı",
+    "planlı elektrik kesintisi (UEDAŞ; Merkez, Çiftlikköy, Çınarcık, Armutlu, Altınova, Termal)",
+    "deprem ve AFAD bilgilendirmeleri (Marmara/Kuzey Anadolu fay hattı yakınlığı)",
+    "İstanbul-Yalova deniz ulaşımı: feribot ve deniz otobüsü seferleri, iptaller (fırtına/poyraz)",
+    "Yalova-Bursa-Kocaeli yolları, Osmangazi Köprüsü bağlantısı ve trafik kazaları",
+    "yaz sezonu turizmi: Çınarcık, Armutlu plajları, termal turizm, yazlık nüfus artışı",
+    "kentsel dönüşüm ve yapı denetimi",
+    "fırtına, sağanak, orman yangını ve kar nedeniyle okul tatili"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma, AFAD, üniversite ve ilçe belediyelerinin duyuru/haber alt sayfaları 200 dönüyor; soft 404 işareti yok. UEDAŞ planlı kesinti sayfası JS/form tabanlı, Yalova kesinti listeleri pratikte yerel basında (ör. politikam.com, iscihaber.net) UEDAŞ kaynaklı çıkıyor. Planlı su kesintisi için belediyede ayrı sayfa yok. Altınova Belediyesi sitesi SSL sertifika hatası veriyor (curl -k ile açılıyor); Çiftlikköy'ün doğru adresi yalovaciftlikkoy.bel.tr. Kültür Turizm Müdürlüğü sitesi açılmıyor. yalovagundem.com veritabanı hatası veriyor, birkaç aday yerel haber alan adı (yalovahaber.com, yalovaekspres.com vb.) açılmadı; bu yüzden ipucu listesi kısa. Armutlu Belediyesi: https://armutlu.bel.tr/ (200, listeye alınmadı). Erişim testleri yurt dışı IP engeli göstermedi."
+}

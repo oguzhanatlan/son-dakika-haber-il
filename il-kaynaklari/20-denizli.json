@@ -41,8 +41,8 @@
       "url": "https://www.denizli.bel.tr/",
       "duyuru_url": "https://www.denizli.bel.tr/duyurular",
       "haber_url": "https://www.denizli.bel.tr/haberler",
-      "durum": 200,
-      "not": "Büyükşehir belediyesi (19 ilçe). /duyurular ihale ve idari ilanlar ağırlıklı, haberler /haberler. Ana sayfada DESKİ, Denizli Ulaşım ve kapalı yollar bağlantıları var; /Haberler (büyük H) ve /ulasim 404 veriyor."
+      "durum": 0,
+      "not": "Büyükşehir belediyesi (19 ilçe). /duyurular ihale ve idari ilanlar ağırlıklı, haberler /haberler. Ana sayfada DESKİ, Denizli Ulaşım ve kapalı yollar bağlantıları var; /Haberler (büyük H) ve /ulasim 404 veriyor. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "il_meb",

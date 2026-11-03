@@ -28,8 +28,8 @@
       "kurum": "Ağrı Belediye Başkanlığı",
       "url": "https://www.agri.bel.tr/",
       "duyuru_url": "https://www.agri.bel.tr/haberler/duyurular/",
-      "durum": 200,
-      "not": "Haberler: https://www.agri.bel.tr/haberler/ ; ihale ilanları: https://www.agri.bel.tr/ihale-ilanlari/ (200). Belediye başkanı Hazal Aras. Su Arızası Amirliği tel: 0472 215 28 79, santral 0472 215 11 90."
+      "durum": 0,
+      "not": "Haberler: https://www.agri.bel.tr/haberler/ ; ihale ilanları: https://www.agri.bel.tr/ihale-ilanlari/ (200). Belediye başkanı Hazal Aras. Su Arızası Amirliği tel: 0472 215 28 79, santral 0472 215 11 90. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "il_meb",
@@ -44,16 +44,16 @@
       "kurum": "Ağrı Belediyesi Su ve Kanalizasyon İşleri (Su Arızası Amirliği)",
       "url": "https://www.agri.bel.tr/",
       "duyuru_url": "https://www.agri.bel.tr/haberler/duyurular/",
-      "durum": 200,
-      "not": "Ağrı'da ayrı bir su idaresi (ASKİ/MASKİ tipi) yok, su hizmetini belediye veriyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı; kesinti duyuruları belediye duyurular/haberler sayfasında ve sosyal medyada çıkar. https://www.agri.bel.tr/su adresi 200 dönüyor ancak ana sayfa şablonunu gösteriyor, özel bir su kesintisi sayfası değil."
+      "durum": 0,
+      "not": "Ağrı'da ayrı bir su idaresi (ASKİ/MASKİ tipi) yok, su hizmetini belediye veriyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı; kesinti duyuruları belediye duyurular/haberler sayfasında ve sosyal medyada çıkar. https://www.agri.bel.tr/su adresi 200 dönüyor ancak ana sayfa şablonunu gösteriyor, özel bir su kesintisi sayfası değil. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "elektrik",
       "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
       "url": "https://arasedas.com/",
       "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
-      "durum": 200,
-      "not": "Aras EDAŞ; Erzurum, Erzincan, Bayburt, Kars, Ağrı, Iğdır ve Ardahan'a hizmet verir (VEDAŞ Ağrı'ya hizmet vermez, Van-Bitlis-Muş-Hakkari bölgesidir). Planlı bakım kesintileri sayfası il/ilçe/yıl/ay filtreli ve içerik JavaScript ile dinamik yükleniyor (düz HTML'de liste görünmez). Çağrı merkezi 186 / +90 850 200 20 20."
+      "durum": 0,
+      "not": "Aras EDAŞ; Erzurum, Erzincan, Bayburt, Kars, Ağrı, Iğdır ve Ardahan'a hizmet verir (VEDAŞ Ağrı'ya hizmet vermez, Van-Bitlis-Muş-Hakkari bölgesidir). Planlı bakım kesintileri sayfası il/ilçe/yıl/ay filtreli ve içerik JavaScript ile dinamik yükleniyor (düz HTML'de liste görünmez). Çağrı merkezi 186 / +90 850 200 20 20. [DOĞRULANAMADI: araştırma yapılan ağda bu alan adı yerel modem sayfasına çözümlendi; 200 sonucu gerçek siteye ait olmayabilir. Routine açılmazsa atlasın.]"
     },
     {
       "tur": "dogalgaz",

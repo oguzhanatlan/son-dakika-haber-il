@@ -1,0 +1,193 @@
+{
+  "il": "Osmaniye",
+  "plaka": "80",
+  "slug": "osmaniye",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/osmaniye",
+  "buyuksehir": false,
+  "ilceler": [
+    "Bahçe",
+    "Düziçi",
+    "Hasanbeyli",
+    "Kadirli",
+    "Merkez",
+    "Sumbas",
+    "Toprakkale"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Osmaniye Valiliği",
+      "url": "https://osmaniye.gov.tr/",
+      "duyuru_url": "https://osmaniye.gov.tr/duyurular",
+      "haber_url": "https://osmaniye.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://osmaniye.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, basın açıklamaları /basin-aciklamalari (hepsi 200)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Osmaniye Belediyesi",
+      "url": "https://osmaniye-bld.gov.tr/",
+      "duyuru_url": "https://osmaniye-bld.gov.tr/kategori/duyurular",
+      "haber_url": "https://osmaniye-bld.gov.tr/kategori/haberler",
+      "rss": "https://osmaniye-bld.gov.tr/feed",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Asıl alan adı osmaniye-bld.gov.tr (osmaniye.bel.tr buraya yönleniyor). /duyurular ve /haberler 404 veriyor; doğru sayfalar /kategori/duyurular ve /kategori/haberler. WordPress RSS: https://osmaniye-bld.gov.tr/feed (200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Osmaniye İl Milli Eğitim Müdürlüğü",
+      "url": "https://osmaniye.meb.gov.tr/",
+      "duyuru_url": "https://osmaniye.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://osmaniye.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://osmaniye.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru RSS 200. /acilduyurular/ 404 (kullanılmıyor); kar tatili vb. duyurular ana sayfa ve valilik duyurularında aranmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Osmaniye Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://osmaniye-bld.gov.tr/",
+      "duyuru_url": "https://osmaniye-bld.gov.tr/kategori/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; su hizmeti belediyenin su ve kanalizasyon birimince yürütülüyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı; kesinti duyuruları belediye duyuruları/haberleri ve yerel basında çıkıyor. İçme suyu/kanalizasyon projesi (BELGEP) sayfası ana sitede var."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Toroslar Elektrik Dağıtım A.Ş. (Toroslar EDAŞ)",
+      "url": "https://www.toroslaredas.com.tr/",
+      "duyuru_url": "https://online.toroslaredas.com.tr/",
+      "durum": 200,
+      "not": "Toroslar EDAŞ Adana, Mersin, Gaziantep, Hatay, Osmaniye ve Kilis'e hizmet veriyor (şirket basın bültenleri ve haberlerle Osmaniye doğrulandı). Planlı kesinti sorgulama online.toroslaredas.com.tr (il-ilçe-mahalle seçimli, JS/form tabanlı); www.toroslaredas.com.tr/planli-kesinti 404. Planlı kesinti listeleri yerel basında da yayımlanıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Çukurova Doğalgaz Dağıtım A.Ş. (Aksa Doğalgaz)",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/cukurova",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Çukurova bölgesi Adana, Mersin, Hatay ve Osmaniye'yi kapsıyor (Osmaniye abone sayısı basında ~100 bin). Bölge sayfasında Osmaniye geçiyor. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Osmaniye İl Sağlık Müdürlüğü",
+      "url": "https://osmaniyeism.saglik.gov.tr/",
+      "duyuru_url": "https://osmaniyeism.saglik.gov.tr/TR-194102/duyurular.html",
+      "haber_url": "https://osmaniyeism.saglik.gov.tr/TR-23797/haberler.html",
+      "durum": 200,
+      "not": "Adres osmaniyeism.saglik.gov.tr. Haberler: /TR-23797/haberler.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Osmaniye İl Emniyet Müdürlüğü",
+      "url": "https://osmaniye.pol.tr/",
+      "duyuru_url": "https://osmaniye.pol.tr/duyurular",
+      "haber_url": "https://osmaniye.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi osmaniye.pol.tr. Olay/operasyon haberleri /haberler; basın duyuruları da ana sayfada. İlk denemede /duyurular bir kez zaman aşımına uğradı, sonra 200 döndü (kararsız olabilir)."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Osmaniye İl Jandarma Komutanlığı",
+      "url": "https://osmaniye.jandarma.gov.tr/",
+      "duyuru_url": "https://osmaniye.jandarma.gov.tr/duyurular",
+      "haber_url": "https://osmaniye.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Osmaniye Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://osmaniye.afad.gov.tr/",
+      "duyuru_url": "https://osmaniye.afad.gov.tr/duyurular",
+      "haber_url": "https://osmaniye.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Osmaniye Korkut Ata Üniversitesi",
+      "url": "https://www.osmaniye.edu.tr/",
+      "duyuru_url": "https://www.osmaniye.edu.tr/tr/duyurular",
+      "haber_url": "https://www.osmaniye.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "Sitenin SSL sertifika zinciri curl'de doğrulanmıyor (normal curl 000; curl -k ile 200; tarayıcıda açılması beklenir). Duyurular /tr/duyurular (ağırlıkla idari/akademik/personel), haberler /tr/haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kadirli Belediyesi",
+      "url": "http://www.kadirli.bel.tr/",
+      "duyuru_url": "http://www.kadirli.bel.tr/duyurular",
+      "haber_url": "http://www.kadirli.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlçe nüfusu merkezden sonra en büyük. HTTPS sertifika/bağlantı hatası var (https://www.kadirli.bel.tr curl 000); http:// ile 200 dönüyor. Haberler /haberler, etkinlikler /etkinlikler. Soft 404 yok."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Düziçi Belediyesi",
+      "url": "https://duzici.bel.tr/",
+      "duyuru_url": "https://duzici.bel.tr/duyurular",
+      "haber_url": "https://duzici.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bahçe Belediyesi",
+      "url": "https://bahce.bel.tr/",
+      "duyuru_url": "https://bahce.bel.tr/duyurular",
+      "haber_url": "https://bahce.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler. Toprakkale Belediyesi de benzer yapıda: https://toprakkale.bel.tr/duyurular (200)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Osmaniye İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://osmaniye.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "osmaniye.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli, adres tahmin kalıbından kaydedildi. Resmî alternatif bulunamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Osmaniye+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Akdeniz Gazetesi",
+      "url": "https://www.akdenizgazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Osmaniye Haber",
+      "url": "https://www.osmaniyehaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberosmaniye",
+      "url": "https://www.haberosmaniye.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kadirli Haber",
+      "url": "https://www.kadirlihaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Toroslar EDAŞ)",
+    "su kesintisi ve içme suyu/kanalizasyon çalışmaları",
+    "deprem ve artçı sarsıntılar, 6 Şubat sonrası konteyner/çadır kent ve yeniden yapılanma",
+    "orman yangınları (yaz aylarında Osmaniye ve çevresi)",
+    "sağanak yağış, sel ve su baskını uyarıları (Çukurova/Ceyhan havzası)",
+    "yüksek sıcaklık ve kar nedeniyle yayla yolları/okul tatili (Zorkun, Düziçi-Kadirli kesimi)",
+    "D400 / O-53 otoyolu ve Osmaniye-Kadirli-Düziçi yolları trafik kazaları",
+    "tarım: Antep fıstığı hasadı, narenciye ve pamuk, Fıstık Fest, don/dolu zararı"
+  ],
+  "notlar": "Valilik, MEB, AFAD, jandarma, emniyet, sağlık ve ilçe belediyesi duyuru/haber sayfaları 200 dönüyor (soft 404 yok). Belediye asıl alan adı osmaniye-bld.gov.tr; duyuru ve haberler /kategori/duyurular ve /kategori/haberler altında (/duyurular 404). Ayrı su idaresi yok, planlı su kesintisi için özel sayfa bulunamadı. Toroslar EDAŞ planlı kesinti sorgusu online.toroslaredas.com.tr üzerinde form/JS tabanlı. Üniversite sitesi SSL zinciri curl'de sorunlu (-k ile 200). Kadirli Belediyesi HTTPS'i çalışmıyor, http:// kullanılmalı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel gazete siteleri zaman zaman bağlantı hatası verebilir; osmaniyegundem.com, osmaniyegazetesi.com, osmaniyeninsesi.com ve osmaniyetv.com parked/boş veya erişilemez olduğu için listeye alınmadı. Yurt dışı IP engeli gözlenmedi."
+}
