@@ -1,0 +1,239 @@
+{
+  "il": "Mersin",
+  "plaka": "33",
+  "slug": "mersin",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/mersin",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akdeniz",
+    "Anamur",
+    "Aydıncık",
+    "Bozyazı",
+    "Çamlıyayla",
+    "Erdemli",
+    "Gülnar",
+    "Mezitli",
+    "Mut",
+    "Silifke",
+    "Tarsus",
+    "Toroslar",
+    "Yenişehir"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Mersin Valiliği",
+      "url": "https://mersin.gov.tr/",
+      "duyuru_url": "https://www.mersin.gov.tr/duyurular",
+      "haber_url": "https://www.mersin.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.mersin.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar; ayrıca https://www.mersin.gov.tr/validen-haberler (200). Soft 404 kontrolü temiz."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Mersin Büyükşehir Belediyesi",
+      "url": "https://www.mersin.bel.tr/",
+      "duyuru_url": "https://www.mersin.bel.tr/duyurular",
+      "haber_url": "https://www.mersin.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /duyurular, haberler /haberler (tekil haber /haber/...). Basın gündemi dokümanı: https://www.mersin.bel.tr/dokumanlar/mbb-basin-gundemi. /ulasim, /basin-aciklamalari, /mersin-metro 404."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Mersin İl Milli Eğitim Müdürlüğü",
+      "url": "https://mersin.meb.gov.tr/",
+      "duyuru_url": "https://mersin.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://mersin.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve RSS 200 dönüyor, soft 404 yok."
+    },
+    {
+      "tur": "su",
+      "kurum": "Mersin Su ve Kanalizasyon İdaresi Genel Müdürlüğü (MESKİ)",
+      "url": "https://www.meski.gov.tr/",
+      "duyuru_url": "https://www.meski.gov.tr/pages/Duyuru.xhtml",
+      "haber_url": "https://www.meski.gov.tr/pages/Haberler.xhtml",
+      "planli_kesinti_url": "https://online.meski.gov.tr/meta/subscription/interruptions",
+      "durum": 200,
+      "not": "Planlı su kesintisi sayfası (online.meski.gov.tr/meta/subscription/interruptions, 200) harita/JS tabanlı; ana sayfa menüsünde 'Planlı Su Kesintisi' olarak geçiyor. Kesinti listeleri yerel basında da günlük çıkıyor. /pages/SuKesintileri.xhtml 500 veriyor, kullanma."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Toroslar Elektrik Dağıtım A.Ş. (Toroslar EDAŞ, Enerjisa)",
+      "url": "https://www.toroslaredas.com.tr/",
+      "duyuru_url": "https://online.toroslaredas.com.tr/elektrik-kesintisi-sorgulama",
+      "basin_aciklamalari_url": "https://www.toroslaredas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Toroslar EDAŞ Mersin, Adana, Osmaniye, Hatay, Gaziantep ve Kilis'te hizmet veriyor (şirketin 'Toroslar EDAŞ Mersin'in enerji altyapısını güçlendirmeye devam ediyor' basın bülteniyle Mersin doğrulandı). Kesinti sorgulama sayfası Google Maps/JS tabanlı form; basın bültenleri düz HTML."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Çukurova Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/cukurova",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz Çukurova bölgesi: Adana, Mersin, Hatay, Osmaniye (Mersin'de Tarsus, Mut, Silifke, Erdemli, Aydıncık, Anamur, Bozyazı, Gülnar dahil; resmi şirket bilgisi sayfasında doğrulandı). Planlı gaz kesintisi duyurusu nadir; Next.js tabanlı site. aksacukurovadogalgaz.com.tr açılmıyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Mersin İl Sağlık Müdürlüğü",
+      "url": "https://mersinism.saglik.gov.tr/",
+      "duyuru_url": "https://mersinism.saglik.gov.tr/TR-368087/duyurular.html",
+      "haber_url": "https://mersinism.saglik.gov.tr/TR-8251/haberler.html",
+      "durum": 200,
+      "not": "Alt sayfa numaraları ile özgüdür: Amasya'nın TR-46346 numaralı duyuru adresi mersinism'de Amasya sitesine yönleniyor, kullanma; Mersin için TR-368087 (duyurular) ve TR-8251 (haberler). Duyurular ağırlıklı personel/atama."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Mersin İl Emniyet Müdürlüğü",
+      "url": "https://mersin.pol.tr/",
+      "duyuru_url": "https://mersin.pol.tr/duyurular",
+      "haber_url": "https://mersin.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi mersin.pol.tr; olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Mersin İl Jandarma Komutanlığı",
+      "url": "https://mersin.jandarma.gov.tr/",
+      "duyuru_url": "https://mersin.jandarma.gov.tr/duyurular",
+      "haber_url": "https://mersin.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon ve olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Mersin Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://mersin.afad.gov.tr/",
+      "duyuru_url": "https://mersin.afad.gov.tr/duyurular",
+      "haber_url": "https://mersin.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Mersin Üniversitesi",
+      "url": "https://www.mersin.edu.tr/tr/",
+      "duyuru_url": "https://www.mersin.edu.tr/tr/duyurular",
+      "haber_url": "https://www.mersin.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "www.mersin.edu.tr /en/ sayfasına yönleniyor; Türkçe arayüz /tr/. Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Tarsus Üniversitesi",
+      "url": "https://www.tarsus.edu.tr/",
+      "duyuru_url": "https://www.tarsus.edu.tr/Website/Duyurular",
+      "haber_url": "https://www.tarsus.edu.tr/Website/Haberler",
+      "durum": 200,
+      "not": "SSL sertifika hatası: normal curl 000 (exit 60) dönüyor, curl -k ile 200; tarayıcıdan/WebFetch ile açılma durumu değişebilir. Soft 404 kontrolü temiz."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yenişehir Belediyesi",
+      "url": "https://www.yenisehir.bel.tr/",
+      "duyuru_url": "https://www.yenisehir.bel.tr/duyurular",
+      "haber_url": "https://www.yenisehir.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçelerden biri (merkez ilçe); duyuru ve haber listeleri çalışıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Akdeniz Belediyesi",
+      "url": "https://www.akdeniz.bel.tr/",
+      "duyuru_url": "https://www.akdeniz.bel.tr/Default/Duyurular",
+      "haber_url": "",
+      "durum": 200,
+      "not": "Merkez ilçelerden biri. Duyurular /Default/Duyurular; haber detayları /Default/HaberDetay/{id} ama haber liste sayfası bulunamadı (/Default/Haberler 404), ana sayfadan haberlere bakılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Toroslar Belediyesi",
+      "url": "https://toroslar-bld.gov.tr/",
+      "duyuru_url": "https://toroslar-bld.gov.tr/duyurular",
+      "haber_url": "https://toroslar-bld.gov.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçelerden biri. Resmî alan adı toroslar-bld.gov.tr (toroslar.bel.tr buraya yönleniyor, www.toroslar.bel.tr açılmıyor). Sayfalardaki tek 'bulunamadı' ifadesi sitenin arama kutusu betiğinden geliyor, soft 404 değil."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Mezitli Belediyesi",
+      "url": "https://mezitli.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "",
+      "durum": 200,
+      "not": "SSL sertifika hatası (normal curl 000, curl -k ile 200). Site Nuxt/JS tabanlı SPA; duyuru/haber alt adresi doğrulanamadı (/duyurular, /haberler 404; /pages/* her şeye 200 dönüyor, güvenilmez). Ana sayfa üzerinden veya Google Haberler ile izlenmeli."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tarsus Belediyesi",
+      "url": "https://www.tarsus.bel.tr/",
+      "duyuru_url": "https://www.tarsus.bel.tr/haberler/duyuru",
+      "haber_url": "https://www.tarsus.bel.tr/haberler/haber",
+      "durum": 200,
+      "not": "İlin en kalabalık ilçelerinden. Duyuru/haber/ilan /haberler/duyuru, /haberler/haber, /haberler/ilan altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Erdemli Belediyesi",
+      "url": "https://www.erdemli.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "",
+      "durum": 200,
+      "not": "Ana sayfa 200; duyuru/haber alt adresi incelenmedi."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Silifke Belediyesi",
+      "url": "https://www.silifke.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "",
+      "durum": 200,
+      "not": "Ana sayfa 200; duyuru/haber alt adresi incelenmedi."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Mersin İl Kültür ve Turizm Müdürlüğü",
+      "url": "",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Zaman kazanmak için denenmedi (ktb.gov.tr il siteleri genelde açılmıyor). Mersin'de raylı sistem (metro/tramvay) henüz işletmede değil; toplu ulaşım duyuruları Mersin Büyükşehir Belediyesi sitesinde, ayrı bir ulaşım işletmesi sitesi doğrulanamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Mersin+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Mersin Haber",
+      "url": "https://www.mersinhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Mersin Gündem",
+      "url": "https://www.mersingundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Mersin bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/mersin/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı su kesintisi (MESKİ), su arızaları ve kuraklık/su sıkıntısı",
+    "planlı elektrik kesintisi (Toroslar EDAŞ) ve yaz aylarında sıcaklık kaynaklı arızalar",
+    "orman yangınları ve sıcak hava/nem uyarıları (Silifke, Erdemli, Mut, Anamur, Gülnar kesimi)",
+    "kuvvetli yağış, sel, fırtına ve deniz uyarıları; Toros dağlarında kar ve yayla yolu kapanmaları (Çamlıyayla, Gülnar, Mut)",
+    "Mersin Limanı, gemi/akaryakıt ve liman çevresi haberleri; göç ve sahil güvenlik olayları",
+    "trafik kazaları (Mersin-Adana otoyolu, D400 sahil yolu) ve toplu ulaşım düzenlemeleri",
+    "narenciye, muz ve sera tarımı: hasat, don, fiyat ve üretici haberleri",
+    "deprem (Doğu Anadolu/Kıbrıs yayı yakınlığı) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, büyükşehir belediyesi, MEB, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor, soft 404 yok. Su: MESKİ ayrı kurum; planlı kesinti sayfası (online.meski.gov.tr/meta/subscription/interruptions) harita/JS tabanlı, günlük kesinti listeleri yerel basında da çıkıyor. Elektrik: Toroslar EDAŞ kesinti sorgulaması form/harita tabanlı. Sağlık Müdürlüğü alt sayfa numaraları ile özgü (başka ilin numarası kullanılırsa o ilin sitesine yönleniyor): Mersin duyuru TR-368087, haber TR-8251. Tarsus Üniversitesi ve Mezitli Belediyesi sitelerinde SSL sertifika hatası var (curl -k ile açılıyor); Mezitli sitesi JS tabanlı, alt adresleri doğrulanamadı. Yerel haber siteleri: mersindehaber.com ele geçirilmiş/spam (Çince içerik) bu yüzden listeye alınmadı; mersinhaberajansi.com, yenimersin.com.tr, mersinolay.com boş sayfa döndü, alınmadı; mersin33.com ve mersinde.com.tr açılmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

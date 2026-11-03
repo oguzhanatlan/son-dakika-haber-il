@@ -1,0 +1,196 @@
+{
+  "il": "Gümüşhane",
+  "plaka": "29",
+  "slug": "gumushane",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/gumushane",
+  "buyuksehir": false,
+  "ilceler": [
+    "Kelkit",
+    "Köse",
+    "Kürtün",
+    "Merkez",
+    "Şiran",
+    "Torul"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Gümüşhane Valiliği",
+      "url": "https://www.gumushane.gov.tr/",
+      "duyuru_url": "https://www.gumushane.gov.tr/duyurular",
+      "haber_url": "https://www.gumushane.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.gumushane.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler, validen haberler (/validen-haberler) ve basın açıklamaları ayrı sayfalar. Duyurular ağırlıklı personel/sınav ilanı; kar tatili, yol kapanması gibi acil duyurular basın açıklamalarında ve haberlerde de çıkabilir."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Gümüşhane Belediyesi",
+      "url": "https://gumushane.bel.tr/",
+      "duyuru_url": "https://gumushane.bel.tr/duyurular",
+      "haber_url": "https://gumushane.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. www'li adres gumushane.bel.tr'ye yönleniyor. Duyurular ağırlıklı askı ilanı/imar (18. madde); haberler /haberler altında."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Gümüşhane İl Milli Eğitim Müdürlüğü",
+      "url": "https://gumushane.meb.gov.tr/",
+      "duyuru_url": "https://gumushane.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://gumushane.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://gumushane.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ilk denemede bir kez 500 verdi, yeniden denemede 200 döndü (aralıklı hata olabilir); duyuru RSS'i 200. /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Gümüşhane Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://gumushane.bel.tr/mudurlukler",
+      "duyuru_url": "https://gumushane.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi yok; hizmet belediyenin Su ve Kanalizasyon Müdürlüğü'nde (müdürlükler sayfasında listeli; abonelik dilekçeleri: https://gumushane.bel.tr/sayfa/su-aboneligi-ile-ilgili-dilekceler, 200). Planlı su kesintisi için özel bir duyuru sayfası bulunamadı (/su-kesintisi 404); kesinti duyuruları genel /duyurular ve /haberler içinde ve yerel basında çıkabilir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çoruh Elektrik Dağıtım A.Ş. (Çoruh EDAŞ)",
+      "url": "https://www.coruhedas.com.tr/",
+      "duyuru_url": "https://www.coruhedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "durum": 200,
+      "not": "Çoruh EDAŞ Artvin, Giresun, Gümüşhane, Rize ve Trabzon'da hizmet veriyor (şirket sitesindeki il iletişim sayfaları ve arama sonuçlarıyla Gümüşhane doğrulandı; genel merkez Arsin/Trabzon). Bakım programı ve kesinti listesi sayfası tablo/form tabanlı (il-ilçe seçimi gerekebilir). Genel duyurular: https://www.coruhedas.com.tr/BizdenHaberler/Duyurular (200). Arıza ihbar hattı 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Gümüşhane Bayburt Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/gumushane-bayburt",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Gümüşhane-Bayburt dağıtım bölgesi (e-Devlet doğalgaz dağıtım şirketleri listesinde de bu adla). Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Site Next.js tabanlı; planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Gümüşhane İl Sağlık Müdürlüğü",
+      "url": "https://gumushaneism.saglik.gov.tr/",
+      "duyuru_url": "https://gumushaneism.saglik.gov.tr/TR-54153/duyurular.html",
+      "durum": 200,
+      "not": "Adres gumushaneism.saglik.gov.tr. Duyurular ağırlıklı personel/atama (ör. il içi atama kurası); halk sağlığı haberleri ana sayfada. Ayrı haber sayfasının adresi doğrulanamadı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Gümüşhane İl Emniyet Müdürlüğü",
+      "url": "https://gumushane.pol.tr/",
+      "duyuru_url": "https://gumushane.pol.tr/duyurular",
+      "haber_url": "https://gumushane.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi gumushane.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Gümüşhane İl Jandarma Komutanlığı",
+      "url": "https://gumushane.jandarma.gov.tr/",
+      "duyuru_url": "https://gumushane.jandarma.gov.tr/duyurular",
+      "haber_url": "https://gumushane.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Gümüşhane Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://gumushane.afad.gov.tr/",
+      "duyuru_url": "https://gumushane.afad.gov.tr/duyurular",
+      "haber_url": "https://gumushane.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Gümüşhane Üniversitesi",
+      "url": "https://www.gumushane.edu.tr/",
+      "duyuru_url": "https://www.gumushane.edu.tr/duyurular",
+      "haber_url": "https://haber.gumushane.edu.tr/",
+      "durum": 200,
+      "not": "Ana sayfa Next.js tabanlı; /duyurular ve /haberler 200 dönüyor ancak içerik JS ile yükleniyor, sayfa kaynağında 'bulunamadı' şablon metni geçiyor (curl ile içerik doğrulanamadı). Haber sitesi haber.gumushane.edu.tr temiz 200. Ana sayfadaki duyuru detayları /hdetay/{id}/... biçiminde."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kelkit Belediyesi",
+      "url": "https://kelkit.bel.tr/",
+      "duyuru_url": "https://kelkit.bel.tr/duyurular",
+      "haber_url": "https://kelkit.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusça en büyük ilçe. Duyuru ve haber sayfaları temiz 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Şiran Belediyesi",
+      "url": "https://siran.bel.tr/",
+      "duyuru_url": "https://siran.bel.tr/duyurular",
+      "haber_url": "https://siran.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı imar/18. madde ve askı ilanı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Torul Belediyesi",
+      "url": "https://torul.bel.tr/",
+      "duyuru_url": "https://torul.bel.tr/duyurular",
+      "haber_url": "https://torul.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları temiz 200; içme suyu çalışmaları haberleri çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Gümüşhane İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://gumushane.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "ktb.gov.tr il siteleri açılmıyor (https://www.ktb.gov.tr curl 000); adres doğrulanamadı, kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=G%C3%BCm%C3%BC%C5%9Fhane+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber29",
+      "url": "https://www.haber29.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gündoğumu",
+      "url": "https://gundogumu.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gümüşkoza Gazetesi",
+      "url": "https://www.gumuskoza.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kuşakkaya Gazetesi",
+      "url": "https://www.kusakkaya.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Kelkit",
+      "url": "https://www.haberkelkit.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve yolların kapanması (Zigana Geçidi, Kop, Kelkit, Şiran, Köse kesimi)",
+    "Zigana Geçidi ve Gümüşhane-Trabzon/Bayburt/Erzincan yolları, trafik kazaları, heyelan ve yol çalışmaları",
+    "planlı elektrik kesintisi (Çoruh EDAŞ) ve fırtına/kar kaynaklı elektrik arızaları",
+    "içme suyu sıkıntısı, su kesintileri ve su kalitesi",
+    "sel, heyelan, dolu ve taşkın uyarıları (Harşit ve Kelkit çayları)",
+    "tarım ve hayvancılık: pekmez, dut, kuru meyve, don ve dolu zararı, Kelkit hayvan pazarı",
+    "turizm ve kültür: Karaca Mağarası, Santa Harabeleri, yaylalar ve festivaller",
+    "deprem ve AFAD bilgilendirmeleri; kış aylarında yayla yolları ve orman yangını uyarıları"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD ve ilçe belediyelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 içermiyor. Sağlık Müdürlüğü gumushaneism.saglik.gov.tr üzerinde; duyurular /TR-54153/duyurular.html. Su için ayrı idare ve planlı su kesintisi sayfası yok (belediye duyuruları ve yerel basına bak). Çoruh EDAŞ kesinti sayfası tablo/form tabanlı. Üniversite duyuru sayfası JS ile yükleniyor; haber.gumushane.edu.tr daha güvenilir. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel gazete listesi Gümüşhane Valiliği Yerel Basın İrtibat sayfasındaki (https://www.gumushane.gov.tr/yerel-basin-irtibat) yerel basın listesiyle uyumlu. Erişim testleri yurt dışı IP engeli göstermedi."
+}

@@ -1,0 +1,195 @@
+{
+  "il": "Hakkari",
+  "plaka": "30",
+  "slug": "hakkari",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/hakkari",
+  "buyuksehir": false,
+  "ilceler": [
+    "Çukurca",
+    "Derecik",
+    "Merkez",
+    "Şemdinli",
+    "Yüksekova"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Hakkari Valiliği",
+      "url": "https://hakkari.gov.tr/",
+      "duyuru_url": "https://hakkari.gov.tr/duyurular",
+      "haber_url": "https://hakkari.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://hakkari.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (üçü de 200, soft 404 değil). Vali aynı zamanda Hakkari Belediyesi'ne kayyum olarak atanmış durumda; belediye ile ilgili bazı duyurular valilik sitesinde de çıkabilir."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "T.C. Hakkari Belediyesi",
+      "url": "https://hakkari.bel.tr/",
+      "duyuru_url": "https://hakkari.bel.tr/duyurular",
+      "haber_url": "https://hakkari.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. SSL sertifika zinciri doğrulanamıyor: normal curl 000 dönüyor, curl -k ile 200 (tarayıcıda uyarı çıkabilir). Duyuru ve haber sayfaları -k ile 200. 2024 seçimlerinden sonra belediyeye kayyum atandı (vali)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Hakkari İl Milli Eğitim Müdürlüğü",
+      "url": "https://hakkari.meb.gov.tr/",
+      "duyuru_url": "https://hakkari.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://hakkari.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://hakkari.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS adresleri 200 dönüyor. /acilduyurular/ 404 (kar tatili vb. duyurular valilik ve MEB duyurularında aranmalı)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Hakkari Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://hakkari.bel.tr/su-ve-kanalizasyon-mudurlugu",
+      "duyuru_url": "https://hakkari.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı sayfa bulunamadı (hakkari.bel.tr/su-kesintisi 404); kesinti duyuruları genel /duyurular ve /haberler içinde. SSL sorunu nedeniyle curl -k gerekir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Vangölü Elektrik Dağıtım A.Ş. (VEDAŞ)",
+      "url": "https://www.vedas.com.tr/",
+      "duyuru_url": "https://www.vedas.com.tr/planli-kesintiler-TR.html",
+      "durum": 200,
+      "not": "VEDAŞ Van, Bitlis, Muş ve Hakkari'de hizmet veriyor (arama sonuçlarıyla Hakkari İl Müdürlüğü planlı kesinti duyuruları doğrulandı; genel merkez Van). SSL sertifika sorunu var: normal curl 000, curl -k ile 200. Planlı kesinti sayfası (planli-kesintiler-TR.html) kayıt yokken 'Planlı kesinti kaydı bulunamadı' yazıyor (bu soft 404 değil). Kesinti sorgulama: https://kat.vedas.com.tr/run/VEDAS/KESINTI_SORGULAMA/giris (bu ortamdan açılmadı, JS/form tabanlı). Çağrı merkezi ALO 186. Genel duyurular: https://www.vedas.com.tr/duyurular-TR.html."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Hakkari Şırnak Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://www.akmercanhakkarisirnakgaz.com.tr/",
+      "duyuru_url": "https://akmercanhakkarisirnakgaz.com.tr/haberler-ve-duyurular",
+      "durum": 200,
+      "not": "Hakkari (merkez) ve Yüksekova dahil Hakkari-Şırnak dağıtım bölgesi lisansı. www adresi www'siz alan adına yönleniyor. ALO 187. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Hakkari İl Sağlık Müdürlüğü",
+      "url": "https://hakkariism.saglik.gov.tr/",
+      "duyuru_url": "https://hakkariism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres hakkariism.saglik.gov.tr. Ayrı duyuru liste sayfasının adresi doğrulanamadı (duyurular ana sayfada); /TR-0/duyurular.html ana sayfaya yönleniyor."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Hakkari İl Emniyet Müdürlüğü",
+      "url": "https://hakkari.pol.tr/",
+      "duyuru_url": "https://hakkari.pol.tr/duyurular",
+      "haber_url": "https://hakkari.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi hakkari.pol.tr; duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Hakkari İl Jandarma Komutanlığı",
+      "url": "https://hakkari.jandarma.gov.tr/",
+      "duyuru_url": "https://hakkari.jandarma.gov.tr/duyurular",
+      "haber_url": "https://hakkari.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Ana sayfa, /duyurular ve /haberler 200; olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Hakkari Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://hakkari.afad.gov.tr/",
+      "duyuru_url": "https://hakkari.afad.gov.tr/duyurular",
+      "haber_url": "https://hakkari.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Hakkari Üniversitesi",
+      "url": "https://hakkari.edu.tr/",
+      "duyuru_url": "https://hakkari.edu.tr/duyurular",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı (YKS yerleştirme, Erasmus, kayıt vb.); tek tek duyurular /duyuru/{id}/... biçiminde."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yüksekova Belediyesi",
+      "url": "https://www.yuksekova.bel.tr/",
+      "duyuru_url": "https://www.yuksekova.bel.tr/duyurular",
+      "haber_url": "https://www.yuksekova.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlin nüfusça en büyük ilçesi (yaklaşık 121 bin). Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Şemdinli Belediyesi",
+      "url": "https://www.semdinli.bel.tr/",
+      "duyuru_url": "https://www.semdinli.bel.tr/duyurular",
+      "haber_url": "https://www.semdinli.bel.tr/haberler",
+      "durum": 200,
+      "not": "Sayfa başlığı 'Hakkari Şemdinli Belediyesi'. Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çukurca Belediyesi",
+      "url": "https://www.cukurca.bel.tr/",
+      "duyuru_url": "https://www.cukurca.bel.tr/duyurular",
+      "haber_url": "https://www.cukurca.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200. Derecik Belediyesi de var: https://www.derecik.bel.tr/ (200; derecik.bel.tr www'ye yönleniyor)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Hakkari İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://hakkari.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "hakkari.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; adres kalıptan geldiği için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Hakkari+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Hakkari Haber (hakkarihaber.net)",
+      "url": "https://www.hakkarihaber.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Colemêrg Haber",
+      "url": "https://www.colemerghaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yüksekova Haber",
+      "url": "https://www.yuksekovahaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Hakkari İl Sesi Gazetesi",
+      "url": "https://www.hakkariilsesigazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Hakkari Objektif Haber",
+      "url": "https://www.hakkariobjektifhaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili, eğitime ara verilmesi ve Hakkari Üniversitesi'nde eğitimin durması",
+    "kış aylarında kar ve tipi nedeniyle kapanan yollar (Hakkari-Van, Hakkari-Yüksekova, Şemdinli-Yüksekova), mahsur kalan araçlar",
+    "planlı elektrik kesintisi (VEDAŞ) ve kar kaynaklı arıza/enerji kesintileri",
+    "içme suyu sıkıntısı, su kesintileri ve altyapı çalışmaları",
+    "doğalgaz faturaları, abonelik ve Akmercan duyuruları",
+    "deprem ve AFAD bilgilendirmeleri",
+    "güvenlik: Çukurca, Şemdinli, Yüksekova sınır bölgesi, Cilo/Meydan Dağı üs bölgeleri ve operasyon haberleri",
+    "Yüksekova Havalimanı uçuşları, sınır kapıları ve ulaşım",
+    "Hakkari Belediyesi (kayyum), ihale ve personel alımı duyuruları"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, üniversite ve ilçe belediyelerinin duyuru/haber sayfaları 200 dönüyor. Hakkari Belediyesi (hakkari.bel.tr) ve VEDAŞ (vedas.com.tr) SSL sertifika zinciri hatası veriyor: normal curl 000, curl -k ile 200; HTTP istemcisinde sertifika doğrulaması kapatılmalı. VEDAŞ planlı kesinti sayfası kayıt olmadığında 'Planlı kesinti kaydı bulunamadı' yazar. Sağlık Müdürlüğü hakkariism.saglik.gov.tr üzerinde, duyuru listesi ana sayfada. Su için ayrı idare yok, planlı su kesintisi özel sayfası bulunamadı. Hakkari Belediyesi'ne vali kayyum olarak atandı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Bu ortamda tahmin edilen bazı yerel haber alan adları (hakkarigazetesi.com, hakkarison.com, yuksekovahaber.net vb.) park/engel sayfası döndürdü ve listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

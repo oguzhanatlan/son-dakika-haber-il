@@ -1,0 +1,227 @@
+{
+  "il": "Eskişehir",
+  "plaka": "26",
+  "slug": "eskisehir",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/eskisehir",
+  "buyuksehir": true,
+  "ilceler": [
+    "Alpu",
+    "Beylikova",
+    "Çifteler",
+    "Günyüzü",
+    "Han",
+    "İnönü",
+    "Mahmudiye",
+    "Mihalgazi",
+    "Mihalıççık",
+    "Odunpazarı",
+    "Sarıcakaya",
+    "Seyitgazi",
+    "Sivrihisar",
+    "Tepebaşı"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Eskişehir Valiliği",
+      "url": "https://www.eskisehir.gov.tr/",
+      "duyuru_url": "https://www.eskisehir.gov.tr/duyurular",
+      "haber_url": "https://www.eskisehir.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.eskisehir.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, valinin haberleri /validen-haberler; basın açıklamaları ayrı sayfada. Soft-404 kontrolü temiz."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Eskişehir Büyükşehir Belediyesi",
+      "url": "https://www.eskisehir.bel.tr/",
+      "duyuru_url": "https://www.eskisehir.bel.tr/duyurular",
+      "haber_url": "https://www.eskisehir.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. /duyurular ve /haberler 200 dönüyor (sayfa büyük, ~120 KB; yavaş açılabilir). /haber ve /su-kesintisi 404. Belediye şirketleri listesi: /belediye-sirketleri."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Eskişehir İl Milli Eğitim Müdürlüğü",
+      "url": "https://eskisehir.meb.gov.tr/",
+      "duyuru_url": "https://eskisehir.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://eskisehir.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://eskisehir.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adresleri 200 dönüyor. Kar tatili vb. okul tatili kararları ayrıca Valilik duyurularında da çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Eskişehir Büyükşehir Belediyesi Su ve Kanalizasyon İdaresi Genel Müdürlüğü (ESKİ)",
+      "url": "https://www.eskisehir-eski.gov.tr/",
+      "duyuru_url": "https://www.eskisehir-eski.gov.tr/basin/su-kesintileri",
+      "haber_url": "https://www.eskisehir-eski.gov.tr/basin/ESKI-den-Haberler",
+      "durum": 200,
+      "not": "DİKKAT: eski.gov.tr Erzurum'un su idaresidir, Eskişehir'inki eskisehir-eski.gov.tr. Planlı su kesintisi ve arıza duyuruları /basin/su-kesintileri altında. /duyurular ve /haberler ana sayfa ile aynı içeriği döndürüyor (gerçek liste değil), kullanma."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Osmangazi Elektrik Dağıtım A.Ş. (OEDAŞ)",
+      "url": "https://www.osmangaziedas.com.tr/",
+      "duyuru_url": "https://www.osmangaziedas.com.tr/planli-kesinti-duyurulari",
+      "haber_url": "https://www.osmangaziedas.com.tr/sirketimizden-haberler",
+      "basin_aciklamalari_url": "https://www.osmangaziedas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "OEDAŞ Eskişehir, Afyonkarahisar, Bilecik, Kütahya ve Uşak'ta hizmet veriyor (Zorlu Enerji grubu; arama sonuçları ve yerel haberlerle doğrulandı). oedas.com.tr bu adrese yönleniyor. Planlı kesinti için /planli-kesinti-duyurulari (200); /planli-kesinti sayfası il-ilçe sorgulama formu ve JS tabanlı olabilir. Çağrı merkezi 186. Yerel basın (habergazetesi, politikam vb.) günlük kesinti listelerini yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Eskişehir Şehir İçi Doğal Gaz Dağıtım Ticaret ve Taahhüt A.Ş. (ESGAZ)",
+      "url": "https://www.esgaz.com.tr/",
+      "duyuru_url": "https://www.esgaz.com.tr/content-detail/basin-odasi",
+      "basin_aciklamalari_url": "https://www.esgaz.com.tr/content-detail/basin-bultenleri",
+      "durum": 200,
+      "not": "Ana sayfada duyurular (planlı bakım, CNG ihale sonuçları) kayan bölümde yer alıyor. /duyurular 500 dönüyor, kullanma. http:// sürümü açılmıyor, https kullan. Acil: 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Eskişehir İl Sağlık Müdürlüğü",
+      "url": "https://eskisehirism.saglik.gov.tr/",
+      "duyuru_url": "https://eskisehirism.saglik.gov.tr/TR-39558/duyurular.html",
+      "haber_url": "https://eskisehirism.saglik.gov.tr/TR-39553/haberler.html",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı personel/aile hekimliği yerleştirme; halk sağlığı haberleri /haberler. Soft-404 kontrolü temiz."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Eskişehir İl Emniyet Müdürlüğü",
+      "url": "https://eskisehir.pol.tr/",
+      "duyuru_url": "https://eskisehir.pol.tr/duyurular",
+      "haber_url": "https://eskisehir.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi eskisehir.pol.tr; olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Eskişehir İl Jandarma Komutanlığı",
+      "url": "https://eskisehir.jandarma.gov.tr/",
+      "duyuru_url": "https://eskisehir.jandarma.gov.tr/duyurular",
+      "haber_url": "https://eskisehir.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon ve olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Eskişehir Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://eskisehir.afad.gov.tr/",
+      "duyuru_url": "https://eskisehir.afad.gov.tr/duyurular",
+      "haber_url": "https://eskisehir.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Eskişehir Osmangazi Üniversitesi",
+      "url": "https://www.ogu.edu.tr/",
+      "duyuru_url": "https://www.ogu.edu.tr/Web/DuyuruDetay?kategoriId=33",
+      "haber_url": "https://www.ogu.edu.tr/Web/HaberDetay",
+      "durum": 200,
+      "not": "Duyuru/haber listesi ana sayfadan /Web/DuyuruDetay/{id} biçiminde bağlanıyor; ana sayfa en güvenilir kaynak. esogu.edu.tr de açılıyor. /Duyurular ve /haberler 404. Kampüs haberleri esoguhaber.ogu.edu.tr (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Anadolu Üniversitesi",
+      "url": "https://www.anadolu.edu.tr/",
+      "duyuru_url": "https://www.anadolu.edu.tr/duyurular",
+      "haber_url": "https://www.anadolu.edu.tr/haberler",
+      "durum": 200,
+      "not": "Açıköğretim sınav ve kayıt duyuruları ülke çapında okunur (AÖF, sınav tarihleri)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Eskişehir Teknik Üniversitesi",
+      "url": "https://www.eskisehir.edu.tr/",
+      "duyuru_url": "https://www.eskisehir.edu.tr/tr/Duyuru",
+      "haber_url": "https://www.eskisehir.edu.tr/tr/Haber",
+      "durum": 200,
+      "not": "/duyurular 500 (hata sayfası), doğru adres /tr/Duyuru ve /tr/Haber."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Odunpazarı Belediyesi",
+      "url": "https://www.odunpazari.bel.tr/",
+      "duyuru_url": "https://www.odunpazari.bel.tr/guncel/duyurular",
+      "haber_url": "https://www.odunpazari.bel.tr/guncel/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe (nüfusça en büyük iki ilçeden biri). /duyurular ve /haberler yukarıdaki adreslere yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tepebaşı Belediyesi",
+      "url": "https://www.tepebasi.bel.tr/",
+      "duyuru_url": "https://www.tepebasi.bel.tr/Duyuru",
+      "haber_url": "https://www.tepebasi.bel.tr/Haber",
+      "durum": 200,
+      "not": "Merkez ilçe. /duyurular ve /haberler 404; doğru adresler /Duyuru ve /Haber (büyük harf)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sivrihisar Belediyesi",
+      "url": "https://sivrihisar.bel.tr/",
+      "duyuru_url": "https://sivrihisar.bel.tr/blog/duyurular/",
+      "haber_url": "https://sivrihisar.bel.tr/blog/haberler/",
+      "durum": 200,
+      "not": "Merkez ilçeler dışında en çok haber çıkan ilçelerden; WordPress yapısı, /duyurular /blog/duyurular/'a yönleniyor. www'li adres www'siz adrese yönleniyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "ESTRAM Eskişehir Raylı Sistem Tramvay İşletmesi (Eskişehir Büyükşehir Belediyesi şirketi)",
+      "url": "https://www.estram.com.tr/",
+      "duyuru_url": "https://www.estram.com.tr/hareket-saatleri.php?cat_icerik=4",
+      "durum": 200,
+      "not": "Tramvay ve otobüs ulaşımı; sefer saatleri sayfası 200. Ayrı bir duyuru/haber listesi sayfası bulunamadı (/haberler.php 404); seferlerdeki değişiklikler ana sayfada ve Büyükşehir duyurularında. İl Kültür Turizm (eskisehir.ktb.gov.tr) açılmıyor (curl 000), kaynak olarak kullanma."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Eski%C5%9Fehir+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Eskişehir Haber",
+      "url": "https://www.eskisehirhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi (Eskişehir elektrik/su kesintisi listeleri)",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İstikbal Gazetesi",
+      "url": "https://www.istikbal.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberin İşçisi Eskişehir bölümü",
+      "url": "https://www.iscihaber.net/eskisehir",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (OEDAŞ; Odunpazarı, Tepebaşı ve ilçeler)",
+    "planlı su kesintisi, arıza ve basınç düşüklüğü (ESKİ; Porsuk ve baraj su seviyesi)",
+    "kar, buzlanma ve sis nedeniyle okul tatili, yol kapanması ve ulaşım aksaması",
+    "tramvay ve toplu taşıma (ESTRAM) sefer/ücret değişiklikleri, yol çalışmaları ve trafik düzenlemeleri",
+    "üniversite haberleri: Anadolu AÖF sınavları, ESOGÜ/ESTÜ, öğrenci yurtları ve kira artışları",
+    "doğalgaz (ESGAZ) tarifeleri, planlı bakım ve hava kirliliği",
+    "tarım, şeker pancarı hasadı, kuraklık ve Porsuk/Sakarya taşkını uyarıları",
+    "deprem (Eskişehir fay hattı) ve AFAD bilgilendirmeleri, kültür-turizm etkinlikleri (Odunpazarı, festivaller)"
+  ],
+  "notlar": "Valilik, Büyükşehir, MEB, sağlık, emniyet, jandarma ve AFAD duyuru/haber sayfaları 200 dönüyor (soft-404 kontrolü temiz). Su idaresi eskisehir-eski.gov.tr (eski.gov.tr Erzurum'a ait, karıştırma); planlı kesintiler /basin/su-kesintileri altında, /duyurular ve /haberler anasayfayı döndürüyor. Elektrik: OEDAŞ (osmangaziedas.com.tr; oedas.com.tr buraya yönleniyor), planlı kesintiler /planli-kesinti-duyurulari, sorgulama formu JS tabanlı olabilir. Doğalgaz ESGAZ ana sayfası kayan duyuru bölümü içeriyor, /duyurular 500 veriyor. Tepebaşı Belediyesi doğru yolları /Duyuru ve /Haber. ESTÜ doğru yolları /tr/Duyuru ve /tr/Haber. Eskişehir Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel gazetelerden eskisehirexpress.com, eskisehirgazetesi.com, 2eylul.com ve haberanadolu.com (satılık alan adı) açılmadı veya alakasız olduğu için listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi (hepsi 200)."
+}

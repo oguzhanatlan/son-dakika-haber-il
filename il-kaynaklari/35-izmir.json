@@ -1,0 +1,269 @@
+{
+  "il": "İzmir",
+  "plaka": "35",
+  "slug": "izmir",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/izmir",
+  "buyuksehir": true,
+  "ilceler": [
+    "Aliağa",
+    "Balçova",
+    "Bayındır",
+    "Bayraklı",
+    "Bergama",
+    "Beydağ",
+    "Bornova",
+    "Buca",
+    "Çeşme",
+    "Çiğli",
+    "Dikili",
+    "Foça",
+    "Gaziemir",
+    "Güzelbahçe",
+    "Karabağlar",
+    "Karaburun",
+    "Karşıyaka",
+    "Kemalpaşa",
+    "Kınık",
+    "Kiraz",
+    "Konak",
+    "Menderes",
+    "Menemen",
+    "Narlıdere",
+    "Ödemiş",
+    "Seferihisar",
+    "Selçuk",
+    "Tire",
+    "Torbalı",
+    "Urla"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "İzmir Valiliği",
+      "url": "https://izmir.gov.tr/",
+      "duyuru_url": "https://izmir.gov.tr/duyurular",
+      "haber_url": "https://izmir.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://izmir.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, vali haberleri /validen-haberler, basın açıklamaları /basin-aciklamalari (hepsi 200, soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "İzmir Büyükşehir Belediyesi",
+      "url": "https://www.izmir.bel.tr/",
+      "duyuru_url": "https://www.izmir.bel.tr/tr/TumDuyurular/160",
+      "haber_url": "https://www.izmir.bel.tr/tr/HaberArsivi/157",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /tr/TumDuyurular/160, haber arşivi /tr/HaberArsivi/157 (200). /tr/Duyurular ve /tr/Haberler 404 verir; tek tek haberler /tr/Haberler/{slug}/{id}/156 biçiminde. Ana sayfada güncel haber ve duyuru kutuları var."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "İzmir İl Milli Eğitim Müdürlüğü",
+      "url": "https://izmir.meb.gov.tr/",
+      "duyuru_url": "https://izmir.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://izmir.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru RSS'i de 200 dönüyor. Okul tatili/ders saati değişikliği gibi önemli kararlar valilik sayfasında da çıkabilir."
+    },
+    {
+      "tur": "su",
+      "kurum": "İzmir Su ve Kanalizasyon İdaresi Genel Müdürlüğü (İZSU)",
+      "url": "https://izsu.gov.tr/",
+      "duyuru_url": "https://izsu.gov.tr/bilgi-merkezi/ariza-ve-bakim-bilgisi-sorgulama",
+      "haber_url": "https://izsu.gov.tr/basin-odasi/haber-arsivi",
+      "durum": 200,
+      "not": "Planlı su kesintisi ve arıza sayfası: 'Arıza ve Bakım Bilgisi Sorgulama'. Sayfa sunucu tarafında render ediliyor; 'Planlı Bakım Bilgileri' (ilçe, mahalle, iş adı, kesinti başlangıç/bitiş) ve 'Arıza Bilgileri' (ilçe, mahalle, süre, arıza tipi) tabloları doğrudan HTML'de okunabiliyor. Genel duyurular https://izsu.gov.tr/duyurular (örn. /duyurular/kamuoyunun-bilgisine), haber arşivi /basin-odasi/haber-arsivi. DİKKAT: İZSU bilinmeyen adreslere 200 + 'Sayfa Bulunamadı' başlığı dönüyor (soft 404); /haberler ve /su-kesintileri gibi adresler geçersiz. Çağrı merkezi ALO 185."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Gediz Elektrik Dağıtım A.Ş. (GDZ Elektrik)",
+      "url": "https://www.gdzelektrik.com.tr/",
+      "duyuru_url": "https://www.gdzelektrik.com.tr/bilgi-merkezi/planli-bakim-ve-iyilestirme-calismalari",
+      "haber_url": "https://www.gdzelektrik.com.tr/medya-merkezi/basin-bultenleri",
+      "durum": 200,
+      "not": "GDZ Elektrik İzmir ve Manisa'da dağıtım yapıyor (şirketin kendi sitesi meta açıklamasından doğrulandı). 'Planlı Kesintiler' sayfası kesinti listesi/sorgulama için; liste statik HTML'de görünmüyor (JS/form tabanlı), yerel basın günlük kesinti listelerini yayımlıyor. Genel duyurular https://www.gdzelektrik.com.tr/bilgi-merkezi/duyurular, basın bültenleri https://www.gdzelektrik.com.tr/medya-merkezi/basin-bultenleri (200). Arıza hattı 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "İzmir Doğalgaz Dağıtım A.Ş. (İzmirgaz)",
+      "url": "https://www.izmirgaz.com.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "İzmir ve Tire dağıtım bölgesinde yetkili şirket (arama sonuçlarında resmi adres izmirgaz.com.tr olarak geçiyor; adres e-Devlet sayfasında da bu alan adı veriliyor). Standart curl doğrulaması BAŞARISIZ: HTTPS'te 'unable to get local issuer certificate' (sunucu sertifika zinciri eksik), HTTP bağlantı zaman aşımına uğruyor. Bu yüzden durum 0; duyuru alt sayfası bulunamadı/doğrulanamadı. Rutinde bu kaynağa güvenilmemeli, doğalgaz kesintisi haberleri yerel basından izlenmeli. Çağrı merkezi 850 222 3335."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "İzmir İl Sağlık Müdürlüğü",
+      "url": "https://izmirism.saglik.gov.tr/",
+      "duyuru_url": "https://izmirism.saglik.gov.tr/TR-136621/duyurular.html",
+      "durum": 200,
+      "not": "Adres izmirism.saglik.gov.tr. Duyurular sayfası sayfalı (?Sayfa=2). Ayrı bir haber listesi adresi bulunamadı; duyurular ağırlıklı personel/idari."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "İzmir İl Emniyet Müdürlüğü",
+      "url": "https://izmir.pol.tr/",
+      "duyuru_url": "https://izmir.pol.tr/duyurular",
+      "haber_url": "https://izmir.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi izmir.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "İzmir İl Jandarma Komutanlığı",
+      "url": "https://izmir.jandarma.gov.tr/",
+      "duyuru_url": "https://izmir.jandarma.gov.tr/duyurular",
+      "haber_url": "https://izmir.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "İzmir Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://izmir.afad.gov.tr/",
+      "duyuru_url": "https://izmir.afad.gov.tr/duyurular",
+      "haber_url": "https://izmir.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. İzmir ilinde deprem haberleri yoğun."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Ege Üniversitesi",
+      "url": "https://www.ege.edu.tr/",
+      "duyuru_url": "https://egeduyuru.ege.edu.tr/",
+      "durum": 200,
+      "not": "Duyurular ayrı alt alan adında (egeduyuru.ege.edu.tr); idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Dokuz Eylül Üniversitesi",
+      "url": "https://www.deu.edu.tr/",
+      "duyuru_url": "https://www.deu.edu.tr/tum-duyurular/",
+      "haber_url": "https://haber.deu.edu.tr/",
+      "durum": 200,
+      "not": "Kampüs haberleri https://haber.deu.edu.tr/ (200). Duyurular sayfasında 'bulunamadı' geçen satırlar yalnızca WordPress arayüz metinleri (soft 404 değil). İzmir Yüksek Teknoloji Enstitüsü duyuruları: https://iyte.edu.tr/duyuru/ (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karşıyaka Belediyesi",
+      "url": "https://www.karsiyaka.bel.tr/",
+      "duyuru_url": "https://www.karsiyaka.bel.tr/duyurular",
+      "haber_url": "https://www.karsiyaka.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bornova Belediyesi",
+      "url": "https://bornova.bel.tr/",
+      "duyuru_url": "https://bornova.bel.tr/duyurular",
+      "haber_url": "https://bornova.bel.tr/haberler",
+      "durum": 200,
+      "not": "www.bornova.bel.tr bornova.bel.tr'ye yönleniyor. Duyuru/haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Buca Belediyesi",
+      "url": "https://www.buca.bel.tr/tr",
+      "duyuru_url": "https://www.buca.bel.tr/tr/duyurular",
+      "haber_url": "https://www.buca.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "Basın materyalleri: https://www.buca.bel.tr/tr/basin-materyalleri."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Konak Belediyesi",
+      "url": "https://www.konak.bel.tr/tr",
+      "duyuru_url": "https://www.konak.bel.tr/tr/duyuru",
+      "haber_url": "https://www.konak.bel.tr/tr/haber",
+      "durum": 200,
+      "not": "Duyuru adresi tekil /tr/duyuru (/tr/duyurular 404), haber /tr/haber."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çiğli Belediyesi",
+      "url": "https://www.cigli.bel.tr/",
+      "duyuru_url": "https://www.cigli.bel.tr/duyurular.html",
+      "haber_url": "https://www.cigli.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "Statik .html yapı; haberler haber/{slug}.html biçiminde."
+    },
+    {
+      "tur": "diger",
+      "kurum": "ESHOT Genel Müdürlüğü (İzmir otobüs işletmesi)",
+      "url": "https://www.eshot.gov.tr/",
+      "duyuru_url": "https://www.eshot.gov.tr/tr/TumDuyurular/94",
+      "haber_url": "https://www.eshot.gov.tr/tr/BasinOdasi/82/392",
+      "durum": 200,
+      "not": "Hat/sefer değişikliği, güzergah ve ücret duyuruları. Basın odası: https://www.eshot.gov.tr/tr/BasinOdasi/82/392 (200). /tr/Duyurular/94 hata sayfasına yönleniyor, doğru liste /tr/TumDuyurular/94."
+    },
+    {
+      "tur": "diger",
+      "kurum": "İzmir Metro A.Ş.",
+      "url": "https://www.izmirmetro.com.tr/",
+      "duyuru_url": "https://www.izmirmetro.com.tr/duyurular",
+      "haber_url": "https://www.izmirmetro.com.tr/haberler",
+      "durum": 200,
+      "not": "Site JS tabanlı tek sayfa uygulaması (HTML boş kabuk dönüyor, her adrese 200 verir; rotalar /duyurular, /haberler, /tum-duyurular, /tum-haberler, /sefer-plani paket içindeki yönlendirme tanımından alındı). Tramvay duyuruları aynı sitede ('tramannouncements'). Veri API'si metrotramapi.iztek.tr/api/v1 (200) ama belgelenmemiş. İçeriği düz curl ile okuyamazsın; arıza/sefer düzenlemeleri İzmir BB haberlerinde de çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "İZBAN A.Ş.",
+      "url": "https://www.izban.com.tr/",
+      "duyuru_url": "https://www.izban.com.tr/Sayfalar/TumDuyurular.aspx?MenuId=50",
+      "haber_url": "https://www.izban.com.tr/Sayfalar/TumHaberler.aspx",
+      "durum": 200,
+      "not": "ASP.NET site; ana sayfa /Sayfalar/Anasayfa.aspx'e yönleniyor. Duyuru ve haber listeleri HTML'de okunabiliyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "İzmir Deniz İşletmeciliği A.Ş. (İZDENİZ)",
+      "url": "https://www.izdeniz.com.tr/",
+      "duyuru_url": "https://www.izdeniz.com.tr/duyurular",
+      "haber_url": "https://www.izdeniz.com.tr/haberler",
+      "durum": 200,
+      "not": "Vapur/feribot sefer iptali ve duyuruları. JS tabanlı tek sayfa uygulaması (boş HTML kabuğu, her rotaya 200); rotalar /duyurular, /haberler (paket içi yönlendirme tanımı). İçerik düz curl ile okunamaz."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%C4%B0zmir+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Asır",
+      "url": "https://www.yeniasir.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ege Haber",
+      "url": "https://www.egehaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İzmir Haberleri",
+      "url": "https://www.izmirhaberleri.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ege Postası",
+      "url": "https://www.egepostasi.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "İZSU planlı/arızalı su kesintisi (ilçe-mahalle bazlı) ve kuraklık/baraj doluluk, dönüşümlü su kesintisi",
+    "GDZ Elektrik planlı elektrik kesintisi (günlük ilçe listeleri)",
+    "deprem ve artçılar (AFAD/Kandilli), Ege açıkları ve Seferihisar-Karaburun hattı",
+    "orman yangını (Karşıyaka, Urla, Çeşme, Menderes, Bergama dahil yaz mevsimi), yangın uyarısı ve tahliyeler",
+    "toplu taşıma: ESHOT, İzmir Metro, İZBAN, İZDENİZ sefer değişikliği, arıza ve grev/iş bırakma",
+    "şiddetli yağış, sel baskını ve fırtına uyarıları; vapur seferlerinin iptali",
+    "trafik: İzmir-Çeşme, İzmir-Aydın ve İzmir-Ankara otoyolu kazaları, Konak-Bornova trafik düzenlemeleri",
+    "turizm sezonu (Çeşme, Alaçatı, Foça) ve kruvaziyer; İzmir Enternasyonal Fuarı ve etkinlikler"
+  ],
+  "notlar": "Valilik, İzmir BB, MEB, emniyet, jandarma ve AFAD duyuru/haber alt sayfaları 200 dönüyor ve içerikleri curl ile okunabiliyor. İZSU'nun planlı bakım ve arıza tabloları 'Arıza ve Bakım Bilgisi Sorgulama' sayfasında düz HTML olarak var (en kullanışlı yerel kaynak); İZSU bilinmeyen adreslere 200 + 'Sayfa Bulunamadı' (soft 404) döndürüyor. GDZ Elektrik planlı kesinti listesi JS/form tabanlı, sadece sayfa adresi kaydedildi. İzmirgaz (izmirgaz.com.tr) sertifika zinciri hatası ve HTTP zaman aşımı nedeniyle doğrulanamadı (durum 0). İzmir Metro ve İZDENİZ siteleri JS tabanlı SPA: her rota 200 döner, içerik düz curl ile okunamaz (tarayıcı/JS gerekir). ESHOT ve İZBAN düz HTML. Sağlık Müdürlüğü izmirism.saglik.gov.tr üzerinde, ayrı haber listesi bulunamadı. Kültür Turizm il müdürlüğü brif gereği denenmedi. İzmirin Sesi (izmirinsesi.com) başka bir içerikle (LaraMag şablonu) dolu göründüğü için yerel gazete listesine alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

@@ -1,0 +1,294 @@
+{
+  "il": "İstanbul",
+  "plaka": "34",
+  "slug": "istanbul",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/istanbul",
+  "buyuksehir": true,
+  "ilceler": [
+    "Adalar",
+    "Arnavutköy",
+    "Ataşehir",
+    "Avcılar",
+    "Bahçelievler",
+    "Bakırköy",
+    "Bayrampaşa",
+    "Bağcılar",
+    "Başakşehir",
+    "Beykoz",
+    "Beylikdüzü",
+    "Beyoğlu",
+    "Beşiktaş",
+    "Büyükçekmece",
+    "Esenler",
+    "Esenyurt",
+    "Eyüpsultan",
+    "Fatih",
+    "Gaziosmanpaşa",
+    "Güngören",
+    "Kadıköy",
+    "Kartal",
+    "Kâğıthane",
+    "Küçükçekmece",
+    "Maltepe",
+    "Pendik",
+    "Sancaktepe",
+    "Sarıyer",
+    "Silivri",
+    "Sultanbeyli",
+    "Sultangazi",
+    "Tuzla",
+    "Zeytinburnu",
+    "Çatalca",
+    "Çekmeköy",
+    "Ümraniye",
+    "Üsküdar",
+    "Şile",
+    "Şişli"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. İstanbul Valiliği",
+      "url": "https://istanbul.gov.tr/",
+      "duyuru_url": "https://istanbul.gov.tr/duyurular",
+      "haber_url": "https://istanbul.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (ikisi de 200, soft-404 değil). Basın duyuruları ve valilik kararları (okul tatili, etkinlik/yürüyüş yasakları vb.) burada."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "İstanbul Büyükşehir Belediyesi (İBB)",
+      "url": "https://www.ibb.istanbul/",
+      "duyuru_url": "https://www.ibb.istanbul/gundem/duyurular/",
+      "haber_url": "https://www.ibb.istanbul/gundem/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir: evet. Duyurular /gundem/duyurular, haberler /gundem/haberler (200). Site Nuxt/JS tabanlı; /haberler, /duyurular, /basin-aciklamalari kökte 404. Diğer bölümler: /gundem/etkinlikler, /gundem/icraatlar, /gundem/yayinlar."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "İstanbul İl Milli Eğitim Müdürlüğü",
+      "url": "https://istanbul.meb.gov.tr/",
+      "duyuru_url": "https://istanbul.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://istanbul.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru RSS 200 dönüyor. /acilduyurular/ 404 (okul tatili/ara verme duyuruları valilik ve MEB ana sayfasından takip edilmeli)."
+    },
+    {
+      "tur": "su",
+      "kurum": "İSKİ - İstanbul Su ve Kanalizasyon İdaresi Genel Müdürlüğü",
+      "url": "https://iski.istanbul/",
+      "duyuru_url": "https://iski.istanbul/abone-hizmetleri/ariza-kesinti/",
+      "haber_url": "https://iski.istanbul/gundem/",
+      "durum": 200,
+      "not": "Planlı ve arıza su kesintileri tek sayfada: /abone-hizmetleri/ariza-kesinti/ (mahalle/ilçe filtreli sorgu, JS tabanlı; F5 korumalı site, curl ile 200 dönüyor). Genel duyurular: https://iski.istanbul/gundem/duyurular/ (200). /gundem/haberler 404. Eski iski.gov.tr yerine iski.istanbul kullanılıyor. ALO 185 hattı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "BEDAŞ - Boğaziçi Elektrik Dağıtım A.Ş. (Avrupa Yakası)",
+      "url": "https://www.bedas.com.tr/",
+      "duyuru_url": "https://www.bedas.com.tr/elektrik-kesintisi-sorgulama",
+      "durum": 200,
+      "not": "Avrupa Yakası'nda hizmet veriyor (bedas.com.tr/hakkimizda: 3.575 km² Avrupa Yakası). Planlı bakım/yatırım kesintileri /elektrik-kesintisi-sorgulama (ilçe bazlı sorgu, JS/form tabanlı); kesinti haritası https://kesinti.bedas.com.tr/ (200). Genel duyurular https://www.bedas.com.tr/tum-duyurular (200)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "AYEDAŞ - Anadolu Yakası Elektrik Dağıtım A.Ş.",
+      "url": "https://www.ayedas.com.tr/",
+      "duyuru_url": "https://online.ayedas.com.tr/elektrik-kesintisi-sorgulama",
+      "haber_url": "https://www.ayedas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Anadolu Yakası ilçelerinde hizmet veriyor (ayedas.com.tr; Enerjisa grubu). Planlı kesinti sorgusu online.ayedas.com.tr/elektrik-kesintisi-sorgulama (form/JS tabanlı). Basın bültenleri https://www.ayedas.com.tr/basin-bultenleri (200). www.ayedas.com.tr/planli-kesinti ve /hakkimizda 404 sayfasına düşüyor (200 dönen soft-404), kullanma."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "İGDAŞ - İstanbul Gaz Dağıtım A.Ş.",
+      "url": "https://igdas.istanbul/",
+      "duyuru_url": "https://igdas.istanbul/kurumsal/haberler-duyurular",
+      "durum": 200,
+      "not": "Haber ve duyurular tek sayfada /kurumsal/haberler-duyurular (200). Planlı gaz kesintisi duyurusu nadir; duyurular çoğunlukla abonelik/sayaç/taşınma bilgisi. www.igdas.istanbul/duyurular 404."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "İstanbul İl Sağlık Müdürlüğü",
+      "url": "https://istanbulism.saglik.gov.tr/",
+      "duyuru_url": "https://istanbulism.saglik.gov.tr/TR-50334/duyurular.html",
+      "haber_url": "https://istanbulism.saglik.gov.tr/TR-50333/guncel-haberler.html",
+      "durum": 200,
+      "not": "Duyurular TR-50334, güncel haberler TR-50333/guncel-haberler.html (ana sayfa bağlantılarından; 200). Ek duyuru listesi: /TR-340501/duyurular.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "İstanbul İl Emniyet Müdürlüğü",
+      "url": "https://istanbul.pol.tr/",
+      "duyuru_url": "https://istanbul.pol.tr/duyurular",
+      "haber_url": "https://istanbul.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi istanbul.pol.tr. Duyurular /duyurular, olay/operasyon haberleri /haberler (ikisi de 200)."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "İstanbul İl Jandarma Komutanlığı",
+      "url": "https://istanbul.jandarma.gov.tr/",
+      "duyuru_url": "https://istanbul.jandarma.gov.tr/duyurular",
+      "haber_url": "https://istanbul.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon haberleri /haberler (200). İstanbul'da jandarma sorumluluk alanı sınırlı (Şile, Silivri, Çatalca, Arnavutköy kırsalı vb.), haber hacmi düşük."
+    },
+    {
+      "tur": "afad",
+      "kurum": "İstanbul Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://istanbul.afad.gov.tr/",
+      "duyuru_url": "https://istanbul.afad.gov.tr/duyurular",
+      "haber_url": "https://istanbul.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Haberler /haberler (200). Güncel deprem listesi için https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "afad",
+      "kurum": "İBB Afet Koordinasyon Merkezi (AKOM)",
+      "url": "https://akom.ibb.istanbul/",
+      "duyuru_url": "https://akom.ibb.istanbul/haberler/",
+      "haber_url": "https://akom.ibb.istanbul/kategori/haberler/",
+      "durum": 200,
+      "not": "AKOM: meteorolojik uyarılar (sağanak, fırtına, kar, don), afet ve acil durum duyuruları. Ayrı duyuru sayfası yok (/duyurular 404); tüm içerik /haberler/ ve /kategori/haberler/ altında (200). akom.ibb.gov.tr adresi akom.ibb.istanbul'a yönleniyor."
+    },
+    {
+      "tur": "universite",
+      "kurum": "İstanbul Üniversitesi",
+      "url": "https://www.istanbul.edu.tr/tr",
+      "duyuru_url": "https://www.istanbul.edu.tr/tr/duyuru",
+      "haber_url": "https://www.istanbul.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "Haberler /tr/haberler (200). İstanbul'da çok sayıda devlet üniversitesi var (İTÜ https://www.itu.edu.tr/ 200, Boğaziçi, Marmara, YTÜ, Galatasaray vb.); en köklü/merkezi olarak İstanbul Üniversitesi alındı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kadıköy Belediyesi",
+      "url": "https://www.kadikoy.bel.tr/tr",
+      "duyuru_url": "https://www.kadikoy.bel.tr/tr/duyurular",
+      "haber_url": "https://www.kadikoy.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /news adresleri /tr/duyurular ve /tr/haberler'e yönleniyor. Yıkım ruhsatları, personel alımı, etkinlik duyuruları. Basında Kadıköy: /basinda-kadikoy."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Üsküdar Belediyesi",
+      "url": "https://www.uskudar.bel.tr/",
+      "duyuru_url": "https://www.uskudar.bel.tr/tr/main/announcement",
+      "haber_url": "https://www.uskudar.bel.tr/tr/main/news",
+      "durum": 200,
+      "not": "Duyurular /tr/main/announcement (ör. askıya çıkan imar planları, ring saatleri), haberler /tr/main/news (200; /tr/main/announcements 404)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Beşiktaş Belediyesi",
+      "url": "https://www.besiktas.bel.tr/",
+      "duyuru_url": "https://www.besiktas.bel.tr/duyurular/",
+      "haber_url": "https://www.besiktas.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Next.js/JS tabanlı site: duyuru ve haber listesi istemci tarafında yükleniyor, curl ile çekilen HTML'de liste yok (olmayan adreslere de 200 + 'Sayfa Bulunamadı' şablonu dönüyor; /duyurular ve /haberler ana sayfa menüsünde var, bu yüzden geçerli kabul edildi). Tarayıcı/Google Haberler ile takip önerilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Esenyurt Belediyesi",
+      "url": "http://www.esenyurt.bel.tr/",
+      "duyuru_url": "http://www.esenyurt.bel.tr/duyurular",
+      "haber_url": "http://www.esenyurt.bel.tr/haberler",
+      "durum": 200,
+      "not": "SSL SORUNU: https sertifika zinciri eksik (curl 'unable to get local issuer certificate', durum 000); http adresi 200 dönüyor. Duyurular /duyurular, haberler /haberler (ana sayfa menüsünde var; site olmayan adreslere de 200 döndürüyor, Next.js 'Sayfa Bulunamadı' şablonu her sayfada geçiyor). Çöp toplama saatleri, vergi, etkinlik duyuruları. Tarayıcıda https açılabilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bakırköy Belediyesi",
+      "url": "https://www.bakirkoy.bel.tr/",
+      "duyuru_url": "https://www.bakirkoy.bel.tr/duyurular",
+      "haber_url": "https://www.bakirkoy.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (200). Meclis toplantıları, yağışa müdahale, etkinlik haberleri."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Fatih Belediyesi",
+      "url": "https://www.fatih.bel.tr/",
+      "duyuru_url": "https://www.fatih.bel.tr/tr/main/ilanlar",
+      "haber_url": "https://www.fatih.bel.tr/tr/main/news",
+      "durum": 200,
+      "not": "Haberler /tr/main/news (200). Duyuru karşılığı olarak /tr/main/ilanlar bulundu; /tr/main/duyurular, /announcements, /haberler gibi adresler 200 dönse de 'Aradığınız Sayfa Bulunamadı' (soft-404). Meclis kararları: /tr/main/meclis_kararlar."
+    },
+    {
+      "tur": "diger",
+      "kurum": "İETT İşletmeleri Genel Müdürlüğü (otobüs, Metrobüs, tünel)",
+      "url": "https://www.iett.istanbul/",
+      "duyuru_url": "https://www.iett.istanbul/announcement/Index",
+      "haber_url": "https://www.iett.istanbul/news/archive",
+      "durum": 200,
+      "not": "Duyurular /announcement/Index, haberler /news/archive, basın odası /icerik/basin-odasi (hepsi 200). Hat iptali, güzergah değişikliği, sefer düzenlemesi duyuruları."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Metro İstanbul A.Ş. (metro, tramvay, füniküler, teleferik)",
+      "url": "https://www.metro.istanbul/",
+      "duyuru_url": "https://www.metro.istanbul/Home/Duyurular",
+      "haber_url": "https://www.metro.istanbul/Home/Haberler",
+      "durum": 200,
+      "not": "Duyurular /Home/Duyurular, haberler /Home/Haberler (200). /duyuru ve /haber kökleri Error sayfasına düşüyor (200 dönen soft-404). Detay adresleri /duyuru/detay/... biçiminde. Arıza, sefer düzenlemesi, maç/etkinlik nedeniyle ek sefer duyuruları."
+    },
+    {
+      "tur": "diger",
+      "kurum": "İBB Ulaşım Koordinasyon Merkezi (UKOME) ve Trafik duyuruları",
+      "url": "https://www.ibb.istanbul/ukome/",
+      "duyuru_url": "https://www.ibb.istanbul/ukome/",
+      "durum": 200,
+      "not": "UKOME sayfası ibb.istanbul/ukome altında (200): UKOME kararları, duyuru ve haberler (Nuxt/JS, içerik API'den yükleniyor). ukome.ibb.istanbul ve ukome.ibb.gov.tr açılmıyor (000). Trafik yoğunluk/kapalı yol bilgisi için İBB Trafik Kontrol Merkezi https://tkm.ibb.gov.tr/ (200 ama JS uygulaması, HTML'de içerik yok); ulaşım portalı https://ulasim.ibb.istanbul/ (200). Yol kapatma duyuruları ayrıca valilik ve İBB /gundem/duyurular altında çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "İstanbul İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://istanbul.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "istanbul.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; talimat gereği zaman harcanmadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%C4%B0stanbul+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Hürriyet İstanbul Haberleri",
+      "url": "https://www.hurriyet.com.tr/istanbul-haberleri/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İstanbul Gazetesi",
+      "url": "https://www.istanbulgazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Asır (ulusal, İstanbul gündemi)",
+      "url": "https://www.yeniasir.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com İstanbul bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/istanbul/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (BEDAŞ Avrupa Yakası, AYEDAŞ Anadolu Yakası) ve ilçe bazlı kesinti listeleri",
+    "İSKİ planlı/arıza su kesintileri ve baraj doluluk oranları, su kesintisi sonrası basınç",
+    "deprem ve AFAD/AKOM bilgilendirmeleri (Marmara/Kuzey Anadolu fay hattı, kısa süreli sallanmalar)",
+    "AKOM sağanak, fırtına, kar, don ve sel uyarıları; kar nedeniyle okul tatili, İstanbul Valiliği kararları",
+    "ulaşım: İETT hat/güzergah değişikliği, metro-tramvay arıza ve sefer düzenlemeleri, maç/etkinlik nedeniyle ek seferler, Marmaray",
+    "trafik: UKOME kararları, yol kapatmaları (maraton, tören, yürüyüş), köprü-otoyol ücret ve kapalı yol duyuruları",
+    "toplantı/yürüyüş/gösteri yasakları ve İstanbul Valiliği duyuruları, güvenlik ve operasyon haberleri (İl Emniyet)",
+    "kentsel dönüşüm, riskli yapı ve bina çökme/yangın haberleri; belediye (İBB ve ilçe) hizmet ve etkinlik duyuruları"
+  ],
+  "notlar": "İstanbul büyükşehir; elektrik iki şirkete bölünmüş: Avrupa Yakası BEDAŞ, Anadolu Yakası AYEDAŞ (ikisi de kayıtlı). Su idaresi İSKİ (iski.istanbul), planlı+arıza kesintisi tek sayfada (JS filtreli). Doğalgaz İGDAŞ. İBB sitesi (ibb.istanbul), İETT, Metro İstanbul ve UKOME sayfaları JS/Nuxt tabanlı, duyuru listeleri /gundem/duyurular, /announcement/Index, /Home/Duyurular altında. AKOM (akom.ibb.istanbul) afet ve hava uyarıları yayınlar, ayrı duyuru sayfası yok. Soft-404 uyarıları: ayedas.com.tr/planli-kesinti, metro.istanbul/duyuru, fatih.bel.tr/tr/main/duyurular 200 dönüp 'bulunamadı' içeriyor. Esenyurt Belediyesi https sertifika zinciri eksik (curl ile https açılmıyor; http 200). Beşiktaş ve Esenyurt siteleri JS tabanlı, curl ile liste çıkmaz. istanbul.ktb.gov.tr, ukome.ibb.istanbul, trafik.ibb.istanbul açılmıyor. Yurt dışı IP engeli gözlenmedi. Ayrıca www.ibb.istanbul kökündeki /haberler ve /duyurular 404; doğru yol /gundem/..."
+}

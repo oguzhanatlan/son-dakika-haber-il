@@ -1,0 +1,204 @@
+{
+  "il": "Giresun",
+  "plaka": "28",
+  "slug": "giresun",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/giresun",
+  "buyuksehir": false,
+  "ilceler": [
+    "Alucra",
+    "Bulancak",
+    "Çamoluk",
+    "Çanakçı",
+    "Dereli",
+    "Doğankent",
+    "Espiye",
+    "Eynesil",
+    "Görele",
+    "Güce",
+    "Keşap",
+    "Merkez",
+    "Piraziz",
+    "Şebinkarahisar",
+    "Tirebolu",
+    "Yağlıdere"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Giresun Valiliği",
+      "url": "https://giresun.gov.tr/",
+      "duyuru_url": "https://giresun.gov.tr/duyurular",
+      "haber_url": "https://giresun.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://giresun.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, basın açıklamaları /basin-aciklamalari (ayrıca /basin-bulteni, /validen-haberler). Hepsi 200, soft 404 değil."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Giresun Belediyesi",
+      "url": "https://giresun.bel.tr/",
+      "duyuru_url": "https://giresun.bel.tr/category/guncel-duyurular/",
+      "haber_url": "https://giresun.bel.tr/category/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. WordPress sitesi; /duyurular ve /haberler 404, kategori sayfaları (/category/guncel-duyurular/, /category/haberler/) kullanılmalı. Ana sayfada güncel haberler tarih bazlı adreslerle (/2026/11/03/...) listeleniyor. İhaleler: /category/ihale/."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Giresun İl Milli Eğitim Müdürlüğü",
+      "url": "https://giresun.meb.gov.tr/",
+      "duyuru_url": "https://giresun.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://giresun.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://giresun.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor (kar/olumsuz hava tatili duyuruları için duyuru sayfası ve valilik duyuruları izlenmeli)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Giresun Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://giresun.bel.tr/",
+      "duyuru_url": "https://giresun.bel.tr/category/guncel-duyurular/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için özel liste sayfası bulunamadı; kesinti duyuruları tekil yazı olarak çıkıyor (ör. https://giresun.bel.tr/2024/04/29/su-kesintisi/ — mahalle çalışması nedeniyle kısa süreli kesinti). Güncel kesintiler için /category/guncel-duyurular/ ve yerel basın izlenmeli."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çoruh Elektrik Dağıtım A.Ş. (Çoruh EDAŞ)",
+      "url": "https://www.coruhedas.com.tr/",
+      "duyuru_url": "https://www.coruhedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "haber_url": "https://www.coruhedas.com.tr/BizdenHaberler/Duyurular",
+      "durum": 200,
+      "not": "Çoruh EDAŞ Artvin, Giresun, Gümüşhane, Rize ve Trabzon'a hizmet veriyor (şirketin kendi ihale duyurusunda 'Artvin, Giresun, Gümüşhane, Rize, Trabzon İli ve İlçeleri' ifadesi geçiyor; ayrıca sitede 'Giresun İl Müdürlüğü' var). Bakım programı ve kesinti listesi sayfası 200 ama içerik tablo/filtre tabanlı (JS/form olabilir; il-ilçe seçimi gerekebilir). /planli-kesinti ve /BilgiDanisma/PlanliKesintiler 404."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Ordu Giresun Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/ordu-giresun",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Ordu-Giresun dağıtım bölgesi (EPDK lisansı DAG/1258-5/160). Planlı gaz kesintisi duyurusu nadir. Doğal gaz yaygınlığı ilçelere göre değişiyor (ör. Doğankent'e yeni geliyor)."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Giresun İl Sağlık Müdürlüğü",
+      "url": "https://giresunism.saglik.gov.tr/",
+      "duyuru_url": "https://giresunism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres giresunism.saglik.gov.tr. Ana sayfada duyuru/haber blokları var; duyuru için ayrı alt adres doğrulanmadı (ana sayfa kullanılmalı). Duyurular ağırlıklı personel/idari."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Giresun İl Emniyet Müdürlüğü",
+      "url": "https://giresun.pol.tr/",
+      "duyuru_url": "https://giresun.pol.tr/duyurular",
+      "haber_url": "https://giresun.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi giresun.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Giresun İl Jandarma Komutanlığı",
+      "url": "https://giresun.jandarma.gov.tr/",
+      "duyuru_url": "https://giresun.jandarma.gov.tr/duyurular",
+      "haber_url": "https://giresun.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Giresun Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://giresun.afad.gov.tr/",
+      "duyuru_url": "https://giresun.afad.gov.tr/duyurular",
+      "haber_url": "https://giresun.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Sel/heyelan ve afet bilgilendirmeleri için önemli; deprem verisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Giresun Üniversitesi",
+      "url": "https://www.giresun.edu.tr/",
+      "duyuru_url": "https://www.giresun.edu.tr/duyurular",
+      "haber_url": "https://www.giresun.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı; kampüs haberleri /haberler altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bulancak Belediyesi",
+      "url": "https://bulancak.bel.tr/",
+      "duyuru_url": "https://bulancak.bel.tr/duyurular",
+      "haber_url": "https://bulancak.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusça en büyük ilçelerden (Bulancak)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Espiye Belediyesi",
+      "url": "https://www.espiye.bel.tr/",
+      "duyuru_url": "https://www.espiye.bel.tr/duyurular-ilanlar/",
+      "haber_url": "https://www.espiye.bel.tr/haberler/",
+      "durum": 200,
+      "not": "/duyurular adresi /duyurular-ilanlar/ sayfasına yönleniyor. espiye.bel.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Görele Belediyesi",
+      "url": "https://www.gorele.bel.tr/",
+      "duyuru_url": "https://www.gorele.bel.tr/duyurular",
+      "haber_url": "https://www.gorele.bel.tr/haberler",
+      "durum": 200,
+      "not": "gorele.bel.tr www'ye yönleniyor. Nüfus sıralaması resmî TÜİK verisiyle ayrıca doğrulanmadı; Bulancak, Espiye, Görele, Tirebolu ilin büyük ilçelerinden."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tirebolu Belediyesi",
+      "url": "https://www.tirebolu.bel.tr/",
+      "duyuru_url": "https://www.tirebolu.bel.tr/duyurular",
+      "haber_url": "https://www.tirebolu.bel.tr/haberler",
+      "durum": 200,
+      "not": "tirebolu.bel.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Giresun İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://giresun.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "giresun.ktb.gov.tr açılmıyor (curl 000, DNS/bağlantı hatası). Kaynak olarak güvenilmemeli; ktb il siteleri genelde açılmıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Giresun+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Giresun Haber",
+      "url": "https://www.giresunhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Giresun Gündem Gazetesi",
+      "url": "https://giresungundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeşil Giresun Gazetesi",
+      "url": "https://www.yesilgiresun.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "sel, taşkın ve heyelan uyarıları (yoğun yağış, dere taşması, kapanan köy yolları)",
+    "yağış/olumsuz hava nedeniyle okul tatili ve yayla/yüksek kesim yollarının kar nedeniyle kapanması (Dereli, Alucra, Şebinkarahisar, Çamoluk)",
+    "planlı elektrik kesintisi (Çoruh EDAŞ)",
+    "içme suyu altyapısı, planlı su kesintisi ve su borusu yenileme çalışmaları",
+    "fındık hasadı, fındık fiyatları ve tarım destekleri",
+    "balıkçılık ve Karadeniz'de hava/deniz durumu uyarıları (av yasakları, fırtına)",
+    "yayla turizmi, Giresun Adası ve kültür-turizm etkinlikleri (Aksu Festivali vb.)",
+    "doğal gaz yatırımları (Doğankent vb. ilçelere gaz gelmesi) ve trafik kazaları / Karadeniz Sahil Yolu"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, üniversite ve ilçe belediyesi sayfaları 200 dönüyor, soft 404 testi (bulunamad) temiz. Belediye (giresun.bel.tr) WordPress: /duyurular ve /haberler 404, /category/guncel-duyurular/ ve /category/haberler/ kullan. Su için ayrı idare yok, planlı kesinti özel sayfası yok. Elektrik dağıtımı Çoruh EDAŞ (Fırat EDAŞ değil); kesinti listesi tablo/filtre tabanlı. Sağlık Müdürlüğü giresunism.saglik.gov.tr (duyuru alt adresi doğrulanmadı). Kültür Turizm sitesi açılmıyor. Reddedilen yerel siteler: giresunmanset.com ve yenigiresun.com (parked/lander yönlendirmesi), giresunbasin.com, giresunhaberajansi.com, giresuntv.com (açılmıyor). Erişim testleri yurt dışı IP engeli göstermedi."
+}

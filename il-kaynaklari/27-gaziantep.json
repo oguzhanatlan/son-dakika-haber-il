@@ -1,0 +1,218 @@
+{
+  "il": "Gaziantep",
+  "plaka": "27",
+  "slug": "gaziantep",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/gaziantep",
+  "buyuksehir": true,
+  "ilceler": [
+    "Araban",
+    "İslahiye",
+    "Karkamış",
+    "Nizip",
+    "Nurdağı",
+    "Oğuzeli",
+    "Şahinbey",
+    "Şehitkamil",
+    "Yavuzeli"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Gaziantep Valiliği",
+      "url": "https://www.gaziantep.gov.tr/",
+      "duyuru_url": "https://www.gaziantep.gov.tr/duyurular",
+      "haber_url": "https://www.gaziantep.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.gaziantep.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (üçü de 200, 'bulunamadı' içeriği yok)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Gaziantep Büyükşehir Belediyesi",
+      "url": "https://gaziantep.bel.tr/",
+      "duyuru_url": "https://gaziantep.bel.tr/tr/basin/duyurular",
+      "haber_url": "https://gaziantep.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "www.gaziantep.bel.tr, gaziantep.bel.tr'ye yönleniyor. Duyurular ağırlıklı imar uygulaması/tapu ilanları; haberler /tr/haberler. Etkinlikler: /tr/basin/etkinlikler. /tr/duyurular ve /tr/basin/haberler 404."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Gaziantep İl Milli Eğitim Müdürlüğü",
+      "url": "https://gaziantep.meb.gov.tr/",
+      "duyuru_url": "https://gaziantep.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://gaziantep.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://gaziantep.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları ile duyuru RSS'i 200 dönüyor; ancak site aralıklı olarak '500 - Sunucu Hatası' verdi (ilk denemede duyuru ve haber sayfaları 500, sonraki denemelerde 200). Hata alınırsa yeniden dene."
+    },
+    {
+      "tur": "su",
+      "kurum": "Gaziantep Su ve Kanalizasyon İdaresi Genel Müdürlüğü (GASKİ)",
+      "url": "https://gaski.gov.tr/",
+      "duyuru_url": "https://gaski.gov.tr/haber/kurumsal-haberler.html",
+      "durum": 200,
+      "not": "Ayrı su idaresi GASKİ (Gaziantep Büyükşehir'e bağlı). Planlı/anlık su kesintileri ana sayfada 'Su Kesintisi' penceresinde (JS ile https://gaski.gov.tr/api/kesinti_list.php üzerinden yükleniyor; bu adres doğrudan HTML parçası döndürüyor, 'Anlık Su Kesintisi' listesi). /duyurular ve /haberler 404; kurumsal haberler /haber/kurumsal-haberler.html."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Toroslar Elektrik Dağıtım A.Ş. (Toroslar EDAŞ)",
+      "url": "https://www.toroslaredas.com.tr/",
+      "duyuru_url": "https://online.toroslaredas.com.tr/elektrik-kesintisi-sorgulama",
+      "haber_url": "https://www.toroslaredas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Toroslar EDAŞ Adana, Mersin, Gaziantep, Hatay, Osmaniye ve Kilis'te hizmet veriyor (şirketin Gaziantep yatırım basın bülteni ve arama sonuçlarıyla doğrulandı). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe-mahalle seçimi gerekiyor); /planli-kesinti adresi yok (404'e yönleniyor). Planlı kesinti listeleri yerel basında da (gazetebirlik.com, habergazetesi.com.tr) günlük yayımlanıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Gazdaş Gaziantep Doğal Gaz Dağıtım A.Ş. (Zorlu Enerji markasıyla)",
+      "url": "https://gazdasgaziantep.com.tr/",
+      "duyuru_url": "https://gazdasgaziantep.com.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Planlı/plansız gaz kesintileri: https://online.gazdasgaziantep.com.tr/planli-plansiz-kesintiler (200, JS/form tabanlı olabilir). gazdas.com.tr ve www.gazdas.com.tr açılmıyor (000); gazdasgaziantep.com.tr kullan. Araban ilçesinde altyapı/gaz kesintisi şikayetleri sık haber oluyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Gaziantep İl Sağlık Müdürlüğü",
+      "url": "https://gaziantepism.saglik.gov.tr/",
+      "duyuru_url": "https://gaziantepism.saglik.gov.tr/TR-94226/duyurular.html",
+      "haber_url": "https://gaziantepism.saglik.gov.tr/TR-109416/haberler.html",
+      "durum": 200,
+      "not": "DİKKAT: sayfa numaraları ile ilde değişiyor; Amasya'daki TR-46346/duyurular.html Gaziantep'te Amasya sitesine yönleniyor, kullanma. Gaziantep için doğru adresler ana sayfadaki bağlantılardan alındı (TR-94226 duyurular, TR-109416 haberler)."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Gaziantep İl Emniyet Müdürlüğü",
+      "url": "https://gaziantep.pol.tr/",
+      "duyuru_url": "https://gaziantep.pol.tr/duyurular",
+      "haber_url": "https://gaziantep.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi gaziantep.pol.tr. Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Gaziantep İl Jandarma Komutanlığı",
+      "url": "https://gaziantep.jandarma.gov.tr/",
+      "duyuru_url": "https://gaziantep.jandarma.gov.tr/duyurular",
+      "haber_url": "https://gaziantep.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Gaziantep Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://gaziantep.afad.gov.tr/",
+      "duyuru_url": "https://gaziantep.afad.gov.tr/duyurular",
+      "haber_url": "https://gaziantep.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Gaziantep Üniversitesi",
+      "url": "https://www.gaziantep.edu.tr/",
+      "duyuru_url": "https://www.gaziantep.edu.tr/duyuru/",
+      "haber_url": "https://habermerkezi.gaziantep.edu.tr/",
+      "durum": 200,
+      "not": "gantep.edu.tr de aynı siteye açılıyor. Duyurular idari/akademik; kampüs haberleri habermerkezi alt alan adında. İkinci devlet üniversitesi: Gaziantep İslam Bilim ve Teknoloji Üniversitesi (https://www.gibtu.edu.tr/, haberler /IcerikRehberi.aspx?k=haber, duyurular /IcerikRehberi.aspx?k=duyuru; ikisi de 200, çok ağır sayfa)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Şahinbey Belediyesi",
+      "url": "https://www.sahinbey.bel.tr/",
+      "duyuru_url": "https://www.sahinbey.bel.tr/duyurular",
+      "haber_url": "https://www.sahinbey.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe, en kalabalık ilçe. Ana adres /Default'a yönleniyor. Duyurular ve haberler 200 ('bulunamadı' yok); sayfalar büyük (~150 KB)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Şehitkamil Belediyesi",
+      "url": "https://www.sehitkamil.bel.tr/",
+      "duyuru_url": "https://www.sehitkamil.bel.tr/Duyurular",
+      "haber_url": "https://www.sehitkamil.bel.tr/Haberler/sayfa/1",
+      "durum": 200,
+      "not": "Merkez ilçe. SSL ara sertifika zinciri eksik: normal curl 000 (sertifika doğrulanamıyor), curl -k ile 200 (tarayıcıda sorun olmayabilir). /Haberler 500 veriyor; haber listesi /Haberler/sayfa/1 (veya /Haberler/sayfa) altında. Duyurular /Duyurular 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Nizip Belediyesi",
+      "url": "https://nizip.bel.tr/",
+      "duyuru_url": "https://nizip.bel.tr/duyurular",
+      "haber_url": "https://nizip.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçeler dışında nüfusça en büyük ilçelerden (Nizip, İslahiye ile birlikte). Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İslahiye Belediyesi",
+      "url": "https://islahiye.bel.tr/",
+      "duyuru_url": "https://islahiye.bel.tr/duyurular",
+      "haber_url": "https://islahiye.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200. Nurdağı/İslahiye 2023 depremi sonrası yeniden inşa haberleri çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Gaziantep Ulaşım A.Ş. (GAZİULAŞ)",
+      "url": "https://gaziulas.com.tr/",
+      "duyuru_url": "",
+      "durum": 500,
+      "not": "GBB iştiraki; otobüs, tramvay ve GAZİBİS işletmecisi. Site HTTP 500 verdi (curl -k ile de), güvenilmemeli. Ulaşım (otobüs/tramvay/Gaziray, bayram ücretsiz ulaşım vb.) duyuruları GBB haberlerinde (https://gaziantep.bel.tr/tr/haberler) çıkıyor. Müşteri hizmetleri tel: 0342 211 12 00 (arama sonucundan, resmi kaynaktan doğrulanmadı)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Gaziantep İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://gaziantep.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "gaziantep.ktb.gov.tr açılmıyor (curl 000, ktb.gov.tr il siteleri genelde açılmıyor). Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Gaziantep+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gaziantep Doğuş",
+      "url": "https://www.gaziantepdogus.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gaziantep Haber",
+      "url": "https://www.gaziantephaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İşçi Haber Gaziantep bölümü",
+      "url": "https://www.iscihaber.net/gaziantep",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Toroslar EDAŞ) ve günlük ilçe ilçe kesinti listeleri",
+    "GASKİ planlı/arızalı su kesintisi, sular ne zaman gelecek",
+    "doğalgaz kesintisi ve altyapı sorunları (Gazdaş, Araban)",
+    "trafik kazaları ve otoyol/E-24 yolları; kar ve buzlanma nedeniyle yol/okul durumu (kış)",
+    "toplu ulaşım: tramvay, otobüs, Gaziray banliyö hattı, bayramda ücretsiz ulaşım",
+    "deprem (2023 sonrası yeniden inşa, Nurdağı/İslahiye) ve AFAD bilgilendirmeleri",
+    "organize sanayi, ihracat ve esnaf; gıda/gastronomi (baklava, fıstık) ve festivaller",
+    "sınır/göç ve Suriye bağlantılı güvenlik haberleri; narkotik ve asayiş operasyonları"
+  ],
+  "notlar": "Valilik, GBB, MEB, emniyet, jandarma ve AFAD sitelerinin duyuru/haber sayfaları 200 dönüyor; gaziantep.meb.gov.tr aralıklı 500 verebilir. Büyükşehirde su idaresi GASKİ ayrı kurum (gaski.gov.tr); su kesintisi listesi ana sayfadaki modalda ve /api/kesinti_list.php'den geliyor. Elektrik dağıtımı Toroslar EDAŞ (sorgulama JS/form tabanlı); doğalgaz Gazdaş (gazdasgaziantep.com.tr). Sağlık Müdürlüğü gaziantepism.saglik.gov.tr üzerinde ve alt sayfa numaraları diğer illerden farklı (Amasya'nınkini kullanma). Şehitkamil Belediyesi sitesinde SSL ara sertifika sorunu var (curl -k gerekebilir) ve /Haberler 500 veriyor, /Haberler/sayfa/1 kullanılmalı. GAZİULAŞ ve Kültür Turizm siteleri açılmıyor. Erişim testlerinde yurt dışı IP engeli görülmedi."
+}

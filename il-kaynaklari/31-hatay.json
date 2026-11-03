@@ -1,0 +1,218 @@
+{
+  "il": "Hatay",
+  "plaka": "31",
+  "slug": "hatay",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/hatay",
+  "buyuksehir": true,
+  "ilceler": [
+    "Altınözü",
+    "Antakya",
+    "Arsuz",
+    "Belen",
+    "Defne",
+    "Dörtyol",
+    "Erzin",
+    "Hassa",
+    "İskenderun",
+    "Kırıkhan",
+    "Kumlu",
+    "Payas",
+    "Reyhanlı",
+    "Samandağ",
+    "Yayladağı"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Hatay Valiliği",
+      "url": "https://www.hatay.gov.tr/",
+      "duyuru_url": "https://www.hatay.gov.tr/duyurular",
+      "haber_url": "https://www.hatay.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200, soft 404 değil."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Hatay Büyükşehir Belediyesi",
+      "url": "https://www.hatay.bel.tr/AnaSayfa",
+      "duyuru_url": "https://www.hatay.bel.tr/duyurular",
+      "haber_url": "https://www.hatay.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. hatay.bel.tr/ ana sayfası /AnaSayfa'ya yönleniyor. Duyurular /duyurular (ör. ücretsiz ulaşım, sınav, kamuoyu duyurusu), haberler /haberler. Ulaşım bilgisi için hatayulasim.com."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Hatay İl Milli Eğitim Müdürlüğü",
+      "url": "https://hatay.meb.gov.tr/",
+      "duyuru_url": "https://hatay.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://hatay.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor."
+    },
+    {
+      "tur": "su",
+      "kurum": "Hatay Su ve Kanalizasyon İdaresi Genel Müdürlüğü (HATSU)",
+      "url": "https://hatsu.gov.tr/",
+      "duyuru_url": "https://hatsu.gov.tr/duyurular",
+      "haber_url": "https://hatsu.gov.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi HATSU (www.hatsu.gov.tr hatsu.gov.tr'ye yönleniyor; hatay.bel.tr değil). Planlı/arızi su kesintileri ayrı bir liste sayfası olarak değil, ana sayfadaki 'Su Kesintileri' bölümünde (JS ile; haritada göster bağlantıları hatsu.gov.tr/su-kesintileri/{id}/geom) listeleniyor; /su-kesintileri ve /su-kesintisi 404. Dönüşümlü vana ayarı ve arıza kesintileri ilçe bazlı yazılıyor. Çağrı merkezi 185."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Toroslar Elektrik Dağıtım A.Ş. (Toroslar EDAŞ)",
+      "url": "https://www.toroslaredas.com.tr/",
+      "duyuru_url": "https://online.toroslaredas.com.tr/elektrik-kesintisi-sorgulama",
+      "basin_aciklamalari_url": "https://www.toroslaredas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Toroslar EDAŞ (Enerjisa) Adana, Gaziantep, Hatay, Kilis, Mersin ve Osmaniye'de hizmet veriyor; Hatay hizmeti şirketin kendi basın bülteninden doğrulandı. Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir); alınabilir metin yok. Basın bültenleri 200."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Çukurova Doğalgaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/cukurova",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "basin_aciklamalari_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz grubunun Çukurova bölgesi (Adana, Mersin, Hatay, Osmaniye); Hatay'da Antakya, İskenderun, Dörtyol, Reyhanlı vb. basın haberlerine göre; Çukurova bölge sayfasında Hatay geçiyor. Duyurular genel; planlı gaz kesintisi nadir. Hatay duyuruları için il adı aramak gerekebilir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Hatay İl Sağlık Müdürlüğü",
+      "url": "https://hatayism.saglik.gov.tr/",
+      "duyuru_url": "https://hatayism.saglik.gov.tr/TR-19504/duyurular.html",
+      "haber_url": "https://hatayism.saglik.gov.tr/TR-19475/haberler.html",
+      "durum": 200,
+      "not": "Adres hatayism.saglik.gov.tr (hataysaglik.saglik.gov.tr DNS'te yok). Duyurular ağırlıklı personel/atama (ör. il içi yer değiştirme); halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Hatay İl Emniyet Müdürlüğü",
+      "url": "https://hatay.pol.tr/",
+      "duyuru_url": "https://hatay.pol.tr/duyurular",
+      "haber_url": "https://hatay.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi hatay.pol.tr. Duyurular çoğunlukla idari; olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Hatay İl Jandarma Komutanlığı",
+      "url": "https://hatay.jandarma.gov.tr/",
+      "duyuru_url": "https://hatay.jandarma.gov.tr/duyurular",
+      "haber_url": "https://hatay.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Hatay Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://hatay.afad.gov.tr/",
+      "duyuru_url": "https://hatay.afad.gov.tr/duyurular",
+      "haber_url": "https://hatay.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. 6 Şubat 2023 depremleri sonrası yeniden yapılanma/konut teslimi haberleri de burada çıkabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Hatay Mustafa Kemal Üniversitesi",
+      "url": "https://mku.edu.tr/",
+      "duyuru_url": "https://mku.edu.tr/duyurular",
+      "haber_url": "https://mku.edu.tr/haberler",
+      "durum": 200,
+      "not": "www.mku.edu.tr mku.edu.tr'ye yönleniyor; duyurular /duyurular (alternatif /tr/duyurular), haberler /haberler."
+    },
+    {
+      "tur": "universite",
+      "kurum": "İskenderun Teknik Üniversitesi",
+      "url": "https://www.iste.edu.tr/",
+      "duyuru_url": "https://www.iste.edu.tr/duyuru-merkezi",
+      "haber_url": "https://www.iste.edu.tr/haber-merkezi",
+      "durum": 200,
+      "not": "Duyurular /duyuru-merkezi altında (ör. Erasmus, öğrenci işleri); /duyurular ve /haberler 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Antakya Belediyesi",
+      "url": "https://antakya.bel.tr/",
+      "duyuru_url": "https://antakya.bel.tr/duyurular",
+      "haber_url": "https://antakya.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir merkez ilçesi. Sayfalar 200 dönüyor ancak sayfa gövdesi boş/menü ağırlıklı görünüyor (liste JS ile yükleniyor olabilir)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İskenderun Belediyesi",
+      "url": "https://iskenderun.bel.tr/",
+      "duyuru_url": "https://iskenderun.bel.tr/duyurular",
+      "haber_url": "https://iskenderun.bel.tr/",
+      "durum": 200,
+      "not": "www.iskenderun.bel.tr iskenderun.bel.tr'ye yönleniyor. /duyurular 200; /haberler 404, haberler ana sayfada."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Defne Belediyesi",
+      "url": "https://defne.bel.tr/",
+      "duyuru_url": "https://defne.bel.tr/duyurular",
+      "haber_url": "https://defne.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir merkez ilçesi (nüfus ~140 bin). www.defne.bel.tr açılmıyor (curl 000), defne.bel.tr kullanılmalı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Hatay Büyükşehir Belediyesi Ulaşım Dairesi Başkanlığı (Hatay Ulaşım)",
+      "url": "https://hatayulasim.com/",
+      "duyuru_url": "https://hatayulasim.com/giris.php",
+      "durum": 200,
+      "not": "Toplu taşıma bilgileri; sayfa çoğunlukla giriş/portal niteliğinde, haber akışı sınırlı. Ulaşım duyuruları (ücretsiz ulaşım vb.) hatay.bel.tr/duyurular altında da çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Hatay İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://hatay.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "hatay.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; ktb.gov.tr il siteleri genelde erişilemiyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Hatay+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Hatay Ekspres",
+      "url": "https://www.hatayekspres.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Antakya Gazetesi",
+      "url": "https://antakyagazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İskenderun Haber",
+      "url": "https://www.iskenderunhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Hatayvatan.com",
+      "url": "https://hatayvatan.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "deprem sonrası yeniden inşa, konut teslimi, kalıcı konut ve çarşı/tarihi doku restorasyonu (Antakya)",
+    "su kesintisi ve dönüşümlü vana ayarı (HATSU), içme suyu şebekesi ve Büyük Karaçay Barajı iletim hattı çalışmaları",
+    "planlı elektrik kesintisi (Toroslar EDAŞ)",
+    "deprem ve artçı sarsıntı, AFAD bilgilendirmeleri",
+    "yağış, sel ve taşkın uyarıları (Asi Nehri, Samandağ, Arsuz, İskenderun kıyısı)",
+    "orman yangını ve yangın uyarıları (yaz aylarında Belen, Arsuz, Samandağ, Yayladağı kesimi)",
+    "İskenderun Limanı, sanayi ve liman çevresi; hava kirliliği ve çevre haberleri",
+    "gastronomi, turizm ve kültür: Hatay mutfağı, Uzun Çarşı, Harbiye Şelalesi, festivaller; Suriye sınır kapıları (Cilvegözü, Yayladağı) ve göç/sınır güvenliği haberleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, HATSU ve üniversite duyuru sayfaları 200 dönüyor ve soft 404 değil. Su kesintisi ayrı belediye değil HATSU'da (hatsu.gov.tr ana sayfası); liste JS ile yükleniyor, boş gelirse ana sayfanın tamamına bakılmalı. Elektrik (Toroslar EDAŞ) kesinti sorgulaması form tabanlı; basın bültenleri ve yerel basın daha kullanışlı. Sağlık Müdürlüğü hatayism.saglik.gov.tr üzerinde. İskenderun Teknik Üniversitesi duyuruları /duyuru-merkezi altında. Antakya Belediyesi duyuru/haber sayfaları boş gövde döndürüyor olabilir. Kültür Turizm sitesi açılmıyor. Yerel haber siteleri: hatayekspres, antakyagazetesi, iskenderunhaber ve hatayvatan güncel (Kasım 2026 tarihli içerik); antakyahaber.com ve hatayhaber.com daha seyrek güncelleniyor, listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi (resmi sitelerin çoğu 200)."
+}

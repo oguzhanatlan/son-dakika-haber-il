@@ -1,0 +1,205 @@
+{
+  "il": "Isparta",
+  "plaka": "32",
+  "slug": "isparta",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/isparta",
+  "buyuksehir": false,
+  "ilceler": [
+    "Aksu",
+    "Atabey",
+    "Eğirdir",
+    "Gelendost",
+    "Gönen",
+    "Keçiborlu",
+    "Merkez",
+    "Senirkent",
+    "Sütçüler",
+    "Şarkikaraağaç",
+    "Uluborlu",
+    "Yalvaç",
+    "Yenişarbademli"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Isparta Valiliği",
+      "url": "https://www.isparta.gov.tr/",
+      "duyuru_url": "https://www.isparta.gov.tr/duyurular",
+      "haber_url": "https://www.isparta.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar. isparta.gov.tr www'ye yönleniyor. /basin-aciklamalari ve /basin-duyurulari 404."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Isparta Belediyesi",
+      "url": "https://www.isparta.bel.tr/",
+      "duyuru_url": "https://www.isparta.bel.tr/duyurular",
+      "haber_url": "https://www.isparta.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. isparta.bel.tr www'ye yönleniyor. İhale/ilanlar: /tumihaleler (200). Meclis ilanları ana sayfada ayrı yazı olarak çıkıyor. WebFetch ile ana sayfa bir kez HTTP 500 verdi, curl ile açılıyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Isparta İl Milli Eğitim Müdürlüğü",
+      "url": "https://isparta.meb.gov.tr/",
+      "duyuru_url": "https://isparta.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://isparta.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://isparta.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adreslerinin hepsi 200 döndü."
+    },
+    {
+      "tur": "su",
+      "kurum": "Isparta Belediyesi Su ve Kanalizasyon Hizmetleri (Isparta Belediye Başkanlığı)",
+      "url": "https://www.isparta.bel.tr/su-ariza",
+      "duyuru_url": "https://www.isparta.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediye yürütüyor. Belediye sitesinde 'Su Arıza' (/su-ariza) ve 'Su Abone İşlemleri' (/su-abone-islemleri) sayfaları var (200); planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı (/su-kesintisi 404). Kesinti duyuruları genel /duyurular ve /haberler ile yerel basında çıkıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Akdeniz Elektrik Dağıtım A.Ş. (AEDAŞ)",
+      "url": "https://www.akdenizedas.com.tr/",
+      "duyuru_url": "https://www.akdenizedas.com.tr/tum-duyurular",
+      "durum": 200,
+      "not": "AEDAŞ Antalya, Burdur ve Isparta'da hizmet veriyor (şirket sitesinin il listesinde ISPARTA (32) yer alıyor; haber kaynakları da Isparta'yı AEDAŞ bölgesi olarak yazıyor). Planlı kesinti sorgulama: https://www.akdenizedas.com.tr/elektrik-kesintisi-sorgulama (200); kesinti haritası: https://kesinti.akdenizedas.com.tr/ (200). Sorgulama il/ilçe seçimli form/harita tabanlı (JS). www.aedas.com.tr alan adı açılmıyor (curl 000), doğru adres akdenizedas.com.tr. Ayrıca 186 çağrı hattı."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Torosgaz Isparta Burdur Doğalgaz Dağıtım A.Ş.",
+      "url": "https://www.torosgaz.com.tr/",
+      "duyuru_url": "https://www.torosgaz.com.tr/Main/duyurular/",
+      "haber_url": "https://www.torosgaz.com.tr/Main/haberler",
+      "durum": 200,
+      "not": "Isparta ve Burdur dağıtım bölgesi (site ve e-Devlet kaydı ile doğrulandı). Duyurular ağırlıklı ihale/CNG ilanları ve tarife bilgisi; planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Isparta İl Sağlık Müdürlüğü",
+      "url": "https://ispartaism.saglik.gov.tr/",
+      "duyuru_url": "https://ispartaism.saglik.gov.tr/",
+      "haber_url": "https://ispartaism.saglik.gov.tr/TR-3823/haberler.html",
+      "durum": 200,
+      "not": "Adres ispartaism.saglik.gov.tr. Ayrı genel duyuru listesi sayfası bulunamadı; duyurular ana sayfada (ASM adres değişikliği, personel vb.), halk sağlığı haberleri /TR-3823/haberler.html. Aile hekimliği duyuruları: /TR-35480/aile-hekimligi-duyurulari.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Isparta İl Emniyet Müdürlüğü",
+      "url": "https://isparta.pol.tr/",
+      "duyuru_url": "https://isparta.pol.tr/duyurular",
+      "haber_url": "https://isparta.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi isparta.pol.tr. Duyurular çoğunlukla idari; olay/operasyon haberleri /haberler. /basin-aciklamalari 404."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Isparta İl Jandarma Komutanlığı",
+      "url": "https://isparta.jandarma.gov.tr/",
+      "duyuru_url": "https://isparta.jandarma.gov.tr/duyurular",
+      "haber_url": "https://isparta.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Isparta Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://isparta.afad.gov.tr/",
+      "duyuru_url": "https://isparta.afad.gov.tr/duyurular",
+      "haber_url": "https://isparta.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Süleyman Demirel Üniversitesi",
+      "url": "https://www.sdu.edu.tr/",
+      "duyuru_url": "https://w3.sdu.edu.tr/duyuru-arsivi",
+      "haber_url": "https://w3.sdu.edu.tr/",
+      "durum": 200,
+      "not": "www.sdu.edu.tr, w3.sdu.edu.tr'ye yönleniyor. Duyurular /duyuru/{id}/... biçiminde, haberler /haber/{id}/... biçiminde; ana sayfada son duyuru ve haberler listeleniyor. /duyurular ve /haberler 404. Akademik/idari ağırlıklı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Isparta Uygulamalı Bilimler Üniversitesi",
+      "url": "https://www.isparta.edu.tr/",
+      "duyuru_url": "https://www.isparta.edu.tr/duyuru-arsivi",
+      "haber_url": "https://www.isparta.edu.tr/",
+      "durum": 200,
+      "not": "Duyurular /duyuru/{id}/..., haberler /haber/{id}/... biçiminde, ana sayfada listeleniyor. /duyurular ve /tr/duyurular 404. (isu.edu.tr açılmıyor.)"
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yalvaç Belediyesi",
+      "url": "https://yalvac.bel.tr/",
+      "duyuru_url": "https://yalvac.bel.tr/duyurular",
+      "haber_url": "https://yalvac.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusu en büyük ilçe (yaklaşık 45 bin). www.yalvac.bel.tr yalvac.bel.tr'ye yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Eğirdir Belediyesi",
+      "url": "https://www.egirdir.bel.tr/",
+      "duyuru_url": "https://www.egirdir.bel.tr/duyuru.php",
+      "haber_url": "https://www.egirdir.bel.tr/haber.php",
+      "durum": 200,
+      "not": "Eski tip PHP site; /duyurular ve /haberler 404, duyuru.php ve haber.php kullanılıyor. Güncellenme sıklığı düşük görünüyor. Turizm/göl haberleri için ilgili."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Senirkent Belediyesi",
+      "url": "https://www.senirkent.bel.tr/",
+      "duyuru_url": "https://www.senirkent.bel.tr/kategori/duyurular",
+      "haber_url": "https://www.senirkent.bel.tr/kategori/bizden-haberler",
+      "durum": 200,
+      "not": "/duyurular 404; WordPress benzeri kategori sayfaları kullanılıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Isparta+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Isparta Haber (ispartahaber.com.tr)",
+      "url": "https://www.ispartahaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Demokrat Gazetesi (Demokrat32)",
+      "url": "https://www.demokrat32.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bomba 32",
+      "url": "https://www.bomba32.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Isparta Gündem",
+      "url": "https://www.ispartagundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "TRT Haber Isparta yerel haberleri (toplayıcı)",
+      "url": "https://www.trthaber.com/yerelhaberler/isparta/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (AEDAŞ) ve kar/fırtına sonrası uzun süreli elektrik kesintileri",
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Sütçüler, Yenişarbademli, Eğirdir, Gelendost yüksek kesimi)",
+    "su kesintisi, su arızası ve içme suyu sıkıntısı",
+    "gül hasadı, gül ürünleri ve lavanta (Keçiborlu) ile elma ve kiraz üretimi, don ve dolu zararı",
+    "deprem (Burdur-Isparta çevresi fay hatları) ve AFAD bilgilendirmeleri",
+    "turizm: Eğirdir Gölü, Kovada, Sagalassos, Yazılı Kanyon ve Davraz kayak merkezi",
+    "Isparta-Antalya/Burdur/Afyon yolları ve Eğirdir-Antalya güzergahında trafik kazaları",
+    "orman yangınları ve Isparta Şehir Hastanesi, SDÜ Hastanesi gibi sağlık haberleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 görünmüyor. Sağlık Müdürlüğü ispartaism.saglik.gov.tr üzerinde; ayrı duyuru listesi yok, ana sayfa ve /TR-3823/haberler.html'e bak. Su için ayrı idare yok; belediye /su-ariza sayfası ve /duyurular, /haberler izlenmeli, planlı su kesintisi çoğunlukla yerel basında. AEDAŞ sitesi akdenizedas.com.tr (aedas.com.tr açılmıyor); planlı kesinti sorgusu form/harita tabanlı. Doğalgaz dağıtımı Torosgaz. İki devlet üniversitesi var: SDÜ ve ISUBÜ. Kültür Turizm Müdürlüğü (isparta.ktb.gov.tr) açılmıyor (curl 000), listeye alınmadı. Halk otobüsleri bir kooperatif (ispartahalkotobusleri.com), resmi kaynak sayılmadı. ilce_belediye için nüfusa göre Yalvaç, Eğirdir, Senirkent seçildi (Şarkikaraağaç sitesi sayfa başlığı boş, atlandı). Yerel gazete listesinden haber32.com, ispartapostasi.com, gulkentgazetesi.com gibi adresler açılmadı. Erişim testlerinde yurt dışı IP engeli görülmedi."
+}

@@ -7,7 +7,7 @@ Yerel haber routine'lerinin okuduğu dosyalar. **Bu repo gizli (private) olmalı
 - `il-promptlari/`: her il routine'inin kısa promptu ve zamanlaması
 - `araclar/prompt_uret.py`: kaynak dosyalarından promptları ve bu tabloyu yeniden üretir
 
-Toplam 25 il.
+Toplam 35 il.
 
 | Plaka | İl | Saat | Prompt |
 |---|---|---|---|
@@ -36,3 +36,13 @@ Toplam 25 il.
 | 23 | Elazığ | 07:27 ve 16:27 | il-promptlari/23-elazig.md |
 | 24 | Erzincan | 07:38 ve 16:38 | il-promptlari/24-erzincan.md |
 | 25 | Erzurum | 07:49 ve 16:49 | il-promptlari/25-erzurum.md |
+| 26 | Eskişehir | 08:05 ve 17:05 | il-promptlari/26-eskisehir.md |
+| 27 | Gaziantep | 08:16 ve 17:16 | il-promptlari/27-gaziantep.md |
+| 28 | Giresun | 08:27 ve 17:27 | il-promptlari/28-giresun.md |
+| 29 | Gümüşhane | 08:38 ve 17:38 | il-promptlari/29-gumushane.md |
+| 30 | Hakkari | 08:49 ve 17:49 | il-promptlari/30-hakkari.md |
+| 31 | Hatay | 09:05 ve 18:05 | il-promptlari/31-hatay.md |
+| 32 | Isparta | 09:16 ve 18:16 | il-promptlari/32-isparta.md |
+| 33 | Mersin | 09:27 ve 18:27 | il-promptlari/33-mersin.md |
+| 34 | İstanbul | 09:38 ve 18:38 | il-promptlari/34-istanbul.md |
+| 35 | İzmir | 09:49 ve 18:49 | il-promptlari/35-izmir.md |
