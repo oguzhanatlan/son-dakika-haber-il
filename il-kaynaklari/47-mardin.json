@@ -1,0 +1,205 @@
+{
+  "il": "Mardin",
+  "plaka": "47",
+  "slug": "mardin",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/mardin",
+  "buyuksehir": true,
+  "ilceler": [
+    "Artuklu",
+    "Dargeçit",
+    "Derik",
+    "Kızıltepe",
+    "Mazıdağı",
+    "Midyat",
+    "Nusaybin",
+    "Ömerli",
+    "Savur",
+    "Yeşilli"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Mardin Valiliği",
+      "url": "https://mardin.gov.tr/",
+      "duyuru_url": "https://www.mardin.gov.tr/duyurular",
+      "haber_url": "https://www.mardin.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://mardin.gov.tr/basin-aciklamalari-ve-tekzipler-tumu",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, vali haberleri /validen-haberler, basın açıklamaları ve tekzipler ayrı sayfada. Okul tatili ve eylem yasağı gibi valilik kararları burada çıkar."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Mardin Büyükşehir Belediyesi",
+      "url": "https://www.mardin.bel.tr/",
+      "duyuru_url": "https://www.mardin.bel.tr/duyurular",
+      "haber_url": "https://www.mardin.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi (mardin.bel.tr ile www.mardin.bel.tr ikisi de 200). Duyurular /duyurular, haberler /haberler; kamu ihale ve meclis kararları ayrı menüde. Belediye yönetimine kayyum atandığı için haberler resmî ağızdan ve sınırlı olabilir."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Mardin İl Milli Eğitim Müdürlüğü",
+      "url": "https://mardin.meb.gov.tr/",
+      "duyuru_url": "https://mardin.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://mardin.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://mardin.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor. Kar tatili vb. kararlar valilik sitesinden de duyurulur."
+    },
+    {
+      "tur": "su",
+      "kurum": "Mardin Su ve Kanalizasyon İdaresi Genel Müdürlüğü (MARSU)",
+      "url": "https://marsu.gov.tr/",
+      "duyuru_url": "https://marsu.gov.tr/duyuru/",
+      "haber_url": "https://marsu.gov.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi MARSU. /duyuru/ ağırlıklı yönetmelik, genel kurul kararları; altyapı/arıza çalışmaları /haberler altında. Planlı su kesintisi için ayrı bir liste sayfası bulunamadı. /duyurular 404, doğru adres /duyuru/. Alo MARSU hattı 185."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Dicle Elektrik Dağıtım A.Ş. (DEDAŞ)",
+      "url": "https://www.dedas.com.tr/",
+      "duyuru_url": "https://www.dedas.com.tr/planli-kesinti",
+      "durum": 200,
+      "not": "DEDAŞ Diyarbakır, Şanlıurfa, Batman, Mardin, Siirt ve Şırnak'ta hizmet veriyor (arama sonuçları ve haber kaynaklarıyla doğrulandı; dedas.com.tr sayfasında il adı geçmiyor). Planlı kesinti sayfası JS/form tabanlı, ham HTML'de il/ilçe listesi yok; ayrıca e-Devlet planlı kesinti sorgulaması var. Nusaybin Belediyesi sitesinde de elektrik kesintisi duyuruları çıkıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Mardin Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://akmercanmardingaz.com.tr/",
+      "duyuru_url": "https://akmercanmardingaz.com.tr/haberler-ve-duyurular",
+      "durum": 200,
+      "not": "Adres e-Devlet kurum sayfasındaki web adresinden alındı (turkiye.gov.tr/akmercan-mardin-dogal-gaz-dagitim-sanayi-ve-ticaret-as, 200); www alt alanı akmercanmardingaz.com.tr'ye yönleniyor. Doğalgaz dağıtımı kısmen ilçelerde (ör. Midyat). Planlı gaz kesintisi duyurusu nadir olmalı."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Mardin İl Sağlık Müdürlüğü",
+      "url": "https://mardinism.saglik.gov.tr/",
+      "duyuru_url": "https://mardinism.saglik.gov.tr/TR-43118/duyurular.html",
+      "haber_url": "https://mardinism.saglik.gov.tr/TR-65895/bizden-haberler.html",
+      "durum": 200,
+      "not": "Adres mardinism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri 'Bizden Haberler' bölümünde."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Mardin İl Emniyet Müdürlüğü",
+      "url": "https://mardin.pol.tr/",
+      "duyuru_url": "https://mardin.pol.tr/duyurular",
+      "haber_url": "https://mardin.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi mardin.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Mardin İl Jandarma Komutanlığı",
+      "url": "https://mardin.jandarma.gov.tr/",
+      "duyuru_url": "https://mardin.jandarma.gov.tr/duyurular",
+      "haber_url": "https://mardin.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Mardin Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://mardin.afad.gov.tr/",
+      "duyuru_url": "https://mardin.afad.gov.tr/duyurular",
+      "haber_url": "https://mardin.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Valilik sitesinde de AFAD duyuruları (siren tatbikatı vb.) çıkıyor."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Mardin Artuklu Üniversitesi",
+      "url": "https://www.artuklu.edu.tr/",
+      "duyuru_url": "https://www.artuklu.edu.tr/duyurular",
+      "haber_url": "https://www.artuklu.edu.tr/haberler",
+      "durum": 200,
+      "not": "İldeki tek devlet üniversitesi. Site Next.js tabanlı; duyurular /tr/duyurular/... biçiminde ve ağırlıkla öğrenci işleri/akademik. www.mardin.edu.tr açılmıyor (curl 000)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Artuklu Belediyesi",
+      "url": "https://artuklu.bel.tr/",
+      "duyuru_url": "https://artuklu.bel.tr/duyurular",
+      "haber_url": "https://artuklu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe belediyesi."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kızıltepe Belediyesi",
+      "url": "https://kiziltepe.bel.tr/",
+      "duyuru_url": "https://kiziltepe.bel.tr/duyurular",
+      "haber_url": "https://kiziltepe.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça en büyük ilçelerden."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Nusaybin Belediyesi",
+      "url": "http://www.nusaybin.bel.tr/",
+      "duyuru_url": "http://www.nusaybin.bel.tr/duyurular",
+      "haber_url": "http://www.nusaybin.bel.tr/haberler",
+      "durum": 200,
+      "not": "HTTPS açılmıyor (curl 000), yalnızca http:// 200 döner. Elektrik kesintisi, temizlik ve denetim haberleri çıkıyor. Resmî Nusaybin Kaymakamlığı: https://www.nusaybin.gov.tr/ (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Midyat Belediyesi",
+      "url": "https://midyat.bel.tr/",
+      "duyuru_url": "https://midyat.bel.tr/duyurular",
+      "haber_url": "https://midyat.bel.tr/haberler",
+      "durum": 200,
+      "not": "Turizm ve basın haberleri /basindan-haberler altında da var."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Mardin Kent Kart (belediye ulaşım uygulaması)",
+      "url": "https://mardin.kentkart.com/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "mardin.bel.tr ana sayfasından bağlantı veriliyor ama curl 000 (açılmıyor). Ulaşım duyuruları için mardin.bel.tr/duyurular'a bakılmalı. mardin.ktb.gov.tr denenmedi (Kültür Turizm il siteleri genelde açılmıyor)."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Mardin+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Mardin Haber Gazetesi",
+      "url": "https://mardinhaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Midyat Haber",
+      "url": "https://www.midyathaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Derik Haber",
+      "url": "https://derikhaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar/don nedeniyle okul tatili ve köy yollarının kapanması (valilik kararı)",
+    "planlı ve plansız elektrik kesintisi (DEDAŞ)",
+    "su kesintisi, içme suyu hattı arızası ve MARSU altyapı çalışmaları",
+    "yaz sıcağı, aşırı sıcak uyarıları ve kuraklık/su sıkıntısı",
+    "Mardin-Nusaybin-Kızıltepe karayolu ve trafik kazaları",
+    "tarım: buğday/arpa hasadı, dolu-don zararı, anız yangınları",
+    "turizm: Eski Mardin, Deyrulzafaran, Midyat Turabdin evleri, etkinlikler",
+    "valilik eylem/yürüyüş yasağı, güvenlik operasyonları ve sınır (Nusaybin) haberleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, MARSU, sağlık, emniyet, jandarma, AFAD ve ilçe belediye sitelerinin duyuru/haber alt sayfaları 200 dönüyor (soft 404 kontrolü temiz). Su idaresi MARSU (marsu.gov.tr) farklıdır, duyuru adresi /duyuru/ (tekil). Planlı su kesintisi listesi bulunamadı; kesinti bilgisi MARSU /haberler ve belediye duyurularında, yerel basında aranmalı. DEDAŞ kesinti sayfası form/JS tabanlı. Nusaybin Belediyesi sitesi yalnızca http ile açılıyor. www.mardin.edu.tr ve mardin.kentkart.com açılmadı. Reddedilen yerel siteler: mardinde.com (spam/müstehcen içerik), kiziltepegazetesi.com (spam), mardingundem.com (başka siteye yönleniyor); birçok mardinhaber* alan adı açılmıyor. Erişim testleri yurt dışı IP engeli göstermedi."
+}

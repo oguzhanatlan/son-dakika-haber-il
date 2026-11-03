@@ -1,0 +1,216 @@
+{
+  "il": "Sakarya",
+  "plaka": "54",
+  "slug": "sakarya",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/sakarya",
+  "buyuksehir": true,
+  "ilceler": [
+    "Adapazarı",
+    "Akyazı",
+    "Arifiye",
+    "Erenler",
+    "Ferizli",
+    "Geyve",
+    "Hendek",
+    "Karapürçek",
+    "Karasu",
+    "Kaynarca",
+    "Kocaali",
+    "Pamukova",
+    "Sapanca",
+    "Serdivan",
+    "Söğütlü",
+    "Taraklı"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Sakarya Valiliği",
+      "url": "https://sakarya.gov.tr/",
+      "duyuru_url": "https://sakarya.gov.tr/duyurular",
+      "haber_url": "https://sakarya.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; sahte adreslere 404 dönüyor (soft 404 yok)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Sakarya Büyükşehir Belediyesi",
+      "url": "https://www.sakarya.bel.tr/",
+      "duyuru_url": "https://www.sakarya.bel.tr/tr/Duyurular",
+      "haber_url": "https://www.sakarya.bel.tr/tr/Haberler",
+      "durum": 200,
+      "not": "Büyükşehir. Site JS tabanlı tek sayfa uygulaması (Angular); her adres 200 döner, içerik tarayıcıda yüklenir (veri sbbpublicapi.sakarya.bel.tr API'sinden). Haber detayı: /tr/Haber/{slug}/{id}; ayrıca /tr/IhaleDuyurulari, /tr/NobetciEczaneler. WebFetch ile içerik gelmeyebilir; Google Haberler/yerel basın yedek."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Sakarya İl Milli Eğitim Müdürlüğü",
+      "url": "https://sakarya.meb.gov.tr/",
+      "duyuru_url": "https://sakarya.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://sakarya.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://sakarya.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor. /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Sakarya Büyükşehir Belediyesi Su ve Kanalizasyon İdaresi (SASKİ)",
+      "url": "https://www.saski.gov.tr/",
+      "duyuru_url": "https://www.saski.gov.tr/sukesintileri/",
+      "haber_url": "https://www.saski.gov.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehirin ayrı su idaresi SASKİ. Planlı/arıza su kesintileri /sukesintileri/ sayfasında; genel duyurular https://www.saski.gov.tr/duyurular/ (200). saski.gov.tr (www'siz) açılmıyor (000), www.saski.gov.tr kullan."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Sakarya Elektrik Dağıtım A.Ş. (SEDAŞ)",
+      "url": "https://www.sedas.com/Tr/",
+      "duyuru_url": "https://sedas.com/Tr/1/TumDuyurular",
+      "durum": 200,
+      "not": "SEDAŞ Sakarya, Kocaeli, Bolu ve Düzce'de hizmet veriyor (şirket basın bültenleri ve arama sonuçlarıyla Sakarya doğrulandı). Planlı kesinti bilgisi ana sayfadaki harita/JS ve mobil uygulamada, ayrı sabit adresli bir planlı kesinti sayfası bulunamadı (sedas.com/Tr/PlanliKesinti 404). Duyurular /Tr/1/TumDuyurular; basın bültenleri /Tr/1/Basin_Bultenleri_URL. Çağrı merkezi 186. Planlı kesinti listelerini yerel basın (Gazete Birlik vb.) ilçe ilçe yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Sakarya Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/aksa-dogalgaz-sakarya",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Sakarya dağıtım bölgesi (Adapazarı, Serdivan, Arifiye, Hendek, Karasu, Kocaali, Akyazı, Sapanca, Erenler, Ferizli, Karapürçek, Kaynarca, Söğütlü). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Sakarya İl Sağlık Müdürlüğü",
+      "url": "https://sakaryaism.saglik.gov.tr/",
+      "duyuru_url": "https://sakaryaism.saglik.gov.tr/TR-20577/duyuru.html",
+      "durum": 200,
+      "not": "Adres sakaryaism.saglik.gov.tr. Dikkat: Amasya örneğindeki /TR-46346/duyurular.html Sakarya'da amasyaism'e yönleniyor, kullanma; doğru duyuru sayfası /TR-20577/duyuru.html. Ayrı haber listesi adresi doğrulanamadı; haberler ana sayfada."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Sakarya İl Emniyet Müdürlüğü",
+      "url": "https://sakarya.pol.tr/",
+      "duyuru_url": "https://sakarya.pol.tr/duyurular",
+      "haber_url": "https://sakarya.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi sakarya.pol.tr; olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Sakarya İl Jandarma Komutanlığı",
+      "url": "https://sakarya.jandarma.gov.tr/",
+      "duyuru_url": "https://sakarya.jandarma.gov.tr/duyurular",
+      "haber_url": "https://sakarya.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Sakarya Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://sakarya.afad.gov.tr/",
+      "duyuru_url": "https://sakarya.afad.gov.tr/duyurular",
+      "haber_url": "https://sakarya.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Sakarya Üniversitesi",
+      "url": "https://sakarya.edu.tr/",
+      "duyuru_url": "https://sakarya.edu.tr/duyurular123",
+      "haber_url": "https://haber.sakarya.edu.tr/",
+      "durum": 200,
+      "not": "Ana sayfa duyuru bağlantısı /duyurular123; kurum dışı duyurular /aboutus/kurumdisiduyurular; kampüs haberleri haber.sakarya.edu.tr. www.sakarya.edu.tr sakarya.edu.tr'ye yönleniyor."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Sakarya Uygulamalı Bilimler Üniversitesi",
+      "url": "https://subu.edu.tr/",
+      "duyuru_url": "https://subu.edu.tr/duyurular",
+      "haber_url": "https://subu.edu.tr/haberler",
+      "durum": 200,
+      "not": "www.subu.edu.tr subu.edu.tr'ye yönleniyor; duyurular ve haberler 200 (içerik ağırlıklı idari/akademik)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Adapazarı Belediyesi",
+      "url": "https://adapazari.bel.tr/",
+      "duyuru_url": "https://adapazari.bel.tr/duyurular",
+      "haber_url": "https://adapazari.bel.tr/haberler",
+      "durum": 200,
+      "not": "İl merkezi ve nüfusça en büyük ilçe. Ek: https://adapazari.bel.tr/sayfalar/adapazari-duyurular."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Serdivan Belediyesi",
+      "url": "https://serdivan.bel.tr/",
+      "duyuru_url": "https://serdivan.bel.tr/duyurular",
+      "haber_url": "https://serdivan.bel.tr/haberler",
+      "durum": 200,
+      "not": "Site JS tabanlı tek sayfa uygulaması: her adres aynı kabuğu 200 döndürüyor (soft 404), alt adresin gerçekten çalıştığı doğrulanamadı. İçerik WebFetch ile gelmeyebilir; yerel basın ve Google Haberler yedek."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Erenler Belediyesi",
+      "url": "https://www.erenler.bel.tr/",
+      "duyuru_url": "https://www.erenler.bel.tr/guncel/duyurular",
+      "haber_url": "https://www.erenler.bel.tr/guncel/haberler",
+      "durum": 200,
+      "not": "erenler.bel.tr www'ye yönleniyor; duyuru ve haberler /guncel altında, başlıklar doğru geliyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Sakarya Büyükşehir Belediyesi Ulaşım Dairesi Başkanlığı (Metrobüs, ADARAY, belediye otobüsleri)",
+      "url": "https://www.sakarya.bel.tr/",
+      "duyuru_url": "https://www.sakarya.bel.tr/tr/Duyurular",
+      "haber_url": "https://www.sakarya.bel.tr/tr/Haberler",
+      "durum": 200,
+      "not": "Ulaşım için ayrı bir bağımsız site bulunamadı; sefer/hat değişiklikleri, bayram ücretsiz ulaşım ve metrobüs/ADARAY haberleri Büyükşehir haber/duyuru akışında çıkıyor (JS tabanlı site, bkz. belediye notu)."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Sakarya+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazete Birlik (Yeni Birlik)",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Sakarya Yenihaber",
+      "url": "https://www.sakaryayenihaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Sakarya Gazetesi",
+      "url": "https://www.yenisakarya.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Sakarya Postası",
+      "url": "https://sakaryapostasi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Adapazarı Haber",
+      "url": "https://adapazarihaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (SEDAŞ, ilçe ilçe liste)",
+    "planlı su kesintisi ve su arızaları (SASKİ)",
+    "ulaşım: metrobüs, ADARAY, belediye otobüsü seferleri ve bayram/özel gün ücretsiz ulaşım",
+    "deprem (Kuzey Anadolu Fay Hattı, 1999 depremi anıları) ve AFAD bilgilendirmeleri",
+    "sağanak/sel, dere taşkını ve heyelan uyarıları (Karadeniz kıyısı, Sapanca, Geyve, Taraklı)",
+    "D100/TEM trafik kazaları ve yol çalışmaları (Sakarya geçişi, Yazlık kavşağı)",
+    "Sapanca Gölü seviyesi, su kalitesi ve turizm/hafta sonu yoğunluğu",
+    "okul/eğitim duyuruları ve üniversite (SAÜ, SUBÜ) haberleri, nöbetçi eczane"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, SASKİ, SEDAŞ, Aksa ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 görülmedi. Sakarya Büyükşehir Belediyesi (sakarya.bel.tr) ve Serdivan Belediyesi (serdivan.bel.tr) JS tabanlı tek sayfa uygulaması; tüm adresler 200 döner, içerik düz HTML ile okunamayabilir. Su kesintileri SASKİ /sukesintileri/ sayfasında; elektrik planlı kesinti sabit liste sayfası yok (harita/mobil uygulama), yerel basın listeleri kullanılabilir. Sağlık Müdürlüğü duyuru yolu /TR-20577/duyuru.html (Amasya kalıbı yanlış yönleniyor). Kültür Turizm Müdürlüğü denenmedi (ktb.gov.tr il siteleri genelde açılmıyor). Erişim testleri yurt dışı IP engeli göstermedi. Nüfus sıralamasına göre ilçe belediyeleri: Adapazarı, Serdivan, Erenler; saski.gov.tr www'siz açılmıyor."
+}

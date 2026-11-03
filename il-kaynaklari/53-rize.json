@@ -1,0 +1,203 @@
+{
+  "il": "Rize",
+  "plaka": "53",
+  "slug": "rize",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/rize",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ardeşen",
+    "Çamlıhemşin",
+    "Çayeli",
+    "Derepazarı",
+    "Fındıklı",
+    "Güneysu",
+    "Hemşin",
+    "İkizdere",
+    "İyidere",
+    "Kalkandere",
+    "Merkez",
+    "Pazar"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Rize Valiliği",
+      "url": "https://www.rize.gov.tr/",
+      "duyuru_url": "https://www.rize.gov.tr/duyurular",
+      "haber_url": "https://www.rize.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; soft 404 kontrolü temiz. rize.gov.tr de açılıyor. Sel/heyelan, yol kapanması ve kar tatili gibi açıklamalar burada ve il MEB sitesinde çıkar."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Rize Belediyesi",
+      "url": "https://www.rize.bel.tr/",
+      "duyuru_url": "https://www.rize.bel.tr/duyurular/tum",
+      "haber_url": "https://www.rize.bel.tr/haberler/tum",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. rize.bel.tr www'ye yönleniyor. Ayrıca günlük çalışmalar (yol/ilaçlama vb.): https://www.rize.bel.tr/gunluk-calismalar/tum (200). Duyuru ve haber sayfaları tekil adresleri /duyuru/{slug} ve /haber/{slug} biçiminde."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Rize İl Milli Eğitim Müdürlüğü",
+      "url": "https://rize.meb.gov.tr/",
+      "duyuru_url": "https://rize.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://rize.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://rize.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor (soft 404 yok). Kar/sel nedeniyle okul tatili duyuruları valilik ve bu sitede çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Rize Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.rize.bel.tr/mudurluklerimiz",
+      "duyuru_url": "https://www.rize.bel.tr/duyurular/tum",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı sayfa bulunamadı; su kesintisi duyuruları belediye duyuruları içinde /duyuru/su-kesintisi-{no} adresleriyle çıkıyor (örn. https://www.rize.bel.tr/duyuru/su-kesintisi-1377, 200). Su analiz sonuçları: https://www.rize.bel.tr/hizmet/su-analiz-sonuclari (200). Kuraklık nedeniyle 2025 sonbaharından beri dönemsel su kesintileri haberleşti."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çoruh Elektrik Dağıtım A.Ş. (Çoruh EDAŞ)",
+      "url": "https://www.coruhedas.com.tr/",
+      "duyuru_url": "https://www.coruhedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "haber_url": "https://www.coruhedas.com.tr/BizdenHaberler/Duyurular",
+      "durum": 200,
+      "not": "Çoruh EDAŞ Trabzon, Rize, Artvin, Gümüşhane ve Giresun'da hizmet veriyor (resmî sitede 'Rize İl Müdürlüğü' var; arama sonuçları ve haberlerle de doğrulandı). Bakım programı/kesinti listesi sayfası 200 dönüyor, içeriği dinamik/form tabanlı olabilir; ilçe bazlı planlı kesintiler yerel basında da çıkıyor. Arıza hattı 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Karadeniz Doğal Gaz Dağıtım A.Ş. (Aksa Doğalgaz Trabzon-Rize)",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/trabzon-rize",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Trabzon-Rize dağıtım bölgesi (merkezi Rize); sitede bu bölge sayfası var. Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir; ilçelere gaz ulaşımı sürüyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Rize İl Sağlık Müdürlüğü",
+      "url": "https://rizeism.saglik.gov.tr/",
+      "duyuru_url": "https://rizeism.saglik.gov.tr/TR-19956/duyurular.html",
+      "haber_url": "https://rizeism.saglik.gov.tr/TR-17248/haberler.html",
+      "durum": 200,
+      "not": "Adres rizeism.saglik.gov.tr. Ana sayfada birden fazla duyuru listesi var (ör. TR-55888/duyurular.html, TR-201169/duyurular.html); duyurular ağırlıklı personel/aile hekimliği işlemleri. Halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Rize İl Emniyet Müdürlüğü",
+      "url": "https://rize.pol.tr/",
+      "duyuru_url": "https://rize.pol.tr/duyurular",
+      "haber_url": "https://rize.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi rize.pol.tr. Duyuru ve haber sayfaları 200, soft 404 yok."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Rize İl Jandarma Komutanlığı",
+      "url": "https://rize.jandarma.gov.tr/",
+      "duyuru_url": "https://rize.jandarma.gov.tr/duyurular",
+      "haber_url": "https://rize.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Rize Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://rize.afad.gov.tr/",
+      "duyuru_url": "https://rize.afad.gov.tr/duyurular",
+      "haber_url": "https://rize.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Sel, heyelan ve deprem bilgilendirmeleri için. Deprem listesi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Recep Tayyip Erdoğan Üniversitesi",
+      "url": "https://www.erdogan.edu.tr/",
+      "duyuru_url": "https://www.erdogan.edu.tr/WebSite/Contents.aspx?PageID=278&LangID=1",
+      "haber_url": "https://www.erdogan.edu.tr/WebSite/Contents.aspx?PageID=277&LangID=1",
+      "durum": 200,
+      "not": "Ana sayfa /WebSite/Default.aspx'e yönleniyor. /duyurular ve /Haberler 404 verir; duyuru ve haber listeleri Contents.aspx?PageID=278 ve 277 adreslerinde (200). Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ardeşen Belediyesi",
+      "url": "https://www.ardesen.bel.tr/",
+      "duyuru_url": "https://www.ardesen.bel.tr/duyurular",
+      "haber_url": "https://www.ardesen.bel.tr/haberler",
+      "durum": 200,
+      "not": "İl merkezinden sonra nüfusça en büyük ilçelerden (yaklaşık 37 bin, TÜİK 2023). Duyuru ve haber sayfaları 200, soft 404 yok."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çayeli Belediyesi",
+      "url": "https://www.cayeli.bel.tr/",
+      "duyuru_url": "https://www.cayeli.bel.tr/duyurular",
+      "haber_url": "https://www.cayeli.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru/haber sayfaları 200 (sayfada 'bulunamad' geçişi yalnızca gömülü bir script kaynağından, gerçek 404 değil). Tekil duyurular /tr/duyurular/{no} biçiminde."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Pazar Belediyesi",
+      "url": "https://pazar.bel.tr/",
+      "duyuru_url": "https://pazar.bel.tr/duyurular",
+      "haber_url": "https://pazar.bel.tr/haberler",
+      "durum": 200,
+      "not": "www.pazar.bel.tr, pazar.bel.tr'ye yönleniyor. Duyuru ve haber sayfaları 200, soft 404 yok. Nüfusça Ardeşen ve Çayeli ile birlikte merkezden sonra en büyük ilçeler arasında."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Rize İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://rize.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "rize.ktb.gov.tr açılmıyor (curl 000, DNS/bağlantı). Kaynak olarak güvenilmemeli. Rize'de ayrı bir şehir içi otobüs/tramvay işletmesi (ulaşım şirketi) bulunamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Rize+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Rizedeyiz",
+      "url": "https://www.rizedeyiz.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Rize Haber (rizehaber.net.tr)",
+      "url": "https://rizehaber.net.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "RizeHaberler.com",
+      "url": "https://rizehaberler.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazete Rize",
+      "url": "https://www.gazeterize.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çay Haber",
+      "url": "https://www.cayhaber.net/",
+      "durum": 403
+    }
+  ],
+  "deger_konulari": [
+    "sel, heyelan ve dere taşkını uyarıları (Doğu Karadeniz aşırı yağışı), yol kapanmaları",
+    "kar nedeniyle okul tatili ve yayla/yüksek kesim yollarının kapanması (Çamlıhemşin, Ayder, İkizdere, Hemşin)",
+    "planlı elektrik kesintisi (Çoruh EDAŞ) ve fırtına/yağış kaynaklı elektrik arızaları",
+    "su kesintisi ve kuraklık/içme suyu sıkıntısı (Rize merkez)",
+    "çay hasadı, yaş çay fiyatı ve kampanya, ÇAYKUR duyuruları",
+    "turizm: Ayder ve Kaçkar yaylaları, Fırtına Vadisi, festivaller (Kaçkar UTMB vb.)",
+    "Çaykur Rizespor maçları ve transfer haberleri",
+    "deprem ve AFAD bilgilendirmeleri, Karadeniz'de fırtına/deniz ulaşımı uyarıları"
+  ],
+  "notlar": "Valilik, belediye, il MEB, emniyet, jandarma, AFAD ve üç ilçe belediyesinin duyuru/haber sayfaları 200 dönüyor ve soft 404 kontrolünü geçti. Sağlık Müdürlüğü rizeism.saglik.gov.tr üzerinde (duyuru sayfası numaralı: TR-19956, ana sayfada başka duyuru listeleri de var). Su için ayrı idare yok; su kesintileri rize.bel.tr duyuruları arasında /duyuru/su-kesintisi-{no} olarak çıkıyor. Çoruh EDAŞ bakım programı sayfası dinamik olabilir. Doğalgaz dağıtımı Aksa Karadeniz (Aksa Doğalgaz Trabzon-Rize bölgesi). Üniversite (erdogan.edu.tr) duyuruları Contents.aspx?PageID=278 altında. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber ipucu sitelerinden cayhaber.net curl'e 403 veriyor; cayelihaber.com park sayfası, ardesenhaber.com boş/şüpheli olduğu için listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

@@ -1,0 +1,199 @@
+{
+  "il": "Nevşehir",
+  "plaka": "50",
+  "slug": "nevsehir",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/nevsehir",
+  "buyuksehir": false,
+  "ilceler": [
+    "Acıgöl",
+    "Avanos",
+    "Derinkuyu",
+    "Gülşehir",
+    "Hacıbektaş",
+    "Kozaklı",
+    "Merkez",
+    "Ürgüp"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Nevşehir Valiliği",
+      "url": "https://www.nevsehir.gov.tr/",
+      "duyuru_url": "https://www.nevsehir.gov.tr/duyurular",
+      "haber_url": "https://www.nevsehir.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; sayfa başlıkları doğru (soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Nevşehir Belediyesi",
+      "url": "https://nevsehir.bel.tr/",
+      "duyuru_url": "https://nevsehir.bel.tr/makale/8/duyurular",
+      "haber_url": "https://nevsehir.bel.tr/haber-arsivi",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. /duyurular ve /haberler 404; duyurular /makale/8/duyurular, haber listesi /haber-arsivi, haber detayları /haber-detay/{id}/{slug}. Ana sayfada son haberler listeleniyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Nevşehir İl Milli Eğitim Müdürlüğü",
+      "url": "https://nevsehir.meb.gov.tr/",
+      "duyuru_url": "https://nevsehir.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://nevsehir.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://nevsehir.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS adresleri 200 dönüyor (haber sayfası bir denemede zaman aşımı verdi, tekrarda 200). Kar tatili vb. için valilik duyuruları ve yerel basın da izlenmeli."
+    },
+    {
+      "tur": "su",
+      "kurum": "Nevşehir Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://nevsehir.bel.tr/",
+      "duyuru_url": "https://nevsehir.bel.tr/makale/8/duyurular",
+      "haber_url": "https://nevsehir.bel.tr/haber-arsivi",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı (nevsehir.bel.tr/su-kesintisi 404); arıza/kesinti duyuruları belediye haberlerinde ve yerel basında çıkıyor. Abonelik bilgisi: https://nevsehir.bel.tr/makale-detay/5841/su-abonelik-islemleri-icin-gerekli-evraklar (200)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Meram Elektrik Dağıtım A.Ş. (MEDAŞ)",
+      "url": "https://www.meramedas.com.tr/",
+      "duyuru_url": "https://www.meramedas.com.tr/tr/planli-kesintiler.html",
+      "haber_url": "https://www.meramedas.com.tr/tr/duyurular",
+      "durum": 200,
+      "not": "MEDAŞ'ın kurumsal sayfasında (/tr/hakkimizda-1.html) hizmet bölgesi Konya, Aksaray, Niğde, Kırşehir, Nevşehir ve Karaman olarak yazıyor. Planlı kesinti sayfası dinamik/JS içerikli olabilir (curl ile liste çıkmadı); asıl liste için sayfa tarayıcıda açılmalı. Arıza hattı 186. Planlı kesinti listeleri yerel basında da (ör. habergazetesi.com.tr Nevşehir) yayımlanıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Kapadokya Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Nevşehir doğalgaz dağıtım lisansı Enerya Kapadokya Gaz Dağıtım A.Ş. (Enerya Enerji grubu, Ahlatcı); merkez adresi Nevşehir'de. Enerya ana sitesinde Enerya Kapadokya şirketi listeleniyor (200). Ayrı bir il duyuru sayfası bulunamadı; planlı gaz kesintisi duyurusu nadir. Müşteri hizmetleri 444 8 429, acil 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Nevşehir İl Sağlık Müdürlüğü",
+      "url": "https://nevsehirism.saglik.gov.tr/",
+      "duyuru_url": "https://nevsehirism.saglik.gov.tr/TR-49895/duyurular.html",
+      "haber_url": "https://nevsehirism.saglik.gov.tr/TR-61171/basin-aciklamasi.html",
+      "durum": 200,
+      "not": "Adres nevsehirism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; haber niteliğindeki içerik 'Basın Açıklaması' sayfasında. Ana sayfadaki haber başlıkları yerel basında daha çok yer buluyor."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Nevşehir İl Emniyet Müdürlüğü",
+      "url": "https://nevsehir.pol.tr/",
+      "duyuru_url": "https://nevsehir.pol.tr/duyurular",
+      "haber_url": "https://nevsehir.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi nevsehir.pol.tr; duyuru ve haber sayfaları doğru başlıkla açılıyor."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Nevşehir İl Jandarma Komutanlığı",
+      "url": "https://nevsehir.jandarma.gov.tr/",
+      "duyuru_url": "https://nevsehir.jandarma.gov.tr/duyurular",
+      "haber_url": "https://nevsehir.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "T.C. Nevşehir Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://nevsehir.afad.gov.tr/",
+      "duyuru_url": "https://nevsehir.afad.gov.tr/duyurular",
+      "haber_url": "https://nevsehir.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+      "url": "https://www.nevsehir.edu.tr/",
+      "duyuru_url": "https://www.nevsehir.edu.tr/tr/tumduyurular/tip/1",
+      "haber_url": "https://www.nevsehir.edu.tr/tr/tumduyurular/tip/2",
+      "durum": 200,
+      "not": "SOFT 404 UYARISI: /tr/duyurular, /tr/haberler, /duyurular, /tr/duyuru adresleri 200 dönüyor ama '404 Page no found' sayfasıdır. Doğru listeler /tr/tumduyurular/tip/1 (Duyurular), /tip/2 (Haberler), /tip/4 (Ziyaret Haberleri). Kurumsal iletişim: https://basin.nevsehir.edu.tr/ (200). nevu.edu.tr açılmıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ürgüp Belediyesi",
+      "url": "https://urgup.bel.tr/",
+      "duyuru_url": "https://urgup.bel.tr/tr/duyurular",
+      "haber_url": "https://urgup.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "Turizm ve etkinlik haberleri ağırlıklı; ayrıca meclis gündemi, dolmuş güzergahı gibi duyurular var."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Avanos Belediyesi",
+      "url": "https://www.avanos.bel.tr/",
+      "duyuru_url": "https://www.avanos.bel.tr/duyurular",
+      "haber_url": "https://www.avanos.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular çoğunlukla meclis gündemi, ihale ve satış ilanları."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Derinkuyu Belediyesi",
+      "url": "https://www.derinkuyu.bel.tr/",
+      "duyuru_url": "https://www.derinkuyu.bel.tr/",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; liste sayfası bulunamadı, duyurular ana sayfada ve /duyuru/{slug}/{id}/ , haberler /haber/{slug}/{id}/ biçiminde (ana sayfadan izlenmeli)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Nevşehir İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://nevsehir.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "nevsehir.ktb.gov.tr açılmıyor (curl 000, www.ktb.gov.tr de açılmadı). Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Nev%C5%9Fehir+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kapadokya Haber (Nevşehir Haberleri)",
+      "url": "https://www.kapadokyahaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Nevşehir Haber",
+      "url": "https://www.nevsehirhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Nevşehir Manşet Online Portal",
+      "url": "https://www.nevsehirmanset.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kapadokya'nın Gündemi",
+      "url": "https://www.kapadokyagundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi Nevşehir bölümü (toplayıcı; planlı elektrik/su kesintisi listeleri yayımlıyor)",
+      "url": "https://www.habergazetesi.com.tr/nevsehir-haberleri-son-dakika",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (MEDAŞ) ve ilçe bazlı kesinti listeleri",
+    "su kesintisi ve içme suyu hattı arızaları (Nevşehir merkez mahalleleri)",
+    "kar, buzlanma ve olumsuz hava nedeniyle okul tatili ve yol durumu",
+    "Kapadokya turizmi: balon uçuşları, Göreme/Ürgüp/Avanos otel doluluğu, turist sayıları",
+    "festivaller ve etkinlikler (Hacıbektaş Anma Törenleri, Kabak Çekirdeği Festivali, Ürgüp etkinlikleri)",
+    "yer altı şehirleri ve arkeolojik keşifler (Derinkuyu, Kaymaklı, Gülşehir)",
+    "tarım: üzüm, patates ve bağcılık, don/dolu zararı, kuraklık",
+    "trafik kazaları ve D260/Nevşehir-Kayseri-Aksaray yolları"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD ve sağlık sitelerinin duyuru/haber sayfaları 200 dönüyor ve içerik doğrulandı. Sağlık Müdürlüğü nevsehirism.saglik.gov.tr üzerinde; haber niteliğinde içerik 'Basın Açıklaması' sayfasında (TR-61171). Belediye duyuruları /makale/8/duyurular, haberler /haber-arsivi. Üniversitede /tr/duyurular gibi adresler soft 404 verir; /tr/tumduyurular/tip/N kullanılmalı. Su için ayrı idare ve ayrı planlı kesinti sayfası yok (belediye haberleri + yerel basın). MEDAŞ planlı kesinti sayfası dinamik içerikli. Doğalgaz dağıtıcısı Enerya Kapadokya Gaz; ayrı duyuru sayfası yok. Kültür Turizm Müdürlüğü sitesi açılmıyor. Erişim testlerinde yurt dışı IP engeli görülmedi (hepsi 200)."
+}

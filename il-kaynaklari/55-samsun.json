@@ -1,0 +1,221 @@
+{
+  "il": "Samsun",
+  "plaka": "55",
+  "slug": "samsun",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/samsun",
+  "buyuksehir": true,
+  "ilceler": [
+    "19 Mayıs",
+    "Alaçam",
+    "Asarcık",
+    "Atakum",
+    "Ayvacık",
+    "Bafra",
+    "Canik",
+    "Çarşamba",
+    "Havza",
+    "İlkadım",
+    "Kavak",
+    "Ladik",
+    "Salıpazarı",
+    "Tekkeköy",
+    "Terme",
+    "Vezirköprü",
+    "Yakakent"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Samsun Valiliği",
+      "url": "https://www.samsun.gov.tr/",
+      "duyuru_url": "https://www.samsun.gov.tr/duyurular",
+      "haber_url": "https://www.samsun.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://samsun.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200, içerik dolu). Kar tatili/yol kapanması gibi acil duyurular genellikle basın açıklamalarında."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Samsun Büyükşehir Belediyesi",
+      "url": "https://samsun.bel.tr/",
+      "duyuru_url": "https://samsun.bel.tr/guncel/duyurular",
+      "haber_url": "https://samsun.bel.tr/guncel/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. www.samsun.bel.tr ana adrese yönleniyor. /duyurular ve /haberler 500 veriyor; doğru adresler /guncel/duyurular (ihale/imar/OSB ilanları) ve /guncel/haberler (kategori filtresi: ?category=ulasim vb.). Site Next.js tabanlı; sayfa kabuğunda 'Sayfa Bulunamadı' şablon metni geçse de içerik dolu."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Samsun İl Milli Eğitim Müdürlüğü",
+      "url": "https://samsun.meb.gov.tr/",
+      "duyuru_url": "https://samsun.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://samsun.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://samsun.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adresleri 200 dönüyor. Kar/hava tatili duyuruları valilik ve MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Samsun Su ve Kanalizasyon İdaresi Genel Müdürlüğü (SASKİ)",
+      "url": "https://www.saski.gov.tr/",
+      "duyuru_url": "https://www.saski.gov.tr/sukesintileri/",
+      "haber_url": "https://www.saski.gov.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi. Planlı/arızalı su kesintileri /sukesintileri/ sayfasında (mahalle bazlı liste, 'Su kesintisi / Arıza onarımı' notuyla). Genel duyurular: https://www.saski.gov.tr/duyurular/ (200). Çağrı merkezi 185. Eski ASP.NET site; sayfa başlığı boş gelebilir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Yeşilırmak Elektrik Dağıtım A.Ş. (YEDAŞ)",
+      "url": "https://www.yedas.com/",
+      "duyuru_url": "https://www.yedas.com/planli-kesinti",
+      "durum": 200,
+      "not": "YEDAŞ Samsun, Amasya, Çorum, Ordu ve Sinop'ta hizmet veriyor; genel müdürlüğü Samsun'da (arama sonuçları ve YEDAŞ Samsun kesinti haberleriyle doğrulandı). Planlı kesinti sayfası Next.js/JS tabanlı (il-ilçe seçimi gerekebilir), düz curl ile liste okunamaz; yerel basında günlük 'Samsun elektrik kesintisi' derlemeleri çıkıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "SAMGAZ Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://samgaz.com.tr/",
+      "duyuru_url": "https://samgaz.com.tr/#duyurular",
+      "haber_url": "https://samgaz.com.tr/#haberler",
+      "durum": 200,
+      "not": "Samsun merkez (Atakum, İlkadım, Canik vb.) doğalgaz dağıtım şirketi; www.samgaz.com.tr ana adrese yönleniyor. Duyuru/haber ana sayfada bölüm olarak (#duyurular, #haberler); ayrı alt sayfa bulunamadı. Acil hat 187. Çarşamba/Bafra gibi ilçelerde farklı dağıtım yapıları olabilir, doğrulanmadı."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Samsun İl Sağlık Müdürlüğü",
+      "url": "https://samsunism.saglik.gov.tr/",
+      "duyuru_url": "https://samsunism.saglik.gov.tr/TR-47812/duyurular.html",
+      "haber_url": "https://samsunism.saglik.gov.tr/TR-53176/haberler.html",
+      "durum": 200,
+      "not": "Adres samsunism.saglik.gov.tr. Duyuru ve haber sayfaları 200; duyurular ağırlıklı idari/personel. Menüdeki TR-xxxxx numaraları site güncellenince değişebilir, ana sayfadan kontrol edilmeli."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Samsun İl Emniyet Müdürlüğü",
+      "url": "https://samsun.pol.tr/",
+      "duyuru_url": "https://samsun.pol.tr/duyurular",
+      "haber_url": "https://samsun.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi samsun.pol.tr. /haberler (olay/operasyon haberleri) ve /duyurular 200 dönüyor (/duyurular ilk denemede timeout verdi, tekrar denemede açıldı; aralıklı yavaşlık olabilir)."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Samsun İl Jandarma Komutanlığı",
+      "url": "https://samsun.jandarma.gov.tr/",
+      "duyuru_url": "https://samsun.jandarma.gov.tr/duyurular",
+      "haber_url": "https://samsun.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Samsun Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://samsun.afad.gov.tr/",
+      "duyuru_url": "https://samsun.afad.gov.tr/duyurular",
+      "haber_url": "https://samsun.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Ondokuz Mayıs Üniversitesi",
+      "url": "https://www.omu.edu.tr/tr",
+      "duyuru_url": "https://www.omu.edu.tr/tr/duyurular",
+      "haber_url": "https://www.omu.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "www.omu.edu.tr /tr'ye yönleniyor. Duyurular idari/akademik, kampüs haberleri /tr/haberler."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Samsun Üniversitesi",
+      "url": "https://samsun.edu.tr/",
+      "duyuru_url": "https://samsun.edu.tr/duyuru",
+      "durum": 200,
+      "not": "/duyuru 200 (başlık 'Duyuru'); /duyurular ve /haberler 404 verir. Bilim içerikleri bilim.samsun.edu.tr altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Atakum Belediyesi",
+      "url": "https://atakum.bel.tr/",
+      "duyuru_url": "https://atakum.bel.tr/haberler",
+      "haber_url": "https://atakum.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça en büyük ilçe. /duyurular ana sayfaya düşüyor (soft); ayrı duyuru sayfası yok, ilanlar /meclis-ilanlari ve /emlak-ilanlari. Haber/etkinlik detayları haberDetay-... biçiminde."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İlkadım Belediyesi",
+      "url": "https://ilkadim.bel.tr/",
+      "duyuru_url": "https://ilkadim.bel.tr/duyurular",
+      "haber_url": "https://ilkadim.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nuxt (JS) tabanlı site; düz curl ile her adres aynı boş kabuğu (5.8 KB) döndürüyor, alt sayfa adresleri tahmini ve içerik doğrulanamadı. Tarayıcı/JS gerekebilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Canik Belediyesi",
+      "url": "https://www.canik.bel.tr/",
+      "duyuru_url": "https://www.canik.bel.tr/duyurular",
+      "haber_url": "https://www.canik.bel.tr/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler başlıkları doğru ('Samsun Canik Belediyesi - Duyurular/Haberler')."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Samsun Büyükşehir Belediyesi Ulaşım (SAMULAŞ)",
+      "url": "https://www.samulas.com.tr/",
+      "duyuru_url": "",
+      "haber_url": "https://www.samulas.com.tr/haberler",
+      "durum": 200,
+      "not": "Tramvay/otobüs işletmesi. /haberler 200 ve dolu; /duyurular boş (soft 404). Hat/sefer değişiklikleri haberler altında ve samsun.bel.tr ulaşım kategorisinde (/guncel/haberler?category=ulasim)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Samsun İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://samsun.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "samsun.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; adres tahmin kalıbından geldi, WebSearch ile doğrulanamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Samsun+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi (Samsun)",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Samsun Haber",
+      "url": "https://www.samsunhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Samsun Haber Ajansı",
+      "url": "https://www.samsunhaberajansi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "19 Mayıs Gazetesi",
+      "url": "https://www.19mayisgazetesi.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı su kesintisi ve arıza kaynaklı su kesintileri (SASKİ), ilçe ilçe liste",
+    "planlı elektrik kesintisi (YEDAŞ), Atakum/İlkadım/Canik/Bafra/Çarşamba",
+    "doğalgaz kesintisi ve arızaları (SAMGAZ)",
+    "şiddetli yağış, sel, taşkın ve heyelan uyarıları (Karadeniz kıyısı, Bafra ve Çarşamba ovası, Kızılırmak/Yeşilırmak)",
+    "kar nedeniyle okul tatili ve yayla/iç ilçe yollarının kapanması (Ladik, Havza, Vezirköprü, Asarcık, Salıpazarı)",
+    "ulaşım: tramvay (SAMULAŞ), yol çalışmaları ve trafik düzenlemeleri, Samsun-Çarşamba havalimanı uçuşları, Samsun Limanı",
+    "trafik kazaları ve asayiş (emniyet/jandarma operasyonları)",
+    "Samsun'un fındık, mısır ve tarım ürünleri hasadı/fiyatları, balıkçılık, Ondokuz Mayıs Üniversitesi ve 19 Mayıs etkinlikleri"
+  ],
+  "notlar": "Valilik, MEB, jandarma, AFAD, sağlık, SASKİ, OMÜ ve Canik/Atakum haber-duyuru sayfaları 200 dönüyor. Büyükşehir belediyesinde /duyurular ve /haberler 500 verir; doğru adresler /guncel/duyurular ve /guncel/haberler. Su için ayrı kurum SASKİ (saski.gov.tr/sukesintileri/). Elektrik YEDAŞ, planlı kesinti sayfası JS tabanlı. Doğalgaz SAMGAZ sitesinde duyuru/haber ana sayfa bölümleri. İlkadım Belediyesi sitesi JS (Nuxt) tabanlı, düz HTTP ile içerik okunamıyor. Atakum /duyurular soft yönlendirme; Tekkeköy Belediyesi (https://www.tekkekoy.bel.tr/, haberler ./medya/1/haberler) listeye alınmadı, ancak merkez ilçelerdendir. Samsun Üniversitesi duyuru adresi /duyuru. Kültür Turizm Müdürlüğü sitesi açılmıyor; samsun.pol.tr/duyurular ilk denemede zaman aşımı verdi, sonra 200 döndü. Yerel haber siteleri arasında samsunhaberler.com escort/spam sitesine yönleniyor, samsungazete.com, samsunhaber.net, samsunyenigun.com açılmıyor; bunlar listeye alınmadı. Yurt dışı IP engeli görülmedi."
+}

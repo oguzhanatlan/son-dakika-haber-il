@@ -1,0 +1,216 @@
+{
+  "il": "Ordu",
+  "plaka": "52",
+  "slug": "ordu",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/ordu",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akkuş",
+    "Altınordu",
+    "Aybastı",
+    "Çamaş",
+    "Çatalpınar",
+    "Çaybaşı",
+    "Fatsa",
+    "Gölköy",
+    "Gülyalı",
+    "Gürgentepe",
+    "İkizce",
+    "Kabadüz",
+    "Kabataş",
+    "Korgan",
+    "Kumru",
+    "Mesudiye",
+    "Perşembe",
+    "Ulubey",
+    "Ünye"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Ordu Valiliği",
+      "url": "https://www.ordu.gov.tr/",
+      "duyuru_url": "https://www.ordu.gov.tr/duyurular",
+      "haber_url": "https://www.ordu.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.ordu.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, basın açıklamaları /basin-aciklamalari (hepsi 200). ordu.gov.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Ordu Büyükşehir Belediyesi",
+      "url": "https://ordu.bel.tr/",
+      "duyuru_url": "https://ordu.bel.tr/duyurular",
+      "haber_url": "https://ordu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular ağırlıklı imar/meclis/ilan; haberler /haberler (ör. /haber/...-49335 biçiminde). /su-kesintisi adresi 200 dönüyor ama soft 404 ('Sayfa Bulunamadı'). Kent rehberi ve OBB TV: obbtv.com."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Ordu İl Milli Eğitim Müdürlüğü",
+      "url": "https://ordu.meb.gov.tr/",
+      "duyuru_url": "https://ordu.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://ordu.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru RSS'i de 200 dönüyor. Kar/sel kaynaklı okul tatili kararları genelde Valilik/Kaymakamlık duyurusu ve yerel basın üzerinden çıkıyor."
+    },
+    {
+      "tur": "su",
+      "kurum": "Ordu Büyükşehir Belediyesi Su ve Kanalizasyon İdaresi Genel Müdürlüğü (OSKİ)",
+      "url": "https://oski.gov.tr/",
+      "duyuru_url": "https://oski.gov.tr/duyurular/",
+      "haber_url": "https://oski.gov.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi OSKİ (www.oski.gov.tr de açılıyor). /duyurular ve /haberler (200, soft 404 yok). Planlı kesinti için ayrı liste sayfası bulunamadı (/su-kesintileri 404); kesinti bilgisi haberlerde ve yerel basında 'OSKİ su kesintisi' başlığıyla çıkıyor. Abone/arıza sorgu: ebys.oski.gov.tr/sorgu/sorgula.aspx, harita: /harita.aspx. WhatsApp hattı sitede var."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Yeşilırmak Elektrik Dağıtım A.Ş. (YEDAŞ)",
+      "url": "https://www.yedas.com/",
+      "duyuru_url": "https://www.yedas.com/planli-kesinti",
+      "durum": 200,
+      "not": "YEDAŞ Samsun, Ordu, Sinop, Amasya ve Çorum'da hizmet veriyor (haber/kurum kaynakları ve YEDAŞ sayfaları ile doğrulandı). Planlı kesinti sayfası harita/JS tabanlı; yerel basın (ör. orduyenidonem.com.tr) günlük kesinti listelerini ilçe ilçe yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Ordu Giresun Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/ordu-giresun",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz grubunun Ordu-Giresun bölgesi. Duyuru sayfası 200 ama içeriği dinamik/çoğunlukla boş olabilir. Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir; yeni ilçelere doğalgaz gelmesi haber değeri taşıyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Ordu İl Sağlık Müdürlüğü",
+      "url": "https://orduism.saglik.gov.tr/",
+      "duyuru_url": "https://orduism.saglik.gov.tr/TR-51109/duyurular.html",
+      "durum": 200,
+      "not": "Adres orduism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; haberler /TR-51006/haberler.html.",
+      "haber_url": "https://orduism.saglik.gov.tr/TR-51006/haberler.html"
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Ordu İl Emniyet Müdürlüğü",
+      "url": "https://ordu.pol.tr/",
+      "duyuru_url": "https://ordu.pol.tr/duyurular",
+      "haber_url": "https://ordu.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi ordu.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Ordu İl Jandarma Komutanlığı",
+      "url": "https://ordu.jandarma.gov.tr/",
+      "duyuru_url": "https://ordu.jandarma.gov.tr/duyurular",
+      "haber_url": "https://ordu.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında (200)."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Ordu Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://ordu.afad.gov.tr/",
+      "duyuru_url": "https://ordu.afad.gov.tr/duyurular",
+      "haber_url": "https://ordu.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Haberler /haberler (200). Deprem verisi için https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Ordu Üniversitesi",
+      "url": "https://odu.edu.tr/",
+      "duyuru_url": "https://odu.edu.tr/TumDuyurular",
+      "haber_url": "https://odu.edu.tr/TumHaberler",
+      "durum": 200,
+      "not": "www.odu.edu.tr odu.edu.tr'ye yönleniyor. Tüm duyurular /TumDuyurular, tüm haberler /TumHaberler (200); /duyurular 404. Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Altınordu Belediyesi",
+      "url": "https://www.altinordu.bel.tr/",
+      "duyuru_url": "https://www.altinordu.bel.tr/duyurular",
+      "haber_url": "https://www.altinordu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe, nüfusça en büyük (altinordu.bel.tr www'ye yönleniyor olabilir). Duyuru ve haber sayfaları 200, soft 404 yok."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ünye Belediyesi",
+      "url": "https://www.unye.bel.tr/",
+      "duyuru_url": "https://www.unye.bel.tr/duyuru/",
+      "haber_url": "https://www.unye.bel.tr/haberler/",
+      "durum": 200,
+      "not": "/duyurular 404; duyurular /duyuru/ ve /duyurular/genel-duyurular/ altında (200, çoğu imar/askı ilanı). Haberler /haberler/ (200). Nüfusça ikinci büyük ilçe."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Fatsa Belediyesi",
+      "url": "https://www.fatsa.bel.tr/",
+      "duyuru_url": "https://www.fatsa.bel.tr/duyurular",
+      "haber_url": "https://www.fatsa.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler 200 (soft 404 yok). Nüfusça üçüncü büyük ilçe; sel/taşkın haberleri sık."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Ordu İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://ordu.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "ordu.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; aranan sık adres olduğu için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Ordu+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ordu Yeni Dönem",
+      "url": "https://www.orduyenidonem.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ordu Ulak",
+      "url": "https://www.orduulak.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Altın Ordu Ajansı",
+      "url": "https://www.altinorduajansi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Fatsa Gazetesi",
+      "url": "https://fatsagazetesi.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ünye'den Haber",
+      "url": "https://www.unyedenhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ünye Gündem Haber",
+      "url": "https://www.unyegundemhaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (YEDAŞ, ilçe ilçe mahalle listeleri)",
+    "OSKİ su kesintisi ve ana hat arızaları (Altınordu, Ünye, Fatsa, Perşembe)",
+    "sağanak, sel ve taşkın uyarıları (Fatsa, Ünye, Perşembe, Gülyalı dereleri)",
+    "heyelan ve yol kapanması; yayla ve yüksek kesim yolları (Mesudiye, Çambaşı, Aybastı, Kabataş)",
+    "kar nedeniyle okul tatili (iç kesimler: Mesudiye, Aybastı, Çambaşı) ve fırtına/dalga uyarısı",
+    "fındık hasadı, fındık fiyatları ve don/dolu zararı",
+    "Karadeniz Sahil Yolu ve Ordu çevre yolu trafik kazaları",
+    "turizm: Boztepe, Ordu-Giresun Havalimanı, Perşembe Yaylası, Ordu Büyükşehir etkinlik ve festivalleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD siteleri ve alt sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. Sağlık Müdürlüğü orduism.saglik.gov.tr. Büyükşehirde su idaresi OSKİ (oski.gov.tr) ayrı kurumdur; planlı kesinti için ayrı liste sayfası yok (haberler + yerel basın). ordu.bel.tr/su-kesintisi soft 404. YEDAŞ planlı kesinti sayfası harita tabanlı; günlük kesinti listeleri için yerel basın (orduyenidonem.com.tr) kullanılabilir. Ünye belediyesi duyuruları /duyuru/ altında. ordu.ktb.gov.tr açılmıyor. Aksa duyuru sayfası boş görünebilir. Üniversite duyuruları /TumDuyurular."
+}

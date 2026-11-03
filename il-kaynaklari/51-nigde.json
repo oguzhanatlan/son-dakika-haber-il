@@ -1,0 +1,198 @@
+{
+  "il": "Niğde",
+  "plaka": "51",
+  "slug": "nigde",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/nigde",
+  "buyuksehir": false,
+  "ilceler": [
+    "Altunhisar",
+    "Bor",
+    "Çamardı",
+    "Çiftlik",
+    "Merkez",
+    "Ulukışla"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Niğde Valiliği",
+      "url": "https://www.nigde.gov.tr/",
+      "duyuru_url": "https://www.nigde.gov.tr/duyurular",
+      "haber_url": "https://www.nigde.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler; ayrıca 'Validen Haberler' bölümü /validen-haberler. /basin-aciklamalari 404 (Hata/Page404 sayfasına yönleniyor, soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Niğde Belediyesi",
+      "url": "https://www.nigde.bel.tr/",
+      "duyuru_url": "https://www.nigde.bel.tr/duyurular",
+      "haber_url": "https://www.nigde.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyurular /duyurular, haberler /haberler; olmayan sayfalar /Hata/Page404'e yönleniyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Niğde İl Milli Eğitim Müdürlüğü",
+      "url": "https://nigde.meb.gov.tr/",
+      "duyuru_url": "https://nigde.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://nigde.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://nigde.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular, haberler ve duyuru RSS'i 200 dönüyor. Kar tatili vb. okul tatili kararları için valilik ve MEB duyurularına birlikte bakılmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Niğde Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://nigde.bel.tr/mudurlukler",
+      "duyuru_url": "https://www.nigde.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (müdürlükler sayfasında listeli). Planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı; kesinti duyuruları genel /duyurular ve /haberler içinde ve yerel basında çıkıyor. İçme suyu analiz raporu: https://www.nigde.bel.tr/kurumlar/nigde.bel.tr/YAYIN/docx-pdf/Icme-Suyu-Analiz-Raporu.pdf. Abone/su işlemleri uygulaması: https://keos.nigde.bel.tr/webaski/ (200)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Meram Elektrik Dağıtım A.Ş. (MEDAŞ)",
+      "url": "https://www.meramedas.com.tr/tr",
+      "duyuru_url": "https://www.meramedas.com.tr/tr/planli-kesintiler.html",
+      "durum": 200,
+      "not": "MEDAŞ Konya, Karaman, Aksaray, Nevşehir, Niğde ve Kırşehir'de hizmet veriyor (arama sonuçlarıyla Niğde doğrulandı). Planlı kesinti sayfası iframe ile https://cc.meramedas.com.tr/modules/meram/kesintilerweb.aspx adresini yüklüyor (200; form/JS tabanlı, il-ilçe seçimi gerekebilir). Genel duyurular: https://www.meramedas.com.tr/tr/duyurular (200). Arıza hattı 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Kapadokya Gaz Dağıtım A.Ş.",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "https://www.enerya.com.tr/tr/kurumsal/basin-odasi/",
+      "durum": 200,
+      "not": "Niğde ve Nevşehir doğalgaz dağıtımı Enerya Kapadokya Gaz Dağıtım A.Ş. (Enerya/Ahlatcı Doğal Gaz grubu) tarafından yapılıyor (haber ve KAP kaynaklarıyla doğrulandı); Enerya sitesinde il bazlı ayrı sayfa bulunamadı. Acil durum/arıza hattı 187. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Niğde İl Sağlık Müdürlüğü",
+      "url": "https://nigdeism.saglik.gov.tr/",
+      "duyuru_url": "https://nigdeism.saglik.gov.tr/TR-30548/duyurular.html",
+      "haber_url": "https://nigdeism.saglik.gov.tr/TR-30547/haberler.html",
+      "durum": 200,
+      "not": "Adres nigdeism.saglik.gov.tr. Duyurular ağırlıklı idari/personel; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Niğde İl Emniyet Müdürlüğü",
+      "url": "https://nigde.pol.tr/",
+      "duyuru_url": "https://nigde.pol.tr/duyurular",
+      "haber_url": "https://nigde.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi nigde.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Niğde İl Jandarma Komutanlığı",
+      "url": "https://nigde.jandarma.gov.tr/",
+      "duyuru_url": "https://nigde.jandarma.gov.tr/duyurular",
+      "haber_url": "https://nigde.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Niğde Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://nigde.afad.gov.tr/",
+      "duyuru_url": "https://nigde.afad.gov.tr/duyurular",
+      "haber_url": "https://nigde.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Niğde Ömer Halisdemir Üniversitesi",
+      "url": "https://www.ohu.edu.tr/",
+      "duyuru_url": "https://www.ohu.edu.tr/duyurular",
+      "haber_url": "https://www.ohu.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı; kampüs haberleri /haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bor Belediyesi",
+      "url": "http://www.bor.bel.tr/",
+      "duyuru_url": "http://www.bor.bel.tr/duyurular",
+      "haber_url": "http://www.bor.bel.tr/haberler",
+      "durum": 200,
+      "not": "Yalnızca http üzerinden açılıyor; https://bor.bel.tr ve https://www.bor.bel.tr bağlantı kuramadı (curl 000, SSL/bağlantı sorunu). Nüfusça Niğde Merkez'den sonra en büyük ilçe."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ulukışla Belediyesi",
+      "url": "https://ulukisla.bel.tr/",
+      "duyuru_url": "https://ulukisla.bel.tr/sayfa/Duyurular",
+      "haber_url": "https://ulukisla.bel.tr/sayfa/Haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; liste sayfaları /sayfa/Duyurular ve /sayfa/Haberler, tekil içerik /duyuru/... ve /haber/... biçiminde."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çiftlik Belediyesi",
+      "url": "https://ciftlik.bel.tr/",
+      "duyuru_url": "https://ciftlik.bel.tr/Home/Duyurular",
+      "haber_url": "https://ciftlik.bel.tr/Home/Haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; liste sayfaları /Home/Duyurular ve /Home/Haberler. www alt alanı açılmıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Niğde Belediyesi Ulaşım (şehir içi otobüs)",
+      "url": "https://www.nigde.bel.tr/otobus-saatleri",
+      "duyuru_url": "https://www.nigde.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Belediye otobüs saatleri sayfası; hat/sefer değişiklikleri belediye duyurularında yer alır."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Niğde İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://nigde.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "nigde.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; ktb.gov.tr il siteleri genelde açılmıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Ni%C4%9Fde+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Niğde Haberci",
+      "url": "https://www.nigdehaberci.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Niğde Haber Gazetesi",
+      "url": "https://www.nigdehaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Niğde Gündem (Dünden Bugüne Gündem)",
+      "url": "https://www.nigdegundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Niğde bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/nigde/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar ve buzlanma nedeniyle okul tatili, Niğde-Adana/Aksaray/Nevşehir yollarında ve Bolkar-Aladağlar kesiminde yol kapanması",
+    "planlı elektrik kesintisi (MEDAŞ) ve su kesintisi",
+    "tarım: Niğde elması, patates ve soğan fiyatları/hasadı, don ve dolu zararı",
+    "Niğde-Ankara (O-21/D750) ve Niğde-Adana otoyol/karayolu trafik kazaları",
+    "Ulukışla, Çamardı ve Demirkazık/Aladağlar dağcılık ve kış turizmi, Narlıgöl ve Kapadokya bölgesi turizm etkinlikleri",
+    "Ömer Halisdemir Üniversitesi: yerleştirme, akademik takvim ve öğrenci haberleri",
+    "doğalgaz kaynaklı patlama ve güvenlik uyarıları",
+    "deprem (Tuz Gölü-Ecemiş fay kuşağı yakınlığı) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma, AFAD ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve 'bulunamadı' içermiyor (soft 404 yok). Niğde Belediyesi sitesi olmayan sayfalarda /Hata/Page404'e yönlendiriyor (404). Su için ayrı idare yok, planlı su kesintisi için özel sayfa bulunamadı; belediye duyuruları ve yerel basına bakılmalı. MEDAŞ planlı kesinti sayfası iframe/form tabanlı. Bor Belediyesi yalnızca http ile açılıyor. Kültür Turizm Müdürlüğü sitesi açılmıyor. Ulukışla ve Çiftlik belediye sitelerinde duyuru/haber alt adresleri standart dışı (bkz. ilgili kayıtlar). Erişim testleri yurt dışı IP engeli göstermedi. Yerel haber siteleri yalnızca konu bulmak içindir."
+}

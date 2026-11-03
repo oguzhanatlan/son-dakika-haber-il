@@ -1,0 +1,196 @@
+{
+  "il": "Muş",
+  "plaka": "49",
+  "slug": "mus",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/mus",
+  "buyuksehir": false,
+  "ilceler": [
+    "Bulanık",
+    "Hasköy",
+    "Korkut",
+    "Malazgirt",
+    "Merkez",
+    "Varto"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Muş Valiliği",
+      "url": "https://mus.gov.tr/",
+      "duyuru_url": "https://mus.gov.tr/duyurular",
+      "haber_url": "https://mus.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200 ve soft 404 değil. /basin-aciklamalari 404."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Muş Belediyesi",
+      "url": "http://www.mus.bel.tr/",
+      "duyuru_url": "http://www.mus.bel.tr/duyuru",
+      "haber_url": "http://www.mus.bel.tr/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. HTTPS açılmıyor (curl 000), yalnızca http://www.mus.bel.tr çalışıyor. Menüdeki /duyurular ve /haberler adresleri doğrudan istendiğinde /Hata/NotFound'a yönleniyor; çalışan duyuru sayfası /duyuru (200). Haberler için ayrı liste adresi bulunamadı: haberler ana sayfada, tek tek haber adresleri kökte (ör. /mus-belediyesi-itfaiye-mudurlugu-680-olaya-mudahale-etti). Müdürlükler: /mudurluklerimiz; ihaleler /ihaleler 404 veriyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Muş İl Milli Eğitim Müdürlüğü",
+      "url": "https://mus.meb.gov.tr/",
+      "duyuru_url": "https://mus.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://mus.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://mus.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor. /acilduyurular/ 404. Kar tatili duyuruları Valilik ve MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Muş Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "http://www.mus.bel.tr/mudurluklerimiz",
+      "duyuru_url": "http://www.mus.bel.tr/duyuru",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (MUSKİ vb.) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (müdürlükler sayfasında listeli). Planlı su kesintisi için ayrı bir sayfa bulunamadı; kesinti duyuruları belediye duyuruları ve yerel basında çıkıyor. Yalnızca http çalışıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Vangölü Elektrik Dağıtım A.Ş. (VEDAŞ)",
+      "url": "https://www.vedas.com.tr/",
+      "duyuru_url": "https://www.vedas.com.tr/planli-kesintiler-TR.html",
+      "durum": 200,
+      "not": "VEDAŞ Van, Bitlis, Muş ve Hakkâri'de hizmet veriyor (haber ve kurumsal kaynaklarla doğrulandı; arıza hattı 186). Bu makineden https://www.vedas.com.tr açılmıyor: curl 000, SSL doğrulama hatası 20 (sunucu ara sertifikayı göndermiyor; *.vedas.com.tr sertifikası Sectigo, 2027'ye kadar geçerli). Site normal tarayıcıda açılıyor olabilir; güvenlik doğrulaması devre dışı bırakılarak test edilmedi. Planlı kesinti sayfasının adresi doğrulanamadığı için duyuru_url boş bırakıldı (siteden 'Planlı Çalışmalar' menüsüne bakılmalı). Planlı kesinti adresi Bitlis kaydından alındı (aynı şirket, Van-Bitlis-Muş-Hakkari); sitenin SSL ara sertifikası eksik, bazı istemcilerde açılmayabilir."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Doğugaz Bitlis Muş Bingöl Doğalgaz Dağıtım A.Ş.",
+      "url": "https://www.dogugaz.com.tr/",
+      "duyuru_url": "https://www.dogugaz.com.tr/duyurular",
+      "haber_url": "https://www.dogugaz.com.tr/haberler",
+      "durum": 200,
+      "not": "Muş dağıtım bölgesi Doğugaz kapsamında (merkez ofis Muş). Duyuru ve haberler çoğunlukla ihale, tarife ve abonelik duyurusu; planlı gaz kesintisi duyurusu nadir. dogugaz.com.tr de açılıyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Muş İl Sağlık Müdürlüğü",
+      "url": "https://musism.saglik.gov.tr/",
+      "duyuru_url": "https://musism.saglik.gov.tr/TR-17838/duyurular.html",
+      "durum": 200,
+      "not": "Adres musism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı bilgileri ve şebeke suyu analiz uyarıları için ana sayfaya ve haberlere bakılmalı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Muş İl Emniyet Müdürlüğü",
+      "url": "https://mus.pol.tr/",
+      "duyuru_url": "https://mus.pol.tr/duyurular",
+      "haber_url": "https://mus.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi mus.pol.tr; duyuru ve haber sayfaları 200. Olay haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Muş İl Jandarma Komutanlığı",
+      "url": "https://mus.jandarma.gov.tr/",
+      "duyuru_url": "https://mus.jandarma.gov.tr/duyurular",
+      "haber_url": "https://mus.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon ve olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Muş Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://mus.afad.gov.tr/",
+      "duyuru_url": "https://mus.afad.gov.tr/duyurular",
+      "haber_url": "https://mus.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Muş Alparslan Üniversitesi",
+      "url": "https://www.alparslan.edu.tr/tr",
+      "duyuru_url": "https://www.alparslan.edu.tr/tr/page/announcement",
+      "haber_url": "https://www.alparslan.edu.tr/tr/page/news",
+      "durum": 200,
+      "not": "/tr/duyurular ve /tr/haberler 404; gerçek adresler /tr/page/announcement ve /tr/page/news. Duyurular idari/akademik (personel alımı, sınav) ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bulanık Belediyesi",
+      "url": "https://bulanik.bel.tr/",
+      "duyuru_url": "https://bulanik.bel.tr/duyurular",
+      "haber_url": "https://bulanik.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusu en büyük ilçe (yaklaşık 69 bin, ilçe geneli)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Malazgirt Belediyesi",
+      "url": "https://malazgirt.bel.tr/",
+      "duyuru_url": "https://malazgirt.bel.tr/duyurular.html",
+      "haber_url": "https://malazgirt.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "Duyurular /duyurular.html, haberler /haberler.html. Malazgirt Zaferi etkinlikleri (Ağustos) sık haber konusu."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Varto Belediyesi",
+      "url": "https://varto.bel.tr/",
+      "duyuru_url": "https://varto.bel.tr/haber/duyuru",
+      "haber_url": "https://varto.bel.tr/haberler",
+      "durum": 200,
+      "not": "/duyurular login sayfasına yönleniyor; duyurular /haber/duyuru altında."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Muş İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://mus.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "mus.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; ktb il siteleri genelde erişilemiyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Mu%C5%9F+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Alparslan Diyarı Gazetesi",
+      "url": "https://www.alparslandiyari.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber49",
+      "url": "https://haber49.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Muş Kent Haber",
+      "url": "https://muskenthaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Muş Haber ve Tanıtım Portalı",
+      "url": "https://www.mus.gen.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Muş bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/mus/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (uzun ve sert kış)",
+    "planlı elektrik kesintisi ve kar/fırtına kaynaklı arıza (VEDAŞ)",
+    "şebeke suyu analiz uyarıları, su kesintisi ve içme suyu altyapı çalışmaları",
+    "deprem ve AFAD bilgilendirmeleri (Doğu Anadolu Fay Hattı, Bingöl-Varto hattı)",
+    "Muş Ovası tarımı, don ve sel/taşkın (Murat, Karasu), hayvancılık",
+    "Malazgirt Zaferi etkinlikleri ve Malazgirt Meydan Muharebesi anma programları",
+    "Muş-Bingöl, Muş-Bitlis ve Muş-Van kara yolları, trafik kazaları, Muş Alparslan Havalimanı seferleri",
+    "belediye hizmetleri ve ihaleleri, üniversite öğrenci ulaşımı ve kamu personel alımı ilanları"
+  ],
+  "notlar": "Valilik, MEB, emniyet, jandarma, AFAD, Doğugaz ve Alparslan Üniversitesi duyuru/haber sayfaları 200 dönüyor, soft 404 değil. Muş Belediyesi sitesi yalnızca http ile açılıyor (https curl 000); /duyurular ve /haberler NotFound'a yönleniyor, çalışan adres /duyuru; haberler ana sayfada. Su için ayrı idare yok, belediye Su ve Kanalizasyon Müdürlüğü; planlı su kesintisi için özel sayfa bulunamadı, belediye duyuruları ve yerel basına bakılmalı. VEDAŞ (www.vedas.com.tr) bu ortamdan SSL doğrulama hatası veriyor (hata 20), planlı kesinti sayfası doğrulanamadı; kesinti bilgisi için yerel basın ve Google Haberler da kullanılmalı. Sağlık Müdürlüğü musism.saglik.gov.tr üzerinde. Hasköy Belediyesi (hasko.bel.tr) açılmıyor; Korkut Belediyesi korkut.bel.tr açılıyor ama ilçe_belediye listesine alınmadı (küçük ilçe). Kültür Turizm sitesi açılmıyor. Denenen ve açılmayan/boş yerel siteler: mushaberleri.com (curl 000), musgundem.com (lander yönlendirmesi, boş), musgazetesi.com, mushaber.com, mus49.com. Yurt dışı IP engeli belirtisi görülmedi."
+}

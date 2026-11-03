@@ -1,0 +1,232 @@
+{
+  "il": "Kahramanmaraş",
+  "plaka": "46",
+  "slug": "kahramanmaras",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kahramanmaras",
+  "buyuksehir": true,
+  "ilceler": [
+    "Afşin",
+    "Andırın",
+    "Çağlayancerit",
+    "Dulkadiroğlu",
+    "Ekinözü",
+    "Elbistan",
+    "Göksun",
+    "Nurhak",
+    "Onikişubat",
+    "Pazarcık",
+    "Türkoğlu"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kahramanmaraş Valiliği",
+      "url": "https://kahramanmaras.gov.tr/",
+      "duyuru_url": "https://kahramanmaras.gov.tr/duyurular",
+      "haber_url": "https://kahramanmaras.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://kahramanmaras.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, vali haberleri /validen-haberler, basın açıklamaları /basin-aciklamalari (hepsi 200, içerik var). Kar tatili/yol kapanması gibi acil duyurular burada ve MEB'de çıkar."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kahramanmaraş Büyükşehir Belediyesi",
+      "url": "https://www.kahramanmaras.bel.tr/",
+      "duyuru_url": "https://www.kahramanmaras.bel.tr/duyurular",
+      "haber_url": "https://www.kahramanmaras.bel.tr/haber",
+      "durum": 200,
+      "not": "Büyükşehir. Duyurular /duyurular (detay /duyuru/YYYY/AA/GG/slug), haberler /haber (/haberler 404). İhale ilanları /ihale-ilanlari. AKOM (Afet Koordinasyon Merkezi) yağış/fırtına uyarıları ve yol çalışmaları haber olarak burada çıkıyor. kahramanmaras.bel.tr ile www aynı site."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kahramanmaraş İl Milli Eğitim Müdürlüğü",
+      "url": "https://kmaras.meb.gov.tr/",
+      "duyuru_url": "https://kmaras.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://kmaras.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://kmaras.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Resmî adres kmaras.meb.gov.tr (başlık: MEB Kahramanmaraş İl Millî Eğitim Müdürlüğü). kahramanmaras.meb.gov.tr yalnızca http ile açılıyor, https bağlantı hatası veriyor (curl 000, SSL); boş başlıklı eski site, kullanma. Duyuru RSS 200."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kahramanmaraş Su ve Kanalizasyon İdaresi Genel Müdürlüğü (KASKİ)",
+      "url": "https://www.maraskaski.gov.tr/",
+      "duyuru_url": "https://www.maraskaski.gov.tr/sukesintisi/",
+      "haber_url": "https://www.maraskaski.gov.tr/haberler/",
+      "rss": "https://www.maraskaski.gov.tr/sukesintisi/feed/",
+      "genel_duyuru_url": "https://www.maraskaski.gov.tr/duyuru/",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi. DİKKAT: kaski.gov.tr Kayseri'nin KASKİ'sidir, karıştırma; Kahramanmaraş için maraskaski.gov.tr (www ile; www'siz açılmıyor). Planlı su kesintisi sayfası /sukesintisi/ (feed: /sukesintisi/feed/); sayfa kesinti yokken 'İçerik bulunamadı' yazıyor (normal). Genel duyurular /duyuru/ (ağırlıkla personel/ihale), haberler /haberler/. Ana feed: /feed/. Kesintiler ayrıca yerel basında ilçe ilçe çıkıyor (Onikişubat, Dulkadiroğlu)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "AKEDAŞ Elektrik Dağıtım A.Ş.",
+      "url": "https://www.akedasdagitim.com.tr/",
+      "duyuru_url": "https://www.akedasdagitim.com.tr/programli-kesintiler",
+      "haber_url": "https://www.akedasdagitim.com.tr/haberler",
+      "durum": 200,
+      "not": "Kahramanmaraş ve Adıyaman dağıtım bölgesi AKEDAŞ (haber ve sektör kaynaklarıyla doğrulandı). Dağıtım sitesi akedasdagitim.com.tr; akedas.com.tr grup/enerji sitesi. Site Angular tabanlı (JS) ve bilinmeyen adreslere de 200 döndürüyor; menüden doğrulanan 'Programlı Kesintiler' sayfası /programli-kesintiler. Arıza çağrı 186. İlçe belediyeleri (ör. Elbistan) planlı kesinti duyurularını kendi sitelerinde de paylaşıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Armadaş Arsan Maraş Doğalgaz Dağıtım A.Ş. (ARMADAŞ)",
+      "url": "http://www.armadas.com.tr/",
+      "duyuru_url": "",
+      "abone_url": "https://www.marasgaz.com.tr/",
+      "durum": 200,
+      "not": "Kahramanmaraş doğalgaz dağıtım şirketi. Yalnızca http ile açılıyor (https://www.armadas.com.tr curl 000). Ayrı duyuru/haber sayfası yok; abone portalı marasgaz.com.tr (200). Planlı gaz kesintisi duyurusu nadir; olaylar (patlama, arıza) yerel basından izlenmeli."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kahramanmaraş İl Sağlık Müdürlüğü",
+      "url": "https://kahramanmarasism.saglik.gov.tr/",
+      "duyuru_url": "https://kahramanmarasism.saglik.gov.tr/TR-17813/kurumsal-duyurular.html",
+      "durum": 200,
+      "not": "Adres kahramanmarasism.saglik.gov.tr. Doğru duyuru sayfası /TR-17813/kurumsal-duyurular.html (kalıp adres /TR,1/duyurular.html 'Sayfa Bulunmadı' sayfası döndürüyor, soft 404). Ayrı haber sayfası ana sayfada bulunamadı; duyurular ağırlıkla idari."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kahramanmaraş İl Emniyet Müdürlüğü",
+      "url": "https://kahramanmaras.pol.tr/",
+      "duyuru_url": "https://kahramanmaras.pol.tr/duyurular",
+      "haber_url": "https://kahramanmaras.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kahramanmaras.pol.tr. /duyurular ve /haberler 200 (sayfa başlığı boş, JS/şablon ağırlıklı); olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kahramanmaraş İl Jandarma Komutanlığı",
+      "url": "https://kahramanmaras.jandarma.gov.tr/",
+      "duyuru_url": "https://kahramanmaras.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kahramanmaras.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler 200, sayfa başlıkları doğru. Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kahramanmaraş Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kahramanmaras.afad.gov.tr/",
+      "duyuru_url": "https://kahramanmaras.afad.gov.tr/duyurular",
+      "haber_url": "https://kahramanmaras.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler 200. 6 Şubat 2023 depremlerinin merkezi olduğundan deprem/afet haberleri çok aranır. Anlık deprem listesi için https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kahramanmaraş Sütçü İmam Üniversitesi (KSÜ)",
+      "url": "https://www.ksu.edu.tr/",
+      "duyuru_url": "https://www.ksu.edu.tr/default.aspx?MI=42546&DId=KSU",
+      "haber_url": "https://www.ksu.edu.tr/default.aspx?MI=42547&DId=KSU",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; duyurular ana sayfadaki 'Tümünü Gör' bağlantısı olan default.aspx?MI=42546&DId=KSU, haberler default.aspx?MI=42547&DId=KSU (ana sayfada 'Üniversitemizden Haberler'). Duyurular idari/akademik/kurs ağırlıklı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "İstiklal Bilim ve Teknoloji Üniversitesi (İBTÜ, eski Kahramanmaraş İstiklal Üniversitesi)",
+      "url": "https://www.istiklal.edu.tr/",
+      "duyuru_url": "https://www.istiklal.edu.tr/anasayfa/duyurular",
+      "haber_url": "https://www.istiklal.edu.tr/anasayfa/haberler",
+      "durum": 200,
+      "not": "Angular tabanlı SPA, her adrese 200 döndürüyor (soft 200); duyuru/haber listeleri ana sayfadaki bağlantılarla doğrulandı: /anasayfa/duyurular, /anasayfa/haberler. istiklal.edu.tr ile www aynı site."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Onikişubat Belediyesi",
+      "url": "https://www.onikisubat.bel.tr/",
+      "duyuru_url": "https://www.onikisubat.bel.tr/Duyurular",
+      "haber_url": "https://www.onikisubat.bel.tr/Haberler",
+      "durum": 200,
+      "not": "Merkez ilçe (nüfusça en büyük). Duyurular /Duyurular, haberler /Haberler (büyük harfle)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Dulkadiroğlu Belediyesi",
+      "url": "https://www.dulkadiroglu.bel.tr/",
+      "duyuru_url": "https://www.dulkadiroglu.bel.tr/duyurular",
+      "haber_url": "https://www.dulkadiroglu.bel.tr/guncel-haberler",
+      "durum": 200,
+      "not": "Merkez ilçe. Haberler /guncel-haberler. dulkadiroglu.bel.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Elbistan Belediyesi",
+      "url": "https://elbistan.bel.tr/",
+      "duyuru_url": "https://elbistan.bel.tr/duyurular.html",
+      "haber_url": "https://elbistan.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "Merkez dışı en büyük ilçe. Ana sayfa duyurularında AKEDAŞ planlı kesinti (mahalle listesi) duyuruları da yayımlanıyor. Haberler /haberler.html."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Pazarcık Belediyesi",
+      "url": "https://pazarcik.bel.tr/",
+      "duyuru_url": "https://pazarcik.bel.tr/duyuru",
+      "haber_url": "https://pazarcik.bel.tr/haber",
+      "durum": 200,
+      "not": "Depremin merkez üssü ilçelerinden. Haberler /haber."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kahramanmaraş Büyükşehir Belediyesi Ulaşım Hizmetleri (şehir içi otobüs)",
+      "url": "https://www.kahramanmaras.bel.tr/",
+      "duyuru_url": "https://www.kahramanmaras.bel.tr/haber",
+      "durum": 200,
+      "not": "Ayrı bir ulaşım işletmesi sitesi yok; otobüs hat/sefer değişiklikleri (bayramda ücretsiz ulaşım vb.) büyükşehir sitesindeki haber/duyurularda. /ulasim-rehberi 404."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kahramanmaraş İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://kahramanmaras.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "kahramanmaras.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; adres kalıp gereği kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Kahramanmara%C5%9F+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Marasnews.com",
+      "url": "https://www.marasnews.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Maraş Gündem",
+      "url": "https://www.marasgundem.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kahramanmaraş Haber",
+      "url": "https://www.kahramanmarashaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Kahramanmaraş bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/kahramanmaras/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "deprem ve AFAD bilgilendirmeleri (6 Şubat 2023 depremleri, artçılar, yeniden inşa/konut teslimleri)",
+    "planlı elektrik kesintisi (AKEDAŞ) ve planlı su kesintisi (KASKİ)",
+    "kar nedeniyle okul tatili ve yayla/ilçe yollarının kapanması (Göksun, Andırın, Elbistan, Nurhak, Afşin kesimi)",
+    "kuvvetli yağış, sel ve fırtına uyarıları (AKOM, Meteoroloji)",
+    "Afşin-Elbistan termik santral, kömür ve maden haberleri",
+    "kentsel dönüşüm, hasarlı bina yıkımı ve deprem bölgesi konut/kira konuları",
+    "Maraş dondurması, Maraş tarhanası, biber ve yerel ürün/festival haberleri",
+    "şehir içi ulaşım, yol çalışmaları ve trafik kazaları (D815, Kahramanmaraş-Gaziantep/Adana yolları)"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık ve ilçe belediyesi duyuru/haber sayfaları 200 dönüyor (curl, yurt dışı IP engeli görülmedi). Dikkat edilecekler: (1) MEB için kmaras.meb.gov.tr kullan; kahramanmaras.meb.gov.tr https'te açılmıyor. (2) Su idaresi maraskaski.gov.tr (www'li); kaski.gov.tr Kayseri'ye aittir. (3) Elektrik AKEDAŞ (Kahramanmaraş + Adıyaman); site JS tabanlı, programlı kesinti listesi /programli-kesintiler, yapısı curl ile okunamayabilir, ilçe belediyeleri (Elbistan) ve yerel basın kesinti listesini metin olarak veriyor. (4) Doğalgaz ARMADAŞ sitesi yalnızca http, duyuru sayfası yok. (5) Sağlık Müdürlüğü /TR,1/duyurular.html soft 404 veriyor, doğru duyuru adresi /TR-17813/kurumsal-duyurular.html. (6) KSÜ duyuruları default.aspx?MI=42546&DId=KSU adresinde; İBTÜ (istiklal.edu.tr) SPA ve soft 200 veriyor. (7) Kültür Turizm Müdürlüğü sitesi açılmıyor. Yeniyolgazetesi.com Adıyaman gazetesi, kahramanmarasgundem.com 'Yakında' sayfası; ikisi listeye alınmadı."
+}

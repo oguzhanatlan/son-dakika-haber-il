@@ -1,0 +1,219 @@
+{
+  "il": "Muğla",
+  "plaka": "48",
+  "slug": "mugla",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/mugla",
+  "buyuksehir": true,
+  "ilceler": [
+    "Bodrum",
+    "Dalaman",
+    "Datça",
+    "Fethiye",
+    "Kavaklıdere",
+    "Köyceğiz",
+    "Marmaris",
+    "Menteşe",
+    "Milas",
+    "Ortaca",
+    "Seydikemer",
+    "Ula",
+    "Yatağan"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Muğla Valiliği",
+      "url": "https://www.mugla.gov.tr/",
+      "duyuru_url": "https://www.mugla.gov.tr/duyurular",
+      "haber_url": "https://www.mugla.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (ikisi de 200, içerik dolu). Orman yangını, kıyı/deniz uyarıları ve valilik basın açıklamaları burada."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Muğla Büyükşehir Belediyesi",
+      "url": "https://www.mugla.bel.tr/",
+      "duyuru_url": "https://www.mugla.bel.tr/duyurular",
+      "haber_url": "https://www.mugla.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Site çerez tabanlı yönlendirme yapıyor: çerezsiz curl 302 ile sonsuz döngüye giriyor, çerez saklayan istemci (curl -b/-c cookie jar veya tarayıcı) ile 200 dönüyor. Duyurular /duyurular (detay: /duyuru/{slug}), haberler /haberler (detay: /haber/{slug}). Bodrum-Datça feribot seferi iptalleri duyuru olarak çıkıyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Muğla İl Milli Eğitim Müdürlüğü",
+      "url": "https://mugla.meb.gov.tr/",
+      "duyuru_url": "https://mugla.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://mugla.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://mugla.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru RSS 200 dönüyor. Haberler /www/haberler/kategori/1 (200)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Muğla Su ve Kanalizasyon İdaresi Genel Müdürlüğü (MUSKİ)",
+      "url": "https://www.muski.gov.tr/",
+      "duyuru_url": "https://www.muski.gov.tr/su-kesintileri",
+      "haber_url": "https://www.muski.gov.tr/haberler",
+      "durum": 200,
+      "not": "Planlı ve acil su kesintileri /su-kesintileri sayfasında (il/ilçe filtreli liste, JS ile süzülüyor; sayfadaki 'bulunamadı' ifadesi sadece filtre boş sonuç mesajıdır, soft 404 değil). Duyurular /duyurular, haberler /haberler. muski.gov.tr www'ye ayrışmıyor, ikisi de 200."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "ADM Elektrik Dağıtım A.Ş. (eski adıyla Aydem)",
+      "url": "https://www.admelektrik.com.tr/",
+      "duyuru_url": "https://www.admelektrik.com.tr/bilgi-merkezi/planli-bakim-ve-iyilestirme-calismalari",
+      "haber_url": "https://www.admelektrik.com.tr/bilgi-merkezi/duyurular",
+      "durum": 200,
+      "not": "Aydın, Denizli ve Muğla'ya hizmet veriyor (EPDK dağıtım lisansı 17.07.2008; admelektrik.com.tr hakkımızda sayfasında doğrulandı; genel merkez Denizli). Planlı kesintiler 'Planlı Çalışma Haritası' (harita/JS tabanlı, il-ilçe seçimi gerekir). Genel duyurular: /bilgi-merkezi/duyurular (200). Arıza bildirimi: portal.admelektrik.com.tr. Yerel basında günlük 'Muğla elektrik kesintisi' listeleri çıkıyor. aydem.com.tr ve aydemperakende.com.tr eski/perakende markası, resmî dağıtım kaynağı değil."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Muğla Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://akmercanmuglagaz.com.tr/",
+      "duyuru_url": "https://akmercanmuglagaz.com.tr/haberler-ve-duyurular",
+      "durum": 200,
+      "not": "Lisans bölgesi Muğla merkez, Yatağan, Ula (EPDK 2012-2013 ihalesi; turkiye.gov.tr'de şirket kaydı var). Bodrum, Fethiye, Marmaris, Milas gibi turizm ilçeleri bu şirketin bölgesi olarak doğrulanmadı; ilçe gaz haberleri için yerel basına bakılmalı. Site Next.js (içerik JS ile yükleniyor). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Muğla İl Sağlık Müdürlüğü",
+      "url": "https://muglaism.saglik.gov.tr/",
+      "duyuru_url": "https://muglaism.saglik.gov.tr/TR-41098/duyurular.html",
+      "haber_url": "https://muglaism.saglik.gov.tr/TR-41097/haberler.html",
+      "durum": 200,
+      "not": "Adres muglaism.saglik.gov.tr. Haberler /TR-41097/haberler.html, arşivler /TR-67212/duyuru-arsivi.html ve /TR-67213/haber-arsivi.html, kamuoyu duyuruları /TR-396025/kamuoyu-duyurusu.html. Genel /TR-0/duyurular.html ana sayfaya yönleniyor, kullanma."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Muğla İl Emniyet Müdürlüğü",
+      "url": "https://mugla.pol.tr/",
+      "duyuru_url": "https://mugla.pol.tr/duyurular",
+      "haber_url": "https://mugla.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi mugla.pol.tr. Olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Muğla İl Jandarma Komutanlığı",
+      "url": "https://mugla.jandarma.gov.tr/",
+      "duyuru_url": "https://mugla.jandarma.gov.tr/duyurular",
+      "haber_url": "https://mugla.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon, kaçak göçmen ve olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Muğla Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://mugla.afad.gov.tr/",
+      "duyuru_url": "https://mugla.afad.gov.tr/duyurular",
+      "haber_url": "https://mugla.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Muğla Sıtkı Koçman Üniversitesi",
+      "url": "https://www.mu.edu.tr/",
+      "duyuru_url": "https://www.mu.edu.tr/tr/duyurular",
+      "haber_url": "https://www.mu.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "Eski /duyurular ve /haberler adresleri /404 sayfasına düşüyor (200 dönen soft 404); doğru adresler /tr/duyurular ve /tr/haberler. Sayfalar çok ağır (1-4 MB)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Bodrum Belediyesi",
+      "url": "https://www.bodrum.bel.tr/",
+      "duyuru_url": "https://www.bodrum.bel.tr/duyurular",
+      "haber_url": "https://www.bodrum.bel.tr/haberler.php",
+      "durum": 200,
+      "not": "Duyurular /duyurular (detay duyuru.php?id=), haberler /haberler.php. Yaz mevsimi su/trafik/çevre duyuruları yoğun."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Fethiye Belediyesi",
+      "url": "https://www.fethiye.bel.tr/",
+      "duyuru_url": "https://www.fethiye.bel.tr/",
+      "haber_url": "https://www.fethiye.bel.tr/Fethiye-Belediyesi-Haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; ayrı duyuru sayfası bulunamadı (ana sayfada duyuru bandı var). Haberler /Fethiye-Belediyesi-Haberler (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Marmaris Belediyesi",
+      "url": "https://www.marmaris.bel.tr/",
+      "duyuru_url": "https://www.marmaris.bel.tr/?Page=guncel-duyurular",
+      "haber_url": "https://www.marmaris.bel.tr/?Page=haberler",
+      "durum": 200,
+      "not": "Parametreli yapı: /?Page=guncel-duyurular, /?Page=haberler, basın açıklamaları /?Page=basin-aciklamalari. /duyurular ve /haberler ana sayfaya düşen soft yönlendirme, kullanma."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Muğla Ulaşım Turizm Taşımacılık (MUTTAŞ)",
+      "url": "https://muttas.com.tr/",
+      "duyuru_url": "https://ulasim.muttas.com.tr/",
+      "durum": 200,
+      "not": "Büyükşehir toplu taşıma işletmesi; sefer değişikliği/iptal duyuruları ulasim.muttas.com.tr üzerinde. Bodrum-Datça feribot iptalleri mugla.bel.tr/duyurular altında da çıkıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Muğla İl Kültür ve Turizm Müdürlüğü",
+      "url": "",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Bu turdaki kalıba göre denenmedi (ktb.gov.tr il siteleri genelde açılmıyor); adres bulunamadı, kaynak olarak kullanılmamalı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Mu%C4%9Fla+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bengü Türk (Muğla)",
+      "url": "https://www.benguturk.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Bodrum Haber",
+      "url": "https://bodrumhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Fethiye Haber",
+      "url": "https://www.fethiyehaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Fethiye Gazetesi",
+      "url": "https://fethiyegazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Marmaris Haber",
+      "url": "https://www.marmarishaber.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Muğla bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/mugla/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "orman yangınları (Marmaris, Bodrum, Milas, Menteşe, Köyceğiz) ve tahliye/yol kapatma haberleri",
+    "planlı elektrik kesintisi (ADM Elektrik) ve yaz aylarında kesintiler",
+    "su kesintisi ve yaz dönemi su sıkıntısı (MUSKİ; Bodrum, Datça, Marmaris)",
+    "turizm sezonu: Bodrum/Marmaris/Fethiye otel-plaj, kaçak yapı ve fahiş fiyat denetimleri",
+    "deniz ulaşımı: Bodrum-Datça-Marmaris feribot seferi iptalleri, deniz durumu, fırtına/sağanak uyarıları",
+    "deprem (Ege Denizi ve Datça/Bodrum açıkları) ve AFAD bilgilendirmeleri",
+    "kaçak göçmen yakalamaları ve sahil güvenlik/jandarma operasyonları",
+    "Dalaman ve Milas-Bodrum havalimanı uçuş aksamaları, yoğunluk ve trafik/yol çalışmaları"
+  ],
+  "notlar": "Muğla büyükşehir; su MUSKİ ayrı kurum (muski.gov.tr), belediye mugla.bel.tr çerez ister (çerezsiz curl 302 döngüsü verir). Elektrik dağıtımı ADM Elektrik (eski Aydem; admelektrik.com.tr), planlı kesinti sayfası harita/JS tabanlı. Doğalgaz Akmercan Muğla sadece merkez/Yatağan/Ula bölgesinde. Üniversite sitesinde /duyurular soft 404, doğrusu /tr/duyurular. Sağlık müdürlüğü ana duyuru sayfası /TR-41098/duyurular.html. İlçe belediyeleri turizm yoğunluğu nedeniyle seçildi (Bodrum, Fethiye, Marmaris); Milas Belediyesi de önemli ama http://www.milas.bel.tr (HTTP) 200, HTTPS'te sertifika zinciri hatası veriyor (curl -k ile 200; duyurular /duyurular, haberler /Haberler), bu yüzden listeye alınmadı. Kültür Turizm Müdürlüğü sitesi denenmedi/bulunamadı. Erişim testlerinde yurt dışı IP engeli görülmedi. Yerel haber olarak mugladabugun.com park edilmiş, muglahaber.com yönlendirme sayfası, muglagazete.com spam; listeye alınmadı."
+}
