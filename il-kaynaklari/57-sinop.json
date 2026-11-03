@@ -1,0 +1,186 @@
+{
+  "il": "Sinop",
+  "plaka": "57",
+  "slug": "sinop",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/sinop",
+  "buyuksehir": false,
+  "ilceler": [
+    "Ayancık",
+    "Boyabat",
+    "Dikmen",
+    "Durağan",
+    "Erfelek",
+    "Gerze",
+    "Merkez",
+    "Saraydüzü",
+    "Türkeli"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Sinop Valiliği",
+      "url": "https://www.sinop.gov.tr/",
+      "duyuru_url": "https://www.sinop.gov.tr/duyurular",
+      "haber_url": "https://www.sinop.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200 ve içerik dolu (soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Sinop Belediyesi",
+      "url": "https://www.sinop.bel.tr/",
+      "duyuru_url": "https://www.sinop.bel.tr/haberler/duyurular/",
+      "haber_url": "https://www.sinop.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. sinop.bel.tr www'ye yönleniyor. Haberler ve duyurular tek listede (/haberler/, 'Haberler / Duyurular'); kategori /haberler/duyurular/. /duyurular 404. İmar duyuruları: https://www.sinop.bel.tr/imar-duyurulari/ (200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Sinop İl Milli Eğitim Müdürlüğü",
+      "url": "https://sinop.meb.gov.tr/",
+      "duyuru_url": "https://sinop.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://sinop.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://sinop.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası, haber sayfası ve duyuru RSS'i 200 dönüyor. Kar/fırtına kaynaklı okul tatili duyuruları valilik ve MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Sinop Belediyesi Su İşleri (Su ve Kanalizasyon hizmetleri)",
+      "url": "https://www.sinop.bel.tr/su-abone-islemleri/",
+      "duyuru_url": "https://www.sinop.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (SASKİ vb.) yok; hizmeti Sinop Belediyesi yürütüyor. Planlı su kesintisi için ayrı sayfa yok (/su-kesintisi ve /su-kesintileri 404); kesinti duyuruları /haberler/ içinde ve yerel basında çıkıyor. Su analiz raporları: https://www.sinop.bel.tr/su-analiz-raporu/ (200). Ana sayfa menüsünde 'Su Abone İşlemleri' var. Merkez içme suyu Erfelek Barajı/Karasu kaynaklı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Yeşilırmak Elektrik Dağıtım A.Ş. (YEDAŞ)",
+      "url": "https://www.yedas.com/",
+      "duyuru_url": "https://www.yedas.com/planli-kesinti",
+      "durum": 200,
+      "not": "YEDAŞ Samsun, Ordu, Çorum, Amasya ve Sinop'ta hizmet veriyor (Sinop için YEDAŞ yatırım ve kesinti haberleri arama sonuçlarıyla doğrulandı; ayrı Sinop il sayfası yok, yedas.com/sinop 404). Planlı Kesinti Haritası harita/JS tabanlı, il-ilçe seçimi gerekebilir. Arıza hattı 186. www.yedas.com.tr alan adı SSL sorunlu olabilir; www.yedas.com tercih edilmeli."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Sinop Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://akmercansinopgaz.com.tr/",
+      "duyuru_url": "https://akmercansinopgaz.com.tr/haberler-ve-duyurular",
+      "durum": 200,
+      "not": "www.akmercansinopgaz.com.tr apex alan adına yönleniyor. Duyuru sayfası /haberler-ve-duyurular (200); /duyurular ve /haberler 404. Doğalgaz dağıtımı ilçelere kademeli yayılıyor (ör. Dikmen'de başladı). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Sinop İl Sağlık Müdürlüğü",
+      "url": "https://sinopism.saglik.gov.tr/",
+      "duyuru_url": "https://sinopism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres sinopism.saglik.gov.tr. Duyuru/haber alt sayfasının adresi doğrulanamadı (bu çalışmada ana sayfa kaydedildi); duyuru ve haberler ana sayfada listeleniyor. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri ana sayfada."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Sinop İl Emniyet Müdürlüğü",
+      "url": "https://sinop.pol.tr/",
+      "duyuru_url": "https://sinop.pol.tr/duyurular",
+      "haber_url": "https://sinop.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi sinop.pol.tr. Olay/operasyon haberleri /haberler altında; duyurular çoğunlukla idari."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Sinop İl Jandarma Komutanlığı",
+      "url": "https://sinop.jandarma.gov.tr/",
+      "duyuru_url": "https://sinop.jandarma.gov.tr/duyurular",
+      "haber_url": "https://sinop.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Sinop Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://sinop.afad.gov.tr/",
+      "duyuru_url": "https://sinop.afad.gov.tr/duyurular",
+      "haber_url": "https://sinop.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Sinop Üniversitesi",
+      "url": "https://www.sinop.edu.tr/",
+      "duyuru_url": "https://www.sinop.edu.tr/duyurular",
+      "haber_url": "https://www.sinop.edu.tr/haberler/",
+      "durum": 200,
+      "not": "WordPress site; sayfalardaki 'bulunamadı' ifadesi erişilebilirlik eklentisinin gizli metni (soft 404 değil). Duyurular idari/akademik ağırlıklı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Boyabat Belediyesi",
+      "url": "https://www.boyabat.bel.tr/",
+      "duyuru_url": "https://www.boyabat.bel.tr/duyurular",
+      "haber_url": "https://www.boyabat.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe (yaklaşık 45 bin). Duyurular ağırlıklı ihale/taşınmaz satış ilanı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gerze Belediyesi",
+      "url": "https://www.gerze.bel.tr/",
+      "duyuru_url": "https://www.gerze.bel.tr/duyurular",
+      "haber_url": "https://www.gerze.bel.tr/haberler",
+      "durum": 200,
+      "not": "gerze.bel.tr www'ye yönleniyor. İlçe nüfusu yaklaşık 29 bin (kaynaklara göre değişebilir)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ayancık Belediyesi",
+      "url": "https://www.ayancik.bel.tr/",
+      "duyuru_url": "https://www.ayancik.bel.tr/",
+      "haber_url": "https://www.ayancik.bel.tr/haberler",
+      "durum": 200,
+      "not": "ayancik.bel.tr www'ye yönleniyor. /duyurular ana sayfaya yönleniyor (liste sayfası yok); duyurular ana sayfada ve /detay/duyuru/{no}/{slug}/ biçiminde. Haber listesi /haberler (200)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Sinop İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://sinop.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "sinop.ktb.gov.tr açılmıyor (curl 000, DNS/bağlantı hatası). Kaynak olarak güvenilmemeli; kalıp adres olarak kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Sinop+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi (Sinop haberleri)",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Boyabat Gazetesi",
+      "url": "https://www.boyabatgazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Sinop bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/sinop/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi ve arıza (YEDAŞ)",
+    "su kesintisi, içme suyu ve Karasu Ovası sulama hattı sorunları",
+    "fırtına, sağanak, sel ve heyelan nedeniyle okul tatili ve yol kapanması (Karadeniz kıyısı, Ayancık, Türkeli, Durağan)",
+    "Sinop-Samsun/Kastamonu karayolu, Boyabat ve D010/D785 trafik kazaları",
+    "balıkçılık ve deniz: av yasağı, hamsi/istavrit sezonu, olumsuz hava nedeniyle sefer iptalleri",
+    "turizm ve kültür: Sinop Tarihi Cezaevi, Hamsilos, Sinop Kalesi, festivaller ve etkinlikler",
+    "tarım: Karasu Ovası pirinç hasadı, don ve dolu zararı, orman yangını uyarıları",
+    "doğalgaz altyapısı ve yeni bağlantılar, deprem ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD ve üniversite duyuru/haber alt sayfaları 200 dönüyor, soft 404 kontrolü temiz. Sinop Belediyesi duyuruları ayrı sayfa değil, /haberler/ listesinde (kategori /haberler/duyurular/). Su için ayrı idare ve planlı su kesintisi sayfası yok; belediye haberleri ve yerel basına bakılmalı. YEDAŞ planlı kesinti sayfası harita tabanlı (JS). Doğalgaz dağıtımı Akmercan Sinop; duyuru sayfası /haberler-ve-duyurular. Sağlık Müdürlüğü sinopism.saglik.gov.tr (alt sayfa adresi doğrulanmadı). Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber sitelerinden sinopgundem.com park sayfası, sinopgazetesi.com içeriksiz şablon, sinopmanset/sinopolay vb. bot doğrulaması veya erişim hatası verdiği için listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

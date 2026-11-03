@@ -1,0 +1,196 @@
+{
+  "il": "Tokat",
+  "plaka": "60",
+  "slug": "tokat",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/tokat",
+  "buyuksehir": false,
+  "ilceler": [
+    "Almus",
+    "Artova",
+    "Başçiftlik",
+    "Erbaa",
+    "Merkez",
+    "Niksar",
+    "Pazar",
+    "Reşadiye",
+    "Sulusaray",
+    "Turhal",
+    "Yeşilyurt",
+    "Zile"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Tokat Valiliği",
+      "url": "https://www.tokat.gov.tr/",
+      "duyuru_url": "https://www.tokat.gov.tr/duyurular",
+      "haber_url": "https://www.tokat.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.tokat.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, basın açıklamaları /basin-aciklamalari (hepsi 200). /su-kesintileri burada 404."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Tokat Belediyesi",
+      "url": "https://tokat.bel.tr/",
+      "duyuru_url": "https://tokat.bel.tr/duyurular",
+      "haber_url": "https://tokat.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyurular /duyurular, haberler /haberler. Site Vue/Nuxt tabanlı (JS ile yükleniyor). www.tokat.bel.tr de açılıyor. /ulasim sayfası soft 404 (200 dönüp 'Sayfa Bulunamadı' diyor), kullanma."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Tokat İl Milli Eğitim Müdürlüğü",
+      "url": "https://tokat.meb.gov.tr/",
+      "duyuru_url": "https://tokat.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://tokat.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://tokat.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular /www/duyurular/kategori/2, haberler /www/haberler/kategori/1; duyuru RSS 200 dönüyor. Kar tatili vb. duyurular burada ve valilik sayfasında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Tokat Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://tokat.bel.tr/",
+      "duyuru_url": "https://tokat.bel.tr/su-kesintileri",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı/arızi kesintiler 'Su Kesintileri' sayfasında (sayfa JS ile yükleniyor, curl ile yalnızca iskelet görünür; içerik için tarayıcı/WebFetch gerekebilir). /su-kesintisi ve /su-ve-kanalizasyon-mudurlugu soft 404 (kullanma)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çamlıbel Elektrik Dağıtım A.Ş. (ÇEDAŞ)",
+      "url": "https://www.cedas.com.tr/",
+      "duyuru_url": "https://www.cedas.com.tr/elektrik-kesintisi-sorgulama",
+      "durum": 200,
+      "not": "ÇEDAŞ Sivas, Tokat ve Yozgat'ta hizmet veriyor (arama sonuçları ve cedas.com.tr sorgulama sayfasında Tokat geçiyor; YEDAŞ Tokat'a hizmet vermiyor). Kesinti sorgulama sayfası form/JS tabanlı; /elektrik-kesintisi (tedarik sürekliliği) ve /tum-duyurular da 200. kesinti.cedas.com.tr açılmadı (000). Alan adı yalnızca www ile açılıyor (cedas.com.tr 000). Duyurular: https://www.cedas.com.tr/tum-duyurular"
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Tokat Amasya Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/tokat-amasya",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Dağıtım bölgesi: Tokat, Amasya ve ilçeleri (şirket sayfasında yatırım bölgeleri listeli). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Tokat İl Sağlık Müdürlüğü",
+      "url": "https://tokatism.saglik.gov.tr/",
+      "duyuru_url": "https://tokatism.saglik.gov.tr/TR-23605/duyurular.html",
+      "haber_url": "https://tokatism.saglik.gov.tr/TR-23939/haberler.html",
+      "durum": 200,
+      "not": "Adres tokatism.saglik.gov.tr. DİKKAT: Amasya'daki TR-46346 / TR-46350 kodları Tokat'ta çalışmıyor (amasyaism'e yönleniyor); Tokat'ın doğru sayfa kodları TR-23605 (duyurular) ve TR-23939 (haberler). Duyurular ağırlıklı personel/ihale/atama."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Tokat İl Emniyet Müdürlüğü",
+      "url": "https://tokat.pol.tr/",
+      "duyuru_url": "https://tokat.pol.tr/duyurular",
+      "haber_url": "https://tokat.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi tokat.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Tokat İl Jandarma Komutanlığı",
+      "url": "https://tokat.jandarma.gov.tr/",
+      "duyuru_url": "https://tokat.jandarma.gov.tr/duyurular",
+      "haber_url": "https://tokat.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Tokat Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://tokat.afad.gov.tr/",
+      "duyuru_url": "https://tokat.afad.gov.tr/duyurular",
+      "haber_url": "https://tokat.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Tokat Gaziosmanpaşa Üniversitesi",
+      "url": "https://gop.edu.tr/",
+      "duyuru_url": "https://gop.edu.tr/Etkinlikler.aspx?d=tr-TR&mk=30541&m=duyuru_tum",
+      "durum": 200,
+      "not": "www.gop.edu.tr ve gop.edu.tr açılıyor. /duyurular, /haberler 404 veya hata sayfasına düşüyor; duyuru listesi Etkinlikler.aspx?...m=duyuru_tum (ana sayfadaki 'tüm duyurular' bağlantısı). Personel ilanları: personel.gop.edu.tr. Duyurular ağırlıklı akademik/idari/personel."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Erbaa Belediyesi",
+      "url": "https://erbaa.bel.tr/",
+      "duyuru_url": "https://erbaa.bel.tr/duyurular",
+      "haber_url": "https://erbaa.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçelerden. /haberler 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Zile Belediyesi",
+      "url": "https://site.zile.bel.tr/",
+      "duyuru_url": "https://site.zile.bel.tr/index.php/category/duyurular/",
+      "haber_url": "https://site.zile.bel.tr/index.php/category/haberler/",
+      "durum": 200,
+      "not": "zile.bel.tr ve www.zile.bel.tr açılmıyor (000); kurumsal site site.zile.bel.tr (WordPress kategori sayfaları)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Turhal Belediyesi",
+      "url": "https://turhal.bel.tr/",
+      "duyuru_url": "https://turhal.bel.tr/duyurular",
+      "haber_url": "https://turhal.bel.tr/haberler",
+      "durum": 200,
+      "not": "/haberler 200."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Tokat İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://tokat.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "tokat.ktb.gov.tr açılmıyor (curl 000, DNS/erişim). Kaynak olarak güvenilmemeli; ktb il siteleri genelde açılmıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Tokat+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tokat Haber",
+      "url": "https://www.tokathaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tokat Haber Ajansı",
+      "url": "https://tokathaberajansi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tokat Gazetesi",
+      "url": "https://tokatgazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Tokat bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/tokat/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (ÇEDAŞ) ve su kesintileri/içme suyu kalitesi",
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Almus, Artova, Reşadiye, Sulusaray, Başçiftlik kesimi)",
+    "Yeşilırmak, Kelkit ve Çekerek taşkın/sel ve yağış uyarıları",
+    "Tokat-Sivas, Tokat-Amasya, Tokat-Samsun ve Niksar-Erbaa yollarında trafik kazaları, Erbaa-Niksar ovası",
+    "tarım: domates, kiraz, üzüm, tütün ve Erbaa-Niksar bölgesi hasadı, don ve dolu zararı",
+    "turizm ve kültür: Ballıca Mağarası, Sulusaray, Tokat Kalesi, Gökmedrese, Ali Şir Bey konağı, Tokat Kebabı ve yazma/boya etkinlikleri",
+    "orman yangınları ve heyelan",
+    "deprem (Kuzey Anadolu Fay Hattı yakınlığı, Sulusaray-Almus bölgesi) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık ve ilçe belediyelerinin (Erbaa, Turhal, Zile) duyuru/haber sayfaları 200 dönüyor. Sağlık Müdürlüğü tokatism.saglik.gov.tr üzerinde; sayfa kodları Amasya'dakilerden farklı (duyuru TR-23605, haber TR-23939). Su kesintisi için tokat.bel.tr/su-kesintileri sayfası JS ile yükleniyor. Elektrik dağıtımı ÇEDAŞ (Sivas-Tokat-Yozgat); kesinti sorgulama sayfası form tabanlı, www.cedas.com.tr şart. Zile Belediyesi site.zile.bel.tr adresinde (zile.bel.tr açılmıyor). Gaziosmanpaşa Üniversitesi duyuruları Etkinlikler.aspx altında. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber siteleri: tokathaber.com.tr, tokathaberajansi.com.tr, tokatgazetesi.com açılıyor; tokatgundem, tokatdinamik, tokatyenihaber, yesilirmak.com.tr vb. açılmadı. Erişim testlerinde yurt dışı IP engeli görülmedi."
+}

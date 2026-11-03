@@ -1,0 +1,184 @@
+{
+  "il": "Siirt",
+  "plaka": "56",
+  "slug": "siirt",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/siirt",
+  "buyuksehir": false,
+  "ilceler": [
+    "Baykan",
+    "Eruh",
+    "Kurtalan",
+    "Merkez",
+    "Pervari",
+    "Şirvan",
+    "Tillo"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Siirt Valiliği",
+      "url": "https://siirt.gov.tr/",
+      "duyuru_url": "https://siirt.gov.tr/duyurular",
+      "haber_url": "https://siirt.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; sayfalarda 'bulunamadı' ifadesi yok (soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Siirt Belediyesi",
+      "url": "https://www.siirt.bel.tr/",
+      "duyuru_url": "https://www.siirt.bel.tr/duyurular",
+      "haber_url": "https://www.siirt.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. siirt.bel.tr ve www.siirt.bel.tr ikisi de 200. Ana sayfada çok sayıda yöresel yemek/ürün sayfası var; haber için /haberler, duyuru için /duyurular. Otobüs hat bilgisi: https://durak.siirt.bel.tr/durak/hatlar/ (200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Siirt İl Milli Eğitim Müdürlüğü",
+      "url": "https://siirt.meb.gov.tr/",
+      "duyuru_url": "https://siirt.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://siirt.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://siirt.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor. /acilduyurular/ 404 (kullanılmıyor). Kar tatili vb. duyurular için valilik duyurularına da bakılmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Siirt Belediyesi Su ve Kanalizasyon Hizmetleri",
+      "url": "https://www.siirt.bel.tr/",
+      "duyuru_url": "https://www.siirt.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (SİSKİ vb.) bulunamadı; su hizmetini belediye yürütüyor (su aboneliği: https://www.siirt.bel.tr/su-aboneligi-muracaati, 200). Planlı su kesintisi için ayrı sayfa bulunamadı (/su-kesintisi, /su-ve-kanalizasyon-mudurlugu, /su-isleri-mudurlugu 404); kesinti duyuruları belediye /duyurular, /haberler ve yerel basında aranmalı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Dicle Elektrik Dağıtım A.Ş. (DEDAŞ)",
+      "url": "https://www.dedas.com.tr/",
+      "duyuru_url": "https://www.dedas.com.tr/planli-kesinti",
+      "durum": 200,
+      "not": "DEDAŞ Diyarbakır, Şanlıurfa, Batman, Mardin, Siirt ve Şırnak'ta hizmet veriyor (arama sonuçlarında Siirt planlı kesinti haberleri DEDAŞ'a atfedilmiş). Site Angular/JS tabanlı ve planlı kesinti sayfası harita/form içeriyor; ham HTML'den kesinti listesi okunamaz. /planli-kesintiler ve /duyurular da 200 dönüyor (SPA olduğu için her yol 200 verebilir). Siirt planlı kesintileri yerel basında da çıkıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Siirt Batman Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/siirt-batman",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Siirt-Batman dağıtım bölgesi (kısa adı SİBADAŞ). Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir; duyurular tüm bölgeler için ortak liste."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Siirt İl Sağlık Müdürlüğü",
+      "url": "https://siirtism.saglik.gov.tr/",
+      "duyuru_url": "https://siirtism.saglik.gov.tr/TR-18035/duyurular.html",
+      "haber_url": "https://siirtism.saglik.gov.tr/TR-18034/haberler.html",
+      "durum": 200,
+      "not": "Adres siirtism.saglik.gov.tr. Duyurular ağırlıklı personel/atama (aile hekimliği vb.); halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Siirt İl Emniyet Müdürlüğü",
+      "url": "https://siirt.pol.tr/",
+      "duyuru_url": "https://siirt.pol.tr/duyurular",
+      "haber_url": "https://siirt.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi siirt.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Siirt İl Jandarma Komutanlığı",
+      "url": "https://siirt.jandarma.gov.tr/",
+      "duyuru_url": "",
+      "haber_url": "https://siirt.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında; ayrı duyuru sayfası doğrulanmadı."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Siirt Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://siirt.afad.gov.tr/",
+      "duyuru_url": "https://siirt.afad.gov.tr/duyurular",
+      "haber_url": "https://siirt.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Siirt Üniversitesi",
+      "url": "https://www.siirt.edu.tr/",
+      "duyuru_url": "https://www.siirt.edu.tr/duyuru/tumu/233517.html",
+      "haber_url": "https://www.siirt.edu.tr/haber-etkinlik/tumu/977575.html",
+      "durum": 200,
+      "not": "/duyurular 404; duyurular /duyuru/tumu/233517.html altında. Duyurular idari/akademik (ilan, kayıt, sonuç) ağırlıklı. haber.siirt.edu.tr de 200 dönüyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kurtalan Belediyesi",
+      "url": "http://kurtalan.bel.tr/",
+      "duyuru_url": "http://kurtalan.bel.tr/duyurular",
+      "haber_url": "http://kurtalan.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlin en kalabalık ilçesi (merkezden sonra, ~61 bin). Yalnızca http ile açılıyor; https://kurtalan.bel.tr bağlantı hatası veriyor (curl 000). kurtalanbelediyesi.com sahte/spam içerik, kullanma."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Baykan Belediyesi",
+      "url": "http://baykan.bel.tr/",
+      "duyuru_url": "http://baykan.bel.tr/duyurular",
+      "haber_url": "http://baykan.bel.tr/haberler",
+      "durum": 200,
+      "not": "Yalnızca http ile açılıyor; https://baykan.bel.tr bağlantı hatası veriyor (curl 000)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Eruh Belediyesi",
+      "url": "https://www.eruh.bel.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ana sayfa 200 ama içerik eski (örnek duyurular 2022); /duyurular ve /haberler 404. Pervari Belediyesi (pervari.bel.tr) çalışan bir site vermiyor (yerel ağ yönlendirme sayfası döndürüyor), Şirvan Belediyesi (sirvan.bel.tr) 'yenileniyoruz' sayfasında; bu yüzden listeye alınmadı. Bu ilçeler için Google Haberler aramasına güvenilmeli."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Siirt İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://siirt.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "siirt.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; adres kalıba göre kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Siirt+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "SiirtPress",
+      "url": "https://www.siirtpress.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Siirt Haber",
+      "url": "https://siirthaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Siirt 56 Şehir ve Haber Portalı",
+      "url": "https://siirt56.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi ve kesinti mağduriyeti (DEDAŞ)",
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Pervari, Baykan, Eruh, Şirvan kesimi)",
+    "sel, taşkın ve Botan/Bitlis Çayı kaynaklı su baskını uyarıları",
+    "içme suyu kesintisi ve su sıkıntısı",
+    "Siirt fıstığı hasadı, fiyatı ve tarım destekleri; Siirt büryan ve yöresel lezzetler",
+    "Siirt-Batman-Şırnak-Bitlis kara yolları ve trafik kazaları",
+    "deprem ve AFAD bilgilendirmeleri (Doğu Anadolu Fay yakınlığı)",
+    "Siirt Üniversitesi kayıt/sınav duyuruları ve eğitim haberleri"
+  ],
+  "notlar": "Valilik, MEB, Sağlık, Emniyet, Jandarma, AFAD ve belediye duyuru/haber sayfaları 200 dönüyor ve soft 404 değil. Su için ayrı idare yok, planlı su kesintisi sayfası bulunamadı. DEDAŞ planlı kesinti sayfası Angular/JS tabanlı (ham HTML'den okunamaz). Doğalgaz: Aksa Siirt Batman Doğal Gaz. Siirt Üniversitesi duyuruları /duyuru/tumu/233517.html altında. Kurtalan ve Baykan belediye siteleri yalnızca http ile açılıyor; Pervari, Şirvan ve Eruh belediye siteleri kullanılabilir değil/eski. Kültür Turizm Müdürlüğü sitesi açılmıyor. Siirt'te 7 ilçe var (Aydınlar ilçesi Tillo adını almıştır). Erişim testleri yurt dışı IP engeli göstermedi."
+}

@@ -1,0 +1,213 @@
+{
+  "il": "Trabzon",
+  "plaka": "61",
+  "slug": "trabzon",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/trabzon",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akçaabat",
+    "Araklı",
+    "Arsin",
+    "Beşikdüzü",
+    "Çarşıbaşı",
+    "Çaykara",
+    "Dernekpazarı",
+    "Düzköy",
+    "Hayrat",
+    "Köprübaşı",
+    "Maçka",
+    "Of",
+    "Ortahisar",
+    "Sürmene",
+    "Şalpazarı",
+    "Tonya",
+    "Vakfıkebir",
+    "Yomra"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Trabzon Valiliği",
+      "url": "https://www.trabzon.gov.tr/",
+      "duyuru_url": "https://www.trabzon.gov.tr/duyurular",
+      "haber_url": "https://www.trabzon.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.trabzon.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200, soft 404 değil)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Trabzon Büyükşehir Belediyesi",
+      "url": "https://www.trabzon.bel.tr/",
+      "duyuru_url": "https://www.trabzon.bel.tr/Web/TumDuyuru",
+      "haber_url": "https://www.trabzon.bel.tr/Web/TumHaber",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Ana sayfadaki 'Tüm Duyurular/Tüm Haberler' bağlantıları /Web/TumDuyuru ve /Web/TumHaber (200, içerik var). /duyurular ve /haberler de 200 dönüyor ancak sayfada 'bulunamadı' geçen metin var (ana sayfaya benzer/soft 404 olabilir); /Web/Tum* tercih edilmeli. Kurumsal portal: https://kurumsal.trabzon.bel.tr/ (Haberler, Duyurular, Etkinlikler, otobüs saatleri: /otobussaatleri; hepsi 200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Trabzon İl Milli Eğitim Müdürlüğü",
+      "url": "https://trabzon.meb.gov.tr/",
+      "duyuru_url": "https://trabzon.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://trabzon.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://trabzon.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adresleri 200 dönüyor. Kar/olumsuz hava nedeniyle okul tatili duyuruları valilik ve bu sayfada çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Trabzon İçmesuyu ve Kanalizasyon İdaresi Genel Müdürlüğü (TİSKİ)",
+      "url": "https://www.tiski.gov.tr/",
+      "duyuru_url": "https://www.tiski.gov.tr/Tiski/SuKesintileri",
+      "haber_url": "https://www.tiski.gov.tr/Tiski/Haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesine bağlı ayrı su idaresi. Planlı/arıza su kesintileri /Tiski/SuKesintileri sayfasında; genel duyurular /Tiski/Duyurular (200). Su kesintisi listesi sayfa içinde dinamik yüklenebilir; yerel basında da (mahalle bazlı) yayımlanıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çoruh Elektrik Dağıtım A.Ş. (Çoruh EDAŞ)",
+      "url": "https://www.coruhedas.com.tr/",
+      "duyuru_url": "https://www.coruhedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "durum": 200,
+      "not": "Çoruh EDAŞ Trabzon, Rize, Artvin, Giresun ve Gümüşhane'de hizmet veriyor (şirketin kendi sitesindeki duyuruda Trabzon geçiyor; arama sonuçlarıyla da doğrulandı). 'Bakım Programı ve Kesinti Listesi' sayfası 200; liste büyük olasılıkla JS/form tabanlı, il/ilçe seçimi gerekebilir. Arıza/bilgi hattı 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Karadeniz Doğal Gaz Dağıtım A.Ş. (Aksa Doğalgaz Trabzon-Rize)",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/trabzon-rize",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "haber_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Dağıtım bölgesi Trabzon-Rize (Trabzon merkez ve Akçaabat, Of, Araklı, Arsin, Sürmene, Hayrat, Maçka, Vakfıkebir, Beşikdüzü, Yomra vb. ilçeler). Duyuru ve basın bültenleri Aksa genel sitesinde, bölgeye özel değil; planlı gaz kesintisi duyurusu nadir. Acil/kaçak hattı 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Trabzon İl Sağlık Müdürlüğü",
+      "url": "https://trabzonism.saglik.gov.tr/",
+      "duyuru_url": "https://trabzonism.saglik.gov.tr/TR-89731/duyurular.html",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200. Duyurular ağırlıklı personel/atama ve idari; halk sağlığı haberleri /haberler.",
+      "haber_url": "https://trabzonism.saglik.gov.tr/TR-89934/haberler.html"
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Trabzon İl Emniyet Müdürlüğü",
+      "url": "https://trabzon.pol.tr/",
+      "duyuru_url": "https://trabzon.pol.tr/duyurular",
+      "haber_url": "https://trabzon.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi trabzon.pol.tr; duyuru ve haber sayfaları 200. Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Trabzon İl Jandarma Komutanlığı",
+      "url": "https://trabzon.jandarma.gov.tr/",
+      "duyuru_url": "https://trabzon.jandarma.gov.tr/duyurular",
+      "haber_url": "https://trabzon.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Trabzon Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://trabzon.afad.gov.tr/",
+      "duyuru_url": "https://trabzon.afad.gov.tr/duyurular",
+      "haber_url": "https://trabzon.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Sel/heyelan/afet uyarıları için önemli. Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Karadeniz Teknik Üniversitesi",
+      "url": "https://www.ktu.edu.tr/",
+      "duyuru_url": "https://www.ktu.edu.tr/tr/duyurular",
+      "haber_url": "https://www.ktu.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "/duyurular (dilsiz) 404 veriyor; doğru adres /tr/duyurular. İldeki diğer devlet üniversitesi: Trabzon Üniversitesi https://www.trabzon.edu.tr/ (ana sayfa 200; /duyurular 404, duyuru alt sayfası doğrulanmadı)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ortahisar Belediyesi",
+      "url": "https://www.ortahisar.bel.tr/",
+      "duyuru_url": "https://www.ortahisar.bel.tr/duyurular",
+      "haber_url": "https://www.ortahisar.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe, nüfusça en büyük. /duyurular ve /haberler (ayrıca /Duyuru, /Haber) 200, soft 404 değil."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Akçaabat Belediyesi",
+      "url": "https://www.akcaabat.bel.tr/",
+      "duyuru_url": "https://www.akcaabat.bel.tr/duyuru-ihale-arsivi.aspx",
+      "haber_url": "https://www.akcaabat.bel.tr/haberler.aspx",
+      "durum": 200,
+      "not": "İkinci en büyük ilçe. Eski tarz .aspx site: /duyurular ve /haberler 404; doğru adresler /haberler.aspx ve /duyuru-ihale-arsivi.aspx (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Of Belediyesi",
+      "url": "https://www.of.bel.tr/",
+      "duyuru_url": "https://www.of.bel.tr/i/duyuru/",
+      "haber_url": "https://www.of.bel.tr/i/haber/",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; adresler /i/duyuru/ ve /i/haber/ (200). Duyurular ağırlıklı vefat ilanları ve etkinlik."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Trabzon İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://trabzon.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "trabzon.ktb.gov.tr açılmıyor (curl 000); trabzonkultur.gov.tr bu adrese 301 yönleniyor ama hedef de açılmıyor. Kaynak olarak güvenilmemeli."
+    },
+    {
+      "tur": "diger",
+      "kurum": "TULAŞ Toplu Ulaşım Sistemleri (Trabzon Büyükşehir Belediyesi)",
+      "url": "https://www.tulas.com.tr/",
+      "duyuru_url": "https://kurumsal.trabzon.bel.tr/otobussaatleri",
+      "durum": 200,
+      "not": "tulas.com.tr 200 ama sayfada 'Web sitemiz hazırlanıyor' yazıyor, içerik yok. Otobüs saatleri/hat bilgisi kurumsal.trabzon.bel.tr/otobussaatleri (200). Ulaşım zam/ücretsiz taşıma duyuruları büyükşehir haberlerinde."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Trabzon+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber61",
+      "url": "https://www.haber61.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Karadeniz Gazetesi",
+      "url": "https://karadenizgazete.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Trabzon Manşet",
+      "url": "https://www.trabzonmanset.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "TrabzonOlay.com",
+      "url": "https://www.trabzonolay.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "sel, taşkın ve heyelan uyarıları (yoğun yağış, dere taşması; AFAD ve valilik açıklamaları)",
+    "kar ve olumsuz hava nedeniyle okul tatili, yayla ve yüksek kesim (Çaykara, Maçka, Düzköy, Şalpazarı) yol kapanmaları",
+    "planlı elektrik kesintisi (Çoruh EDAŞ) ve mahalle bazlı su kesintisi (TİSKİ)",
+    "Trabzonspor maçları, tesisler ve maç günü ulaşım/trafik düzenlemeleri",
+    "Sümela Manastırı, Uzungöl ve yayla turizmi; Karadeniz Sahil Yolu ve Trabzon-Gümüşhane/Bayburt (Zigana) karayolu durumu",
+    "toplu taşıma tarifeleri ve ulaşım değişiklikleri (TULAŞ, büyükşehir), hafif raylı sistem ve ulaşım projeleri",
+    "fındık, çay ve tarım hasadı/fiyatları, balıkçılık ve deniz havalimanı/Trabzon Havalimanı uçuş aksamaları",
+    "deprem ve AFAD bilgilendirmeleri; yağış kaynaklı kıyı ve yol çalışmaları"
+  ],
+  "notlar": "Valilik, büyükşehir belediyesi, İl MEB, emniyet, jandarma, AFAD, KTÜ, TİSKİ, Çoruh EDAŞ ve Aksa Doğalgaz sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. Büyükşehir belediyesinde asıl duyuru/haber listesi /Web/TumDuyuru ve /Web/TumHaber (alternatif kurumsal.trabzon.bel.tr/Haberler ve /Duyurular); trabzon.bel.tr/duyurular sayfasında 'bulunamadı' ifadesi geçiyor. Su kesintileri ayrı kurum olan TİSKİ'de (tiski.gov.tr/Tiski/SuKesintileri). Çoruh EDAŞ kesinti listesi form/JS tabanlı olabilir. İl Sağlık Müdürlüğü trabzonism.saglik.gov.tr üzerinde. Kültür Turizm Müdürlüğü (trabzon.ktb.gov.tr) açılmıyor; TULAŞ sitesi 'hazırlanıyor' sayfası. İlçe belediyelerinde adres kalıpları farklı: Akçaabat .aspx, Of /i/..., Ortahisar /duyurular. Yerel gazetelerden ilkhaber.com.tr yalnızca yönlendirme sayfası, gunebakis.com satılık alan adı, sonnokta.com ve trabzonmedya.com boş içerik; listeye alınmadı."
+}

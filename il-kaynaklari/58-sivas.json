@@ -1,0 +1,215 @@
+{
+  "il": "Sivas",
+  "plaka": "58",
+  "slug": "sivas",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/sivas",
+  "buyuksehir": false,
+  "ilceler": [
+    "Akıncılar",
+    "Altınyayla",
+    "Divriği",
+    "Doğanşar",
+    "Gemerek",
+    "Gölova",
+    "Gürün",
+    "Hafik",
+    "İmranlı",
+    "Kangal",
+    "Koyulhisar",
+    "Merkez",
+    "Suşehri",
+    "Şarkışla",
+    "Ulaş",
+    "Yıldızeli",
+    "Zara"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Sivas Valiliği",
+      "url": "https://www.sivas.gov.tr/",
+      "duyuru_url": "https://www.sivas.gov.tr/duyurular",
+      "haber_url": "https://www.sivas.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, vali haberleri /validen-haberler. sivas.gov.tr (www'siz) da 200 dönüyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Sivas Belediyesi",
+      "url": "https://sivas.bel.tr/",
+      "duyuru_url": "https://sivas.bel.tr/duyurular",
+      "haber_url": "https://sivas.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Sitenin SSL zincirinde eksik ara sertifika var: curl -k ile 200, normal curl 'unable to get local issuer certificate' (exit 60/000) veriyor; tarayıcıda açılıyor olabilir. www.sivas.bel.tr ve http:// adresi curl'de açılmıyor, https://sivas.bel.tr kullanılmalı. Haberler konu bazlı: /haberler/konu/{genel,yatirim,egitim,cevre,...}; duyurular ağırlıklı imar/parselasyon ilanları. Meclis gündemi: /meclis-gundemi/..."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Sivas İl Milli Eğitim Müdürlüğü",
+      "url": "https://sivas.meb.gov.tr/",
+      "duyuru_url": "https://sivas.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://sivas.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://sivas.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS adresleri 200 dönüyor. Kar tatili kararları genellikle önce Valilik duyuru/haber sayfasında ve MEB ana sayfasında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Sivas Belediyesi Su ve Kanalizasyon Müdürlüğü (SİBESKİ)",
+      "url": "https://sivas.bel.tr/mudurlukler/su-ve-kanalizasyon-mudurlugu",
+      "duyuru_url": "https://sivas.bel.tr/duyurular",
+      "haber_url": "https://sivas.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi sitesi bulunamadı (sibeski.* alan adları açılmıyor); hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor (basında SİBESKİ olarak anılıyor). Planlı su kesintisi için özel sayfa yok (sivas.bel.tr/su-kesintisi ve /su-kesintileri soft 404, 'bulunamadı' içeriyor); kesinti duyuruları /haberler ve /duyurular içinde ve yerel basında (örn. sivasgazetesi.com/sivas-su-kesintisi/) çıkıyor. Sivas içme suyu sıkıntısı (4 Eylül Barajı) ve mahalle bazlı uzun kesintiler sık gündemde. curl için -k gerekir (SSL zinciri)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Çamlıbel Elektrik Dağıtım A.Ş. (ÇEDAŞ)",
+      "url": "https://www.cedas.com.tr/",
+      "duyuru_url": "https://www.cedas.com.tr/elektrik-kesintisi",
+      "haber_url": "https://www.cedas.com.tr/bizden-haberler",
+      "durum": 200,
+      "not": "ÇEDAŞ Sivas, Tokat ve Yozgat'a hizmet veriyor (arama sonuçlarındaki şirket haberleriyle doğrulandı). Planlı kesinti sorgusu: https://www.cedas.com.tr/elektrik-kesintisi-sorgulama ve kesinti.cedas.com.tr (bu alt alan curl'de açılmadı, 000; JS/form tabanlı olabilir). Genel duyurular: /tum-duyurular (200)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Sivas Doğal Gaz Dağıtım A.Ş. (Aksa Doğalgaz grubu)",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/sivas",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Sivas dağıtım bölgesi sayfası (sayfada 'Sivas Doğal Gaz Dağıtım A.Ş.' geçiyor). Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Sivas İl Sağlık Müdürlüğü",
+      "url": "https://sivasism.saglik.gov.tr/",
+      "duyuru_url": "https://sivasism.saglik.gov.tr/TR-1933/duyurular.html",
+      "haber_url": "https://sivasism.saglik.gov.tr/TR-1932/haberler.html",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Sivas İl Emniyet Müdürlüğü",
+      "url": "https://sivas.pol.tr/",
+      "duyuru_url": "https://sivas.pol.tr/duyurular",
+      "haber_url": "https://sivas.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi sivas.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Sivas İl Jandarma Komutanlığı",
+      "url": "https://sivas.jandarma.gov.tr/",
+      "duyuru_url": "https://sivas.jandarma.gov.tr/duyurular",
+      "haber_url": "https://sivas.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Sivas Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://sivas.afad.gov.tr/",
+      "duyuru_url": "https://sivas.afad.gov.tr/duyurular",
+      "haber_url": "https://sivas.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Sivas Cumhuriyet Üniversitesi",
+      "url": "https://www.cumhuriyet.edu.tr/",
+      "duyuru_url": "https://www.cumhuriyet.edu.tr/duyuru",
+      "haber_url": "https://www.cumhuriyet.edu.tr/haber",
+      "durum": 200,
+      "not": "Duyuru ve haber listeleri /duyuru ve /haber (200; sayfadaki 'Sonuç bulunamadı' ifadesi arama arayüzü metni, soft 404 değil). /duyurular ve /haberler 404. Kampüs haberleri ayrıca https://haberler.cumhuriyet.edu.tr/ altında."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Sivas Bilim ve Teknoloji Üniversitesi",
+      "url": "https://www.sivas.edu.tr/",
+      "duyuru_url": "https://www.sivas.edu.tr/tum-haberler/",
+      "haber_url": "https://www.sivas.edu.tr/kurumsal-iletisim-haberler",
+      "durum": 200,
+      "not": "Ayrı bir duyuru listesi adresi bulunamadı (/duyurular 404); ana sayfadaki duyurular /hdetay/... biçiminde, liste için /tum-haberler/ kullanılıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Şarkışla Belediyesi",
+      "url": "https://sarkisla.bel.tr/",
+      "duyuru_url": "https://sarkisla.bel.tr/duyurular",
+      "haber_url": "https://sarkisla.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkezden sonra en kalabalık ilçelerden biri. www.sarkisla.bel.tr sarkisla.bel.tr'ye yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Zara Belediyesi",
+      "url": "https://www.zara.bel.tr/",
+      "duyuru_url": "https://www.zara.bel.tr/guncel/duyurular",
+      "haber_url": "https://www.zara.bel.tr/guncel/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haberler /guncel/ altında."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yıldızeli Belediyesi",
+      "url": "https://yildizeli.bel.tr/",
+      "duyuru_url": "https://yildizeli.bel.tr/haberler",
+      "haber_url": "https://yildizeli.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı duyuru listesi yok gibi; duyurular haber akışında (WordPress). www.yildizeli.bel.tr yönleniyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Sivas Belediyesi Ulaşım (toplu taşıma)",
+      "url": "https://ulasim.sivas.bel.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Belediye toplu taşıma sitesi; hat/sefer duyuruları. Çalışırken -k gerekebilir (sivas.bel.tr alt alanı)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Sivas İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://sivas.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "sivas.ktb.gov.tr curl'de açılmadı (000); adres kalıptan geldi, arama sonucunda doğrulanamadı. Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Sivas+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Sivas Gazetesi",
+      "url": "https://sivasgazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Sivas Olay",
+      "url": "https://sivasolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Sivas Gündem",
+      "url": "https://sivasgundem.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve köy/ilçe yollarının kapanması (İmranlı, Zara, Altınyayla, Divriği kesimi)",
+    "şiddetli soğuk, don ve buzlanma uyarıları (Sivas'ın en soğuk yerleşimleri)",
+    "su kesintileri ve içme suyu/baraj doluluğu sıkıntısı (4 Eylül Barajı)",
+    "planlı elektrik kesintisi (ÇEDAŞ)",
+    "Sivas-Ankara/Erzincan/Malatya karayolu ve Sivas-Kayseri yolu trafik kazaları",
+    "Kızılırmak taşkın ve sel uyarıları, yağış",
+    "Kangal: Balıklı Kaplıca turizmi, Kangal Termik Santrali ve Kangal köpeği",
+    "deprem (Kuzey Anadolu ve Doğu Anadolu fay hatlarına yakınlık) ve AFAD bilgilendirmeleri",
+    "tarım ve hayvancılık: tahıl hasadı, kuraklık, don zararı"
+  ],
+  "notlar": "Valilik, MEB, sağlık, emniyet, jandarma, AFAD ve ÇEDAŞ sayfaları normal curl ile 200 dönüyor; yurt dışı IP engeli gözlenmedi. sivas.bel.tr (ve ulasim alt alanı) SSL zincirinde eksik ara sertifika nedeniyle curl'de -k olmadan hata veriyor (exit 60), www'li ve http:// varyantları açılmıyor; yalnızca https://sivas.bel.tr kullan. Su için ayrı idare sitesi yok, planlı su kesintisi özel sayfası yok; belediye haber/duyuruları ve yerel basına bakılmalı. ÇEDAŞ planlı kesinti sorgusu form/JS tabanlı, kesinti.cedas.com.tr curl'de açılmadı. Cumhuriyet Üniversitesi liste adresleri /duyuru ve /haber (çoğul adresler 404). SBTÜ'de duyuru listesi adresi belirsiz. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel gazete adayları sivasdabugun/sivasibugun/sivashaber.net/sivasnet/sivasdasonhaber/sivasdagundem/sivashaber.com boş/park sayfa, sivasinsesi.com satılık domain, sivasmedya.com yönlendirme sayfası: listeye alınmadı."
+}

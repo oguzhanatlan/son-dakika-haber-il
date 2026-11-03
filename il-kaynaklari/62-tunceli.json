@@ -1,0 +1,192 @@
+{
+  "il": "Tunceli",
+  "plaka": "62",
+  "slug": "tunceli",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/tunceli",
+  "buyuksehir": false,
+  "ilceler": [
+    "Çemişgezek",
+    "Hozat",
+    "Mazgirt",
+    "Merkez",
+    "Nazımiye",
+    "Ovacık",
+    "Pertek",
+    "Pülümür"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Tunceli Valiliği",
+      "url": "https://www.tunceli.gov.tr/",
+      "duyuru_url": "https://www.tunceli.gov.tr/duyurular",
+      "haber_url": "https://www.tunceli.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ayrıca Validen Haberler: https://www.tunceli.gov.tr/validen-haberler (200) ve basın açıklamaları: https://www.tunceli.gov.tr/basin-aciklamalari (200). Yerel basın listesi: /yerel-basin."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Tunceli Belediyesi",
+      "url": "https://tunceli.bel.tr/",
+      "duyuru_url": "https://tunceli.bel.tr/duyurular",
+      "haber_url": "https://tunceli.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. www.tunceli.bel.tr açılmıyor (curl 000), www'siz adres kullanılmalı. Duyurular ağırlıklı imar planı/askı ilanı ve ihale; haberler /haberler (tekil sayfalar haber/... biçiminde)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Tunceli İl Milli Eğitim Müdürlüğü",
+      "url": "https://tunceli.meb.gov.tr/",
+      "duyuru_url": "https://tunceli.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://tunceli.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://tunceli.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS adresleri 200 dönüyor; 'bulunamadı' soft-404 yok. Kar tatili vb. duyurular için ayrıca valilik duyurularına bakılmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Tunceli Belediyesi Su ve Kanalizasyon Hizmetleri",
+      "url": "https://tunceli.bel.tr/",
+      "duyuru_url": "https://tunceli.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti Tunceli Belediyesi yürütüyor. Planlı su kesintisi için ayrı sayfa bulunamadı (tunceli.bel.tr/su-kesintisi anasayfaya düşen soft 404). Kesinti duyuruları belediyenin /duyurular ve /haberler sayfalarında ve yerel basında (Tunceli Emek vb.) çıkıyor; Zağge su hattı arızası ve depo çalışmaları sık konu."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Fırat Elektrik Dağıtım A.Ş. (Fırat EDAŞ)",
+      "url": "https://www.firatedas.com.tr/",
+      "duyuru_url": "https://www.firatedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "haber_url": "https://www.firatedas.com.tr/BizdenHaberler/Duyurular",
+      "durum": 200,
+      "not": "Fırat EDAŞ Bingöl, Elazığ, Malatya ve Tunceli'de hizmet veriyor (arama sonuçlarıyla doğrulandı; sitede 'Tunceli İl Müdürlüğü' var). Planlı kesinti sayfası bölge bazlı (Bakım Programı ve Kesinti Listesi); içerik form/JS tabanlı olabilir, Tunceli bölümü seçilmeli. /planli-kesinti 404. fedas.com.tr açılmıyor, firatedas.com.tr kullanılmalı."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Tunceli Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://akmercantunceligaz.com.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Tunceli merkezde doğalgaz dağıtımı (2018'den itibaren Atatürk Mahallesi ve Munzur Üniversitesi ile başlandı). Ayrı duyuru sayfası bulunamadı (/duyurular 404); www'li adres www'siz adrese yönleniyor. Valilik bilgi sayfası: https://www.tunceli.gov.tr/tunceliye-dogalgaz (200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Tunceli İl Sağlık Müdürlüğü",
+      "url": "https://tunceliism.saglik.gov.tr/",
+      "duyuru_url": "https://tunceliism.saglik.gov.tr/TR-64088/duyurular.html",
+      "haber_url": "https://tunceliism.saglik.gov.tr/TR-23005/haberler.html",
+      "durum": 200,
+      "not": "Adres tunceliism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Tunceli İl Emniyet Müdürlüğü",
+      "url": "https://tunceli.pol.tr/",
+      "duyuru_url": "https://tunceli.pol.tr/duyurular",
+      "haber_url": "https://tunceli.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi tunceli.pol.tr. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri. Olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Tunceli İl Jandarma Komutanlığı",
+      "url": "https://tunceli.jandarma.gov.tr/",
+      "duyuru_url": "https://tunceli.jandarma.gov.tr/duyurular",
+      "haber_url": "https://tunceli.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Tunceli Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://tunceli.afad.gov.tr/",
+      "duyuru_url": "https://tunceli.afad.gov.tr/duyurular",
+      "haber_url": "https://tunceli.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir (200). Tunceli deprem riski yüksek (Doğu Anadolu Fay Hattı yakını)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Munzur Üniversitesi",
+      "url": "https://www.munzur.edu.tr/",
+      "duyuru_url": "https://www.munzur.edu.tr/duyurular",
+      "haber_url": "https://www.munzur.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular idari/akademik (kayıt, ihale, sınav); kampüs haberleri /haberler."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Pertek Belediyesi",
+      "url": "https://www.pertek.bel.tr/",
+      "duyuru_url": "https://www.pertek.bel.tr/duyurular",
+      "haber_url": "https://www.pertek.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe (~10.600)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çemişgezek Belediyesi",
+      "url": "https://www.cemisgezek.bel.tr/",
+      "duyuru_url": "https://www.cemisgezek.bel.tr/duyurular",
+      "haber_url": "https://www.cemisgezek.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfus ~7.500 (ikinci büyük ilçe)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Mazgirt Belediyesi",
+      "url": "https://www.mazgirt.bel.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Nüfus ~7.250. /duyurular ve /haberler 404; ana sayfada duyuru/haber bağlantısı bulunamadı, ana sayfa taranmalı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Tunceli İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://tunceli.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "tunceli.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; il sitelerinde sık görülen kalıp olduğu için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Tunceli+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tunceli Emek Gazetesi",
+      "url": "https://www.tunceliemek.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tunceli Bülten",
+      "url": "https://tuncelibulten.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tunceli Gündem",
+      "url": "https://tunceligundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Tunceli bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/tunceli/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Ovacık, Hozat, Pülümür, Nazımiye kesimi)",
+    "planlı elektrik kesintisi (Fırat EDAŞ) ve kar/fırtına kaynaklı elektrik kesintileri",
+    "su kesintisi ve içme suyu hattı arızaları (Zağge su hattı, Atatürk Mahallesi deposu)",
+    "deprem ve AFAD bilgilendirmeleri",
+    "orman yangınları ve kuraklık uyarıları (Munzur Vadisi, Tunceli geneli)",
+    "Munzur Vadisi Milli Parkı, Ovacık ve yayla turizmi, festivaller (Munzur Kültür ve Doğa Festivali)",
+    "Munzur Üniversitesi kayıt, burs ve etkinlik duyuruları",
+    "Tunceli-Elazığ/Erzincan/Bingöl yolları, heyelan ve trafik kazaları"
+  ],
+  "notlar": "Valilik, MEB, sağlık, emniyet, jandarma, AFAD ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor, soft-404 yok. Belediye sitesi yalnızca www'siz (tunceli.bel.tr) açılıyor. Planlı su kesintisi için özel sayfa yok; belediye /duyurular, /haberler ve yerel basına bakılmalı. Fırat EDAŞ planlı kesinti sayfası bölge seçimli/JS tabanlı. Doğalgaz dağıtımı yalnızca merkezde ve sınırlı. Kültür Turizm sitesi açılmıyor, Mazgirt Belediyesi'nde duyuru/haber alt sayfası yok. Yerel haber siteleri: dersimhaber.com park edilmiş (lander), dersim-haber.com 503, ozgurdersim.com 526, dersimgundem.com.tr 503, iha.com.tr 403 (bot koruması); listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

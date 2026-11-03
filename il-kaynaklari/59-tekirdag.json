@@ -1,0 +1,215 @@
+{
+  "il": "Tekirdağ",
+  "plaka": "59",
+  "slug": "tekirdag",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/tekirdag",
+  "buyuksehir": true,
+  "ilceler": [
+    "Çerkezköy",
+    "Çorlu",
+    "Ergene",
+    "Hayrabolu",
+    "Kapaklı",
+    "Malkara",
+    "Marmaraereğlisi",
+    "Muratlı",
+    "Saray",
+    "Süleymanpaşa",
+    "Şarköy"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Tekirdağ Valiliği",
+      "url": "https://tekirdag.gov.tr/",
+      "duyuru_url": "https://tekirdag.gov.tr/duyurular",
+      "haber_url": "https://tekirdag.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://tekirdag.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, vali haberleri /validen-haberler, ihaleler /ihaleler. Basın açıklamaları ayrı sayfada."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Tekirdağ Büyükşehir Belediyesi",
+      "url": "https://www.tekirdag.bel.tr/",
+      "duyuru_url": "https://www.tekirdag.bel.tr/duyuru_arsiv",
+      "haber_url": "https://www.tekirdag.bel.tr/haber_arsiv",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /duyuru_arsiv, haberler /haber_arsiv, ihale ve duyurular /ihale_ve_duyurular. /duyurular ve /haberler 404 veriyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Tekirdağ İl Milli Eğitim Müdürlüğü",
+      "url": "https://tekirdag.meb.gov.tr/",
+      "duyuru_url": "https://tekirdag.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://tekirdag.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://tekirdag.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru RSS'i de 200 dönüyor. Okul tatili/kar tatili gibi acil duyurular için valilik duyurularına da bakılmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Tekirdağ Su ve Kanalizasyon İdaresi Genel Müdürlüğü (TESKİ)",
+      "url": "https://www.teski.gov.tr/",
+      "duyuru_url": "https://www.teski.gov.tr/duyurular/",
+      "haber_url": "https://www.teski.gov.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi (TESKİ). Planlı su kesintisi duyuruları /duyurular/ ve /haberler/ altında (örn. 'ÇERKEZKÖY İLÇESİ PLANLI SU KESİNTİSİ', kuraklık nedeniyle kısmi planlı kesinti duyuruları); /duyurular/ aynı zamanda personel/genel kurul duyuruları içerir, ayrı bir su kesintisi sayfası yok (/su-kesintileri 404). Site Cloudflare koruması arkasında: curl'de yalnızca 'Mozilla/5.0' User-Agent ile 403 (cf-mitigated: challenge) dönüyor; tam tarayıcı User-Agent'ı (Chrome benzeri) ile 200. Arıza/çağrı hattı ALO 185."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Trakya Elektrik Dağıtım A.Ş. (TREDAŞ)",
+      "url": "https://www.tredas.com.tr/",
+      "duyuru_url": "https://www.tredas.com.tr/tr/planli-elektrik-kesintileri",
+      "haber_url": "https://www.tredas.com.tr/tr/kurumsal-haberler",
+      "durum": 200,
+      "not": "TREDAŞ Tekirdağ, Edirne ve Kırklareli'nde hizmet veriyor (resmi sitede doğrulandı; genel merkez Süleymanpaşa/Tekirdağ). Planlı kesintiler /tr/planli-elektrik-kesintileri (muhtemelen dinamik/JS tabanlı liste), anlık kesintiler /tr/anlik-elektrik-kesintileri, kurumsal haberler /tr/kurumsal-haberler, duyurular /tr/duyurular. Çağrı merkezi ALO 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Trakya Bölgesi Doğal Gaz Dağıtım A.Ş. (Gazdaş Trakya)",
+      "url": "https://gazdastrakya.com.tr/",
+      "duyuru_url": "https://gazdastrakya.com.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Tekirdağ merkez, Ergene, Çerkezköy, Saray, Muratlı vb. ilçelerde dağıtım (İl Sağlık Müdürlüğü sitesinde 'Gazdaş Trakya Bölgesi Doğal Gaz Dağıtım A.Ş. Tekirdağ Güney İşletme Müdürü' ifadesi geçiyor; kapsama listesi arama sonuçlarından, kurumun kendi sayfasında açık ilçe listesi doğrulanamadı). Planlı/plansız gaz kesintileri: https://online.gazdastrakya.com.tr/planli-plansiz-kesintiler (200). Duyuru kategorisi ağırlıklı ihale ilanı."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "MarmaraGaz Çorlu Doğal Gaz Dağıtım A.Ş. (eski adıyla Çordaş)",
+      "url": "https://www.marmaracorlugaz.com.tr/",
+      "duyuru_url": "https://www.marmaracorlugaz.com.tr/basin/genel-duyurular",
+      "haber_url": "https://www.marmaracorlugaz.com.tr/basin/bizden-haberler",
+      "durum": 200,
+      "not": "Çorlu'nun bir kısmı ve Marmaraereğlisi'nde dağıtım (arama sonuçlarına göre; resmi sitede ilçe listesi doğrulanmadı). Haberler: /basin/bizden-haberler, bültenler: /basin/basin-bultenleri (sayfalar 200). Eski alan adı www.cordas.com de 200 dönüyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Tekirdağ İl Sağlık Müdürlüğü",
+      "url": "https://tekirdagism.saglik.gov.tr/",
+      "duyuru_url": "https://tekirdagism.saglik.gov.tr/TR-817/duyurular.html",
+      "haber_url": "https://tekirdagism.saglik.gov.tr/TR-141488/haberler.html",
+      "durum": 200,
+      "not": "Adres tekirdagism.saglik.gov.tr. Duyurular ağırlıklı personel/atama/eğitim; halk sağlığı haberleri /TR-141488/haberler.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Tekirdağ İl Emniyet Müdürlüğü",
+      "url": "https://tekirdag.pol.tr/",
+      "duyuru_url": "https://tekirdag.pol.tr/duyurular",
+      "haber_url": "https://tekirdag.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi tekirdag.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Tekirdağ İl Jandarma Komutanlığı",
+      "url": "https://tekirdag.jandarma.gov.tr/",
+      "duyuru_url": "https://tekirdag.jandarma.gov.tr/duyurular",
+      "haber_url": "https://tekirdag.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Tekirdağ Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://tekirdag.afad.gov.tr/",
+      "duyuru_url": "https://tekirdag.afad.gov.tr/duyurular",
+      "haber_url": "https://tekirdag.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Tekirdağ Namık Kemal Üniversitesi (TNKÜ)",
+      "url": "https://www.nku.edu.tr/",
+      "duyuru_url": "https://bhi.nku.edu.tr/duyurular",
+      "haber_url": "https://bhi.nku.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haberler ayrı alt alan adında (bhi.nku.edu.tr, 'TNKÜ Haberler'); www.nku.edu.tr/duyurular 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Süleymanpaşa Belediyesi",
+      "url": "https://suleymanpasa.bel.tr/",
+      "duyuru_url": "https://suleymanpasa.bel.tr/duyurular",
+      "haber_url": "https://suleymanpasa.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe. Haberler /haberler; imar askı ilanları /duyurular/imar-aski-ilanlari. Sayfa kaynağındaki tek 'bulunamadı' ifadesi JS hata mesajıdır (soft 404 değil). www alt alanı apex adrese yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çorlu Belediyesi",
+      "url": "https://www.corlu.bel.tr/",
+      "duyuru_url": "https://www.corlu.bel.tr/duyurular",
+      "haber_url": "https://www.corlu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ana sayfa /Default adresine yönleniyor. Duyurular /duyurular, haberler /haberler (ikisi de 200). Sanayi ve nüfus açısından Trakya'nın en büyük ilçelerinden."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Ergene Belediyesi",
+      "url": "https://www.ergene.bel.tr/",
+      "duyuru_url": "https://www.ergene.bel.tr/haberler.html?cat=8",
+      "durum": 200,
+      "not": "Merkez ilçe. Duyurular haberler.html?cat=8 kategorisinde; etkinlikler cat=12; /haberler.html (kategorisiz) ana sayfaya yönleniyor. Haber bülteni: content-1281-haber_bulteni.html."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çerkezköy Belediyesi",
+      "url": "https://www.cerkezkoy.bel.tr/",
+      "duyuru_url": "https://www.cerkezkoy.bel.tr/duyurular",
+      "haber_url": "https://www.cerkezkoy.bel.tr/haberler",
+      "durum": 200,
+      "not": "Haberler /haberler. Sanayi ağırlıklı büyük ilçe; TESKİ planlı su kesintisi haberleri sık Çerkezköy'ü anıyor."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Tekirdağ İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://tekirdag.ktb.gov.tr/",
+      "duyuru_url": "https://tekirdag.ktb.gov.tr/TR-83638/duyurular.html",
+      "durum": 200,
+      "not": "Site açılıyor (200) ancak içerik çok seyrek güncelleniyor; düşük öncelikli kaynak."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Tekirda%C4%9F+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Tekirdağ Haber",
+      "url": "https://www.tekirdaghaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Çerkezköy Haber",
+      "url": "https://www.cerkezkoyhaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı su kesintisi ve kuraklık nedeniyle kısmi su kesintileri (TESKİ; Süleymanpaşa, Çorlu, Çerkezköy, Kapaklı, Marmaraereğlisi)",
+    "planlı elektrik kesintisi (TREDAŞ)",
+    "baraj doluluğu/kuraklık ve su tasarrufu uyarıları",
+    "kar, fırtına, yoğun yağış ve sel nedeniyle okul tatili ve yol/feribot seferi aksamaları",
+    "D100/TEM, Çorlu-Çerkezköy ve Tekirdağ-Şarköy yolları trafik kazaları, Marmara'da deniz ulaşımı",
+    "sanayi bölgeleri (Çorlu, Çerkezköy, Ergene, Kapaklı): iş kazası, yangın, işçi haberleri",
+    "deprem (Marmara/Kuzey Anadolu fay hattı yakınlığı) ve AFAD bilgilendirmeleri",
+    "tarım ve yerel ürünler: ayçiçeği, Tekirdağ köftesi, Şarköy-Mürefte bağcılık ve üzüm hasadı"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor. Büyükşehirde su idaresi ayrı: TESKİ (teski.gov.tr) Cloudflare korumalı; curl'de yalnızca 'Mozilla/5.0' UA ile 403, Chrome benzeri tam UA ile 200; planlı su kesintisi duyuruları /duyurular/ ve /haberler/ içinde. Elektrik dağıtımı TREDAŞ (Tekirdağ, Edirne, Kırklareli); planlı kesinti sayfası dinamik olabilir. Doğalgaz iki şirkette: Gazdaş Trakya (merkez, Ergene, Çerkezköy, Saray, Muratlı vb.) ve MarmaraGaz Çorlu (Çorlu/Marmaraereğlisi); ilçe kapsamı arama sonuçlarına dayanıyor. Büyükşehir belediyesi duyuruları /duyuru_arsiv, haberleri /haber_arsiv (/duyurular 404). Üniversite duyuruları bhi.nku.edu.tr altında. Kültür Turizm sitesi (tekirdag.ktb.gov.tr) açılıyor ama içerik seyrek. Yurt dışı IP engeli gözlenmedi. 11 ilçe de büyükşehir ilçesi olduğundan 'Merkez' ilçesi yok; merkez ilçeler Süleymanpaşa, Ergene ve Kapaklı. Nüfusça büyük ilçeler: Çorlu, Süleymanpaşa, Ergene (ilçe_belediye kayıtları bunlardan). Yerel gazeteler yalnızca konu bulmak içindir; ulusal portallarda 'Tekirdağ'dan kısa kısa' derlemeleri çıkıyor."
+}

@@ -1,0 +1,207 @@
+{
+  "il": "Van",
+  "plaka": "65",
+  "slug": "van",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/van",
+  "buyuksehir": true,
+  "ilceler": [
+    "Bahçesaray",
+    "Başkale",
+    "Çaldıran",
+    "Çatak",
+    "Edremit",
+    "Erciş",
+    "Gevaş",
+    "Gürpınar",
+    "İpekyolu",
+    "Muradiye",
+    "Özalp",
+    "Saray",
+    "Tuşba"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Van Valiliği",
+      "url": "https://www.van.gov.tr/",
+      "duyuru_url": "https://www.van.gov.tr/duyurular",
+      "haber_url": "https://www.van.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.van.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200, soft 404 yok). Ana sayfa WebFetch ile 500 verdi (anlık); curl 200. van.gov.tr www'siz de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Van Büyükşehir Belediyesi",
+      "url": "https://van.bel.tr/",
+      "duyuru_url": "https://van.bel.tr/TumDuyurular.html",
+      "haber_url": "https://van.bel.tr/Haberler.html",
+      "durum": 200,
+      "not": "Büyükşehir. van.bel.tr www.van.bel.tr'ye de çözülüyor (aynı site). Haber ve duyuru ayrı: /Haberler.html ve /TumDuyurular.html (detay: /HaberDetay/..., /DuyuruDetay/...). www.van.bel.tr/duyurular 403, /haberler 404 verir; kullanma. Yol durumu: https://van.bel.tr/Yol-Durum.html (200)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Van İl Milli Eğitim Müdürlüğü",
+      "url": "https://van.meb.gov.tr/",
+      "duyuru_url": "https://van.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://van.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://van.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200. /acilduyurular/ 404 (kar tatili duyurusu valilik ve MEB duyurularında aranmalı)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Van Su ve Kanalizasyon İdaresi Genel Müdürlüğü (VASKİ)",
+      "url": "https://vaski.gov.tr/",
+      "duyuru_url": "https://vaski.gov.tr/duyurular",
+      "haber_url": "https://vaski.gov.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehirin ayrı su idaresi; van.bel.tr ile karıştırma. Planlı/zorunlu su kesintileri /duyurular altında (örn. 'İLİMİZ BAZI BÖLGELERDE ZORUNLU SU KESİNTİSİ DUYURUSU'). Su analizi: https://vaski.gov.tr/su-analiz-bilgileri (200). www.vaski.gov.tr de açılıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Vangölü Elektrik Dağıtım A.Ş. (VEDAŞ)",
+      "url": "https://www.vedas.com.tr/",
+      "duyuru_url": "https://www.vedas.com.tr/planli-kesintiler-TR.html",
+      "durum": 200,
+      "not": "VEDAŞ Van, Bitlis, Muş ve Hakkari'ye hizmet veriyor (arama sonuçları ve şirketin kendi sitesindeki planlı kesintiler sayfası üzerinden doğrulandı). curl ile açılamadı: sitenin TLS sertifika zinciri eksik (curl exit 60, http sürümü https'e 302 veriyor); sertifika doğrulamasını atlayarak denenmedi. Adres arama sonucundan (www.vedas.com.tr/tr/planli-kesintiler) alındı. Tarayıcıdan/WebFetch'ten açılması sorunlu olabilir (WebFetch de 'unable to verify the first certificate' verdi). Alternatif: ALO 186. Sayfa muhtemelen JS/form tabanlı; il-ilçe seçimi gerekebilir. Planlı kesinti adresi Bitlis kaydından (aynı şirket) alındı; SSL ara sertifikası eksik, bazı istemcilerde açılmayabilir."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Van Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/van",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "basin_aciklamalari_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri",
+      "durum": 200,
+      "not": "Aksa Doğalgaz grubunun Van dağıtım bölgesi (Next.js site, içerik JS ile yükleniyor; sayfadaki 'bulunamadı' ifadesi şablon kodundan, gerçek sayfa mevcut). Doğal gaz kesintisi/uyarı haberleri yerel basında çıkabiliyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Van İl Sağlık Müdürlüğü",
+      "url": "https://vanism.saglik.gov.tr/",
+      "duyuru_url": "https://vanism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres vanism.saglik.gov.tr. Duyuru/haber alt sayfasının adresi doğrulanmadı; ana sayfadaki duyuru ve haber bölümlerine bakılmalı."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Van İl Emniyet Müdürlüğü",
+      "url": "https://van.pol.tr/",
+      "duyuru_url": "https://van.pol.tr/duyurular",
+      "haber_url": "https://van.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi van.pol.tr. İlk curl denemesinde ana sayfa bir kez bağlantı hatası (000) verdi, sonraki denemelerde 200; alt sayfalar 200 (soft 404 yok). Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Van İl Jandarma Komutanlığı",
+      "url": "https://van.jandarma.gov.tr/",
+      "duyuru_url": "https://van.jandarma.gov.tr/duyurular",
+      "haber_url": "https://van.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında (soft 404 yok)."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Van Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://van.afad.gov.tr/",
+      "duyuru_url": "https://van.afad.gov.tr/duyurular",
+      "haber_url": "https://van.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. /basin-aciklamalari 404."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Van Yüzüncü Yıl Üniversitesi",
+      "url": "https://www.yyu.edu.tr/",
+      "duyuru_url": "https://www.yyu.edu.tr/tum-duyurular",
+      "haber_url": "https://www.yyu.edu.tr/tum-haberler",
+      "durum": 0,
+      "not": "curl ile açılamadı (TLS hatası, exit 35: 'unrecognized name'; http sürümü https'e 302 veriyor). WebFetch ile ana sayfa açıldı ve duyuru/haber adresleri (tum-duyurular, tum-haberler) oradan alındı. Erişim sorunu istemciye bağlı olabilir; WebFetch ile deneyin."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İpekyolu Belediyesi",
+      "url": "https://www.ipekyolu.bel.tr/",
+      "duyuru_url": "https://www.ipekyolu.bel.tr/duyurular",
+      "haber_url": "https://www.ipekyolu.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir merkez ilçesi. ipekyolu.bel.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tuşba Belediyesi",
+      "url": "https://www.tusba.bel.tr/",
+      "duyuru_url": "https://www.tusba.bel.tr/duyurular",
+      "haber_url": "https://www.tusba.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir merkez ilçesi. Ana sayfa Kürtçe/Türkçe başlıklı; duyuru detayları /duyuru/... biçiminde."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Edremit Belediyesi",
+      "url": "https://www.edremit.bel.tr/",
+      "duyuru_url": "https://www.edremit.bel.tr/Guncel/Duyurular/",
+      "haber_url": "https://www.edremit.bel.tr/Guncel/Haberler/",
+      "durum": 200,
+      "not": "Büyükşehir merkez ilçesi (Van'ın Edremit'i; Balıkesir'inkiyle karıştırma). Haber detayı /Guncel/HaberDetay/{id}."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Van Büyükşehir Belediyesi Ulaşım (otobüs ve Van Gölü deniz otobüsü seferleri)",
+      "url": "https://van.bel.tr/Syf/Otobus-Hareket-Saatleri.html",
+      "duyuru_url": "https://van.bel.tr/Syf/Van-Deniz-Otobusu-Sefer-Saatleri.html",
+      "durum": 200,
+      "not": "Ayrı bir ulaşım kurumu yok; seferler büyükşehir sitesinde. Sefer iptali/yol durumu için: https://van.bel.tr/Yol-Durum.html."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Van İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://van.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "van.ktb.gov.tr curl ile açılmıyor (000). Kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Van+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Van Sesi",
+      "url": "https://vansesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Van Olay",
+      "url": "https://www.vanolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Vanhaber65",
+      "url": "https://www.vanhaber65.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Van bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/van/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili ve köy yollarının kapanması (Başkale, Çatak, Bahçesaray, Gürpınar, Özalp)",
+    "planlı ve arızalı elektrik kesintileri (VEDAŞ), kış aylarında kar ve fırtınaya bağlı kesintiler",
+    "su kesintileri ve içme suyu hattı çalışmaları (VASKİ)",
+    "deprem ve AFAD bilgilendirmeleri (Van depremleri, Doğu Anadolu fay hattı)",
+    "Van Gölü: seviye, kirlilik, deniz otobüsü seferleri, inci kefali göçü",
+    "sınır ve göç gündemi (İran sınırı, Kapıköy ve Esendere), asayiş ve operasyon haberleri",
+    "turizm ve kültür: Van kahvaltısı, Akdamar Adası, Van Kedisi, Hoşap ve Çavuştepe, festivaller",
+    "Van Büyükşehir Belediyesi hizmetleri: ulaşım, yol çalışmaları, kaldırım denetimleri, iş ilanları"
+  ],
+  "notlar": "Valilik, büyükşehir belediyesi, MEB, VASKİ, emniyet, jandarma, AFAD ve ilçe belediyeleri 200 dönüyor, duyuru/haber alt sayfalarında soft 404 yok. van.bel.tr haber ve duyurusu /Haberler.html ve /TumDuyurular.html (www.van.bel.tr/duyurular 403, /haberler 404). Su kesintisi duyuruları vaski.gov.tr/duyurular altında. VEDAŞ (www.vedas.com.tr) sitesinin TLS sertifika zinciri eksik olduğundan curl doğrulaması başarısız (exit 60); sertifika kontrolü atlanmadı, planlı kesinti sayfası adresi arama sonucundan alındı. YYÜ (www.yyu.edu.tr) curl ile TLS hatası veriyor (exit 35) ama WebFetch ile açılıyor. Van İl Sağlık Müdürlüğü alt sayfa adresi doğrulanmadı. Kültür Turizm sitesi açılmıyor. Yurt dışı IP engeli görülmedi. Elenen yerel siteler: vanhaberajansi.com (neredeyse boş), vanvanvan.com (alakasız içerik), vanhaber.com, vangundem.com, vandabugun.com, vanyenihaber.com ve vanmedya.com (açılmadı). Erciş (Erciş Belediyesi: https://www.ercis.bel.tr/duyurular, /haberler, 200) ilçe belediyesi olarak listeye alınmadı ama nüfusça büyük; gerekirse eklenebilir."
+}

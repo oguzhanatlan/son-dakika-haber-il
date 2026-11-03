@@ -7,7 +7,7 @@ Yerel haber routine'lerinin okuduğu dosyalar. **Bu repo gizli (private) olmalı
 - `il-promptlari/`: her il routine'inin kısa promptu ve zamanlaması
 - `araclar/prompt_uret.py`: kaynak dosyalarından promptları ve bu tabloyu yeniden üretir
 
-Toplam 55 il.
+Toplam 65 il.
 
 | Plaka | İl | Saat | Prompt |
 |---|---|---|---|
@@ -66,3 +66,13 @@ Toplam 55 il.
 | 53 | Rize | 09:27 ve 18:27 | il-promptlari/53-rize.md |
 | 54 | Sakarya | 09:38 ve 18:38 | il-promptlari/54-sakarya.md |
 | 55 | Samsun | 09:49 ve 18:49 | il-promptlari/55-samsun.md |
+| 56 | Siirt | 10:05 ve 19:05 | il-promptlari/56-siirt.md |
+| 57 | Sinop | 10:16 ve 19:16 | il-promptlari/57-sinop.md |
+| 58 | Sivas | 10:27 ve 19:27 | il-promptlari/58-sivas.md |
+| 59 | Tekirdağ | 10:38 ve 19:38 | il-promptlari/59-tekirdag.md |
+| 60 | Tokat | 10:49 ve 19:49 | il-promptlari/60-tokat.md |
+| 61 | Trabzon | 07:05 ve 16:05 | il-promptlari/61-trabzon.md |
+| 62 | Tunceli | 07:16 ve 16:16 | il-promptlari/62-tunceli.md |
+| 63 | Şanlıurfa | 07:27 ve 16:27 | il-promptlari/63-sanliurfa.md |
+| 64 | Uşak | 07:38 ve 16:38 | il-promptlari/64-usak.md |
+| 65 | Van | 07:49 ve 16:49 | il-promptlari/65-van.md |

@@ -1,0 +1,208 @@
+{
+  "il": "Uşak",
+  "plaka": "64",
+  "slug": "usak",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/usak",
+  "buyuksehir": false,
+  "ilceler": [
+    "Banaz",
+    "Eşme",
+    "Karahallı",
+    "Merkez",
+    "Sivaslı",
+    "Ulubey"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Uşak Valiliği",
+      "url": "https://usak.gov.tr/",
+      "duyuru_url": "https://usak.gov.tr/duyurular",
+      "haber_url": "https://usak.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://usak.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar. Ek: /validen-haberler (vali haberleri, 200), /basin-bulteni (200). /basin-duyurulari 404. Soft-404 kontrolü temiz."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "T.C. Uşak Belediye Başkanlığı",
+      "url": "https://www.usak.bel.tr/",
+      "duyuru_url": "https://www.usak.bel.tr/duyurular",
+      "haber_url": "https://www.usak.bel.tr/haberler",
+      "rss": "https://www.usak.bel.tr/rss.xml",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. usak.bel.tr www'ye yönleniyor. Duyuru ve haber detayları /duyuru/{slug} ve /haber/{slug} biçiminde (/duyuru ve /haber tek başına 404). Duyuruların çoğu imar/parselasyon askı ilanı; ayrıca /etkinlikler, /ihaleler, /cenaze-ilanlari. RSS 200."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Uşak İl Milli Eğitim Müdürlüğü",
+      "url": "https://usak.meb.gov.tr/",
+      "duyuru_url": "https://usak.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://usak.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://usak.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve RSS adresleri 200 dönüyor, soft-404 yok. Kar tatili vb. acil duyurular için valilik duyuruları da izlenmeli (/acilduyurular/ denenmedi)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Uşak Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.usak.bel.tr/",
+      "duyuru_url": "https://www.usak.bel.tr/duyurular",
+      "haber_url": "https://www.usak.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediye yürütüyor (arıza/bilgi hattı ALO 185). Planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı (/su-kesintileri 404); kesinti duyuruları genel /duyurular ve /haberler içinde, belediyenin sosyal medya hesaplarında (x.com/usakbld, instagram.com/usakbld) ve yerel basında çıkıyor. 2025 yazından itibaren Uşak'ta baraj kaynaklı uzun süreli programlı su kesintileri yaşandı; yağışlarla kesintilerin sona erdiği basında bildirildi. Su abone/fatura: https://askidafatura.usak.bel.tr/."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Osmangazi Elektrik Dağıtım A.Ş. (OEDAŞ)",
+      "url": "https://www.osmangaziedas.com.tr/",
+      "duyuru_url": "https://www.osmangaziedas.com.tr/planli-kesinti-duyurulari",
+      "durum": 200,
+      "not": "OEDAŞ'ın kendi sitesi hizmet bölgesini Afyonkarahisar, Bilecik, Eskişehir, Kütahya ve Uşak olarak belirtiyor (doğrulandı). Uşak'ın dağıtım şirketi Gediz (GDZ) değildir. /planli-kesinti-duyurulari 200 (liste/form; JS tabanlı olabilir, il-ilçe seçimi gerekebilir); /planli-kesinti ise soft 404 ('sayfa bulunamadı'), kullanma. Arıza/bilgi: ALO 186. Yerel basın (ör. habergazetesi.com.tr) günlük Uşak kesinti listelerini yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "UDAŞ Uşak Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://www.udas.com.tr/",
+      "duyuru_url": "https://www.udas.com.tr/duyurular/",
+      "rss": "https://www.udas.com.tr/feed/",
+      "durum": 200,
+      "not": "Uşak'ın doğalgaz dağıtım şirketi (e-Devlet'te kayıtlı). Duyurular çoğunlukla kurumsal/abonelik; planlı gaz kesintisi duyurusu nadir. Acil/arıza hattı 187. WordPress feed 200."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Uşak İl Sağlık Müdürlüğü",
+      "url": "https://usakism.saglik.gov.tr/",
+      "duyuru_url": "https://usakism.saglik.gov.tr/TR-2174/duyurular.html",
+      "haber_url": "https://usakism.saglik.gov.tr/TR-134975/haberler.html",
+      "durum": 200,
+      "not": "Adres usakism.saglik.gov.tr. Duyurular ağırlıklı personel/atama (yer değiştirme, işçi alımı); halk sağlığı haberleri /haberler altında."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Uşak İl Emniyet Müdürlüğü",
+      "url": "https://usak.pol.tr/",
+      "duyuru_url": "https://usak.pol.tr/duyurular",
+      "haber_url": "https://usak.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi usak.pol.tr; sayfa başlığı boş dönüyor ama içerik 200 ve soft-404 yok. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Uşak İl Jandarma Komutanlığı",
+      "url": "https://usak.jandarma.gov.tr/",
+      "duyuru_url": "https://usak.jandarma.gov.tr/duyurular",
+      "haber_url": "https://usak.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "T.C. Uşak Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://usak.afad.gov.tr/",
+      "duyuru_url": "https://usak.afad.gov.tr/duyurular",
+      "haber_url": "https://usak.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem verisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Uşak Üniversitesi",
+      "url": "https://www.usak.edu.tr/",
+      "duyuru_url": "https://www.usak.edu.tr/",
+      "haber_url": "https://www.usak.edu.tr/Home/Arsiv",
+      "durum": 200,
+      "not": "Duyuru ve haber listesi ana sayfada; detaylar /Home/Duyuru/{tip}/{id} ve /Home/Haber/{id}/{slug} biçiminde. /duyurular ve /haberler 404; /Home/Duyuru ve /Home/Haber tek başına 500. Ana sayfa en güvenilir kaynak; /Home/Arsiv 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Banaz Belediyesi",
+      "url": "https://www.banaz.bel.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Nüfusça merkezden sonra en büyük ilçe. www.banaz.bel.tr geçerli SSL sertifikası olmadan yayında (curl 000, -k ile 200) ve sayfa 'banaz.bel.tr Yapım Aşamasındadır' yer tutucusu; kaynak olarak kullanışsız. Banaz haberleri için Google Haberler aramasında 'Banaz' kullan."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Eşme Belediyesi",
+      "url": "https://esme.bel.tr/",
+      "duyuru_url": "https://esme.bel.tr/gundem/duyurular",
+      "haber_url": "https://esme.bel.tr/gundem/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; doğru yollar /gundem/duyurular ve /gundem/haberler (200). Vergi/su borcu yapılandırma gibi duyurular çıkıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sivaslı Belediyesi",
+      "url": "https://www.sivasli.bel.tr/",
+      "duyuru_url": "https://www.sivasli.bel.tr/tr/duyurular",
+      "haber_url": "https://www.sivasli.bel.tr/tr/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler soft 404 (200 dönüp 'bulunamadı' içeriyor); doğru yollar /tr/duyurular ve /tr/haberler (soft-404 yok). Nüfusça Banaz ve Eşme'den sonra gelen ilçe."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Uşak Belediyesi Ulaşım (Şehir İçi Otobüs Güzergahları)",
+      "url": "https://www.usak.bel.tr/otobus-guzergahlari",
+      "duyuru_url": "https://www.usak.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir ulaşım işletmesi sitesi bulunamadı; otobüs hat/güzergah bilgisi belediye sitesinde. Sefer değişikliği duyuruları belediye /duyurular ve /haberler içinde."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Uşak İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://usak.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "usak.ktb.gov.tr açılmıyor (curl 000, yurt dışı IP engeli veya DNS/bağlantı sorunu olabilir). Adres belediye sitesindeki bağlantıdan alındı; kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=U%C5%9Fak+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Uşak Haber",
+      "url": "https://www.usakhaber.com/",
+      "rss": "https://www.usakhaber.com/service/rss.php",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Uşak Olay",
+      "url": "https://www.usakolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Uşak Haber Merkezi",
+      "url": "https://www.usakhabermerkezi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Uşak Haberleri (usakhaberi.com)",
+      "url": "https://usakhaberi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Uşak bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/usak/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "içme suyu sıkıntısı, baraj doluluğu ve programlı/planlı su kesintileri",
+    "planlı elektrik kesintisi (OEDAŞ; Merkez, Banaz, Eşme)",
+    "doğalgaz kesintisi ve doğalgaz kazaları/patlamaları (UDAŞ)",
+    "kar nedeniyle okul tatili ve yolların kapanması (kış aylarında)",
+    "trafik kazaları (Uşak-Afyon, Uşak-İzmir, Uşak-Kütahya yolları)",
+    "tekstil, halı ve organize sanayi: iş yeri kapanışları, işçi çıkarmaları, istihdam",
+    "turizm ve kültür: Ulubey Kanyonu, Blaundus Antik Kenti, Karun Hazineleri, Eşme kilimleri",
+    "deprem ve AFAD bilgilendirmeleri; orman yangını ve kuraklık uyarıları"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft-404 içermiyor. Uşak Belediyesi'nde ayrı su idaresi yok; planlı su kesintisi için özel sayfa bulunamadı, usak.bel.tr/duyurular ve haberler, belediye sosyal medyası (usakbld) ve yerel basına bakılmalı. Elektrik dağıtımı OEDAŞ (Gediz değil); /planli-kesinti soft 404, /planli-kesinti-duyurulari kullanılmalı (dinamik olabilir). Doğalgaz UDAŞ'ta (udas.com.tr). Üniversite duyuruları ana sayfada listeleniyor (/duyurular 404). Banaz Belediyesi sitesi yapım aşamasında/SSL sorunlu, Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber siteleri kontrol edildi: usakgazetesi.com, usakgundemi.com, usakpostasi.com (403), usaktv.com açılmadı, bu yüzden listeye alınmadı. Erişim testlerinde yurt dışı IP engeli görülmedi."
+}

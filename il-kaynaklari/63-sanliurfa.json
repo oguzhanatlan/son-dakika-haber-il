@@ -1,0 +1,205 @@
+{
+  "il": "Şanlıurfa",
+  "plaka": "63",
+  "slug": "sanliurfa",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/sanliurfa",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akçakale",
+    "Birecik",
+    "Bozova",
+    "Ceylanpınar",
+    "Eyyübiye",
+    "Halfeti",
+    "Haliliye",
+    "Harran",
+    "Hilvan",
+    "Karaköprü",
+    "Siverek",
+    "Suruç",
+    "Viranşehir"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Şanlıurfa Valiliği",
+      "url": "https://sanliurfa.gov.tr/",
+      "duyuru_url": "https://sanliurfa.gov.tr/duyurular",
+      "haber_url": "https://sanliurfa.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200 ve soft 404 değil. www.sanliurfa.gov.tr de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Şanlıurfa Büyükşehir Belediyesi",
+      "url": "https://www.sanliurfa.bel.tr/",
+      "duyuru_url": "https://www.sanliurfa.bel.tr/kategori/86/0/tum-duyurular",
+      "haber_url": "https://www.sanliurfa.bel.tr/kategori/21/0/tum-haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. /duyurular ve /haberler 404; liste sayfaları /kategori/{id}/0/... biçiminde (duyurular id 86, haberler id 21). Ana sayfada güncel duyuru/haber bağlantıları var."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Şanlıurfa İl Milli Eğitim Müdürlüğü",
+      "url": "https://sanliurfa.meb.gov.tr/",
+      "duyuru_url": "https://sanliurfa.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://sanliurfa.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor. Kar/sıcak vb. nedenli okul tatili duyuruları valilik sayfasında da çıkabilir."
+    },
+    {
+      "tur": "su",
+      "kurum": "Şanlıurfa Su ve Kanalizasyon İdaresi Genel Müdürlüğü (ŞUSKİ)",
+      "url": "https://www.suski.gov.tr/",
+      "duyuru_url": "https://www.suski.gov.tr/duyurular?type=water_cut",
+      "haber_url": "https://www.suski.gov.tr/haberler",
+      "durum": 200,
+      "not": "suski.gov.tr www'ye yönleniyor. Planlı su kesintisi duyuruları /duyurular?type=water_cut filtresinde (genel liste /duyurular, 200); mahalle bazlı kesinti haberleri /haber/... altında da çıkıyor. /su-kesintileri 404."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Dicle Elektrik Dağıtım A.Ş. (DEDAŞ)",
+      "url": "https://www.dedas.com.tr/",
+      "duyuru_url": "https://www.dedas.com.tr/planli-kesintiler",
+      "durum": 200,
+      "not": "Dicle Elektrik Diyarbakır, Şanlıurfa, Mardin, Batman, Siirt ve Şırnak'ta hizmet veriyor (şirket haberleri ve yerel basınla doğrulandı; dedas.com.tr ana sayfasında Dicle Elektrik markası). Planlı kesinti sayfası 200 ama içerik büyük olasılıkla JS/form tabanlı; il-ilçe seçimi gerekebilir. Güncel kesinti listeleri yerel basında (urfanatik vb.) da yayımlanıyor. dicleelektrik.com ve dicleelektrik.com.tr açılmıyor (000)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Şanlıurfa Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/sanliurfa",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz grubunun Şanlıurfa dağıtım bölgesi (turkiye.gov.tr doğalgaz dağıtım e-hizmetleri listesi ve arama sonuçlarıyla doğrulandı). Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Şanlıurfa İl Sağlık Müdürlüğü",
+      "url": "https://sanliurfaism.saglik.gov.tr/",
+      "duyuru_url": "https://sanliurfaism.saglik.gov.tr/TR-23211/duyurular.html",
+      "durum": 200,
+      "not": "Duyurular /TR-23211/duyurular.html (200); ağırlıklı personel/atama duyuruları."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Şanlıurfa İl Emniyet Müdürlüğü",
+      "url": "https://sanliurfa.pol.tr/",
+      "duyuru_url": "https://sanliurfa.pol.tr/duyurular",
+      "haber_url": "https://sanliurfa.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi sanliurfa.pol.tr; olay/operasyon haberleri /haberler altında. Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri"
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Şanlıurfa İl Jandarma Komutanlığı",
+      "url": "https://sanliurfa.jandarma.gov.tr/",
+      "duyuru_url": "https://sanliurfa.jandarma.gov.tr/duyurular",
+      "haber_url": "https://sanliurfa.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Şanlıurfa Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://sanliurfa.afad.gov.tr/",
+      "duyuru_url": "https://sanliurfa.afad.gov.tr/duyurular",
+      "haber_url": "https://sanliurfa.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Harran Üniversitesi",
+      "url": "https://www.harran.edu.tr/",
+      "duyuru_url": "https://www.harran.edu.tr/Duyurular",
+      "haber_url": "https://www.harran.edu.tr/Haberler",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı (personel alımı, Erasmus, kura); kampüs haberleri /Haberler. Yol adresleri büyük harfle başlıyor (/Duyurular, /Haberler). haber.harran.edu.tr açılmıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Eyyübiye Belediyesi",
+      "url": "https://www.eyyubiye.bel.tr/",
+      "duyuru_url": "https://www.eyyubiye.bel.tr/kategori/43/1/duyurular",
+      "haber_url": "https://www.eyyubiye.bel.tr/kategori/40/1/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; kategori sayfaları kullanılıyor. Nüfusça en büyük ilçe (merkez ilçe, ~400 bin)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Haliliye Belediyesi",
+      "url": "https://www.haliliye.bel.tr/",
+      "duyuru_url": "https://www.haliliye.bel.tr/kategori/14/3/duyurular",
+      "haber_url": "https://www.haliliye.bel.tr/kategori/12/1/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; kategori sayfaları kullanılıyor. Merkez ilçe (~390 bin). Ayrıca /kategori/40/3/ilan-aski-duyurulari."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karaköprü Belediyesi",
+      "url": "https://www.karakopru.bel.tr/",
+      "duyuru_url": "https://www.karakopru.bel.tr/kategori/154/0/duyurular",
+      "haber_url": "https://www.karakopru.bel.tr/kategori/12/1/haberler",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; kategori sayfaları kullanılıyor. Merkez ilçe (~277 bin)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Siverek Belediyesi",
+      "url": "https://www.siverek.bel.tr/",
+      "duyuru_url": "https://www.siverek.bel.tr/duyurular",
+      "haber_url": "https://www.siverek.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçeler dışında nüfusça en büyük ilçe (~270 bin). Duyurular /duyuru/... alt adreslerinde; ihale/icra ilanı ağırlıklı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Şanlıurfa İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://sanliurfa.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "sanliurfa.ktb.gov.tr ve www'li hali açılmıyor (curl 000). Kaynak olarak güvenilmemeli; kalıp tahmininden kaydedildi, arama sonucundan değil."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=%C5%9Eanl%C4%B1urfa+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Urfanatik",
+      "url": "https://www.urfanatik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi (13 ilçeden Urfa haberleri)",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Urfa Haber",
+      "url": "https://www.urfahaber.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Dicle Elektrik/DEDAŞ) ve kaçak elektrik/kesinti şikayetleri",
+    "planlı su kesintisi ve içme suyu sorunları (ŞUSKİ; Haliliye, Eyyübiye, Karaköprü, Siverek)",
+    "aşırı sıcak hava uyarıları, sıcaktan okul/mesai ve tarımsal çalışma saatleri",
+    "tarım: pamuk, buğday ve fıstık hasadı, sulama ve Atatürk Barajı/GAP su ve elektrik konuları",
+    "trafik kazaları ve Şanlıurfa-Gaziantep/Diyarbakır/Mardin yolları, sınır kapıları (Akçakale, Ceylanpınar)",
+    "deprem ve AFAD bilgilendirmeleri (Doğu Anadolu Fayı yakınlığı, 2023 depremi sonrası hasar/konut)",
+    "turizm ve kültür: Göbeklitepe, Balıklıgöl, Harran, Halfeti, etkinlikler ve festivaller",
+    "Suriye sınırına yakın güvenlik, göç ve kaçakçılık operasyonları (emniyet/jandarma açıklamaları)"
+  ],
+  "notlar": "Valilik, emniyet, jandarma ve AFAD siteleri /duyurular ve /haberler alt sayfalarıyla 200 dönüyor (soft 404 değil). Büyükşehir ve Eyyübiye/Haliliye/Karaköprü belediyeleri aynı altyapıyı kullanıyor: /duyurular ve /haberler 404, listeler /kategori/{id}/{n}/... adreslerinde; adresleri ana sayfadan çıkarıldı. ŞUSKİ ayrı kurum (suski.gov.tr) ve planlı su kesintisi için /duyurular?type=water_cut filtresi var. Dicle Elektrik planlı kesinti sayfası (dedas.com.tr/planli-kesintiler) 200 dönse de içeriği büyük olasılıkla JS tabanlı; güncel liste yerel basında da çıkıyor. İl Sağlık Müdürlüğü duyuruları sanliurfaism.saglik.gov.tr/TR-23211/duyurular.html adresinde. Kültür Turizm Müdürlüğü sitesi açılmıyor. Harran Üniversitesi yolları büyük harfle (/Duyurular). Erişim testlerinde yurt dışı IP engeli görülmedi (açılanların hepsi 200)."
+}
