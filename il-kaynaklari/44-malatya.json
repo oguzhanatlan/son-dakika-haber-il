@@ -1,0 +1,210 @@
+{
+  "il": "Malatya",
+  "plaka": "44",
+  "slug": "malatya",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/malatya",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akçadağ",
+    "Arapgir",
+    "Arguvan",
+    "Battalgazi",
+    "Darende",
+    "Doğanşehir",
+    "Doğanyol",
+    "Hekimhan",
+    "Kale",
+    "Kuluncak",
+    "Pütürge",
+    "Yazıhan",
+    "Yeşilyurt"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Malatya Valiliği",
+      "url": "https://www.malatya.gov.tr/",
+      "duyuru_url": "https://www.malatya.gov.tr/duyurular",
+      "haber_url": "https://www.malatya.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200 dönüyor, soft 404 yok."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Malatya Büyükşehir Belediyesi",
+      "url": "https://www.malatya.bel.tr/",
+      "duyuru_url": "https://www.malatya.bel.tr/duyurular",
+      "haber_url": "https://www.malatya.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /duyurular (tekil duyuru /duyuru/{slug}), haberler /haberler (tekil /haber/{slug}). Meclis toplantısı, yol/kavşak çalışması, trafik düzenlemesi duyuruları burada."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Malatya İl Milli Eğitim Müdürlüğü",
+      "url": "https://malatya.meb.gov.tr/",
+      "duyuru_url": "https://malatya.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://malatya.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://malatya.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ilk denemede bir kez 500 döndü, tekrar denemelerde 200 (aralıklı hata). /www/duyurular/kategori/1 haberler sayfasına yönleniyor. RSS 200. /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Malatya Su ve Kanalizasyon İdaresi Genel Müdürlüğü (MASKİ)",
+      "url": "https://www.maski.gov.tr/",
+      "duyuru_url": "https://www.maski.gov.tr/Home/Duyurular",
+      "haber_url": "https://www.maski.gov.tr/Home/Haberler",
+      "kesinti_url": "https://online.maski.gov.tr/meta/subscription/interruptions",
+      "durum": 200,
+      "not": "Büyükşehir su idaresi MASKİ ayrı kurumdur (Malatya Büyükşehir Belediyesi'ne bağlı; çağrı merkezi ALO 185). Site SSL sertifika zinciri eksik olduğu için standart curl 000 (SSL hatası) dönüyor; curl -k ile 200 (tarayıcıda açılır). Ana sayfada 'Tüm Kesintiler' bağlantısı online.maski.gov.tr/meta/subscription/interruptions adresine gidiyor (200, JS tabanlı olabilir). Haberler ağırlıkla altyapı yatırımı; kesinti duyuruları genel duyurular ve yerel basında da çıkıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Fırat Elektrik Dağıtım A.Ş. (Fırat EDAŞ / FEDAŞ)",
+      "url": "https://www.firatedas.com.tr/",
+      "duyuru_url": "https://www.firatedas.com.tr/BilgiDanisma/BakimProgramiveKesintiListesi",
+      "haber_url": "https://www.firatedas.com.tr/BizdenHaberler/Duyurular",
+      "durum": 200,
+      "not": "Fırat EDAŞ Bingöl, Elazığ, Malatya ve Tunceli'de hizmet veriyor (sitenin kesinti formundaki il listesinde MALATYA var, plaka 44; ayrıca firatedas.com.tr'de Malatya İl Müdürlüğü bağlantısı mevcut). Planlı kesinti sayfası yıl/ay/il/ilçe seçimli form (JS ile ilçe yükleniyor), düz HTML'den liste okunamaz. Arıza hattı 186. Duyurular: /BizdenHaberler/Duyurular (200)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Malatya Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/malatya",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Dağıtım şirketi web aramasıyla doğrulandı (Aksa Malatya Doğal Gaz Dağıtım A.Ş.). Bölge sayfası çoğunlukla menü içeriği gösteriyor, kapsamlı metin yok. Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir; altyapı çalışmasında boru patlaması haberleri yerel basında çıkıyor."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Malatya İl Sağlık Müdürlüğü",
+      "url": "https://malatyaism.saglik.gov.tr/",
+      "duyuru_url": "https://malatyaism.saglik.gov.tr/TR-44098/duyurular.html",
+      "haber_url": "https://malatyaism.saglik.gov.tr/TR-44022/haberler.html",
+      "durum": 200,
+      "not": "Adres malatyaism.saglik.gov.tr. Sayfa numaraları ile illere göre farklı (Amasya'nın TR-46346 numarası Amasya sitesine yönleniyor; kullanma). Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Malatya İl Emniyet Müdürlüğü",
+      "url": "https://malatya.pol.tr/",
+      "duyuru_url": "https://malatya.pol.tr/duyurular",
+      "haber_url": "https://malatya.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi malatya.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Malatya İl Jandarma Komutanlığı",
+      "url": "https://malatya.jandarma.gov.tr/",
+      "duyuru_url": "https://malatya.jandarma.gov.tr/duyurular",
+      "haber_url": "https://malatya.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Malatya Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://malatya.afad.gov.tr/",
+      "duyuru_url": "https://malatya.afad.gov.tr/duyurular",
+      "haber_url": "https://malatya.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. 6 Şubat 2023 depremi sonrası yeniden yapılanma ve konteyner/konut haberleri sık çıkar."
+    },
+    {
+      "tur": "universite",
+      "kurum": "İnönü Üniversitesi",
+      "url": "https://www.inonu.edu.tr/",
+      "duyuru_url": "https://www.inonu.edu.tr/tr/duyurular",
+      "haber_url": "https://www.inonu.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "Site SSL sertifika zinciri eksik: standart curl 000, curl -k ile 200 (http:// 301 ile https'e yönleniyor). Ana sayfa JS (SPA) tabanlı; /tr/duyurular ve /tr/haberler 200 dönüyor ancak içerik JS ile yüklenebilir. Turgut Özal Hastanesi/İnönü Üniversitesi Tıp Fakültesi haberleri sık çıkar."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Malatya Turgut Özal Üniversitesi",
+      "url": "https://www.ozal.edu.tr/",
+      "duyuru_url": "https://www.ozal.edu.tr/page/announcement",
+      "haber_url": "https://www.ozal.edu.tr/page/news",
+      "durum": 200,
+      "not": "Duyurular /page/announcement, haberler /page/news (200). /duyurular ve /haberler 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Battalgazi Belediyesi",
+      "url": "https://www.battalgazi.bel.tr/",
+      "duyuru_url": "https://www.battalgazi.bel.tr/category/duyurular/",
+      "haber_url": "https://www.battalgazi.bel.tr/category/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir merkez ilçesi (nüfusça en büyük ilçelerden). /duyurular 404; WordPress kategori sayfaları kullanılıyor (ayrıca /category/ihale-ve-duyurular/, /category/meclis-gundemi/). /haberler /haberler/ biçiminde 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yeşilyurt Belediyesi",
+      "url": "https://yesilyurt.bel.tr/",
+      "duyuru_url": "https://yesilyurt.bel.tr/duyurular",
+      "haber_url": "https://yesilyurt.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir merkez ilçesi. www ön ekli adres yesilyurt.bel.tr'ye yönleniyor. Duyuru ve haber sayfaları 200 (sayfadaki tek 'bulunamadı' ifadesi video yükleme mesajı, soft 404 değil)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Darende Belediyesi",
+      "url": "https://darende.bel.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Ana sayfa 200; duyuru/haber alt adresi doğrulanmadı (ilin en kalabalık ilçelerinden biri; Somuncu Baba ve Darende turizm haberleri). Alt sayfa için ana sayfa menüsüne bakılmalı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "MOTAŞ - Malatya Büyükşehir Belediyesi Ulaşım Hizmetleri",
+      "url": "https://motas.com.tr/",
+      "duyuru_url": "https://motas.com.tr/haberler",
+      "haber_url": "https://motas.com.tr/haberler",
+      "durum": 200,
+      "not": "Toplu taşıma (otobüs) işletmesi; hat değişikliği ve 'yolcularımızın dikkatine' duyuruları /haberler altında. /duyurular 404. www.motas.com.tr motas.com.tr'ye yönleniyor. Malatya Kültür ve Turizm Müdürlüğü sitesi aranmadı (ktb il siteleri genelde açılmıyor)."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Malatya+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Malatya Haber (malatyahaber.com)",
+      "url": "https://malatyahaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Malatya Güncel",
+      "url": "https://www.malatyaguncel.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "İşçi Haber Malatya bölümü",
+      "url": "https://www.iscihaber.net/malatya",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Malatya bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/malatya/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (Fırat EDAŞ) ilçe ilçe",
+    "planlı su kesintisi ve içme suyu şebeke çalışmaları (MASKİ)",
+    "deprem sonrası yeniden yapılanma, konut teslimleri, kentsel dönüşüm ve hasarlı bina yıkımları",
+    "deprem ve artçı sarsıntı bilgileri (AFAD, Kandilli); Doğu Anadolu Fay Hattı",
+    "kar nedeniyle okul tatili ve köy/kırsal yolların kapanması (Darende, Arguvan, Hekimhan, Arapgir kesimi)",
+    "kayısı hasadı, don ve zirai don zararı, kayısı fiyatları ve ihracatı",
+    "kent içi ulaşım ve trafik düzenlemeleri (MOTAŞ, trambüs, yol/kavşak çalışmaları, Çarşı bölgesi)",
+    "trafik kazaları ve Malatya-Elazığ/Sivas/Kayseri/Adıyaman yolları",
+    "sağlık: İnönü Üniversitesi Turgut Özal Tıp Merkezi ve şehir hastanesi haberleri"
+  ],
+  "notlar": "Valilik, belediye, emniyet, jandarma, AFAD, sağlık ve MEB sitelerinin duyuru/haber alt sayfaları 200 dönüyor (MEB duyuru sayfası bir kez 500 verdi, sonra 200; tekrar dene). MASKİ (www.maski.gov.tr) ve İnönü Üniversitesi (www.inonu.edu.tr) sitelerinde SSL sertifika zinciri eksik: standart curl 000 veriyor, curl -k ile 200; tarayıcıda açılıyor, scraper'da sertifika doğrulaması kapatılmalı. maski.gov.tr (www'suz) ayrıca yönlendirme yapıyor. MASKİ planlı kesinti sayfası online.maski.gov.tr altında; Fırat EDAŞ planlı kesinti sayfası yıl/ay/il/ilçe seçimli JS formu (liste düz HTML'de yok). Büyükşehirde su idaresi MASKİ ayrıdır; Malatya Büyükşehir Belediyesi sitesiyle karıştırılmamalı. Yerel haber olarak malatyapostasi.com, malatyanet.com.tr ve malatyaçağdaş.com park/boş sayfa (1 KB) olduğu için listeye alınmadı; malatyahaber.com.tr zayıf içerikli, alınmadı. Erişim testleri yurt dışı IP engeli göstermedi."
+}

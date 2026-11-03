@@ -1,0 +1,190 @@
+{
+  "il": "Kırşehir",
+  "plaka": "40",
+  "slug": "kirsehir",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kirsehir",
+  "buyuksehir": false,
+  "ilceler": [
+    "Akçakent",
+    "Akpınar",
+    "Boztepe",
+    "Çiçekdağı",
+    "Kaman",
+    "Merkez",
+    "Mucur"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kırşehir Valiliği",
+      "url": "https://www.kirsehir.gov.tr/",
+      "duyuru_url": "https://www.kirsehir.gov.tr/duyurular",
+      "haber_url": "https://www.kirsehir.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.kirsehir.gov.tr/basin-yayin-2024",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ayrıca /validen-haberler (200) ve /basin-yayin-2024 (200, basın yayın sayfası). /basin-aciklamalari 404."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kırşehir Belediyesi",
+      "url": "https://www.kirsehir.bel.tr/",
+      "duyuru_url": "https://www.kirsehir.bel.tr/duyurular",
+      "haber_url": "https://www.kirsehir.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. kirsehir.bel.tr www'ye yönleniyor. Ayrıca /etkinlikler ve /ihale sayfaları var; /haber ve /duyuru 404."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kırşehir İl Milli Eğitim Müdürlüğü",
+      "url": "https://kirsehir.meb.gov.tr/",
+      "duyuru_url": "https://kirsehir.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://kirsehir.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://kirsehir.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor. /www/haberler/kategori/2 duyurular sayfasına yönleniyor (bir denemede 500 verdi, geçici olabilir). /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kırşehir Belediyesi Su ve Kanalizasyon İşleri Müdürlüğü",
+      "url": "https://www.kirsehir.bel.tr/mudurlukler/su-ve-kanalizasyon-isleri",
+      "duyuru_url": "https://www.kirsehir.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon İşleri Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı sayfa bulunamadı (/su-kesintisi 404); kesinti duyuruları genel /duyurular ve /haberler içinde ve yerel basında çıkıyor."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Meram Elektrik Dağıtım A.Ş. (MEDAŞ)",
+      "url": "https://www.meramedas.com.tr/",
+      "duyuru_url": "https://www.meramedas.com.tr/tr/planli-kesintiler.html",
+      "haber_url": "https://www.meramedas.com.tr/tr/duyurular",
+      "durum": 200,
+      "not": "MEDAŞ Kırşehir, Konya, Nevşehir, Niğde (ve Aksaray, Karaman) illerinde dağıtım yapıyor; MEDAŞ kurumsal sitesindeki ifade ve arama sonuçlarıyla Kırşehir doğrulandı. Planlı Kesintiler sayfası (200) kesinti bilgi sistemi/form tabanlı; il-ilçe-mahalle seçimi gerekebilir, sayfa HTML'inde kesinti listesi doğrudan görünmeyebilir. Arıza/kesinti telefonu 186."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "KIRGAZ Kırşehir Doğalgaz Dağıtım Pazarlama A.Ş.",
+      "url": "https://www.kirgaz.com.tr/",
+      "duyuru_url": "https://www.kirgaz.com.tr/basin-odasi",
+      "durum": 200,
+      "not": "Kırşehir doğalgaz dağıtım şirketi (e-Devlet kaydı ve arama sonuçlarıyla doğrulandı). Haberler/duyurular /basin-odasi altında; acil hat 187. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kırşehir İl Sağlık Müdürlüğü",
+      "url": "https://kirsehirism.saglik.gov.tr/",
+      "duyuru_url": "https://kirsehirism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Adres kirsehirism.saglik.gov.tr. Duyuru/haber alt sayfasının kesin adresi doğrulanamadı (şablon adresi /TR-0/duyurular.html ana sayfaya düşüyor); duyurular ana sayfadan izlenmeli. Nöbetçi eczane: https://kirsehirism.saglik.gov.tr/TR,79610/nobetci-eczaneler.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kırşehir İl Emniyet Müdürlüğü",
+      "url": "https://kirsehir.pol.tr/",
+      "duyuru_url": "https://kirsehir.pol.tr/duyurular",
+      "haber_url": "https://kirsehir.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kirsehir.pol.tr; olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kırşehir İl Jandarma Komutanlığı",
+      "url": "https://kirsehir.jandarma.gov.tr/",
+      "duyuru_url": "https://kirsehir.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kirsehir.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kırşehir Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kirsehir.afad.gov.tr/",
+      "duyuru_url": "https://kirsehir.afad.gov.tr/duyurular",
+      "haber_url": "https://kirsehir.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kırşehir Ahi Evran Üniversitesi",
+      "url": "https://www.ahievran.edu.tr/",
+      "duyuru_url": "https://www.ahievran.edu.tr/duyurular",
+      "haber_url": "https://www.ahievran.edu.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar, ikisi de 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kaman Belediyesi",
+      "url": "https://www.kaman.bel.tr/",
+      "duyuru_url": "https://www.kaman.bel.tr/Gundem/Duyurular",
+      "haber_url": "https://www.kaman.bel.tr/Gundem/Duyurular",
+      "durum": 200,
+      "not": "Merkezden sonra nüfusu en büyük ilçe. /duyurular ve /haberler 404; adres /Gundem/Duyurular (ayrıca /Gundem/Etkinlikler, /Gundem/Ihaleler). Ana sayfada /Gundem/HaberDetay?haberId=... bağlantıları var, ayrı haber liste sayfası bulunamadı (/Gundem/Haberler 404)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Mucur Belediyesi",
+      "url": "https://mucur.bel.tr/",
+      "duyuru_url": "https://mucur.bel.tr/duyurular",
+      "haber_url": "https://mucur.bel.tr/haberler",
+      "durum": 200,
+      "not": "Nüfusça Kaman'dan sonra gelen ilçe. Bağlantılar Detay/....html ve Kategori/duyurular.html biçiminde. mucurbelediyesi.bel.tr açılmıyor, mucur.bel.tr kullanılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Çiçekdağı Belediyesi",
+      "url": "https://cicekdagi.bel.tr/",
+      "duyuru_url": "https://cicekdagi.bel.tr/duyurular/",
+      "haber_url": "https://cicekdagi.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Site başlığı 'Çiçekdağ Belediyesi'. Duyurular ve haberler sonda / ile 200."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=K%C4%B1r%C5%9Fehir+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kırşehir Haber Türk",
+      "url": "https://www.kirsehirhaberturk.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kırşehir Gündem",
+      "url": "https://kirsehirgundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kırşehir Çiğdem",
+      "url": "https://www.kirsehircigdem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kırşehir Ses",
+      "url": "https://www.kirsehirses.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Kırşehir bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/kirsehir/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (MEDAŞ)",
+    "su kesintisi, içme suyu şebekesi ve su kalitesi",
+    "kar nedeniyle okul tatili ve kırsal yolların kapanması",
+    "termal turizm ve jeotermal ısıtma (Kırşehir termal kaynakları)",
+    "Kırşehir-Ankara/Kayseri/Nevşehir yolları ve trafik kazaları",
+    "tarım: tahıl ve bağ hasadı, don ve dolu zararı, kuraklık",
+    "Ahilik kültürü, Neşet Ertaş ve kültür-sanat etkinlikleri; UNESCO Müzik Şehri",
+    "deprem bilgilendirmeleri (AFAD) ve Ahi Evran Üniversitesi duyuruları"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 içermiyor. Su için ayrı idare yok; planlı su kesintisi için özel sayfa bulunamadı, kirsehir.bel.tr/duyurular ve haberler ile yerel basına bakılmalı. MEDAŞ planlı kesinti sayfası form/JS tabanlı. Sağlık Müdürlüğü kirsehirism.saglik.gov.tr üzerinde, duyuru alt sayfası doğrulanamadı. Kültür Turizm Müdürlüğü sitesi denenmedi (ktb.gov.tr il siteleri genelde açılmıyor). Yerel haber sitelerinden kirsehirhaber.com.tr (az Kırşehir içeriği) ve kirsehirgundem.com.tr (lisans doğrulama sayfası) listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi (hepsi 200)."
+}

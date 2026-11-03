@@ -1,0 +1,205 @@
+{
+  "il": "Kastamonu",
+  "plaka": "37",
+  "slug": "kastamonu",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kastamonu",
+  "buyuksehir": false,
+  "ilceler": [
+    "Abana",
+    "Ağlı",
+    "Araç",
+    "Azdavay",
+    "Bozkurt",
+    "Cide",
+    "Çatalzeytin",
+    "Daday",
+    "Devrekânî",
+    "Doğanyurt",
+    "Hanönü",
+    "İhsangazi",
+    "İnebolu",
+    "Küre",
+    "Merkez",
+    "Pınarbaşı",
+    "Seydiler",
+    "Şenpazar",
+    "Taşköprü",
+    "Tosya"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kastamonu Valiliği",
+      "url": "https://kastamonu.gov.tr/",
+      "duyuru_url": "https://kastamonu.gov.tr/duyurular",
+      "haber_url": "https://kastamonu.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ayrıca /validen-haberler (vali haberleri) var. /basin-aciklamalari 404 (denenmemeli)."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kastamonu Belediyesi",
+      "url": "https://www.kastamonu.bel.tr/",
+      "duyuru_url": "https://www.kastamonu.bel.tr/duyurular/",
+      "haber_url": "https://www.kastamonu.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. kastamonu.bel.tr www'ye yönlenir. WordPress; kategori sayfaları /category/duyurular/ ve /category/haberler/ (200). RSS: /feed/. Ayrıca e-belediye: ebelediyem.kastamonu.bel.tr."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kastamonu İl Milli Eğitim Müdürlüğü",
+      "url": "https://kastamonu.meb.gov.tr/",
+      "duyuru_url": "https://kastamonu.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://kastamonu.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://kastamonu.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru, haber ve duyuru RSS'i 200 dönüyor. Kar tatili vb. duyurular valilik/MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kastamonu Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.kastamonu.bel.tr/kurumsal/mudurluklerimiz/su-ve-kanalizasyon-mudurlugu/",
+      "duyuru_url": "https://www.kastamonu.bel.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı (/su-kesintisi 404); kesinti duyuruları belediyenin duyuru/haber sayfalarında ve sosyal medya hesaplarında (Facebook: KastamonuBelBsk), yerel basında çıkıyor. Karaçomak Barajı isale hattı arızaları geçmişte uzun su kesintisi yarattı."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Başkent Elektrik Dağıtım A.Ş. (Başkent EDAŞ)",
+      "url": "https://www.baskentedas.com.tr/",
+      "duyuru_url": "https://online.baskentedas.com.tr/elektrik-kesintisi-sorgulama",
+      "haber_url": "https://www.baskentedas.com.tr/basin-bultenleri",
+      "durum": 200,
+      "not": "Başkent EDAŞ Ankara, Bartın, Çankırı, Karabük, Kastamonu, Kırıkkale ve Zonguldak'ta hizmet veriyor (şirketin kendi basın bülteni 'Başkent EDAŞ Kastamonu'nun enerji altyapısını güçlendirmeye devam ediyor' ve arama sonuçlarıyla doğrulandı). Kesinti sorgulama sayfası form/JS tabanlı (il-ilçe seçimi gerekir); anasayfada /sss/elektrik-kesintisi (200) de var. /planli-kesintiler 404."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "KARGAZ Doğalgaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://www.kargaz.com.tr/",
+      "duyuru_url": "https://www.kargaz.com.tr/HaberVeDuyurular.aspx",
+      "durum": 200,
+      "not": "Kargaz; Karabük, Kastamonu, Çankırı, Gerede, Tosya, Safranbolu vb. dağıtım bölgesi (şirket sitesinden doğrulandı; merkez Kastamonu). Dikkat: kargaz.com farklı bir firmadır (endüstriyel gazlar), kullanma. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kastamonu İl Sağlık Müdürlüğü",
+      "url": "https://kastamonuism.saglik.gov.tr/",
+      "duyuru_url": "https://kastamonuism.saglik.gov.tr/TR-21077/duyurular.html",
+      "haber_url": "https://kastamonuism.saglik.gov.tr/TR-21067/haberler.html",
+      "durum": 200,
+      "not": "Adres kastamonuism.saglik.gov.tr. Duyurular ağırlıklı personel/aile hekimliği yerleştirme; halk sağlığı haberleri /haberler sayfasında."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kastamonu İl Emniyet Müdürlüğü",
+      "url": "https://kastamonu.pol.tr/",
+      "duyuru_url": "https://kastamonu.pol.tr/duyurular",
+      "haber_url": "https://kastamonu.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kastamonu.pol.tr. Duyurular çoğunlukla idari (mübadele ilanı vb.); olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kastamonu İl Jandarma Komutanlığı",
+      "url": "https://kastamonu.jandarma.gov.tr/",
+      "duyuru_url": "https://kastamonu.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kastamonu.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kastamonu Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kastamonu.afad.gov.tr/",
+      "duyuru_url": "https://kastamonu.afad.gov.tr/duyurular",
+      "haber_url": "https://kastamonu.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kastamonu Üniversitesi",
+      "url": "https://www.kastamonu.edu.tr/tr",
+      "duyuru_url": "https://www.kastamonu.edu.tr/tr/haberler",
+      "haber_url": "https://www.kastamonu.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler tek portalda (/tr/haberler; üniversite haberleri, bölüm haberleri, üniversite duyuruları, öğrenci duyuruları sıralama seçenekleriyle). /tr/duyurular 500 hatası veriyor. haber.kastamonu.edu.tr açılmıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tosya Belediyesi",
+      "url": "https://tosya.bel.tr/",
+      "duyuru_url": "https://tosya.bel.tr/category/duyurular/",
+      "haber_url": "https://tosya.bel.tr/category/haberler/",
+      "durum": 200,
+      "not": "Nüfusça merkezden sonra en büyük ilçe (yaklaşık 39 bin). /duyurular ve /haberler 404; WordPress kategori sayfaları kullanılıyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Taşköprü Belediyesi",
+      "url": "https://taskopru.bel.tr/v1/",
+      "duyuru_url": "https://taskopru.bel.tr/v1/category/duyurular/",
+      "haber_url": "https://taskopru.bel.tr/v1/",
+      "durum": 200,
+      "not": "Yaklaşık 36,5 bin nüfuslu ilçe. Ana adres (taskopru.bel.tr) /v1 adresine meta-refresh ile yönleniyor; /duyurular ve /haberler 404. Yazı bazlı WordPress yapısı (tarihli adresler, ör. /v1/2026/11/03/...). Kategori sayfası duyuru_url olarak kaydedildi, haber_url ana sayfa."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Cide Belediyesi",
+      "url": "https://www.cide.bel.tr/",
+      "duyuru_url": "https://www.cide.bel.tr/duyurular.html",
+      "haber_url": "https://www.cide.bel.tr/",
+      "durum": 200,
+      "not": "Yaklaşık 22 bin nüfuslu ilçe (Tosya ve Taşköprü'den sonra gelir). Duyurular /duyuru/... alt adreslerinde; liste /duyurular.html (200). Ayrı haber listesi doğrulanmadı. İnebolu (www.inebolu.bel.tr, duyurular.asp ve haberler.asp 200) yedek olarak kullanılabilir."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kastamonu İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://kastamonu.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "kastamonu.ktb.gov.tr açılmıyor (curl 000, DNS/bağlantı hatası); adres tahmine dayalı, kaynak olarak kullanılmamalı. Ulaşım için ayrı sık haber çıkaran resmî işletme (otobüs/tramvay) bulunamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Kastamonu+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kastamonu Haber",
+      "url": "https://www.kastamonuhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kastamonu İstiklal Gazetesi",
+      "url": "https://www.kastamonuistiklal.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Taşköprü Postası",
+      "url": "https://www.taskoprupostasi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Açıksöz Gazetesi",
+      "url": "https://www.aciksoz.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili, Ilgaz/Küre dağları ve köy yollarının kapanması",
+    "sel, taşkın ve aşırı yağış uyarıları (Batı Karadeniz, İnebolu-Cide-Bozkurt kıyı ilçeleri)",
+    "su kesintisi ve içme suyu sorunları (Karaçomak Barajı isale hattı, bulanık su)",
+    "planlı elektrik kesintisi (Başkent EDAŞ) ve fırtına/kar sonrası elektrik arızaları",
+    "trafik kazaları ve yol durumu (Kastamonu-Ankara/Karabük/Sinop, Ilgaz Dağı geçişi, D010/D765)",
+    "turizm ve kültür: Kastamonu Kalesi, Küre Dağları Milli Parkı, Taşköprü sarımsağı, Cide-Abana kıyıları, etkinlik ve festivaller",
+    "orman yangını ve orman içi dinlenme yerleri yasakları",
+    "deprem (Kuzey Anadolu Fay Hattı) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, sağlık, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft-404 (bulunamad) içermiyor. Planlı su kesintisi için özel sayfa yok; kastamonu.bel.tr duyuru/haberleri, belediyenin sosyal medyası ve yerel basına bakılmalı. Başkent EDAŞ kesinti sorgulaması form/JS tabanlı (online.baskentedas.com.tr). Doğalgaz için kargaz.com.tr kullan (kargaz.com farklı firma). Üniversitenin /tr/duyurular adresi 500 veriyor, haber ve duyurular /tr/haberler altında. Taşköprü Belediyesi sitesi /v1 altında çalışıyor. Yerel haber siteleri: kastamonugazetesi.com.tr 522 hata veriyor (erişilemiyor), kastamonuhaberajansi.com ele geçirilmiş/bahis spam içerik gösteriyor; ikisi de listeye alınmadı. Erişim testlerinde yurt dışı IP engeli görülmedi."
+}

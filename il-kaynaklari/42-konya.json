@@ -1,0 +1,256 @@
+{
+  "il": "Konya",
+  "plaka": "42",
+  "slug": "konya",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/konya",
+  "buyuksehir": true,
+  "ilceler": [
+    "Ahırlı",
+    "Akören",
+    "Akşehir",
+    "Altınekin",
+    "Beyşehir",
+    "Bozkır",
+    "Cihanbeyli",
+    "Çeltik",
+    "Çumra",
+    "Derbent",
+    "Derebucak",
+    "Doğanhisar",
+    "Emirgazi",
+    "Ereğli",
+    "Güneysınır",
+    "Hadim",
+    "Halkapınar",
+    "Hüyük",
+    "Ilgın",
+    "Kadınhanı",
+    "Karapınar",
+    "Karatay",
+    "Kulu",
+    "Meram",
+    "Sarayönü",
+    "Selçuklu",
+    "Seydişehir",
+    "Taşkent",
+    "Tuzlukçu",
+    "Yalıhüyük",
+    "Yunak"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Konya Valiliği",
+      "url": "https://www.konya.gov.tr/",
+      "duyuru_url": "https://www.konya.gov.tr/duyurular",
+      "haber_url": "https://www.konya.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, valinin faaliyetleri /validen-haberler (hepsi 200). Basın ve Halkla İlişkiler: /konya-il-basin-ve-halkla-iliskiler-mudurlugu. /basin-aciklamalari ve /sicak-gundem 404."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Konya Büyükşehir Belediyesi",
+      "url": "https://www.konya.bel.tr/",
+      "duyuru_url": "https://www.konya.bel.tr/duyuru",
+      "haber_url": "https://www.konya.bel.tr/haber",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular /duyuru, haberler /haber (200); /duyurular ve /haberler 404 verir. /haber/basin 500 döndü. Duyurular ağırlıklı imar/ihale/ilan; ulaşım, yol çalışması ve etkinlik haberleri /haber altında."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Konya İl Milli Eğitim Müdürlüğü",
+      "url": "https://konya.meb.gov.tr/",
+      "duyuru_url": "https://konya.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://konya.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://konya.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular /www/duyurular/kategori/2 (200, başlık 'Duyurular', soft 404 yok); haberler /www/haberler/kategori/1 (200). Duyuru RSS'i 200. Kar tatili bilgisi için önce Valilik duyuruları/haberleri kontrol edilmeli. /acilduyurular/ denenmedi (brif: çoğu ilde 404)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Konya Su ve Kanalizasyon İdaresi Genel Müdürlüğü (KOSKİ)",
+      "url": "https://www.koski.gov.tr/",
+      "duyuru_url": "https://www.koski.gov.tr/koski/ariza-ve-kesintiler",
+      "haber_url": "https://www.koski.gov.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehirde ayrı su idaresi KOSKİ. Arıza ve Kesintiler sayfası 200 dönüyor ancak içerik JS/dinamik yüklenebilir (statik HTML'de liste görünmedi); /su-kesintileri 200 dönse de sayfada '404 sayfa bulunamıyor' yazıyor (soft 404, KULLANMA). Genel duyurular /duyurular, haberler /haberler (200). Planlı su kesintisi listeleri yerel basında (ör. iscihaber.net) 'KOSKİ su kesintisi' başlığıyla da çıkıyor. Baraj doluluk değerleri /koski/*-baraj-degerleri altında."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Meram Elektrik Dağıtım A.Ş. (MEDAŞ)",
+      "url": "https://www.meramedas.com.tr/tr",
+      "duyuru_url": "https://www.meramedas.com.tr/tr/planli-kesintiler.html",
+      "haber_url": "https://www.meramedas.com.tr/tr/duyurular",
+      "durum": 200,
+      "not": "MEDAŞ Konya, Karaman, Aksaray, Nevşehir, Niğde ve Kırşehir'de dağıtım yapıyor (arama sonuçlarındaki haberlerle doğrulandı; 2026'da hisseleri Alarko Enerji'ye devredilmiş). Planlı kesintiler sayfası JS tabanlı: içerik iframe olarak https://cc.meramedas.com.tr/modules/meram/kesintilerweb.aspx ve https://www.meramedas.com.tr/kesintiler adreslerinden yükleniyor (kesintiler 200). Duyurular: https://www.meramedas.com.tr/tr/duyurular (200). www.meram-edas.com.tr açılmıyor. Yerel basın (gazetebirlik, habergazetesi) günlük kesinti listesi yayımlıyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Enerya Konya Gaz Dağıtım A.Ş. (Enerya Enerji / Ahlatcı Grubu)",
+      "url": "https://www.enerya.com.tr/",
+      "duyuru_url": "https://www.enerya.com.tr/tr/kurumsal/basin-odasi/",
+      "basin_aciklamalari_url": "https://www.enerya.com.tr/tr/kurumsal/basin-odasi/",
+      "durum": 200,
+      "not": "Konya doğal gaz dağıtımı Enerya Konya Gaz Dağıtım A.Ş. (arama ve enerya.com.tr ana sayfasındaki şirket listesiyle doğrulandı; Ereğli için ayrı Enerya Ereğli Gaz Dağıtım). Ayrı il duyuru sayfası yok; /duyurular 404. Basın odası 200. Planlı gaz kesintisi duyurusu nadir. Acil arıza hattı 187."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Konya İl Sağlık Müdürlüğü",
+      "url": "https://konyaism.saglik.gov.tr/",
+      "duyuru_url": "https://konyaism.saglik.gov.tr/TR-56237/duyurular.html",
+      "haber_url": "https://konyaism.saglik.gov.tr/TR-55643/haberler.html",
+      "durum": 200,
+      "not": "Adres konyaism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /TR-55643/haberler.html (200)."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Konya İl Emniyet Müdürlüğü",
+      "url": "https://konya.pol.tr/",
+      "duyuru_url": "https://konya.pol.tr/duyurular",
+      "haber_url": "https://konya.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi konya.pol.tr. Duyurular /duyurular (çoğu idari, ör. fahri trafik müfettişliği eğitimi); haberler /haberler (200). /haber 404."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Konya İl Jandarma Komutanlığı",
+      "url": "https://konya.jandarma.gov.tr/",
+      "duyuru_url": "https://konya.jandarma.gov.tr/duyurular",
+      "haber_url": "https://konya.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında (200)."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Konya Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://konya.afad.gov.tr/",
+      "duyuru_url": "https://konya.afad.gov.tr/duyurular",
+      "haber_url": "https://konya.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler (/haberler) 200. Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Selçuk Üniversitesi",
+      "url": "https://selcuk.edu.tr/",
+      "duyuru_url": "https://selcuk.edu.tr/icerik/duyurular",
+      "haber_url": "https://selcuk.edu.tr/icerik/haberler",
+      "durum": 200,
+      "not": "www.selcuk.edu.tr selcuk.edu.tr'ye yönleniyor. Duyurular /icerik/duyurular, haberler /icerik/haberler (200); /duyurular ve /haberler 404. Duyurular idari/akademik/personel ağırlıklı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Necmettin Erbakan Üniversitesi",
+      "url": "https://erbakan.edu.tr/",
+      "duyuru_url": "https://erbakan.edu.tr/tr/duyurular",
+      "haber_url": "https://erbakan.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "www.erbakan.edu.tr erbakan.edu.tr'ye yönleniyor. Duyurular /tr/duyurular, haberler /tr/haberler (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Konya Teknik Üniversitesi",
+      "url": "https://www.ktun.edu.tr/",
+      "duyuru_url": "https://www.ktun.edu.tr/",
+      "durum": 200,
+      "not": "Genel duyuru listesi ayrı bir sabit adreste bulunamadı: /tr/Universite/Duyurular ve /tr/Universite/Haberler 'SayfaBulunamadi' sayfasına yönleniyor (soft 404, 200 döner). Duyurular birim bazlı (/tr/Birim/Duyurular/?brm=...), haberler ana sayfadaki /tr/Universite/HaberDetay/... bağlantılarında. Düşük öncelik."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Selçuklu Belediyesi",
+      "url": "https://www.selcuklu.bel.tr/",
+      "duyuru_url": "https://www.selcuklu.bel.tr/p/duyurular/",
+      "haber_url": "https://www.selcuklu.bel.tr/p/haberler/",
+      "durum": 200,
+      "not": "Merkez ilçe. Duyurular /p/duyurular/, haberler /p/haberler/ (200); /duyuru, /haber vb. 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Meram Belediyesi",
+      "url": "https://www.meram.bel.tr/",
+      "duyuru_url": "https://www.meram.bel.tr/duyurular",
+      "haber_url": "https://www.meram.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe. /duyurular ve /haberler 200; sayfalar JS ile liste yüklüyor (statik HTML'de 'Kayıt Bulunamadı' şablonu var, soft 404 değil). /duyuru, /haber 404."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Karatay Belediyesi",
+      "url": "https://www.karatay.bel.tr/",
+      "duyuru_url": "https://www.karatay.bel.tr/duyuru",
+      "haber_url": "https://www.karatay.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe. Duyurular /duyuru, haberler /haberler (başlık 'Haber Arşivi'); /duyurular ve /haber 404."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Konya Büyükşehir Belediyesi Akıllı Toplu Ulaşım Sistemi (ATUS)",
+      "url": "https://atus.konya.bel.tr/",
+      "duyuru_url": "https://atus.konya.bel.tr/",
+      "durum": 200,
+      "not": "Otobüs/tramvay tarifeleri ve ulaşım duyuruları; işletme Büyükşehir Ulaşım Dairesi. KonyaKart sitesi https://konyakart.konya.bel.tr/ (ilk testte 522, ikinci testte 200 - kararsız). ulasim.konya.bel.tr bakim.konya.bel.tr'ye yönleniyor (bakım sayfası). Ulaşım zam/ücretsiz ulaşım/hat değişikliği haberleri ayrıca konya.bel.tr/haber altında."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Konya İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://konya.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "konya.ktb.gov.tr ve www.konya.ktb.gov.tr açılmıyor (curl 000); kaynak olarak güvenilmemeli, adres tahmin olarak denendi, arama sonucu yok."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Konya+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Konya Yenigün",
+      "url": "https://www.konyayenigun.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Konya Gündem",
+      "url": "https://konyagundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Konya Olay",
+      "url": "https://www.konyaolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Konya'nın Sesi",
+      "url": "https://www.konyaninsesi.com.tr/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (MEDAŞ; Selçuklu, Meram, Karatay ve ilçeler)",
+    "planlı su kesintisi ve altyapı çalışmaları (KOSKİ)",
+    "kar nedeniyle okul tatili ve ilçe yollarının kapanması (Bozkır, Hadim, Taşkent, Beyşehir, Seydişehir kesimi)",
+    "tramvay/otobüs hat değişikliği, ücretsiz ulaşım ve yol çalışmaları (Büyükşehir)",
+    "kuraklık, su seviyesi ve sinkhole/obruk (Karapınar, Çumra, Ereğli kesimi)",
+    "tarım: don, dolu ve kuraklık zararı, hububat ve şeker pancarı hasadı",
+    "trafik kazaları (Ankara-Konya, Konya-Aksaray, Konya-Antalya yolları)",
+    "sel/taşkın uyarıları, deprem ve AFAD bilgilendirmeleri",
+    "kültür-turizm: Mevlana, Şeb-i Arus törenleri, Çatalhöyük, etkinlikler"
+  ],
+  "notlar": "Valilik, Büyükşehir, MEB, Sağlık, Emniyet, Jandarma, AFAD ve ilçe belediyeleri sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. Büyükşehir belediyesinde duyuru/haber adresleri tekil biçimli (/duyuru, /haber), 'duyurular'/'haberler' 404. KOSKİ /su-kesintileri soft 404 (200 döner ama içerik 404), doğru sayfa /koski/ariza-ve-kesintiler ve içeriği dinamik; planlı su kesintisi listeleri için yerel basına da bakılmalı. MEDAŞ planlı kesinti sayfası iframe/JS tabanlı (cc.meramedas.com.tr/modules/meram/kesintilerweb.aspx). Doğalgaz dağıtımı Enerya Konya Gaz Dağıtım (ayrı duyuru sayfası yok, basın odası var). Konya Teknik Üniversitesi'nin genel duyuru sayfası soft 404 veriyor, birim bazlı. Kültür Turizm Müdürlüğü sitesi açılmıyor. Ulaşım için atus.konya.bel.tr kullanılabilir; KonyaKart sitesi zaman zaman 522 veriyor. Ereğli (Enerya Ereğli, ayrı belediye sitesi eregli.bel.tr: /duyurular ve /haberler 200) nüfusça Merkez ilçelerden sonra büyük ilçe, gerekirse eklenebilir."
+}

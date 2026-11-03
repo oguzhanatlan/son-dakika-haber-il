@@ -1,0 +1,230 @@
+{
+  "il": "Kocaeli",
+  "plaka": "41",
+  "slug": "kocaeli",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kocaeli",
+  "buyuksehir": true,
+  "ilceler": [
+    "Başiskele",
+    "Çayırova",
+    "Darıca",
+    "Derince",
+    "Dilovası",
+    "Gebze",
+    "Gölcük",
+    "İzmit",
+    "Kandıra",
+    "Karamürsel",
+    "Kartepe",
+    "Körfez"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kocaeli Valiliği",
+      "url": "https://www.kocaeli.gov.tr/",
+      "duyuru_url": "https://www.kocaeli.gov.tr/duyurular",
+      "haber_url": "https://www.kocaeli.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.kocaeli.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, basın açıklamaları /basin-aciklamalari; hepsi 200. kocaeli.gov.tr www'ye yönleniyor/açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kocaeli Büyükşehir Belediyesi",
+      "url": "https://www.kocaeli.bel.tr/",
+      "duyuru_url": "https://www.kocaeli.bel.tr/duyurular/",
+      "haber_url": "https://www.kocaeli.bel.tr/haberler/",
+      "durum": 200,
+      "not": "Büyükşehir. Alt sayfalarda sondaki eğik çizgi gerekli: /duyurular ve /haberler (çizgisiz) 404.html'e yönleniyor (404.html bile 200 dönüyor, soft 404); doğru adresler /duyurular/ ve /haberler/. Etkinlikler: /etkinlikler/. Ayrıca e-belediye: ebelediye.kocaeli.bel.tr."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kocaeli İl Milli Eğitim Müdürlüğü",
+      "url": "https://kocaeli.meb.gov.tr/",
+      "duyuru_url": "https://kocaeli.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://kocaeli.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://kocaeli.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular /www/duyurular/kategori/2, haberler /www/haberler/kategori/1 (haber sayfası bir denemede 500 verdi, tekrar denemede 200). Duyuru RSS 200. Acil duyuru sayfası denenmedi (brief gereği)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kocaeli Su ve Kanalizasyon İdaresi Genel Müdürlüğü (İSU)",
+      "url": "https://www.isu.gov.tr/",
+      "duyuru_url": "https://www.isu.gov.tr/menu/duyurular",
+      "haber_url": "https://www.isu.gov.tr/menu/haberler",
+      "durum": 200,
+      "not": "Büyükşehir'e bağlı ayrı su idaresi (İSU). TLS sertifikası sunucusu eski yeniden-müzakere kullanıyor: varsayılan OpenSSL 3 curl 'unsafe legacy renegotiation' hatasıyla 000 dönüyor; legacy renegotiation açıkken 200 (tarayıcılarda açılır). Planlı kesinti ayrı sayfa değil: ana sayfadaki 'Planlanmış su kesintisi' bileşeninde listeleniyor (boşken 'Planlanmış bir su kesintisi bulunmamaktadır' yazar); /kesintiler, /su-kesintileri 404. Anlık/arıza kesintileri yerel basında (habergazetesi.com.tr vb.) İSU kaynaklı çıkıyor. Çağrı merkezi ALO 185."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Sakarya Elektrik Dağıtım A.Ş. (SEDAŞ)",
+      "url": "https://www.sedas.com/Tr/",
+      "duyuru_url": "https://www.sedas.com/Tr/1/TumDuyurular",
+      "durum": 200,
+      "not": "SEDAŞ Sakarya, Kocaeli, Bolu ve Düzce'ye hizmet veriyor (sedas.com basın bültenleri ve arama sonuçlarıyla doğrulandı; Gebze ve Kocaeli bültenleri var). Planlı kesintiler ana sayfadaki 'Planlı Kesinti Sorgulama' bölümünde (JS/form tabanlı, il-ilçe seçimi gerekir); kesintiler 48 saat önceden ilan ediliyor. Duyurular sayfası ağırlıklı kurumsal/ihale. Basın bültenleri: https://www.sedas.com/Tr/1/Basin_Bultenleri_URL (200). /Home/... biçimli adresler 404."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "İZGAZ İzmit Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "https://izgaz.com.tr/",
+      "duyuru_url": "https://izgaz.com.tr/category/duyurular/",
+      "rss": "https://izgaz.com.tr/feed/",
+      "durum": 200,
+      "not": "Gebze ve Karamürsel hariç Kocaeli genelinde dağıtım (İzmit, Körfez, Derince, Kartepe, Başiskele, Gölcük, Kandıra vb.) (izgaz.com.tr hakkında sayfasından). Planlı/plansız kesintiler: https://online.izgaz.com.tr/planli-plansiz-kesintiler (200, JS tabanlı olabilir). Feed: https://izgaz.com.tr/feed/ (200)."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "PALGAZ Doğalgaz Dağıtım San. ve Tic. A.Ş.",
+      "url": "https://palgaz.com.tr/",
+      "duyuru_url": "https://palgaz.com.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Gebze, Darıca, Dilovası ve Çayırova dağıtım bölgesi (palgaz.com.tr'den). Planlı/plansız kesintiler: https://online.palgaz.com.tr/planli-plansiz-kesintiler (200). Karamürsel'in doğalgaz dağıtıcısı doğrulanamadı."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kocaeli İl Sağlık Müdürlüğü",
+      "url": "https://kocaeliism.saglik.gov.tr/",
+      "duyuru_url": "https://kocaeliism.saglik.gov.tr/TR-34573/duyurular.html",
+      "haber_url": "https://kocaeliism.saglik.gov.tr/TR-34556/haberler.html",
+      "durum": 200,
+      "not": "Adres kocaeliism.saglik.gov.tr. Duyurular ağırlıklı personel/idari; halk sağlığı haberleri /TR-34556/haberler.html. Valilik duyuruları: /TR-202391/valilik-duyurular.html."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kocaeli İl Emniyet Müdürlüğü",
+      "url": "https://kocaeli.pol.tr/",
+      "duyuru_url": "https://kocaeli.pol.tr/duyurular",
+      "haber_url": "https://kocaeli.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kocaeli.pol.tr; olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kocaeli İl Jandarma Komutanlığı",
+      "url": "https://kocaeli.jandarma.gov.tr/",
+      "duyuru_url": "https://kocaeli.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kocaeli.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kocaeli Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kocaeli.afad.gov.tr/",
+      "duyuru_url": "https://kocaeli.afad.gov.tr/duyurular",
+      "haber_url": "https://kocaeli.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem verisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kocaeli Üniversitesi",
+      "url": "http://www.kocaeli.edu.tr/",
+      "duyuru_url": "http://www.kocaeli.edu.tr/",
+      "durum": 200,
+      "not": "Site Next.js tabanlı (SPA) ve tüm yollar 200 dönüyor (soft 404): /duyurular vb. yolların gerçek olduğu doğrulanamadı, bu yüzden duyuru_url ana sayfa; duyurular ana sayfada. https:// sürümü curl'de TLS legacy renegotiation hatası veriyor (tarayıcıda açılır); http:// 200 dönüyor (HEAD isteği 403)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Gebze Teknik Üniversitesi",
+      "url": "https://www.gtu.edu.tr/",
+      "duyuru_url": "https://www.gtu.edu.tr/tr/kategori/9/0/display.aspx",
+      "haber_url": "https://www.gtu.edu.tr/tr/kategori/8/0/display.aspx",
+      "durum": 200,
+      "not": "Duyurular /tr/kategori/9/0/display.aspx, haberler /tr/kategori/8/0/display.aspx (ana sayfa 'Tümü' bağlantıları, WebFetch ile bulundu). Ana sayfa curl ile 200 ama gövde boş dönüyor (bot koruması olabilir); alt sayfa içeriği curl ile doğrulanamadı, /tr/... adresleri 307 yönlendirme döngüsünde. Tarayıcı/WebFetch ile bakılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gebze Belediyesi",
+      "url": "https://www.gebze.bel.tr/",
+      "duyuru_url": "https://www.gebze.bel.tr/duyurular.html",
+      "haber_url": "https://www.gebze.bel.tr/haberler.html",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; doğru adresler .html uzantılı (/duyurular.html, /haberler.html). Nüfusça Kocaeli'nin en büyük ilçesi."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "İzmit Belediyesi",
+      "url": "https://izmit.bel.tr/",
+      "duyuru_url": "https://izmit.bel.tr/duyurular/",
+      "haber_url": "https://izmit.bel.tr/haberler/",
+      "durum": 200,
+      "not": "www.izmit.bel.tr zaman aşımı/000 verebiliyor; www'siz izmit.bel.tr tercih edilmeli (http://www... da izmit.bel.tr'ye yönleniyor). WordPress; haberler /haberler/. Merkez ilçe."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Darıca Belediyesi",
+      "url": "https://www.darica.bel.tr/",
+      "duyuru_url": "https://darica.bel.tr/haberler/kategori/duyurular",
+      "haber_url": "https://www.darica.bel.tr/haberler",
+      "durum": 200,
+      "not": "/duyurular 404; duyurular haberler altında kategori olarak (/haberler/kategori/duyurular). Haber listesi /haberler."
+    },
+    {
+      "tur": "diger",
+      "kurum": "ULAŞIMPARK A.Ş. (Kocaeli Büyükşehir toplu ulaşım işletmesi)",
+      "url": "https://www.ulasimpark.com.tr/",
+      "duyuru_url": "https://www.ulasimpark.com.tr/duyurular",
+      "durum": 200,
+      "not": "Otobüs/tramvay hat değişiklikleri ve sefer duyuruları (/haber-duyuru/... alt sayfaları). Tramvay saatleri kocaeli.bel.tr/hatlar/ altında da var."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kocaeli İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://kocaeli.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "kocaeli.ktb.gov.tr açılmıyor (curl 000); ktb.gov.tr il siteleri genelde açılmıyor. Adres kalıptan türetildi, arama sonucu değil; kaynak olarak güvenilmemeli."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Kocaeli+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Özgür Kocaeli",
+      "url": "https://www.ozgurkocaeli.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Kocaeli Gazetesi",
+      "url": "https://www.yenikocaeli.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kocaeli Gazetesi",
+      "url": "https://www.kocaeligazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kocaeli Barış Gazetesi",
+      "url": "https://www.kocaelibarisgazetesi.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı su kesintisi ve arıza kaynaklı su kesintileri (İSU)",
+    "planlı elektrik kesintisi (SEDAŞ, ilçe/mahalle bazlı liste)",
+    "D100/TEM/O-4 ve çevre yolu trafik kazaları, yol çalışmaları ve trafik yoğunluğu",
+    "sanayi bölgesi: fabrika yangını, iş kazası, kimyasal/çevre kirliliği (Dilovası, Gebze, Körfez)",
+    "deprem (Kuzey Anadolu Fay Hattı, 1999 depremi bölgesi) ve AFAD bilgilendirmeleri",
+    "sağanak, sel ve taşkın uyarıları; deniz ulaşımı ve lodos (Körfez kıyısı)",
+    "toplu ulaşım: tramvay/otobüs hat ve sefer değişiklikleri (ULAŞIMPARK), Kocaelikart",
+    "kar yağışı ve okul tatili, Kartepe/Sapanca çevresi yol kapanmaları",
+    "doğalgaz kesintileri ve çalışmalar (İZGAZ, PALGAZ)"
+  ],
+  "notlar": "Valilik, büyükşehir, MEB, emniyet, jandarma, AFAD, sağlık, ULAŞIMPARK ve ilçe belediyesi alt sayfaları 200 dönüyor. Büyükşehir (kocaeli.bel.tr) alt sayfalarında sondaki eğik çizgi şart (/duyurular/ ve /haberler/), çizgisiz adres soft 404 sayfasına yönleniyor. Gebze Belediyesi adresleri .html uzantılı. Darıca duyuruları haberler kategorisi altında. İSU (isu.gov.tr) ve kocaeli.edu.tr https adresleri eski TLS yeniden-müzakeresi kullanıyor: varsayılan curl/OpenSSL 3 ile açılmıyor (000), OpenSSL'de UnsafeLegacyRenegotiation açıkken 200; tarayıcıda sorun yok. İSU'da planlı su kesintisi ayrı sayfa değil, ana sayfa bileşeni; yoksa 'Planlanmış bir su kesintisi bulunmamaktadır' yazar. Elektrik: SEDAŞ (Sakarya-Kocaeli-Bolu-Düzce), planlı kesinti sorgusu ana sayfada JS tabanlı. Doğalgaz iki şirket: İZGAZ (Gebze ve Karamürsel hariç tüm il) ve PALGAZ (Gebze, Darıca, Dilovası, Çayırova); Karamürsel dağıtıcısı doğrulanamadı. Kocaeli Üniversitesi sitesi SPA, her yol 200 (soft 404); Gebze Teknik Üniversitesi ana sayfası curl'de boş gövde dönüyor. Kültür Turizm il sitesi doğrulanmadı. Yurt dışı IP engeli gözlenmedi. Kocaeli'de ayrıca Gölcük, Körfez, Başiskele, Çayırova belediyeleri 200 dönüyor (listeye alınmadı)."
+}

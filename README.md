@@ -7,7 +7,7 @@ Yerel haber routine'lerinin okuduğu dosyalar. **Bu repo gizli (private) olmalı
 - `il-promptlari/`: her il routine'inin kısa promptu ve zamanlaması
 - `araclar/prompt_uret.py`: kaynak dosyalarından promptları ve bu tabloyu yeniden üretir
 
-Toplam 35 il.
+Toplam 45 il.
 
 | Plaka | İl | Saat | Prompt |
 |---|---|---|---|
@@ -46,3 +46,13 @@ Toplam 35 il.
 | 33 | Mersin | 09:27 ve 18:27 | il-promptlari/33-mersin.md |
 | 34 | İstanbul | 09:38 ve 18:38 | il-promptlari/34-istanbul.md |
 | 35 | İzmir | 09:49 ve 18:49 | il-promptlari/35-izmir.md |
+| 36 | Kars | 10:05 ve 19:05 | il-promptlari/36-kars.md |
+| 37 | Kastamonu | 10:16 ve 19:16 | il-promptlari/37-kastamonu.md |
+| 38 | Kayseri | 10:27 ve 19:27 | il-promptlari/38-kayseri.md |
+| 39 | Kırklareli | 10:38 ve 19:38 | il-promptlari/39-kirklareli.md |
+| 40 | Kırşehir | 10:49 ve 19:49 | il-promptlari/40-kirsehir.md |
+| 41 | Kocaeli | 07:05 ve 16:05 | il-promptlari/41-kocaeli.md |
+| 42 | Konya | 07:16 ve 16:16 | il-promptlari/42-konya.md |
+| 43 | Kütahya | 07:27 ve 16:27 | il-promptlari/43-kutahya.md |
+| 44 | Malatya | 07:38 ve 16:38 | il-promptlari/44-malatya.md |
+| 45 | Manisa | 07:49 ve 16:49 | il-promptlari/45-manisa.md |

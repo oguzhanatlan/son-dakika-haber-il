@@ -1,0 +1,246 @@
+{
+  "il": "Kütahya",
+  "plaka": "43",
+  "slug": "kutahya",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kutahya",
+  "buyuksehir": false,
+  "ilceler": [
+    "Altıntaş",
+    "Aslanapa",
+    "Çavdarhisar",
+    "Domaniç",
+    "Dumlupınar",
+    "Emet",
+    "Gediz",
+    "Hisarcık",
+    "Merkez",
+    "Pazarlar",
+    "Şaphane",
+    "Simav",
+    "Tavşanlı"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kütahya Valiliği",
+      "url": "https://www.kutahya.gov.tr/",
+      "duyuru_url": "https://www.kutahya.gov.tr/duyurular",
+      "haber_url": "https://www.kutahya.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.kutahya.gov.tr/il-basin-ve-halkla-iliskiler-mudurlugu",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler; valinin faaliyetleri /validen-haberler; basın ve halkla ilişkiler: /il-basin-ve-halkla-iliskiler-mudurlugu. /basin-aciklamalari ve /ulasim gibi tahmini adresler 404. Sayfalar 'bulunamadı' içermiyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kütahya Belediyesi",
+      "url": "https://www.kutahya.bel.tr/",
+      "duyuru_url": "https://www.kutahya.bel.tr/duyurular.asp",
+      "haber_url": "https://www.kutahya.bel.tr/haberler.asp",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Klasik ASP site: duyurular /duyurular.asp, haberler /haberler.asp (detay: haber.asp?id=, duyuru.asp?id=). kutahya.bel.tr ve www.kutahya.bel.tr ikisi de 200 (ilk denemede bir kez timeout oldu, sonra stabil). /duyurular (uzantısız) 404. Su arıza/çalışma haberleri de /haberler.asp içinde çıkıyor; deprem/toplanma alanı: /depremler.asp; nöbetçi eczane: /nobetcieczane.asp. Sosyal medya: twitter.com/kutahyabel."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kütahya İl Milli Eğitim Müdürlüğü",
+      "url": "https://kutahya.meb.gov.tr/",
+      "duyuru_url": "https://kutahya.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://kutahya.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası 200 ('bulunamadı' yok). Duyuru RSS: /meb_iys_dosyalar/xml/rss_duyurular.xml (200). Kar tatili/okul tatili kararları için valilik duyurularına ve MEB ana sayfasına da bakılmalı."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kütahya Belediyesi Su ve Kanalizasyon İşleri Müdürlüğü",
+      "url": "https://www.kutahya.bel.tr/",
+      "duyuru_url": "https://www.kutahya.bel.tr/duyurular.asp",
+      "haber_url": "https://www.kutahya.bel.tr/haberler.asp",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon İşleri Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı (/su.asp, /birimler.asp 404; kuski.gov.tr, kutsu.com.tr açılmıyor). İçme suyu arıza/çalışma duyuruları belediyenin haber akışında (ör. haber.asp?id=3193 'Akkent Mahallesinde içme suyu arıza çalışması') ve yerel basında çıkıyor; /duyurular.asp'de 'Su Abone Rehberi' var. Vatandaş sık ani su kesintisi şikayeti dile getiriyor (Şikayetvar)."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Osmangazi Elektrik Dağıtım A.Ş. (OEDAŞ)",
+      "url": "https://www.osmangaziedas.com.tr/",
+      "duyuru_url": "https://www.osmangaziedas.com.tr/planli-kesinti-duyurulari",
+      "durum": 200,
+      "not": "OEDAŞ Afyonkarahisar, Bilecik, Eskişehir, Kütahya ve Uşak'ta görevli (kendi sitesindeki tüketici hizmet merkezleri ifadesiyle doğrulandı). Planlı kesinti sayfaları: /planli-kesinti (sorgulama formu) ve /planli-kesinti-duyurulari (duyuru listesi); JS/form tabanlı olabilir, il-ilçe seçimi gerekebilir. www.oedas.com.tr adresi osmangaziedas.com.tr'ye yönleniyor. Gediz Elektrik (GDZ) Kütahya'ya hizmet vermez (İzmir/Manisa) — Kütahya'nın Gediz ilçesiyle karıştırma."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Torosgaz Kütahya Doğalgaz Dağıtım A.Ş. (eski unvan: Çinigaz Doğalgaz Dağıtım A.Ş.)",
+      "url": "https://www.torosgazkutahya.com.tr/",
+      "duyuru_url": "https://www.torosgazkutahya.com.tr/Main/duyurular/",
+      "durum": 200,
+      "not": "Çinigaz'ın unvanı 12.02.2025'te Torosgaz Kütahya olarak değişti (arama sonuçları/turkiye.gov.tr kaydı; eski cinigaz.com.tr / cinigaz.com açılmıyor, curl 000). Merkez, Tavşanlı, Gediz, Emet, Çavdarhisar, Simav dağıtım alanında; Domaniç, Altıntaş, Aslanapa, Şaphane vb. için CNG/LNG ihale duyuruları var. Duyurular ağırlıkla ihale/tarife; planlı gaz kesintisi duyurusu nadir. Acil: Alo 187; çağrı merkezi 444 40 66. Fatura/tarife şikayetleri yerel haberlerde sık geçiyor. NOT: Torosgaz'ın www.torosgaz.com.tr sitesi yalnızca Isparta-Burdur içindir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kütahya İl Sağlık Müdürlüğü",
+      "url": "https://kutahyaism.saglik.gov.tr/",
+      "duyuru_url": "https://kutahyaism.saglik.gov.tr/TR-46022/duyurular.html",
+      "durum": 200,
+      "not": "Adres kutahyaism.saglik.gov.tr. Duyurular /TR-46022/duyurular.html (200, içerik var). Tahmini haberler adresi /TR-46026/haberler.html 'Sayfa Bulunmadı' (soft 404) — kullanma; haberler için ana sayfaya bak."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kütahya İl Emniyet Müdürlüğü",
+      "url": "https://kutahya.pol.tr/",
+      "duyuru_url": "https://kutahya.pol.tr/duyurular",
+      "haber_url": "https://kutahya.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kutahya.pol.tr. Olay/operasyon haberleri /haberler; duyurular çoğunlukla idari."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kütahya İl Jandarma Komutanlığı",
+      "url": "https://kutahya.jandarma.gov.tr/",
+      "duyuru_url": "https://kutahya.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kutahya.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kütahya İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kutahya.afad.gov.tr/",
+      "duyuru_url": "https://kutahya.afad.gov.tr/duyurular",
+      "haber_url": "https://kutahya.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Haberler /haberler (200). Deprem verisi için ayrıca https://deprem.afad.gov.tr kullanılabilir (Simav/Gediz fay hatları nedeniyle önemli)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kütahya Dumlupınar Üniversitesi",
+      "url": "https://www.dpu.edu.tr/",
+      "duyuru_url": "https://www.dpu.edu.tr/index/duyurular",
+      "haber_url": "https://haber.dpu.edu.tr/",
+      "durum": 200,
+      "not": "Duyurular /index/duyurular (idari/akademik, JS ile yüklenen liste); resmî haber portalı DPÜHaber: haber.dpu.edu.tr (200); kurumsal iletişim: kurumsal.dpu.edu.tr/tr/index/duyurular (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kütahya Sağlık Bilimleri Üniversitesi",
+      "url": "https://www.ksbu.edu.tr/defaultx",
+      "duyuru_url": "https://www.ksbu.edu.tr/defaultx/duyurular",
+      "durum": 200,
+      "not": "ksbu.edu.tr ana sayfası /defaultx'e yönleniyor. Duyurular /defaultx/duyurular (personel alımı, kayıt, öğrenci duyuruları ağırlıklı); etkinlikler /defaultx/etkinlikler. /defaultx/haberler ana sayfaya düşüyor (ayrı haber sayfası yok gibi)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Tavşanlı Belediyesi",
+      "url": "https://www.tavsanli.bel.tr/",
+      "duyuru_url": "https://www.tavsanli.bel.tr/resmi-duyurular/",
+      "haber_url": "https://www.tavsanli.bel.tr/news/",
+      "durum": 200,
+      "not": "WordPress. Resmi duyurular /resmi-duyurular/ (ayrıca /duyurular/ 200), haberler /news/ (sayfa başlığı 'News'). /category/haberler/ 404. Nüfusça merkezden sonra en büyük ilçe (Tunçbilek dahil)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Simav Belediyesi",
+      "url": "https://www.simav.bel.tr/",
+      "duyuru_url": "https://www.simav.bel.tr/haberler/duyurular/",
+      "haber_url": "https://www.simav.bel.tr/haberler/guncel-haberler/",
+      "durum": 200,
+      "not": "Haberler /haberler/guncel-haberler/, duyurular /haberler/duyurular/ (200, 'bulunamadı' yok). Etkinlikler /etkinlikler/."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Gediz Belediyesi",
+      "url": "https://gediz.bel.tr/",
+      "duyuru_url": "https://gediz.bel.tr/duyurular",
+      "haber_url": "https://gediz.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler (ikisi de 200); etkinlikler /etkinlikler. (gdz.gov.tr / www.gediz.edu.tr açılmıyor — ilgisiz.)"
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Emet Belediyesi",
+      "url": "https://www.emet.bel.tr/",
+      "duyuru_url": "https://www.emet.bel.tr/haberler/",
+      "haber_url": "https://www.emet.bel.tr/haberler/haberler/",
+      "durum": 200,
+      "not": "Ayrı duyuru listesi bulunamadı: /duyurular/ ve /haberler/duyurular/ soft 404 (hata sayfası ile aynı boyut); tekil duyurular /duyuru/{id}/ biçiminde ana sayfada çıkıyor (ör. /duyuru/1674/). Haberler /haberler/ ve /haberler/haberler/. Bor/termal turizm etkinlikleri var."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kütahya İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://kutahya.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "kutahya.ktb.gov.tr açılmıyor (curl 000); kutahyakultur.gov.tr de açılmıyor. Kaynak olarak güvenilmemeli; ktb il siteleri genelde erişilemez."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=K%C3%BCtahya+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kütahya'nın Sesi Gazetesi",
+      "url": "https://www.kutahyaninsesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kütahya Ekspres",
+      "url": "https://kutahyaekspres.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kütahya Bölge Gazetesi",
+      "url": "https://www.kutahyabolgegazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "43 Haber",
+      "url": "http://43haber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kütahya Net Haber",
+      "url": "https://kutahyanethaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kütahya Haber (kutahyahaber.com.tr)",
+      "url": "https://kutahyahaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Simav Haber",
+      "url": "https://www.simavhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Gazi Emet Gazetesi",
+      "url": "https://www.gaziemetgazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Kütahya bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/kutahya/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (OEDAŞ; Merkez, Tavşanlı, Simav, Gediz kesinti listeleri)",
+    "su kesintisi, içme suyu arıza çalışmaları ve ani kesinti şikayetleri (Kütahya Belediyesi Su ve Kanalizasyon İşleri)",
+    "deprem ve AFAD bilgilendirmeleri (Simav-Gediz fay sistemi; Simav 2011 ve sonrası sarsıntılar)",
+    "kar nedeniyle okul tatili, yol kapanması ve buzlanma/kış tedbirleri (Domaniç, Altıntaş, Gediz, Simav çevresi)",
+    "çini ve seramik/porselen sektörü, Kütahya porselen ve çini ustaları, coğrafi işaretli ürünler",
+    "maden, termik santral ve Tunçbilek-Seyitömer kömür havzası; işçi, işten çıkarma ve kömür dağıtımı haberleri",
+    "doğalgaz tarifesi, abonelik ve Torosgaz Kütahya (eski Çinigaz) şikayetleri",
+    "üniversite haberleri: DPÜ ve KSBÜ (kayıt, sınav, öğrenci yurdu, personel alımı)",
+    "Emet bor madenleri, Simav ve Gediz termal turizmi, Frig Vadisi/Aizanoi (Çavdarhisar) turizm ve etkinlikleri",
+    "hava kirliliği ve ısınma dönemi hava kalitesi (Merkez, Tavşanlı)"
+  ],
+  "notlar": "Öncelikli il (site sahibi için). Valilik, MEB, sağlık, emniyet, jandarma, AFAD, belediye ve ilçe belediyelerinin (Tavşanlı, Simav, Gediz, Emet) duyuru/haber sayfaları 200 dönüyor; yurt dışı IP engeli görülmedi. Kütahya Belediyesi klasik ASP sitesi (duyurular.asp, haberler.asp; /duyurular uzantısız 404). Su için ayrı idare/özel sayfa yok; su arızaları belediyenin haber akışında. Elektrik OEDAŞ (planlı kesinti sayfası form/JS tabanlı); doğalgaz Torosgaz Kütahya (eski Çinigaz; eski alan adları ölü). Kütahya Sağlık Müdürlüğü haber alt sayfası soft 404 veriyor, Emet duyuru alt sayfaları da soft 404 (hata sayfası 200 dönüyor) — içerik kontrolü yap. Kültür Turizm Müdürlüğü sitesi açılmıyor. iha.com.tr Cloudflare ile 403 veriyor. Yerel haber sitesi olarak şu adresler 000/boş: kutahyagundem.com, kutahyahakimiyet.com, kutahyayenigun.com, tavsanlihaber.com, gedizhaber.com, kutahyaolay.com (listeye alınmadı); kutahyahaber.com satılık alan adı."
+}

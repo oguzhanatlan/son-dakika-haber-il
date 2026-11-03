@@ -1,0 +1,206 @@
+{
+  "il": "Kayseri",
+  "plaka": "38",
+  "slug": "kayseri",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kayseri",
+  "buyuksehir": true,
+  "ilceler": [
+    "Akkışla",
+    "Bünyan",
+    "Develi",
+    "Felahiye",
+    "Hacılar",
+    "İncesu",
+    "Kocasinan",
+    "Melikgazi",
+    "Özvatan",
+    "Pınarbaşı",
+    "Sarıoğlan",
+    "Sarız",
+    "Talas",
+    "Tomarza",
+    "Yahyalı",
+    "Yeşilhisar"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kayseri Valiliği",
+      "url": "https://www.kayseri.gov.tr/",
+      "duyuru_url": "https://www.kayseri.gov.tr/duyurular",
+      "haber_url": "https://www.kayseri.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular /duyurular, haberler /haberler, vali haberleri /validen-haberler (hepsi 200). /basin-aciklamalari 404."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kayseri Büyükşehir Belediyesi",
+      "url": "https://www.kayseri.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "https://www.kayseri.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. /duyurular ve /haber 404 sayfasına düşüyor (200 ile 404 içerik döndürür, soft 404); ayrı duyuru listesi bulunamadı. Haberler /haberler (200), e-bülten /e-bulten (200). İtfaiye vb. duyurular haber olarak yayımlanıyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kayseri İl Milli Eğitim Müdürlüğü",
+      "url": "https://kayseri.meb.gov.tr/",
+      "duyuru_url": "https://kayseri.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://kayseri.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular 200. /www/haberler/kategori/1 HTTP 500 veriyor (haberler ana sayfadan izlenmeli); /www/haberler/kategori/2 duyurulara yönleniyor. Duyuru RSS'i 200."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kayseri Su ve Kanalizasyon İdaresi Genel Müdürlüğü (KASKİ)",
+      "url": "https://www.kaski.gov.tr/",
+      "duyuru_url": "https://www.kaski.gov.tr/su-kesintileri",
+      "haber_url": "https://www.kaski.gov.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir su idaresi ayrı kurum (kaski.gov.tr). Planlı su kesintisi sayfası /su-kesintileri (200; liste tablo/JS ile yükleniyor olabilir, 'Kayıt Bulunamadı' metni sayfadaki JS değişkenidir, hata değil). Duyurular /duyurular, haberler /haberler (200); kesinti haberleri 'haber-detay' altında da çıkıyor (ör. yesilhisar-su-kesintisi). Güncel içme suyu analizi: /guncel-icme-suyu-analiz-sonuclari."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Kayseri ve Civarı Elektrik T.A.Ş. (KCETAŞ)",
+      "url": "https://www.kcetas.com.tr/",
+      "duyuru_url": "https://www.kcetas.com.tr/tr/planli-kesintiler-bakimlar",
+      "haber_url": "https://www.kcetas.com.tr/haberler",
+      "durum": 200,
+      "not": "Kayseri'de dağıtım şirketi KCETAŞ (kurumsal sitede 'Kayseri ve civarına elektrik ulaştırıyoruz'; yerel basın da planlı kesintileri KCETAŞ'a atfediyor). Planlı kesinti sayfası harita/JS tabanlı (sayfada tarih parametresi var). Duyurular /duyurular, haberler /haberler (200). Arıza: ALO 186; /tr/ariza-bildirimi."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Doğalgaz Dağıtım A.Ş. (Kayseri dağıtım bölgesi; eski Kayserigaz)",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/kayseri",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Kayserigaz SOCAR'dan Aksa Doğalgaz'a devredildi; kayserigaz.com.tr / www.kayserigaz.com.tr eski site, aksadogalgaz.com.tr'ye yönlendiriyor ve alt sayfaları 404. Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kayseri İl Sağlık Müdürlüğü",
+      "url": "https://kayseriism.saglik.gov.tr/",
+      "duyuru_url": "https://kayseriism.saglik.gov.tr/TR-19615/duyurular.html",
+      "durum": 200,
+      "not": "Adres kayseriism.saglik.gov.tr. Duyurular ağırlıklı personel/atama işlemleri (ana sayfadan bağlantı)."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kayseri İl Emniyet Müdürlüğü",
+      "url": "https://kayseri.pol.tr/",
+      "duyuru_url": "https://kayseri.pol.tr/duyurular",
+      "haber_url": "https://kayseri.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kayseri.pol.tr. Olay/operasyon haberleri /haberler (200)."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kayseri İl Jandarma Komutanlığı",
+      "url": "https://kayseri.jandarma.gov.tr/",
+      "duyuru_url": "https://kayseri.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kayseri.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında (200)."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kayseri Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kayseri.afad.gov.tr/",
+      "duyuru_url": "https://kayseri.afad.gov.tr/duyurular",
+      "haber_url": "https://kayseri.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Erciyes Üniversitesi",
+      "url": "https://www.erciyes.edu.tr/",
+      "duyuru_url": "https://www.erciyes.edu.tr/tr/duyurular",
+      "haber_url": "https://www.erciyes.edu.tr/tr/haberler",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı; haberler /tr/haberler (200). haber.erciyes.edu.tr açılmıyor (curl 000). Ayrıca ildeki diğer devlet üniversitesi: Kayseri Üniversitesi (kontrol edilmedi)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Melikgazi Belediyesi",
+      "url": "https://www.melikgazi.bel.tr/",
+      "duyuru_url": "https://www.melikgazi.bel.tr/duyurular",
+      "haber_url": "https://www.melikgazi.bel.tr/haberler",
+      "durum": 200,
+      "not": "En kalabalık ilçe (yaklaşık 593 bin, 2025). Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kocasinan Belediyesi",
+      "url": "https://kocasinan.bel.tr/",
+      "duyuru_url": "https://kocasinan.bel.tr/duyurular",
+      "haber_url": "https://kocasinan.bel.tr/haberler",
+      "durum": 200,
+      "not": "www.kocasinan.bel.tr kocasinan.bel.tr'ye yönleniyor. Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Talas Belediyesi",
+      "url": "https://www.talas.bel.tr/",
+      "duyuru_url": "https://www.talas.bel.tr/duyurular",
+      "haber_url": "https://www.talas.bel.tr/haberler",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları 200."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kayseri Ulaşım A.Ş. (tramvay/otobüs)",
+      "url": "https://kayseriulasim.com/",
+      "duyuru_url": "https://kayseriulasim.com/",
+      "durum": 200,
+      "not": "www.kayseriulasim.com.tr kayseriulasim.com'a yönleniyor. Ayrı duyuru listesi sayfası yok (/duyurular hata sayfasına düşüyor); ana sayfada '/duyuru/...' bağlantılarıyla sefer saati/güzergâh güncellemeleri ve '/haber/...' bağlantılarıyla haberler çıkıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Kayseri+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kayseri Olay Haber",
+      "url": "https://www.kayseriolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haber Gazetesi",
+      "url": "https://www.habergazetesi.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kayseri Haber",
+      "url": "https://www.kayserihaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kayserim.net",
+      "url": "https://www.kayserim.net/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (KCETAŞ) ve ilçe ilçe kesinti listeleri",
+    "planlı su kesintisi ve su arızaları (KASKİ), içme suyu analizi",
+    "kar yağışı nedeniyle okul tatili, Erciyes ve ilçe yollarının kapanması",
+    "Erciyes Kayak Merkezi: sezon, kar kalınlığı, teleferik ve etkinlikler",
+    "ulaşım: tramvay/otobüs sefer ve güzergâh değişiklikleri (Kayseri Ulaşım A.Ş.), trafik düzenlemeleri",
+    "Kayseri spor: Kayserispor maçları ve Erciyes Stadyumu",
+    "deprem ve AFAD bilgilendirmeleri (Kahramanmaraş depremi sonrası bölge), Erciyes dağı ve bölge hareketliliği",
+    "sanayi/OSB ve ihracat, esnaf haberleri; tarım: don ve dolu zararı, Develi/Pınarbaşı/Sarız hayvancılık"
+  ],
+  "notlar": "Valilik, emniyet, jandarma, AFAD, KASKİ, KCETAŞ, ilçe belediyeleri ve Erciyes Üniversitesi duyuru/haber sayfaları 200 dönüyor; yurt dışı IP engeli gözlenmedi. Büyükşehir belediyesi (kayseri.bel.tr) ayrı duyuru sayfası sunmuyor (/duyurular soft 404): /haberler ve /e-bulten kullanılmalı. Su idaresi KASKİ ayrı kurum (kaski.gov.tr); planlı kesinti sayfası /su-kesintileri. Elektrik KCETAŞ planlı kesinti sayfası harita/JS tabanlı. Doğalgaz Kayserigaz markası Aksa Doğalgaz'a devredildi; kayserigaz.com.tr alt sayfaları 404. İl MEB /www/haberler/kategori/1 HTTP 500 veriyor, duyurular ve RSS çalışıyor. Kültür Turizm Müdürlüğü sitesi zaman kazanmak için aranmadı."
+}

@@ -1,0 +1,199 @@
+{
+  "il": "Kars",
+  "plaka": "36",
+  "slug": "kars",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kars",
+  "buyuksehir": false,
+  "ilceler": [
+    "Akyaka",
+    "Arpaçay",
+    "Digor",
+    "Kağızman",
+    "Merkez",
+    "Sarıkamış",
+    "Selim",
+    "Susuz"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kars Valiliği",
+      "url": "https://www.kars.gov.tr/",
+      "duyuru_url": "https://www.kars.gov.tr/duyurular",
+      "haber_url": "https://www.kars.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ayrıca 'Validen Haberler' bölümü var: https://www.kars.gov.tr/validen-haberler. kars.gov.tr www'ye yönleniyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kars Belediyesi",
+      "url": "https://www.kars.bel.tr/",
+      "duyuru_url": "https://www.kars.bel.tr/duyurular",
+      "haber_url": "https://www.kars.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyurular /duyurular, haberler /haberler; ihale ilanları /ihale-ilanlari, meclis gündemleri /meclis-gundemleri."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kars İl Milli Eğitim Müdürlüğü",
+      "url": "https://kars.meb.gov.tr/",
+      "duyuru_url": "https://kars.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://kars.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://kars.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası dinamik yükleniyor (HTML çok kısa), duyuruları RSS'ten almak daha güvenilir. Test sırasında duyuru ve haber sayfaları bir kez geçici 500 verdi, sonra 200 döndü. /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kars Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.kars.bel.tr/",
+      "duyuru_url": "https://www.kars.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı duyuru sayfası bulunamadı (/su-kesintisi, /su-kesintileri 404); kesinti duyuruları genel /duyurular ve /haberler içinde ve yerel basında çıkıyor. Kars şehir merkezinde su kesintisi/su sıkıntısı yerel basında sık haber konusu."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
+      "url": "https://arasedas.com/",
+      "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
+      "durum": 200,
+      "not": "Aras EDAŞ Erzurum, Ağrı, Ardahan, Bayburt, Erzincan, Iğdır ve Kars'ta hizmet veriyor (şirketin kendi sitesindeki tanıtım metniyle Kars doğrulandı; genel merkez Erzurum). Planlı kesinti sayfası il/ilçe/yıl/ay filtreli, JS tabanlı (il seçimi gerekli). Çağrı merkezi 850 200 20 20. www.arasedas.com arasedas.com'a yönleniyor."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Doğugaz Kars Ardahan Doğalgaz Dağıtım A.Ş. (eski adı Kargaz)",
+      "url": "https://www.dogugaz.com.tr/",
+      "duyuru_url": "https://www.dogugaz.com.tr/",
+      "durum": 200,
+      "not": "Kars-Ardahan bölgesi dağıtımını önceden Kargaz yürütüyordu; Doğugaz bünyesine katıldı (Doğugaz sitesinde belirtiliyor). Duyurular ana sayfadaki 'haberdetay/...' bağlantılarında (ağırlıkla ihale/tarife). Eski site https://www.kargaz.com.tr/ de 200 dönüyor ama güncelliği belirsiz. Bölge birim fiyat adresi karsardahan.dogugaz.com.tr açılmadı (000). Acil ihbar 187. Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kars İl Sağlık Müdürlüğü",
+      "url": "https://karsism.saglik.gov.tr/",
+      "duyuru_url": "https://karsism.saglik.gov.tr/TR-11496/duyurular.html",
+      "haber_url": "https://karsism.saglik.gov.tr/TR-11459/haberler.html",
+      "durum": 200,
+      "not": "Adres karsism.saglik.gov.tr. Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kars İl Emniyet Müdürlüğü",
+      "url": "https://kars.pol.tr/",
+      "duyuru_url": "https://kars.pol.tr/duyurular",
+      "haber_url": "https://kars.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kars.pol.tr. Olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kars İl Jandarma Komutanlığı",
+      "url": "https://kars.jandarma.gov.tr/",
+      "duyuru_url": "https://kars.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kars.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kars Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kars.afad.gov.tr/",
+      "duyuru_url": "https://kars.afad.gov.tr/duyurular",
+      "haber_url": "https://kars.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir. Kar, çığ, don ve kar nedeniyle mahsur kalma haberleri için önemli."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kafkas Üniversitesi",
+      "url": "https://www.kafkas.edu.tr/",
+      "duyuru_url": "https://www.kafkas.edu.tr/kau/TR/duyurular",
+      "haber_url": "https://www.kafkas.edu.tr/kau/TR/haberler",
+      "durum": 200,
+      "not": "Doğru alt adresler /kau/TR/duyurular ve /kau/TR/haberler (büyük harfli TR). /duyurular ve /haberler 'sayfa yok' sayfasına yönleniyor (soft 404)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Sarıkamış Belediyesi",
+      "url": "https://www.sarikamis.bel.tr/",
+      "duyuru_url": "https://www.sarikamis.bel.tr/duyurular",
+      "haber_url": "https://www.sarikamis.bel.tr/haberler",
+      "durum": 200,
+      "not": "Kars'ın merkez dışındaki en büyük ilçesi; kış turizmi (Sarıkamış Kayak Merkezi) ve kar haberleri öne çıkar. Ayrıca Sarıkamış Kaymakamlığı: https://www.sarikamis.gov.tr/ (yavaş yanıt verdi, duyuru sayfaları doğrulanamadı)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kağızman Belediyesi",
+      "url": "http://www.kagizman.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "",
+      "durum": 200,
+      "not": "Ana sayfa yalnızca http üzerinden açılıyor (https 000). Menüde /duyurular ve /haberler görünüyor ama bu adresler soft 404 (Hata/NotFound) veriyor; haberler ana sayfadan izlenmeli. Belediyeye kayyum atanmış olduğu haberlerde geçiyor."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Digor Belediyesi",
+      "url": "http://www.digor.bel.tr/",
+      "duyuru_url": "",
+      "haber_url": "",
+      "durum": 200,
+      "not": "Ana sayfa 200 dönüyor ama içerik boş/bozuk (başlıksız, ~1 KB, gb2312 charset'li bir betik); kaynak olarak güvenilmemeli. Selim, Arpaçay (arpacay.bel.tr 403), Akyaka, Susuz belediye siteleri bulunamadı/açılmadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kars İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://kars.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "kars.ktb.gov.tr açılmıyor (curl 000); karskultur.gov.tr de açılmadı. Kaynak olarak güvenilmemeli; adres yalnızca KTB il sitesi kalıbı olduğu için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Kars+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kars Manşet",
+      "url": "https://www.karsmanset.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kars Olay",
+      "url": "https://www.karsolay.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Kars Haber",
+      "url": "https://www.karshaber.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Kars bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/kars/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili, köy yollarının kapanması ve kar/tipi uyarıları",
+    "aşırı soğuk ve don (eksi 20-30 derece), buzlanma, Çıldır-Karagöl-Aygır göl donması",
+    "planlı elektrik kesintisi (Aras EDAŞ) ve kar kaynaklı elektrik arızaları",
+    "Kars şehir merkezinde su kesintisi, su sıkıntısı ve su kalitesi",
+    "doğalgaz ve ısınma: Kars-Ardahan bölgesinde doğalgaz tarifesi, kesinti ve ısınma sorunları",
+    "Sarıkamış Kayak Merkezi, Doğu Ekspresi ve kış turizmi (Ani Ören Yeri, Kars Kalesi)",
+    "sınır güvenliği ve kaçakçılık operasyonları (Ermenistan sınırı), jandarma/emniyet haberleri",
+    "hayvancılık ve peynir/bal üretimi (Kars gravyeri, kaşar), hayvan hastalıkları ve şap karantinası",
+    "deprem ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık ve Kafkas Üniversitesi sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 içermiyor (grep 'bulunamad' = 0). Sağlık Müdürlüğü karsism.saglik.gov.tr üzerinde. MEB duyuru sayfası dinamik, RSS kullan. Kafkas Üniversitesi için /kau/TR/duyurular (büyük TR) kullan; /duyurular soft 404. Kars Belediyesi'nin planlı su kesintisi için ayrı sayfası yok: /duyurular ve /haberler ile yerel basına bak. Aras EDAŞ planlı kesinti sayfası filtre/JS tabanlı (il: Kars seçilmeli). Doğalgaz şirketi Kargaz'dan Doğugaz'a devredilmiş. Kağızman ve Digor belediye siteleri sorunlu (bkz. notlar); Selim, Arpaçay, Akyaka, Susuz belediye siteleri bulunamadı (susuz.bel.tr Afyonkarahisar Susuz'a ait, Kars'ın Susuz'u DEĞİL). Kültür Turizm sitesi açılmıyor. Erişim testlerinde yurt dışı IP engeli görülmedi; yerel haber siteleri bu turda yalnızca açılış (200) ve başlık açısından kontrol edildi."
+}

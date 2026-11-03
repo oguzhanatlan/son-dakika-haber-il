@@ -1,0 +1,237 @@
+{
+  "il": "Manisa",
+  "plaka": "45",
+  "slug": "manisa",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/manisa",
+  "buyuksehir": true,
+  "ilceler": [
+    "Ahmetli",
+    "Akhisar",
+    "Alaşehir",
+    "Demirci",
+    "Gölmarmara",
+    "Gördes",
+    "Kırkağaç",
+    "Köprübaşı",
+    "Kula",
+    "Salihli",
+    "Sarıgöl",
+    "Saruhanlı",
+    "Selendi",
+    "Soma",
+    "Şehzadeler",
+    "Turgutlu",
+    "Yunusemre"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Manisa Valiliği",
+      "url": "https://www.manisa.gov.tr/",
+      "duyuru_url": "https://www.manisa.gov.tr/duyurular",
+      "haber_url": "https://www.manisa.gov.tr/haberler",
+      "basin_aciklamalari_url": "https://www.manisa.gov.tr/basin-aciklamalari",
+      "durum": 200,
+      "not": "Duyurular, haberler ve basın açıklamaları ayrı sayfalar (hepsi 200, soft 404 değil). manisa.gov.tr www'siz de açılıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Manisa Büyükşehir Belediyesi",
+      "url": "https://www.manisa.bel.tr/",
+      "duyuru_url": "https://www.manisa.bel.tr/Duyurular/",
+      "haber_url": "https://www.manisa.bel.tr/Haberler/",
+      "durum": 200,
+      "not": "Büyükşehir belediyesi. Duyurular ağırlıklı personel/sınav/otobüs seferi ilanı; olay ve hizmet haberleri /Haberler/. /s13_basin-merkezi.aspx duyurular sayfasına yönleniyor. Ulaşım, asfalt, altyapı, etkinlik haberleri burada çıkıyor."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Manisa İl Milli Eğitim Müdürlüğü",
+      "url": "https://manisa.meb.gov.tr/",
+      "duyuru_url": "https://manisa.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://manisa.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://manisa.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru ve haber sayfaları ile duyuru RSS'i 200 dönüyor. /acilduyurular/ 404."
+    },
+    {
+      "tur": "su",
+      "kurum": "Manisa Su ve Kanalizasyon İdaresi Genel Müdürlüğü (MASKİ)",
+      "url": "https://www.manisasu.gov.tr/",
+      "duyuru_url": "https://www.manisasu.gov.tr/su-kesintileri",
+      "haber_url": "https://www.manisasu.gov.tr/haberler",
+      "durum": 200,
+      "not": "Doğru alan adı manisasu.gov.tr. DİKKAT: maski.gov.tr Malatya MASKİ'sine ait, Manisa ile karıştırma. Site React tabanlı tek sayfa uygulama (SPA): ham HTML'de içerik yok, /su-kesintileri ilçe/mahalle bazlı planlı ve arızalı kesintileri gösterir (JS ile yüklenir; veriler service.manisasu.gov.tr/api üzerinden geliyor). /haberler 'Haberler ve Duyurular' sayfasıdır; /duyurular ayrı sayfa değil, SPA fallback'i (200 döner, soft 404). Eski MASKİ sayfaları manisa.bel.tr/t4_maski-genel-mudurlugu.aspx altında, duyuru bölümü boş."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Gediz Elektrik Dağıtım A.Ş. (GDZ Elektrik)",
+      "url": "https://www.gdzelektrik.com.tr/",
+      "duyuru_url": "https://www.gdzelektrik.com.tr/bilgi-merkezi/planli-bakim-ve-iyilestirme-calismalari",
+      "haber_url": "https://www.gdzelektrik.com.tr/bilgi-merkezi/duyurular",
+      "durum": 200,
+      "not": "GDZ Elektrik İzmir ve Manisa'da dağıtım yapıyor (yerel basında Manisa planlı kesinti listeleri GDZ kaynaklı olarak yayımlanıyor). 'Planlı Kesintiler' sayfası form/JS tabanlı (il-ilçe seçimi gerekir); genel duyurular /bilgi-merkezi/duyurular kurumsal ağırlıklı. Kesinti listeleri için yerel basın (Yeni Birlik vb.) da kullanılabilir."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Manisa Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/manisa",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Manisa merkez, Turgutlu ve Akhisar'da dağıtım lisansı sahibi (turkiye.gov.tr dağıtım şirketleri listesi ve basın kaynaklarıyla doğrulandı). Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Site Next.js; duyurular sayfasında içerik az/boş olabilir, planlı gaz kesintisi duyurusu nadir. Diğer ilçelerde (Salihli, Soma vb.) dağıtım durumu ayrıca doğrulanmadı."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Manisa İl Sağlık Müdürlüğü",
+      "url": "https://manisaism.saglik.gov.tr/",
+      "duyuru_url": "https://manisaism.saglik.gov.tr/TR-21843/duyurular.html",
+      "haber_url": "https://manisaism.saglik.gov.tr/TR-21959/haberler.html",
+      "durum": 200,
+      "not": "Adres manisaism.saglik.gov.tr. Duyurular çoğunlukla personel/idari; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Manisa İl Emniyet Müdürlüğü",
+      "url": "https://manisa.pol.tr/",
+      "duyuru_url": "https://manisa.pol.tr/duyurular",
+      "haber_url": "https://manisa.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi manisa.pol.tr. Olay/operasyon haberleri /haberler altında."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Manisa İl Jandarma Komutanlığı",
+      "url": "https://manisa.jandarma.gov.tr/",
+      "duyuru_url": "https://manisa.jandarma.gov.tr/duyurular",
+      "haber_url": "https://manisa.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Manisa Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://manisa.afad.gov.tr/",
+      "duyuru_url": "https://manisa.afad.gov.tr/duyurular",
+      "haber_url": "https://manisa.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Manisa Celal Bayar Üniversitesi",
+      "url": "https://www.mcbu.edu.tr/",
+      "duyuru_url": "https://www.mcbu.edu.tr/Arsiv/1/1",
+      "haber_url": "https://www.mcbu.edu.tr/Arsiv/2/1",
+      "durum": 200,
+      "not": "Ana sayfada duyuru/haber/etkinlik blokları var; tekil içerikler /Duyuru/{slug}, /Haber/{slug}, /Etkinlik/{slug} biçiminde. Liste/arşiv sayfaları /Arsiv/1/1 (duyuru), /Arsiv/2/1 (haber), /Arsiv/3/1 (muhtemelen etkinlik) 200 dönüyor ama hangisinin hangi tür olduğu içerik başlığından doğrulanmadı; /Duyuru, /Duyurular, /Haber 404. Duyurular çoğunlukla personel alımı/akademik. Basın: https://basin.mcbu.edu.tr/"
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Yunusemre Belediyesi",
+      "url": "https://www.yunusemre.bel.tr/",
+      "duyuru_url": "https://www.yunusemre.bel.tr/duyurular",
+      "haber_url": "https://www.yunusemre.bel.tr/haberler",
+      "durum": 200,
+      "not": "Merkez ilçe (büyükşehir). Liste sayfaları ham HTML'de 'Sonuç bulunamadı' gösteriyor (içerik JS ile yükleniyor olabilir); ana sayfadan okumak veya Google Haberler'de ilçe adıyla aramak daha güvenilir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Şehzadeler Belediyesi",
+      "url": "https://www.sehzadeler.bel.tr/",
+      "duyuru_url": "https://www.sehzadeler.bel.tr/tr/Duyurular/Index",
+      "haber_url": "https://www.sehzadeler.bel.tr/tr/Haberler/Index",
+      "durum": 200,
+      "not": "Merkez ilçe (büyükşehir). Duyuru/haber listeleri 200 ve içerik dolu."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Salihli Belediyesi",
+      "url": "https://www.salihli.bel.tr/",
+      "duyuru_url": "https://www.salihli.bel.tr/Duyurular",
+      "haber_url": "https://www.salihli.bel.tr/Haberler",
+      "durum": 200,
+      "not": "salihli.bel.tr www'ye yönleniyor. Merkez ilçelerden sonra nüfusça en büyük ilçelerden."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Turgutlu Belediyesi",
+      "url": "https://www.turgutlu.bel.tr/",
+      "duyuru_url": "https://www.turgutlu.bel.tr/kurumsal/duyurular1/",
+      "haber_url": "https://www.turgutlu.bel.tr/kurumsal/haberler/",
+      "durum": 200,
+      "not": "www'siz turgutlu.bel.tr 403 veriyor, www'li adres kullanılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Akhisar Belediyesi",
+      "url": "https://www.akhisar.bel.tr/",
+      "duyuru_url": "https://www.akhisar.bel.tr/duyurular",
+      "haber_url": "https://www.akhisar.bel.tr/haberler",
+      "durum": 200,
+      "not": "Akhisar'ın yerel/ulusal basın derlemesi: https://www.akhisar.bel.tr/akhisar/akhisar-yerel-ulusal-basin"
+    },
+    {
+      "tur": "diger",
+      "kurum": "MANULAŞ (Manisa Büyükşehir Belediyesi toplu ulaşım / Manisa Kart)",
+      "url": "https://www.manulas.com.tr/",
+      "duyuru_url": "",
+      "durum": 200,
+      "not": "Manisa Kart ve toplu taşıma bilgisi; duyuru alt sayfası bulunamadı/doğrulanmadı. Ulaşım duyuruları (ücretsiz ulaşım, sefer değişikliği) asıl olarak manisa.bel.tr Duyurular/Haberler içinde."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Manisa İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://manisa.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "manisa.ktb.gov.tr açılmıyor (curl 000). Kaynak olarak güvenilmemeli; tahmin edilen kalıpla kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Manisa+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Manisa Kulis Haber",
+      "url": "https://www.manisakulishaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Manisa Haber Ajansı",
+      "url": "https://www.manisahaberajansi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Manisa Haber",
+      "url": "https://www.manisahaber.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Manisa bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/manisa/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (GDZ Elektrik; Akhisar, Alaşehir, Soma, Turgutlu, Yunusemre, Şehzadeler)",
+    "planlı ve arıza kaynaklı su kesintisi (MASKİ), içme suyu sıkıntısı ve su faturası/tarife düzenlemeleri",
+    "deprem ve artçı sarsıntılar (Gediz Grabeni, Alaşehir/Sarıgöl/Salihli kesimi), AFAD bilgilendirmeleri",
+    "orman yangını ve yangın uyarıları (yaz aylarında Spil Dağı, Soma, Kırkağaç, Akhisar çevresi)",
+    "Manisa Kart, toplu taşıma, ücretsiz ulaşım günleri ve otobüs sefer değişiklikleri",
+    "tarım: üzüm (Sultaniye), zeytin, Akhisar zeytini, hasat dönemi, don ve dolu zararı, tarım destekleri",
+    "Soma ve Manisa sanayisi: madencilik, OSB ve fabrika haberleri, iş kazaları",
+    "Mesir Macunu Festivali, Manisa Spor ve Kula/Sardes/Salihli termal turizmi etkinlikleri",
+    "Gediz Nehri taşkını, sağanak yağış ve fırtına uyarıları"
+  ],
+  "notlar": "Büyükşehir: ilçe belediyesi kayıtlarında merkez ilçeler (Yunusemre, Şehzadeler) ile nüfusu büyük Salihli, Turgutlu, Akhisar var. Valilik, belediye, MEB, sağlık, emniyet, jandarma, AFAD ve ilçe belediye duyuru/haber sayfaları 200 dönüyor (soft 404 kontrolü yapıldı). MASKİ'nin doğru sitesi manisasu.gov.tr (maski.gov.tr Malatya'ya ait; www.maski.gov.tr SSL hatası da veriyor) ve bir React SPA'dır: içerik JS ile yüklenir, /duyurular soft 404'tür, 'Haberler ve Duyurular' /haberler'dir. GDZ planlı kesinti sayfası form/JS tabanlıdır. Yunusemre Belediyesi liste sayfaları ham HTML'de boş. Kültür Turizm Müdürlüğü sitesi açılmıyor. İl MEB /acilduyurular/ 404. Yurt dışı IP engeli gözlenmedi (turgutlu.bel.tr www'siz 403 hariç). Elenen yerel siteler: manisagazetesi.com (park/yazılım sayfası), manisaonline.com ve manisaninsesi.com (açılmıyor)."
+}

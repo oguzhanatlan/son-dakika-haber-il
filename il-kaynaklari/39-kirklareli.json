@@ -1,0 +1,185 @@
+{
+  "il": "Kırklareli",
+  "plaka": "39",
+  "slug": "kirklareli",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/kirklareli",
+  "buyuksehir": false,
+  "ilceler": [
+    "Babaeski",
+    "Demirköy",
+    "Kofçaz",
+    "Lüleburgaz",
+    "Merkez",
+    "Pehlivanköy",
+    "Pınarhisar",
+    "Vize"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Kırklareli Valiliği",
+      "url": "https://www.kirklareli.gov.tr/",
+      "duyuru_url": "https://www.kirklareli.gov.tr/duyurular",
+      "haber_url": "https://www.kirklareli.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; ikisi de 200 ve içerik dolu."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Kırklareli Belediyesi",
+      "url": "https://www.kirklareli.bel.tr/",
+      "duyuru_url": "https://www.kirklareli.bel.tr/duyurular",
+      "haber_url": "https://www.kirklareli.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyuru sayfasında filtre var: ?tip=duyuru, ?tip=ihale, ?tip=resmi (resmi ilan, valilik/icra ilanları dahil). Sayfa açılışta yükleme ekranı/Turnstile kullanıyor ama curl ile içerik geliyor. Basın hesabı: x.com/Kirkbelbasin."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Kırklareli İl Milli Eğitim Müdürlüğü",
+      "url": "https://kirklareli.meb.gov.tr/",
+      "duyuru_url": "https://kirklareli.meb.gov.tr/www/duyurular/kategori/2",
+      "rss": "https://kirklareli.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyuru sayfası ve duyuru RSS'i 200 dönüyor. Kar/sağanak tatili vb. duyurular önce valilik ve MEB duyurularında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Kırklareli Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://www.kirklareli.bel.tr/mudurluk/su-ve-kanalizasyon-mudurlugu",
+      "duyuru_url": "https://www.kirklareli.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı sayfa bulunamadı (kirklareli.bel.tr/su-kesintisi 404); kesinti duyuruları genel /duyurular ve /haberler içinde ve belediye sosyal medyasında çıkıyor. Belediye tel: 444 0 139. Lüleburgaz ve diğer ilçelerde su hizmetini ilgili ilçe belediyeleri verir."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Trakya Elektrik Dağıtım A.Ş. (TREDAŞ)",
+      "url": "https://www.tredas.com.tr/",
+      "duyuru_url": "https://tredas.com.tr/tr/planli-elektrik-kesintileri",
+      "haber_url": "https://tredas.com.tr/tr/duyurular",
+      "durum": 200,
+      "not": "TREDAŞ Edirne, Tekirdağ ve Kırklareli'nde hizmet veriyor (arama sonuçları ve şirketin kendi sitesindeki Kırklareli planlı kesinti sayfaları/IRAP duyurusuyla doğrulandı). Planlı kesinti sayfası /tr/planli-elektrik-kesintileri (il/ilçe seçimli, JS/form tabanlı olabilir); ayrıca /tr/anlik-elektrik-kesintileri ve /tr/kesintiler-tablosu 200. Tekil kesinti detayları /kesintiDetay/... biçiminde ve süreli; eski detay adresleri 404 verebilir. Çağrı merkezi 186. Not: trakyaedas.com.tr çözülmüyor, kullanma."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Trakya Bölgesi Doğal Gaz Dağıtım A.Ş. (Gazdaş Trakya)",
+      "url": "https://gazdastrakya.com.tr/",
+      "duyuru_url": "https://gazdastrakya.com.tr/category/duyurular/",
+      "durum": 200,
+      "not": "Edirne, Tekirdağ ve Kırklareli lisans bölgesini işletiyor (sitedeki Lüleburgaz adresi ve Kırklareli ilçe/belde duyurularıyla doğrulandı). Planlı/plansız gaz kesintileri: https://online.gazdastrakya.com.tr/planli-plansiz-kesintiler (200). Duyurular daha çok ihale/CNG gibi kurumsal içerik. www.trakyagaz.com.tr de 200 dönüyor ama içeriği doğrulanmadı (kullanma)."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Kırklareli İl Sağlık Müdürlüğü",
+      "url": "https://kirklareliism.saglik.gov.tr/",
+      "duyuru_url": "https://kirklareliism.saglik.gov.tr/TR-18190/duyurular.html",
+      "haber_url": "https://kirklareliism.saglik.gov.tr/TR-18151/haberler.html",
+      "durum": 200,
+      "not": "Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler altında."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Kırklareli İl Emniyet Müdürlüğü",
+      "url": "https://kirklareli.pol.tr/",
+      "duyuru_url": "https://kirklareli.pol.tr/duyurular",
+      "haber_url": "https://kirklareli.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi kirklareli.pol.tr. Duyurular çoğunlukla idari (araç mübadelesi, eğitim); olay/operasyon haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Kırklareli İl Jandarma Komutanlığı",
+      "url": "https://kirklareli.jandarma.gov.tr/",
+      "duyuru_url": "https://kirklareli.jandarma.gov.tr/duyurular",
+      "haber_url": "https://kirklareli.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Sınır ili: kaçakçılık/düzensiz göç operasyonu haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Kırklareli Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://kirklareli.afad.gov.tr/",
+      "duyuru_url": "https://kirklareli.afad.gov.tr/duyurular",
+      "haber_url": "https://kirklareli.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Kırklareli Üniversitesi",
+      "url": "https://www.klu.edu.tr/",
+      "duyuru_url": "https://www.klu.edu.tr/Sayfa_Gruplari/74-duyurular.klu/detay/",
+      "haber_url": "https://www.klu.edu.tr/Sayfa_Gruplari/84-haberler.klu/detay/",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı; kampüs haberleri haberler sayfasında. Diğer üniversitelerden duyurular ayrı grupta (684)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Lüleburgaz Belediyesi",
+      "url": "https://www.luleburgaz.bel.tr/",
+      "duyuru_url": "https://www.luleburgaz.bel.tr/duyurular",
+      "haber_url": "https://www.luleburgaz.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlin en kalabalık ilçesi (yaklaşık 157 bin, merkezden büyük). Duyuru ve haberler ayrı sayfalarda; duyuru listesinde eski kayıtlar da var, tarihe bakılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Babaeski Belediyesi",
+      "url": "https://www.babaeski.bel.tr/",
+      "duyuru_url": "https://www.babaeski.bel.tr/",
+      "durum": 200,
+      "not": "İlçe nüfusu yaklaşık 47 bin (üçüncü büyük). /duyurular, /duyuru, /haber, /haberler 404; site /AltSayfa?guid=... yapısında, ayrı duyuru listesi adresi bulunamadı, ana sayfa kullanılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Vize Belediyesi",
+      "url": "https://vize.bel.tr/",
+      "duyuru_url": "https://vize.bel.tr/duyurular",
+      "haber_url": "https://vize.bel.tr/haberler",
+      "durum": 200,
+      "not": "İlçe nüfusu yaklaşık 29 bin (dördüncü büyük). Duyurular ve haberler 200 (sayfadaki 'içerik bulunamadı' ifadesi arama kutusu betiğinden, soft 404 değil)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Kırklareli İl Kültür ve Turizm Müdürlüğü",
+      "url": "",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Doğrulanmış sık haber çıkaran ayrı resmî kurum (ulaşım işletmesi vb.) bulunamadı. Kültür Turizm il sitesi brief gereği denenmedi. Orman İşletme, Çevre Şehircilik gibi kurum ilanları belediye /duyurular sayfasında yer alıyor."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=K%C4%B1rklareli+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeşilyurt Gazetesi (Kırklareli bölümü)",
+      "url": "https://www.yesilyurtgazete.com/kirklareli",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Posta Gazetesi Kırklareli Haberleri (toplayıcı)",
+      "url": "https://www.posta.com.tr/kirklareli-haberleri/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Kırklareli bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/kirklareli/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (TREDAŞ)",
+    "sağanak, sel ve dere taşkını uyarıları (Kırklareli geçmişte sel yaşadı), meteorolojik uyarılar",
+    "kar nedeniyle okul tatili ve yolların kapanması (Istranca/Demirköy-Vize kesimi)",
+    "Bulgaristan sınırı: Kapıkule/Dereköy sınır kapısı, kaçakçılık ve düzensiz göç operasyonları",
+    "orman yangınları ve Istranca ormanları uyarıları, yangın yasakları",
+    "Lüleburgaz-Babaeski D100/E-5 ve otoyol trafik kazaları, yol çalışmaları",
+    "tarım ve sanayi: ayçiçeği ve buğday hasadı, don/dolu zararı, Lüleburgaz-Babaeski sanayi",
+    "deprem ve AFAD bilgilendirmeleri; doğal gaz ve su kesintileri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma, AFAD, sağlık ve üniversite sitelerinin duyuru/haber alt sayfaları 200 dönüyor ve soft 404 görülmedi. Elektrik dağıtımı TREDAŞ (tredas.com.tr; trakyaedas.com.tr çözülmüyor), planlı kesinti sayfası il/ilçe seçimli ve JS/form tabanlı. Doğalgaz Gazdaş Trakya (gazdastrakya.com.tr), plansız kesinti sayfası online.gazdastrakya.com.tr altında. Su için ayrı idare yok, planlı su kesintisi sayfası bulunamadı; kirklareli.bel.tr/duyurular ve haberler ile yerel basına bakılmalı. Babaeski Belediyesi sitesinde ayrı duyuru/haber listesi adresi yok. İlin bağımsız yerel haber siteleri bulunamadı veya erişilemedi (kirklareligundem.com park edilmiş, kirklarelihaber.com, kirklareligazetesi.com, lulehaber.com vb. açılmadı); bu yüzden ipucu olarak Yeşilyurt Gazetesi ve toplayıcılar listelendi. Erişim testleri yurt dışı IP engeli göstermedi."
+}
