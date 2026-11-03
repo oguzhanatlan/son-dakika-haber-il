@@ -1,0 +1,46 @@
+{
+  "il": "Afyonkarahisar",
+  "plaka": "03",
+  "slug": "afyonkarahisar",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/afyonkarahisar",
+  "buyuksehir": false,
+  "ilceler": ["Merkez", "Başmakçı", "Bayat", "Bolvadin", "Çay", "Çobanlar", "Dazkırı", "Dinar", "Emirdağ", "Evciler", "Hocalar", "İhsaniye", "İscehisar", "Kızılören", "Sandıklı", "Sinanpaşa", "Sultandağı", "Şuhut"],
+  "resmi": [
+    {"tur": "valilik", "kurum": "Afyonkarahisar Valiliği", "url": "https://afyonkarahisar.gov.tr/", "duyuru_url": "https://afyonkarahisar.gov.tr/duyurular", "durum": 200, "not": "Haberler: https://afyonkarahisar.gov.tr/haberler ; Validen haberler: /validen-haberler ; basın açıklamaları: /basin-aciklamalari (hepsi 200). Okul tatili, yol kapanması, kısıtlama kararları burada çıkar."},
+    {"tur": "belediye", "kurum": "Afyonkarahisar Belediyesi", "url": "https://www.afyon.bel.tr/", "duyuru_url": "https://www.afyon.bel.tr/guncel/haberler", "durum": 200, "not": "Haberler /guncel/haberler, duyurular /guncel/duyurular (200). Dikkat: /guncel/duyurular ağırlıkla icra, mahkeme, emlak ve ihale ilanlarıdır; belediye faaliyet ve kesinti haberleri /guncel/haberler altındadır. Etkinlikler: /guncel/etkinlikler, ihaleler: /guncel/ihaleler."},
+    {"tur": "il_meb", "kurum": "Afyonkarahisar İl Millî Eğitim Müdürlüğü", "url": "https://afyon.meb.gov.tr/", "duyuru_url": "https://afyon.meb.gov.tr/www/duyurular/kategori/2", "durum": 200, "not": "Alan adı afyon.meb.gov.tr (afyonkarahisar.meb.gov.tr çözümlenmiyor). Haberler: /www/haberler/kategori/1 (200). RSS: /meb_iys_dosyalar/xml/rss_duyurular.xml. /www/icerik/duyurular 500 veriyor, kullanma."},
+    {"tur": "su", "kurum": "Afyonkarahisar Belediyesi Su ve Kanalizasyon Müdürlüğü", "url": "https://www.afyon.bel.tr/", "duyuru_url": "https://www.afyon.bel.tr/guncel/haberler", "durum": 200, "not": "Ayrı bir su idaresi sitesi bulunamadı (büyükşehir değil; su hizmeti belediyenin müdürlüğünde). Planlı su kesintileri belediye haberleri olarak ve yerel gazeteler üzerinden duyuruluyor (ör. İstiklal Mah. planlı kesinti, Fakıpaşa ana hat patlağı nedeniyle 27 mahallede kesinti). Belediye sitesinde ayrı bir 'su kesintisi' sayfası tespit edilmedi."},
+    {"tur": "elektrik", "kurum": "Osmangazi Elektrik Dağıtım A.Ş. (OEDAŞ)", "url": "https://www.osmangaziedas.com.tr/", "duyuru_url": "https://www.osmangaziedas.com.tr/planli-kesinti-duyurulari", "durum": 200, "not": "Şirketin kendi sitesi hizmet bölgesini Afyonkarahisar, Bilecik, Eskişehir, Kütahya, Uşak olarak gösteriyor (Afyon, Gediz değil OEDAŞ bölgesinde). oedas.com.tr bu adrese yönleniyor. Planlı kesinti sayfası il/ilçe seçimli form; liste içeriği dinamik olabilir. Arıza/kesinti: ALO 186. Haberleşme için yerel gazetelerdeki kesinti listeleri de kullanılabilir."},
+    {"tur": "dogalgaz", "kurum": "Aksa Afyon Doğal Gaz Dağıtım A.Ş. (Aksa Doğalgaz)", "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/afyon", "duyuru_url": "", "durum": 200, "not": "Afyon dağıtım bölgesi sayfası 200. Ayrı bir duyuru/haber listesi bulunamadı; /tr/duyurular 404. Çağrı merkezi 444 11 33. Planlı gaz kesintisi duyurusu nadir, kaynak olarak düşük öncelik."},
+    {"tur": "saglik", "kurum": "Afyonkarahisar İl Sağlık Müdürlüğü", "url": "https://afyonism.saglik.gov.tr/", "duyuru_url": "https://afyonism.saglik.gov.tr/TR,1/duyurular.html", "durum": 200, "not": "Alan adı afyonism.saglik.gov.tr. Haberler: /TR,1/haberler.html (200)."},
+    {"tur": "emniyet", "kurum": "Afyonkarahisar İl Emniyet Müdürlüğü", "url": "https://afyonkarahisar.pol.tr/", "duyuru_url": "https://afyonkarahisar.pol.tr/duyurular", "durum": 200, "not": "Resmî il sayfası pol.tr altında (egm.gov.tr/afyonkarahisar 404). Haberler: https://afyonkarahisar.pol.tr/haberler . Genel merkez: https://www.egm.gov.tr/ (200)."},
+    {"tur": "jandarma", "kurum": "Afyonkarahisar İl Jandarma Komutanlığı", "url": "https://afyonkarahisar.jandarma.gov.tr/", "duyuru_url": "https://afyonkarahisar.jandarma.gov.tr/duyurular", "durum": 200, "not": "Haberler: https://afyonkarahisar.jandarma.gov.tr/haberler . Operasyon ve trafik haberleri."},
+    {"tur": "afad", "kurum": "Afyonkarahisar İl AFAD Müdürlüğü", "url": "https://afyonkarahisar.afad.gov.tr/", "duyuru_url": "https://afyonkarahisar.afad.gov.tr/haberler", "durum": 200, "not": "Duyurular: /duyurular (200). Deprem bilgisi için ayrıca AFAD ulusal deprem sayfası kullanılabilir."},
+    {"tur": "universite", "kurum": "Afyon Kocatepe Üniversitesi", "url": "https://aku.edu.tr/", "duyuru_url": "https://aku.edu.tr/category/duyurular/", "durum": 200, "not": "Haber sitesi: https://haber.aku.edu.tr/ (200). www.aku.edu.tr aku.edu.tr adresine yönleniyor. /duyurular 404, doğru yol /category/duyurular/."},
+    {"tur": "universite", "kurum": "Afyonkarahisar Sağlık Bilimleri Üniversitesi", "url": "https://www.afsu.edu.tr/", "duyuru_url": "", "durum": 0, "not": "curl varsayılan ayarla SSL sertifika zinciri hatası veriyor (durum 0); -k ile 200 (https://afsu.edu.tr/). Tarayıcıda açılması beklenir. Duyuru alt adresi doğrulanamadı. Dikkat: AFSU kısaltması üniversiteyi anlatır, su idaresi değildir."},
+    {"tur": "ilce_belediye", "kurum": "Dinar Belediyesi", "url": "https://www.dinar.bel.tr/Default", "duyuru_url": "https://www.dinar.bel.tr/duyurular", "durum": 200, "not": "Haberler /haber/... , duyurular /duyuru/... biçiminde. Ana adres /Default adresine yönleniyor."},
+    {"tur": "ilce_belediye", "kurum": "Sandıklı Belediyesi", "url": "https://sandikli.bel.tr/", "duyuru_url": "https://sandikli.bel.tr/duyurular", "durum": 200, "not": "Haberler: https://sandikli.bel.tr/haberler (200). www alt alanı çözümlenmiyor, www'suz kullan. SANJET (jeotermal ısıtma) duyuruları çıkar."},
+    {"tur": "ilce_belediye", "kurum": "Bolvadin Belediyesi", "url": "https://bolvadin.bel.tr/", "duyuru_url": "", "durum": 500, "not": "bolvadin.bel.tr 500 hatası veriyor; bolvadinbelediyesi.com 403 veriyor (bot engeli olabilir). Doğrulanabilir duyuru sayfası yok, yerel gazeteler üzerinden takip et."},
+    {"tur": "diger", "kurum": "Afyonkarahisar Çevre, Şehircilik ve İklim Değişikliği İl Müdürlüğü", "url": "https://afyon.csb.gov.tr/", "duyuru_url": "", "durum": 200, "not": "Hava kalitesi, çevre denetimi, imar duyuruları. Duyuru alt adresi incelenmedi, düşük öncelik."}
+  ],
+  "ipucu": [
+    {"tur": "google_news_rss", "url": "https://news.google.com/rss/search?q=Afyonkarahisar+when:1d&hl=tr&gl=TR&ceid=TR:tr"},
+    {"tur": "yerel_gazete", "ad": "Afyon Haber", "url": "https://www.afyonhaber.com/", "durum": 200},
+    {"tur": "yerel_gazete", "ad": "Afyon Ana Haber", "url": "https://www.afyonanahaber.com.tr/", "durum": 200},
+    {"tur": "yerel_gazete", "ad": "Medya 03", "url": "https://www.medya03.com/", "durum": 200},
+    {"tur": "yerel_gazete", "ad": "Afyon Türkeli Gazetesi", "url": "https://www.afyonturkeligazetesi.com/", "durum": 200},
+    {"tur": "yerel_gazete", "ad": "Odak Gazetesi", "url": "https://www.odakgazetesi.com/", "durum": 200}
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (OEDAŞ, Merkez, Sandıklı, Dinar, Bolvadin, Emirdağ)",
+    "planlı su kesintisi ve ana hat arızaları (Merkez mahalleleri)",
+    "kar ve buzlanma nedeniyle okul tatili ile Afyon-Konya, Afyon-Eskişehir, Afyon-Ankara yol durumu",
+    "deprem ve fay hattı (Sultandağı, Akşehir fayı, Sandıklı) ve AFAD açıklamaları",
+    "termal turizm ve jeotermal ısıtma (Sandıklı, Gazlıgöl, Ömer-Gecek, SANJET)",
+    "Afyon lokumu, sucuk, kaymak ve mermer gibi yerel ekonomi ve üretici haberleri",
+    "kuraklık, baraj ve içme suyu seviyeleri, tarım ve don zararı",
+    "trafik kazaları ve Afyon kavşağı ile otoyol ve demiryolu (Eskişehir-Afyon-Konya hattı) haberleri",
+    "AKÜ ve AFSÜ öğrenci, yurt ve YKS yerleştirme haberleri"
+  ],
+  "notlar": "Valilik, belediye, emniyet, jandarma, AFAD, İl Sağlık, AKÜ ve OEDAŞ siteleri yurt içi erişimde 200 verdi. Kritik alan adı farklılıkları: İl MEB afyon.meb.gov.tr (afyonkarahisar.meb.gov.tr yok), İl Sağlık afyonism.saglik.gov.tr, emniyet afyonkarahisar.pol.tr, elektrik dağıtımı Gediz değil Osmangazi EDAŞ (osmangaziedas.com.tr; osmangazielektrik.com.tr bu ortamda 192.168.1.1'e çözümleniyor, kullanma). Belediyenin /guncel/duyurular sayfası ağırlıkla icra/mahkeme ilanı; haber ve kesinti için /guncel/haberler. Su kesintileri için ayrı bir su idaresi sitesi yok, belediye haberleri ve yerel gazete kullanılmalı. AFSÜ sitesi curl'de SSL zincir hatası veriyor (-k ile açılıyor). Bolvadin ve Emirdağ belediye siteleri botlara 500/403 veriyor (Emirdağ: emirdag.bel.tr 403). Aksa Doğalgaz için ayrı duyuru listesi yok. İlçe nüfus sıralaması Merkez, sonra Dinar, Bolvadin, Sandıklı, Emirdağ civarında; kesin sıra doğrulanmadı."
+}

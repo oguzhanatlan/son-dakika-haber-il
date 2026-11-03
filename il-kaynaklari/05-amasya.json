@@ -1,0 +1,191 @@
+{
+  "il": "Amasya",
+  "plaka": "05",
+  "slug": "amasya",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/amasya",
+  "buyuksehir": false,
+  "ilceler": [
+    "Göynücek",
+    "Gümüşhacıköy",
+    "Hamamözü",
+    "Merkez",
+    "Merzifon",
+    "Suluova",
+    "Taşova"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "T.C. Amasya Valiliği",
+      "url": "https://www.amasya.gov.tr/",
+      "duyuru_url": "https://www.amasya.gov.tr/duyurular",
+      "haber_url": "https://www.amasya.gov.tr/haberler",
+      "durum": 200,
+      "not": "Duyurular ve haberler ayrı sayfalar; basın duyuruları da burada. amasya.gov.tr www'ye yönlenir."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Amasya Belediyesi",
+      "url": "https://amasya.bel.tr/",
+      "duyuru_url": "https://amasya.bel.tr/duyurular",
+      "haber_url": "https://amasya.bel.tr/haberler",
+      "durum": 200,
+      "not": "Büyükşehir değil, il merkez belediyesi. Duyurular /duyurular, haberler /haberler (alt: /haberler/genel-haberler)."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Amasya İl Milli Eğitim Müdürlüğü",
+      "url": "https://amasya.meb.gov.tr/",
+      "duyuru_url": "https://amasya.meb.gov.tr/www/duyurular/kategori/2",
+      "haber_url": "https://amasya.meb.gov.tr/www/haberler/kategori/1",
+      "rss": "https://amasya.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "durum": 200,
+      "not": "Duyurular /www/duyurular/kategori/2; /www/duyurular/kategori/1 haberler sayfasına yönleniyor. Duyuru RSS'i de 200 dönüyor. Acil duyurular: https://amasya.meb.gov.tr/acilduyurular/ (kar tatili vb.; 200)."
+    },
+    {
+      "tur": "su",
+      "kurum": "Amasya Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://amasya.bel.tr/birimler/su-ve-kanalizasyon-mudurlugu",
+      "duyuru_url": "https://amasya.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Ayrı bir su idaresi (ASKİ/MASKİ benzeri) yok; hizmeti belediyenin Su ve Kanalizasyon Müdürlüğü yürütüyor. Planlı su kesintisi için ayrı bir duyuru sayfası bulunamadı (amasya.bel.tr/su-kesintisi 404); kesinti duyuruları genel /duyurular ve /haberler içinde ve yerel basında çıkıyor. Su analizi: https://amasya.bel.tr/su-analizi (200). Yerel basında gece su kesintisi/su kriziyle ilgili haber var."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Yeşilırmak Elektrik Dağıtım A.Ş. (YEDAŞ)",
+      "url": "https://www.yedas.com/",
+      "duyuru_url": "https://www.yedas.com/planli-kesinti",
+      "durum": 200,
+      "not": "YEDAŞ Amasya, Çorum, Ordu, Samsun ve Sinop'ta hizmet veriyor (Çalık Holding sayfası ve arama sonuçlarıyla Amasya doğrulandı; genel merkez Samsun). Planlı kesinti sayfası 'Planlı Kesinti Haritası' (harita/JS tabanlı, il-ilçe seçimi gerekebilir). www.yedas.com.tr alan adının SSL sertifikası uyuşmuyor (curl -k ile açılıyor); www.yedas.com tercih edilmeli. İl sayfası (Amasya Bölge Müdürlüğü) ayrı bulunmadı."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Tokat Amasya Doğal Gaz Dağıtım A.Ş.",
+      "url": "https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/tokat-amasya",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Aksa Doğalgaz'ın Tokat-Amasya dağıtım bölgesi. Basın bültenleri: https://www.aksadogalgaz.com.tr/tr/kurumsal/basin-bultenleri (200). Planlı gaz kesintisi duyurusu nadir."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Amasya İl Sağlık Müdürlüğü",
+      "url": "https://amasyaism.saglik.gov.tr/",
+      "duyuru_url": "https://amasyaism.saglik.gov.tr/TR-46346/duyurular.html",
+      "haber_url": "https://amasyaism.saglik.gov.tr/TR-46350/haberler.html",
+      "durum": 200,
+      "not": "Adres amasyaism.saglik.gov.tr (amasya.saglik.gov.tr DNS'te yok). Duyurular ağırlıklı personel/atama; halk sağlığı haberleri /haberler."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Amasya İl Emniyet Müdürlüğü",
+      "url": "https://amasya.pol.tr/",
+      "duyuru_url": "https://amasya.pol.tr/duyurular",
+      "haber_url": "https://amasya.pol.tr/haberler",
+      "durum": 200,
+      "not": "EGM il sitesi amasya.pol.tr (egm.gov.tr/amasya 404). Genel liste: https://www.egm.gov.tr/il-emniyet-mudurlukleri. Duyurular çoğunlukla idari (mübadele ilanı, eğitim); olay haberleri /haberler."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Amasya İl Jandarma Komutanlığı",
+      "url": "https://amasya.jandarma.gov.tr/",
+      "duyuru_url": "https://amasya.jandarma.gov.tr/duyurular",
+      "haber_url": "https://amasya.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Operasyon/olay haberleri /haberler altında."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Amasya Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://amasya.afad.gov.tr/",
+      "duyuru_url": "https://amasya.afad.gov.tr/duyurular",
+      "haber_url": "https://amasya.afad.gov.tr/haberler",
+      "durum": 200,
+      "not": "Deprem/afet bilgisi için ayrıca https://deprem.afad.gov.tr kullanılabilir (200)."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Amasya Üniversitesi",
+      "url": "https://www.amasya.edu.tr/",
+      "duyuru_url": "https://www.amasya.edu.tr/duyurular",
+      "haber_url": "https://haber.amasya.edu.tr/",
+      "durum": 200,
+      "not": "Duyurular idari/akademik ağırlıklı; kampüs haberleri haber.amasya.edu.tr altında (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Merzifon Belediyesi",
+      "url": "https://merzifon.bel.tr/",
+      "duyuru_url": "https://merzifon.bel.tr/duyurular",
+      "haber_url": "https://merzifon.bel.tr/haber-arsivi",
+      "durum": 200,
+      "not": "/haberler 404; haber listesi /haber-arsivi. Nüfusça merkezden sonra en büyük ilçe."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Suluova Belediyesi",
+      "url": "https://suluova.bel.tr/",
+      "duyuru_url": "https://suluova.bel.tr/kategori/duyurular-duyurular/",
+      "haber_url": "https://suluova.bel.tr/kategori/haberler/",
+      "durum": 200,
+      "not": "/duyurular ve /haberler 404; WordPress kategori sayfaları kullanılıyor. Ayrıca /kategori/ihale-ilanlari/."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Taşova Belediyesi",
+      "url": "https://tasova.bel.tr/",
+      "duyuru_url": "https://tasova.bel.tr/duyurular",
+      "haber_url": "https://tasova.bel.tr/haberler",
+      "durum": 200,
+      "not": "Ana sayfada 'icme-suyu-ile-ilgili-onemli-duyuru' gibi su duyuruları da var."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Amasya İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://amasya.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "amasya.ktb.gov.tr DNS çözülmüyor / açılmıyor (curl 000); alternatif adresler (amasyakultur.gov.tr, amasyakulturturizm.gov.tr) de açılmadı. Kaynak olarak güvenilmemeli; adresi arama sonucundan geldiği için kaydedildi."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Amasya+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "05.com.tr (Amasya Gazetesi)",
+      "url": "https://www.05.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Merzifon Bilgi Gazetesi",
+      "url": "https://www.merzifonbilgigazetesi.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Merzifon Haber",
+      "url": "https://www.merzifonhaber.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Haberler.com Amasya bölümü (toplayıcı)",
+      "url": "https://www.haberler.com/amasya/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (YEDAŞ)",
+    "içme suyu sıkıntısı, gece su kesintileri ve su kalitesi/analiz sonuçları",
+    "kar nedeniyle okul tatili ve yolların kapanması (Taşova, Göynücek, Gümüşhacıköy kesimi)",
+    "yağış/sel ve Yeşilırmak taşkını uyarıları",
+    "Amasya-Samsun/Tokat/Çorum yolları ve D100 trafik kazaları",
+    "tarım: elma ve kiraz hasadı, don ve dolu zararı",
+    "turizm ve kültür: Kral Kaya Mezarları, Yalıboyu Evleri, etkinlikler ve festivaller",
+    "deprem (Kuzey Anadolu Fay Hattı yakınlığı) ve AFAD bilgilendirmeleri"
+  ],
+  "notlar": "Valilik, belediye, MEB, emniyet, jandarma ve AFAD sitelerinin duyuru/haber alt sayfaları 200 dönüyor. Sağlık Müdürlüğü amasyaism.saglik.gov.tr üzerinde (amasya.saglik.gov.tr yok). Su için ayrı idare yok, planlı su kesintisi için özel sayfa bulunamadı; amasya.bel.tr/duyurular ve haberler ile yerel basına bakılmalı. YEDAŞ planlı kesinti sayfası harita tabanlı; yedas.com.tr SSL sertifika hatası veriyor, yedas.com kullan. Kültür Turizm Müdürlüğü sitesi açılmıyor. Yerel haber siteleri kontrol edildi: amasyapostasi.com askıya alınmış, amasyahaber.com bakımda, amasyagundem/amasyayenigun/amasyaolay/amasyatv/amasyasonhaber/amasyahaberajansi parked veya boş sayfa, suluovahaber.com spam içerik; bunlar listeye alınmadı. Erişim testleri yurt dışı IP engeli göstermedi (hepsi 200)."
+}

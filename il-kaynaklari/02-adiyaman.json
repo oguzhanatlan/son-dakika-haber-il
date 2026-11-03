@@ -1,0 +1,182 @@
+{
+  "il": "Adıyaman",
+  "plaka": "02",
+  "slug": "adiyaman",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/adiyaman",
+  "buyuksehir": false,
+  "ilceler": [
+    "Merkez",
+    "Besni",
+    "Çelikhan",
+    "Gerger",
+    "Gölbaşı",
+    "Kahta",
+    "Samsat",
+    "Sincik",
+    "Tut"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "Adıyaman Valiliği",
+      "url": "https://adiyaman.gov.tr/",
+      "duyuru_url": "https://adiyaman.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://adiyaman.gov.tr/haberler (200); basın açıklamaları: /basin-aciklamalari. Üst menüde il müdürlükleri ve kaymakamlık sayfaları var."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Adıyaman Belediyesi",
+      "url": "https://adiyaman.bel.tr/",
+      "duyuru_url": "https://adiyaman.bel.tr/DUYURULAR",
+      "durum": 200,
+      "not": "Haberler: https://adiyaman.bel.tr/GUNCEL-HABERLER (200, sayfa çok büyük ~4 MB). Büyükşehir değil, il merkez belediyesi. Ulaşım: /ULASIM-HIZMETLERI. Çağrı merkezi 444 25 02 / 153."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Adıyaman İl Milli Eğitim Müdürlüğü",
+      "url": "https://adiyaman.meb.gov.tr/",
+      "duyuru_url": "https://adiyaman.meb.gov.tr/www/duyurular/kategori/2",
+      "durum": 200,
+      "not": "Haberler: https://adiyaman.meb.gov.tr/www/haberler/kategori/1 (200). Kar/hava kaynaklı okul tatili kararları önce valilik duyurularında ve ilçe kaymakamlıklarında çıkar."
+    },
+    {
+      "tur": "su",
+      "kurum": "Adıyaman Belediyesi Su ve Kanalizasyon Müdürlüğü",
+      "url": "https://adiyaman.bel.tr/SU-KANALIZASYON",
+      "duyuru_url": "https://adiyaman.bel.tr/DUYURULAR",
+      "durum": 200,
+      "not": "Adıyaman büyükşehir olmadığından ayrı bir ASKİ/SU idaresi yok; su işleri belediyenin birimi. Planlı su kesintisi için ayrı bir kesinti sayfası bulunamadı; kesinti/arıza duyuruları belediye Duyurular ve Güncel Haberler sayfalarında çıkıyor. Online su tahsilatı: https://tahsilat.adiyaman.bel.tr/"
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "AKEDAŞ Elektrik Dağıtım A.Ş. (Adıyaman ve Kahramanmaraş)",
+      "url": "https://www.akedasdagitim.com.tr/",
+      "duyuru_url": "https://www.akedasdagitim.com.tr/programli-kesintiler",
+      "durum": 200,
+      "not": "Adıyaman elektrik dağıtım bölgesi AKEDAŞ'tır (Dicle Elektrik/DEDAŞ değil; DEDAŞ Diyarbakır, Şanlıurfa, Batman, Mardin, Siirt, Şırnak'a hizmet verir). Site Angular tabanlı (SPA): her yol HTTP 200 döner ve içerik JavaScript ile yüklenir, sayfa bundle'ındaki rota 'Bakım Programı ve Elektrik Kesintileri' olarak /programli-kesintiler. Düz curl/WebFetch ile kesinti listesi okunamaz; tarayıcı ya da JS çalıştıran araç gerekir. Kurumsal site: https://www.akedas.com.tr/ (200). Arıza hattı 186. Dağıtım şirketinin Adıyaman'a hizmet verdiği web aramalarındaki haberlerden/şirket bilgilerinden doğrulandı; şirketin kendi sayfasında il adı metin olarak görülemedi."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Akmercan Adıyaman Doğal Gaz Dağıtım Sanayi ve Ticaret A.Ş.",
+      "url": "http://www.akmercangaz.com.tr/",
+      "duyuru_url": "",
+      "durum": 429,
+      "not": "Bölgenin doğalgaz dağıtım şirketi (turkiye.gov.tr e-hizmet listesinde yer alır). Site doğrulama sırasında 429 ('API calls quota exceeded') döndü, https sürümü bağlantı kurmadı (000); adres arama sonucundan alındı, çalıştığı doğrulanamadı. Haber değeri düşük, planlı kesinti duyurusu sayfası belirlenemedi."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Adıyaman İl Sağlık Müdürlüğü",
+      "url": "https://adiyamanism.saglik.gov.tr/",
+      "duyuru_url": "https://adiyamanism.saglik.gov.tr/TR-41977/duyurular.html",
+      "durum": 200,
+      "not": "Haberler: https://adiyamanism.saglik.gov.tr/TR-41967/haberler.html. adiyaman.saglik.gov.tr alan adı açılmıyor (000); doğru alan adı adiyamanism.saglik.gov.tr. Valilik sayfasında da il sağlık müdürlüğü bağlantısı var."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Adıyaman İl Emniyet Müdürlüğü",
+      "url": "https://adiyaman.pol.tr/",
+      "duyuru_url": "https://adiyaman.pol.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://adiyaman.pol.tr/haberler (200). egm.gov.tr/adiyaman adresi 404 veriyor; il sitesi pol.tr alan adında (valilik sayfası da buraya bağlanıyor)."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Adıyaman İl Jandarma Komutanlığı",
+      "url": "https://adiyaman.jandarma.gov.tr/",
+      "duyuru_url": "https://adiyaman.jandarma.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://adiyaman.jandarma.gov.tr/haberler. Operasyon/kaçakçılık ve trafik haberleri burada çıkar."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Adıyaman AFAD İl Müdürlüğü",
+      "url": "https://adiyaman.afad.gov.tr/",
+      "duyuru_url": "https://adiyaman.afad.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://adiyaman.afad.gov.tr/haberler (200). Deprem listesi için ayrıca AFAD ulusal deprem sayfası kullanılabilir."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Adıyaman Üniversitesi",
+      "url": "https://adiyaman.edu.tr/",
+      "duyuru_url": "https://adiyaman.edu.tr/tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://adiyaman.edu.tr/tr/haberler (200). Birim siteleri alt alan adlarında (sem., sksdb., pdb., bidb.adiyaman.edu.tr)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Kahta Belediyesi",
+      "url": "https://www.kahta.bel.tr/",
+      "duyuru_url": "https://www.kahta.bel.tr/duyurular.html",
+      "durum": 200,
+      "not": "Haberler: https://www.kahta.bel.tr/haberler.html. /duyurular adresi 404 verir, doğru adres duyurular.html. Kahta, Nemrut Dağı'nın bağlı olduğu ilçedir ve il merkezinden sonra en kalabalık ilçedir."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Besni Belediyesi",
+      "url": "https://www.besni.bel.tr/",
+      "duyuru_url": "https://www.besni.bel.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://www.besni.bel.tr/haberler. Tekil duyuru ve haber adresleri /duyuru/{ad}/{no}/ ve /haber/{ad}/{no}/ biçimindedir. Liste sayfalarının içeriği doğrulanmadı."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Adıyaman Belediyesi Ulaşım Hizmetleri (şehir içi otobüs)",
+      "url": "https://adiyaman.bel.tr/ULASIM-HIZMETLERI",
+      "duyuru_url": "https://adiyaman.bel.tr/ULASIM-HIZMETLERI",
+      "durum": 200,
+      "not": "Şehir içi toplu taşıma belediyenin ulaşım biriminde; ayrı bir ulaşım işletme sitesi bulunamadı. Hat ve sefer değişiklikleri belediye duyurularında olabilir."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Adıyaman İl Kültür ve Turizm Müdürlüğü",
+      "url": "https://adiyaman.ktb.gov.tr/",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Nemrut Dağı ve Kahta/Arsemia/Karakuş Tümülüsü gibi turizm haberleri için. adiyaman.ktb.gov.tr ve ktb.gov.tr bu ortamdan açılmadı (bağlantı kesildi, durum 000); adres tahmin değil, valilik il müdürlükleri listesinden ve alan adı kalıbından alındı, doğrulanamadı. Alternatif olarak valilik sayfasındaki il müdürlüğü bağlantısına bakılabilir: https://adiyaman.gov.tr/il-kultur-ve-turizm-mudurlugu"
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=Ad%C4%B1yaman+when:1d&hl=tr&gl=TR&ceid=TR:tr",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Adıyamanlılar Net",
+      "url": "https://www.adiyamanlilar.net/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Adıyaman Ses Haber",
+      "url": "https://adiyamanses.com.tr/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Adıyaman News",
+      "url": "https://adiyamannews.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Adıyaman Haber Ajansı",
+      "url": "https://adiyamanhaberajansi.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "planlı elektrik kesintisi (AKEDAŞ ilçe/mahalle listeleri)",
+    "su kesintisi ve şebeke suyu uyarıları, içme suyu hattı çalışmaları",
+    "deprem ve artçı sarsıntılar, 6 Şubat 2023 sonrası konteyner kent ve kalıcı konut haberleri",
+    "kar ve soğuk nedeniyle okul tatili, yüksek kesimlerde (Sincik, Çelikhan, Gerger) yol kapanması",
+    "Nemrut Dağı ziyaret ve yol durumu, Kahta turizm haberleri",
+    "yaz sıcakları, orman ve anız yangınları, kuraklık ve Atatürk Barajı su seviyesi",
+    "Adıyaman tütünü, hasat ve tarım destekleri",
+    "trafik kazaları ve yol çalışmaları (Adıyaman-Kahta, Adıyaman-Besni karayolları)"
+  ],
+  "notlar": "Valilik, belediye, il MEB, emniyet, jandarma, AFAD, üniversite ve ilçe belediye siteleri HTTP 200 ile açılıyor; yurt dışı IP engeli görülmedi. Valilik duyuruları /duyurular, haberleri /haberler altında. Belediye sitesi duyuru için /DUYURULAR, haber için /GUNCEL-HABERLER (çok büyük HTML). Su kesintisi için ayrı su idaresi yok, belediyenin Duyurular/Haberler sayfasına bakılır. Elektrik dağıtımı AKEDAŞ (Adıyaman+Kahramanmaraş); programlı kesinti sayfası JS ile yükleniyor (Angular SPA), düz HTTP isteğiyle okunamaz; Dicle Elektrik (dedas.com.tr) Adıyaman'a hizmet vermez. Sağlık müdürlüğü alan adı adiyamanism.saglik.gov.tr (adiyaman.saglik.gov.tr açılmıyor). Emniyet sitesi adiyaman.pol.tr (egm.gov.tr/adiyaman 404). Kültür Turizm (ktb.gov.tr) ve doğalgaz (akmercangaz.com.tr, 429) siteleri doğrulanamadı. Yerel haber sitelerinden adiyamanguncel.com (boş/hata ekranı) ve birçok tahmini alan adı açılmadığı için ipucu listesine alınmadı. Ana sayfalar 2026-11-03 tarihinde curl ile kontrol edildi."
+}

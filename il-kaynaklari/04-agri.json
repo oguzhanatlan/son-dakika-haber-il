@@ -1,0 +1,181 @@
+{
+  "il": "Ağrı",
+  "plaka": "04",
+  "slug": "agri",
+  "site_sehir_sayfasi": "https://son-dakika-haber.com.tr/sehir/agri",
+  "buyuksehir": false,
+  "ilceler": [
+    "Merkez",
+    "Diyadin",
+    "Doğubayazıt",
+    "Eleşkirt",
+    "Hamur",
+    "Patnos",
+    "Taşlıçay",
+    "Tutak"
+  ],
+  "resmi": [
+    {
+      "tur": "valilik",
+      "kurum": "Ağrı Valiliği",
+      "url": "https://agri.gov.tr/",
+      "duyuru_url": "https://agri.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://agri.gov.tr/haberler ; basın açıklamaları: https://agri.gov.tr/basin-aciklamalari ; vali haberleri: https://agri.gov.tr/validen-haberler (hepsi 200). Kar tatili/okul tatili kararları burada ve valilik X hesabında (@tcagrivaliligi) çıkar. WebFetch bu siteyi 500 hatasıyla açamadı, curl çalışıyor."
+    },
+    {
+      "tur": "belediye",
+      "kurum": "Ağrı Belediye Başkanlığı",
+      "url": "https://www.agri.bel.tr/",
+      "duyuru_url": "https://www.agri.bel.tr/haberler/duyurular/",
+      "durum": 200,
+      "not": "Haberler: https://www.agri.bel.tr/haberler/ ; ihale ilanları: https://www.agri.bel.tr/ihale-ilanlari/ (200). Belediye başkanı Hazal Aras. Su Arızası Amirliği tel: 0472 215 28 79, santral 0472 215 11 90."
+    },
+    {
+      "tur": "il_meb",
+      "kurum": "Ağrı İl Millî Eğitim Müdürlüğü",
+      "url": "https://agri.meb.gov.tr/",
+      "duyuru_url": "https://agri.meb.gov.tr/www/duyurular/kategori/2",
+      "durum": 200,
+      "not": "Haberler: https://agri.meb.gov.tr/www/haberler/kategori/1 ; RSS duyuru: https://agri.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml"
+    },
+    {
+      "tur": "su",
+      "kurum": "Ağrı Belediyesi Su ve Kanalizasyon İşleri (Su Arızası Amirliği)",
+      "url": "https://www.agri.bel.tr/",
+      "duyuru_url": "https://www.agri.bel.tr/haberler/duyurular/",
+      "durum": 200,
+      "not": "Ağrı'da ayrı bir su idaresi (ASKİ/MASKİ tipi) yok, su hizmetini belediye veriyor. Planlı su kesintisi için ayrı bir sayfa bulunamadı; kesinti duyuruları belediye duyurular/haberler sayfasında ve sosyal medyada çıkar. https://www.agri.bel.tr/su adresi 200 dönüyor ancak ana sayfa şablonunu gösteriyor, özel bir su kesintisi sayfası değil."
+    },
+    {
+      "tur": "elektrik",
+      "kurum": "Aras Elektrik Dağıtım A.Ş. (Aras EDAŞ)",
+      "url": "https://arasedas.com/",
+      "duyuru_url": "https://arasedas.com/bilgilendirme/planli_bakim_kesintileri",
+      "durum": 200,
+      "not": "Aras EDAŞ; Erzurum, Erzincan, Bayburt, Kars, Ağrı, Iğdır ve Ardahan'a hizmet verir (VEDAŞ Ağrı'ya hizmet vermez, Van-Bitlis-Muş-Hakkari bölgesidir). Planlı bakım kesintileri sayfası il/ilçe/yıl/ay filtreli ve içerik JavaScript ile dinamik yükleniyor (düz HTML'de liste görünmez). Çağrı merkezi 186 / +90 850 200 20 20."
+    },
+    {
+      "tur": "dogalgaz",
+      "kurum": "Aksa Ağrı Doğal Gaz Dağıtım A.Ş. (Aksa Doğalgaz)",
+      "url": "https://www.aksadogalgaz.com.tr/tr",
+      "duyuru_url": "https://www.aksadogalgaz.com.tr/tr/kurumsal/duyurular",
+      "durum": 200,
+      "not": "Ağrı merkez ve Doğubayazıt dağıtım bölgesi (EPDK ihalesi). Ağrı bölge sayfası: https://www.aksadogalgaz.com.tr/tr/dagitim-bolgelerimiz/agri (200). Ağrı'ya özel ayrı bir haber sayfası yok; genel duyurular Aksa Doğalgaz sitesinde."
+    },
+    {
+      "tur": "saglik",
+      "kurum": "Ağrı İl Sağlık Müdürlüğü",
+      "url": "https://agriism.saglik.gov.tr/",
+      "duyuru_url": "https://agriism.saglik.gov.tr/",
+      "durum": 200,
+      "not": "Alt adres olarak yalnızca ana sayfa doğrulandı; duyuru/haber bölümü ana sayfada. agri.saglik.gov.tr adresi açılmıyor (bağlantı hatası), doğru alan adı agriism.saglik.gov.tr."
+    },
+    {
+      "tur": "emniyet",
+      "kurum": "Ağrı İl Emniyet Müdürlüğü",
+      "url": "https://agri.pol.tr/",
+      "duyuru_url": "https://agri.pol.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://agri.pol.tr/haberler (200). EGM il emniyet listesi: https://www.egm.gov.tr/il-emniyet-mudurlukleri. egm.gov.tr/agri tipi adres 404 veriyor; il sitesi agri.pol.tr alan adındadır."
+    },
+    {
+      "tur": "jandarma",
+      "kurum": "Ağrı İl Jandarma Komutanlığı",
+      "url": "https://agri.jandarma.gov.tr/",
+      "duyuru_url": "https://agri.jandarma.gov.tr/haberler",
+      "durum": 200,
+      "not": "Sitenin başlığı 'Ağrı İl Jandarma Komutanlığı'."
+    },
+    {
+      "tur": "afad",
+      "kurum": "Ağrı Valiliği İl Afet ve Acil Durum Müdürlüğü (AFAD)",
+      "url": "https://agri.afad.gov.tr/",
+      "duyuru_url": "https://agri.afad.gov.tr/duyurular",
+      "durum": 200,
+      "not": "Haberler: https://agri.afad.gov.tr/haberler (200). Deprem verisi için ulusal AFAD sayfası kullanılmalı."
+    },
+    {
+      "tur": "universite",
+      "kurum": "Ağrı İbrahim Çeçen Üniversitesi",
+      "url": "https://www.agri.edu.tr/",
+      "duyuru_url": "https://www.agri.edu.tr/haberduyuru.aspx?bid=1&tid=2",
+      "durum": 200,
+      "not": "Haber/duyuru modülü haberduyuru.aspx?bid=1&tid=N biçiminde (tid=2 doğrulandı; tid=1 ilk denemede zaman aşımı verdi, ikinci denemede 200). agri.edu.tr (www'suz) kök adresi 404 dönüyor, www'lu adres kullanılmalı."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Doğubayazıt Belediyesi",
+      "url": "https://www.dogubayazit.bel.tr/",
+      "duyuru_url": "https://www.dogubayazit.bel.tr/",
+      "durum": 200,
+      "not": "Duyuru alt sayfası doğrulanmadı, ana sayfada haber/duyuru var. Ağrı'nın en kalabalık ilçelerinden. Ayrıca Doğubayazıt Kaymakamlığı: https://dogubayazit.gov.tr/ (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Patnos Belediye Başkanlığı",
+      "url": "https://www.patnos.bel.tr/",
+      "duyuru_url": "https://www.patnos.bel.tr/",
+      "durum": 200,
+      "not": "Duyuru alt sayfası doğrulanmadı, ana sayfada haber/duyuru var. Patnos Kaymakamlığı: https://patnos.gov.tr/ (200)."
+    },
+    {
+      "tur": "ilce_belediye",
+      "kurum": "Diyadin Belediyesi",
+      "url": "https://www.diyadin.bel.tr/",
+      "duyuru_url": "https://www.diyadin.bel.tr/",
+      "durum": 200,
+      "not": "Duyuru alt sayfası doğrulanmadı. Diyadin kaplıcaları ve Murat Nehri çevresi için yerel haber çıkabilir. Eleşkirt Belediyesi: https://www.eleskirt.bel.tr/ (200). Tutak Belediyesi https://www.tutak.bel.tr/ 403 veriyor (bot engeli olabilir)."
+    },
+    {
+      "tur": "diger",
+      "kurum": "Ağrı İl Kültür ve Turizm Müdürlüğü",
+      "url": "",
+      "duyuru_url": "",
+      "durum": 0,
+      "not": "Doğrulanmış ek kurum bulunamadı. Ağrı İl Kültür ve Turizm Müdürlüğü için tahmin edilen agri.ktb.gov.tr adresi açılmadı (bağlantı hatası), bu yüzden kaydedilmedi. Ağrı'da ayrı bir belediye ulaşım işletmesi de bulunamadı."
+    }
+  ],
+  "ipucu": [
+    {
+      "tur": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=A%C4%9Fr%C4%B1+when:1d&hl=tr&gl=TR&ceid=TR:tr"
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Yeni Birlik Gazetesi",
+      "url": "https://www.gazetebirlik.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ağrı 04",
+      "url": "https://www.agri04.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ağrı Gündem",
+      "url": "https://www.agrigundem.com/",
+      "durum": 200
+    },
+    {
+      "tur": "yerel_gazete",
+      "ad": "Ağrı Gazetesi",
+      "url": "https://agrigazetesi.com/",
+      "durum": 200
+    }
+  ],
+  "deger_konulari": [
+    "kar nedeniyle okul tatili (valilik kararı)",
+    "kapanan köy yolları ve kar/tipi uyarıları",
+    "planlı elektrik kesintisi (Aras EDAŞ)",
+    "doğalgaz faturaları ve doğalgaz abonelik/şebeke çalışmaları",
+    "su kesintisi ve su arızası",
+    "Doğubayazıt sınır kapısı ve İran sınırı gelişmeleri",
+    "Ağrı Dağı tırmanış izinleri ve turizm",
+    "deprem ve doğal afet uyarıları (Doğubayazıt, Tutak, Patnos)",
+    "hayvancılık, besicilik ve hayvan hastalıkları tedbirleri"
+  ],
+  "notlar": "Valilik, MEB, belediye, polis, jandarma ve AFAD siteleri curl ile 200 dönüyor. Valilik, emniyet ve AFAD siteleri aynı şablonu kullanır: /duyurular, /haberler. agri.gov.tr WebFetch ile 500 verdi ama curl ile açılıyor. Aras EDAŞ planlı kesinti listesi JavaScript ile yükleniyor, düz HTML ile okunamayabilir (tarayıcı veya site API'si gerekir). Ağrı'da ayrı bir su idaresi yok, su belediyeden. Sağlık Müdürlüğünün alan adı agriism.saglik.gov.tr (agri.saglik.gov.tr çalışmıyor). Tutak Belediyesi 403 veriyor. Kültür ve Turizm Müdürlüğü adresi bulunamadı. Ağrı merkezli kış koşulları (uzun, sert kış) nedeniyle ocak-mart arası kar/yol/okul tatili haberleri en çok okunan konulardır."
+}
