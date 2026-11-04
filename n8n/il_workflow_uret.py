@@ -311,7 +311,7 @@ if __name__ == '__main__' and '--tek' not in sys.argv:
 
 KOD_IL_SEC = r"""// Sırası gelen illeri seçer: en uzun süredir işlenmemiş olanlar önce.
 // ilSayisi: bir çalışmada işlenecek il sayısı. enAzAralikSaat: bir il en erken kaç saat sonra tekrar işlenir.
-const AYAR = { ilSayisi: 7, enAzAralikSaat: 10, oncelikli: ['43'] };
+const AYAR = { ilSayisi: 7, enAzAralikSaat: 10, oncelikli: [] };
 const ILLER = __ILLER__;
 const durum = $getWorkflowStaticData('global');
 durum.sonCalisma = durum.sonCalisma || {};
