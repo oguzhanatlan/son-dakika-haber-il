@@ -269,7 +269,9 @@ const jsonCoz = (t) => {
   return j;
 };
 const denemeler = [];
-let sonuc = null, kullanilanModel = null;
+let sonuc = null, kullanilanModel = null, yetkiHatasi = false;
+const anahtar = String(L.apiKey || '').trim();
+if (!/^evren_llm_|^sk-/.test(anahtar)) denemeler.push('UYARI: apiKey beklenen biçimde değil (evren_llm_... ile başlamalı)');
 for (const model of L.modeller) {
   for (const jsonModu of [true, false]) {
     try {
@@ -277,22 +279,28 @@ for (const model of L.modeller) {
         messages: [{ role: 'system', content: system }, { role: 'user', content: prompt }] };
       if (jsonModu) body.response_format = { type: 'json_object' };
       const r = await this.helpers.httpRequest({ method: 'POST', url: L.baseUrl.replace(/\/$/, '') + '/chat/completions',
-        headers: { Authorization: 'Bearer ' + L.apiKey, 'Content-Type': 'application/json' }, body, json: true, timeout: L.zamanAsimiSn * 1000 });
+        headers: { Authorization: 'Bearer ' + anahtar, 'X-API-Key': anahtar, 'Content-Type': 'application/json' }, body, json: true, timeout: L.zamanAsimiSn * 1000 });
       const metin = r?.choices?.[0]?.message?.content;
       sonuc = jsonCoz(metin);
       kullanilanModel = model;
       break;
     } catch (e) {
-      const kod = e.httpCode || e.response?.status || e.statusCode || '';
-      const mesaj = String(e.description || e.message || e).slice(0, 200);
+      const kod = e.httpCode || e.response?.status || e.statusCode || e.cause?.response?.status || (String(e.message).match(/status code (\d{3})/) || [])[1] || '';
+      // Servisin döndürdüğü hata gövdesi (ör. {"error":{"code":"invalid_api_key"}}) teşhis için rapora yazılır
+      let govde = e.response?.data ?? e.cause?.response?.data ?? e.response?.body ?? e.cause?.response?.body ?? e.description ?? '';
+      if (typeof govde !== 'string') { try { govde = JSON.stringify(govde); } catch (x) { govde = String(govde); } }
+      const mesaj = (String(e.message || e) + (govde ? ' | ' + govde : '')).slice(0, 400);
       denemeler.push(`${model}${jsonModu ? '' : ' (json modu kapalı)'}: ${kod} ${mesaj}`);
+      if (String(kod) === '401' || String(kod) === '403') { yetkiHatasi = true; break; }
       // 400 ve JSON hatalarında aynı modeli json modu kapalı dene; diğer hatalarda doğrudan sonraki modele geç
       if (!(jsonModu && (String(kod) === '400' || /JSON|haberler/.test(mesaj)))) break;
     }
   }
-  if (sonuc) break;
+  if (sonuc || yetkiHatasi) break;
 }
-if (!sonuc) return [{ json: { yayin: false, rapor: 'Hiçbir model cevap veremedi.', denemeler } }];
+if (!sonuc) return [{ json: { yayin: false, denemeler, rapor: yetkiHatasi
+  ? 'API anahtarı reddedildi (401/403). LLM Ayarları\'ndaki apiKey\'i kontrol et; 403 terms_not_accepted ise EVREN kullanım şartlarını onayla.'
+  : 'Hiçbir model cevap veremedi.' } }];
 
 // --- Denetim: dayanak kaynaklarından adres/kimlik al, uydurma bağlantıları temizle ---
 const izinli = ['gundem', 'ekonomi', 'egitim', 'saglik', 'spor'];
