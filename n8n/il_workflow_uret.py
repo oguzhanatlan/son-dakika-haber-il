@@ -86,10 +86,12 @@ return [{ json: {
 
 KOD_RSS_LISTESI = r"""// İlin haber akışları: Google Haberler, kurum RSS'leri ve yerel gazetelerin olası RSS adresleri
 const A = $('İl Döngüsü').first().json;
+// n8n Code düğümünde URL nesnesi yok; alan adını düz metinden alır
+const hostAl = (u) => ((String(u || '').match(/^https?:\/\/([^\/?#:]+)/i) || [])[1] || '').replace(/^www\./, '');
 const liste = A.rss.map(r => ({ ...r, tur: r.kaynak.startsWith('Google') ? 'baslik' : 'resmi' }));
 for (const g of A.yerelGazeteler) {
   const base = g.endsWith('/') ? g : g + '/';
-  for (const yol of ['feed', 'rss']) liste.push({ kaynak: new URL(g).hostname.replace(/^www\./, ''), url: base + yol, tur: 'gazete' });
+  for (const yol of ['feed', 'rss']) liste.push({ kaynak: hostAl(g), url: base + yol, tur: 'gazete' });
 }
 return liste.map(j => ({ json: j }));"""
 
@@ -106,6 +108,23 @@ for (const [k, t] of Object.entries(durum.gorulen)) if (simdi - t > 14 * 8640000
 const kucuk = (s) => (s || '').toLocaleLowerCase('tr-TR');
 const kelimeler = (s) => new Set(kucuk(s).replace(/[^a-zçğıöşü0-9 ]/g, ' ').split(/\s+/).filter(w => w.length >= 4));
 const benzer = (a, b) => { const x = kelimeler(a), y = kelimeler(b); if (!x.size || !y.size) return 0; let o = 0; for (const w of x) if (y.has(w)) o++; return o / Math.min(x.size, y.size); };
+// n8n Code düğümünde URL nesnesi yok; alan adını düz metinden alır
+const hostAl = (u) => ((String(u || '').match(/^https?:\/\/([^\/?#:]+)/i) || [])[1] || '').replace(/^www\./, '');
+// Göreli bağlantıyı sayfa adresine göre tam adrese çevirir (URL nesnesi olmadan)
+const mutlak = (href, base) => {
+  href = String(href || '').trim();
+  if (/^https?:\/\//i.test(href)) return href;
+  if (href.startsWith('//')) return 'https:' + href;
+  if (!href || /^(mailto|tel|javascript|data):/i.test(href)) return null;
+  const m = String(base).match(/^(https?:\/\/[^\/?#]+)(\/[^?#]*)?/i);
+  if (!m) return null;
+  if (href.startsWith('/')) return m[1] + href;
+  if (href.startsWith('?')) return m[1] + (m[2] || '/') + href;
+  const parcalar = ((m[2] || '/').replace(/[^\/]*$/, '') + href).split('/');
+  const sonuc = [];
+  for (const p of parcalar) { if (p === '..') { if (sonuc.length > 1) sonuc.pop(); } else if (p !== '.') sonuc.push(p); }
+  return m[1] + sonuc.join('/');
+};
 const temizle = (s) => String(s || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&#(\d+);/g, (m, n) => String.fromCharCode(+n)).replace(/\s+/g, ' ').trim();
 
 let siteHaberleri = [];
@@ -128,7 +147,7 @@ $('RSS Oku').all().forEach((it) => {
   if (durum.gorulen[anahtar] || gorulenLink.has(j.link) || sitedeVar(j.title)) return;
   gorulenLink.add(j.link);
   const kaynak = (rssListesi[it.pairedItem?.item ?? -1] || {});
-  let host = ''; try { host = new URL(j.link).hostname.replace(/^www\./, ''); } catch (e) {}
+  const host = hostAl(j.link);
   const metin = temizle(j['content:encoded'] || j.content || j.contentSnippet || '').slice(0, 1800);
   rss.push({ anahtar, baslik: temizle(j.title), tarih: j.isoDate || j.pubDate || '', link: j.link,
              kaynak: kaynak.tur === 'baslik' ? 'Google Haberler' : (kaynak.kaynak || host), tur: kaynak.tur || 'gazete',
@@ -151,8 +170,8 @@ $('Sayfa Çek').all().forEach((it, i) => {
   while ((m = re.exec(html))) {
     const text = temizle(m[2]);
     if (text.length < 20 || text.length > 220 || menuMetni.test(text)) continue;
-    let href; try { href = new URL(m[1], s.url).href; } catch (e) { continue; }
-    if (!/^https?:/.test(href) || /\.(pdf|docx?|xlsx?|jpe?g|png|zip|rar)(\?|$)/i.test(href) || gorulen.has(href)) continue;
+    const href = mutlak(m[1], s.url);
+    if (!href || !/^https?:/.test(href) || /\.(pdf|docx?|xlsx?|jpe?g|png|zip|rar)(\?|$)/i.test(href) || gorulen.has(href)) continue;
     gorulen.add(href);
     bulunan.push({ text, href, puan: duyuruGibi.test(href) ? 1 : 0 });
   }
