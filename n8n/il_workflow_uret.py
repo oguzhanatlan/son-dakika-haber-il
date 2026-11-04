@@ -293,7 +293,7 @@ def build(d):
             "settings": {"executionOrder": "v1", "timezone": "Europe/Istanbul", "saveDataSuccessExecution": "all"}}
 
 
-if __name__ == '__main__':
+if __name__ == '__main__' and '--tek' not in sys.argv:
     out = os.path.join(ROOT, 'n8n', 'workflows'); os.makedirs(out, exist_ok=True)
     for f in sorted(glob.glob(os.path.join(ROOT, 'il-kaynaklari', '[0-9]*.json'))):
         d = json.load(open(f, encoding='utf-8'))
@@ -302,3 +302,112 @@ if __name__ == '__main__':
         p = os.path.join(out, f"{d['plaka']}-{d['slug']}.json")
         json.dump(build(d), open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
         print(p)
+
+
+# ---------------------------------------------------------------------------
+# TEK WORKFLOW: 81 il, her çalışmada sırası gelen birkaç il döngüyle işlenir
+# Kullanım: python3 n8n/il_workflow_uret.py --tek   → n8n/workflows/tum-iller.json
+# ---------------------------------------------------------------------------
+
+KOD_IL_SEC = r"""// Sırası gelen illeri seçer: en uzun süredir işlenmemiş olanlar önce.
+// ilSayisi: bir çalışmada işlenecek il sayısı. enAzAralikSaat: bir il en erken kaç saat sonra tekrar işlenir.
+const AYAR = { ilSayisi: 7, enAzAralikSaat: 10, oncelikli: ['43'] };
+const ILLER = __ILLER__;
+const durum = $getWorkflowStaticData('global');
+durum.sonCalisma = durum.sonCalisma || {};
+const simdi = Date.now();
+const uygun = ILLER.filter(il => simdi - (durum.sonCalisma[il.plaka] || 0) >= AYAR.enAzAralikSaat * 3600000);
+uygun.sort((a, b) => {
+  const pa = AYAR.oncelikli.includes(a.plaka) ? 0 : 1, pb = AYAR.oncelikli.includes(b.plaka) ? 0 : 1;
+  return (durum.sonCalisma[a.plaka] || 0) - (durum.sonCalisma[b.plaka] || 0) || pa - pb;
+});
+const secilen = uygun.slice(0, AYAR.ilSayisi);
+// Seçilenler hemen işaretlenir; hata veren bir il sürekli başa gelip diğerlerini bekletmesin
+for (const il of secilen) durum.sonCalisma[il.plaka] = simdi;
+return secilen.map(il => ({ json: il }));"""
+
+KOD_ILLER = "// AFAD isteği öğeleri değiştirdiği için seçilen illeri döngüye yeniden verir.\nreturn $('İl Seç').all().map(i => ({ json: i.json }));"
+
+KOD_OZET = r"""// Bu çalışmada işlenen illerin raporları
+return [{ json: { tarih: new Date().toISOString(), iller: $input.all().map(i => i.json) } }];"""
+
+
+def build_tek():
+    iller = []
+    for f in sorted(glob.glob(os.path.join(ROOT, 'il-kaynaklari', '[0-9]*.json'))):
+        iller.append(il_ayarlari(json.load(open(f, encoding='utf-8'))))
+    tek = build(json.load(open(os.path.join(ROOT, 'il-kaynaklari', '43-kutahya.json'), encoding='utf-8')))
+    nodes = {n['name']: n for n in tek['nodes']}
+    REF = "$('İl Ayarları').first().json"
+    for n in tek['nodes']:
+        p = n['parameters']
+        for k in ('jsCode', 'jsonBody'):
+            if k in p:
+                p[k] = p[k].replace(REF, "$('İl Döngüsü').first().json")
+    # Görülen anahtarları ile göre ayır (aynı başlık iki ilde aday olabilir)
+    p = nodes['Aday Hazırla']['parameters']
+    p['jsCode'] = p['jsCode'].replace("const anahtar = 'R:' + j.title.trim();", "const anahtar = 'R:' + A.plaka + ':' + j.title.trim();")
+    # İl başına sonuç döngüye geri döner; hata veren il diğerlerini durdurmasın
+    nodes['Muhabir Ajan']['onError'] = 'continueRegularOutput'
+    nodes['Rapor']['parameters']['jsCode'] = nodes['Rapor']['parameters']['jsCode'].replace(
+        "rapor: $json.output", "rapor: $json.output || ('HATA: ' + ($json.error?.message || $json.error || 'ajan cevap vermedi'))")
+    nodes['Zamanlayıcı']['parameters'] = {"rule": {"interval": [{"field": "cronExpression", "expression": "5 6-22 * * *"}]}}
+    del nodes['İl Ayarları']
+    nodes['Not']['parameters']['content'] = (
+        "## 81 il – tek workflow\n"
+        "Her saat (06:05–22:05) sırası gelen **7 il** işlenir: en uzun süredir işlenmemiş il önce, bir il en erken 10 saat sonra tekrar. "
+        "Böylece her il günde ~2 kez taranır. Ayarlar: *İl Seç* düğümünün başındaki AYAR (ilSayisi, enAzAralikSaat, oncelikli plakalar).\n\n"
+        "Her il için: RSS + resmî sayfalar + sitedeki son haberler → eleme → yeni aday varsa ajan; yoksa model çağrılmaz.\n\n"
+        "**Kurulum:** Dil Modeli credential + model seç; Site MCP ve Sitedeki Haberler'de MCP Bearer credential. Elle deneyip Active yap.\n"
+        "Sıra ve 'görülenler' hafızası yalnızca Active (production) çalışmalarda kalıcıdır; elle testte hep ilk iller seçilir.\n"
+        "İl kaynağı değişince: il-kaynaklari/*.json güncelle → `python3 n8n/il_workflow_uret.py --tek` → yeniden içe aktar.")
+    nodes['Not']['parameters']['height'] = 420
+    yeni = [
+        {"parameters": {"jsCode": KOD_IL_SEC.replace('__ILLER__', json.dumps(iller, ensure_ascii=False))},
+         "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [220, 0], "id": "c0000000-0000-4000-8000-000000000001", "name": "İl Seç"},
+        {"parameters": {"jsCode": KOD_ILLER},
+         "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [660, 0], "id": "c0000000-0000-4000-8000-000000000002", "name": "İller"},
+        {"parameters": {"options": {}},
+         "type": "n8n-nodes-base.splitInBatches", "typeVersion": 3, "position": [880, 0], "id": "c0000000-0000-4000-8000-000000000003", "name": "İl Döngüsü"},
+        {"parameters": {"jsCode": KOD_OZET},
+         "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [1100, -260], "id": "c0000000-0000-4000-8000-000000000004", "name": "Özet"},
+    ]
+    # Yerleşim: AFAD döngüden önce (tüm Türkiye için bir kez), il gövdesi döngünün içinde
+    pos = {'AFAD Depremler': [440, 0], 'RSS Listesi': [1100, 120], 'RSS Oku': [1320, 120], 'Sayfa Listesi': [1540, 120],
+           'Sayfa Çek': [1760, 120], 'Sitedeki Haberler': [1980, 120], 'Aday Hazırla': [2200, 120], 'Yeni Aday Var mı?': [2420, 120],
+           'Muhabir Ajan': [2660, 0], 'Dil Modeli (değiştirilebilir)': [2520, 260], 'Site MCP': [2680, 260], 'sayfa_oku': [2840, 260],
+           'haber_ara': [3000, 260], 'Rapor': [3040, 0], 'Aday Yok': [2660, 420]}
+    for k, v in pos.items():
+        nodes[k]['position'] = v
+    nodes['AFAD Depremler'].pop('executeOnce', None)
+    allnodes = yeni[:1] + [nodes['Zamanlayıcı'], nodes['AFAD Depremler']] + yeni[1:] + [v for k, v in nodes.items() if k not in ('Zamanlayıcı', 'AFAD Depremler')]
+    m = lambda a: {"node": a, "type": "main", "index": 0}
+    conn = {
+        "Zamanlayıcı": {"main": [[m("İl Seç")]]},
+        "İl Seç": {"main": [[m("AFAD Depremler")]]},
+        "AFAD Depremler": {"main": [[m("İller")]]},
+        "İller": {"main": [[m("İl Döngüsü")]]},
+        "İl Döngüsü": {"main": [[m("Özet")], [m("RSS Listesi")]]},
+        "RSS Listesi": {"main": [[m("RSS Oku")]]},
+        "RSS Oku": {"main": [[m("Sayfa Listesi")]]},
+        "Sayfa Listesi": {"main": [[m("Sayfa Çek")]]},
+        "Sayfa Çek": {"main": [[m("Sitedeki Haberler")]]},
+        "Sitedeki Haberler": {"main": [[m("Aday Hazırla")]]},
+        "Aday Hazırla": {"main": [[m("Yeni Aday Var mı?")]]},
+        "Yeni Aday Var mı?": {"main": [[m("Muhabir Ajan")], [m("Aday Yok")]]},
+        "Muhabir Ajan": {"main": [[m("Rapor")]]},
+        "Rapor": {"main": [[m("İl Döngüsü")]]},
+        "Aday Yok": {"main": [[m("İl Döngüsü")]]},
+        "Dil Modeli (değiştirilebilir)": {"ai_languageModel": [[{"node": "Muhabir Ajan", "type": "ai_languageModel", "index": 0}]]},
+        "Site MCP": {"ai_tool": [[{"node": "Muhabir Ajan", "type": "ai_tool", "index": 0}]]},
+        "sayfa_oku": {"ai_tool": [[{"node": "Muhabir Ajan", "type": "ai_tool", "index": 0}]]},
+        "haber_ara": {"ai_tool": [[{"node": "Muhabir Ajan", "type": "ai_tool", "index": 0}]]},
+    }
+    return {"name": "Son Dakika Haber – 81 İl Yerel Haber", "nodes": allnodes, "connections": conn, "pinData": {},
+            "settings": {"executionOrder": "v1", "timezone": "Europe/Istanbul", "saveDataSuccessExecution": "all"}}
+
+
+if __name__ == '__main__' and '--tek' in sys.argv:
+    p = os.path.join(ROOT, 'n8n', 'workflows', 'tum-iller.json')
+    json.dump(build_tek(), open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+    print(p, os.path.getsize(p) // 1024, 'KB')
