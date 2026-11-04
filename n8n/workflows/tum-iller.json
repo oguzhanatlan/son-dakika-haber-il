@@ -297,14 +297,20 @@
     },
     {
       "parameters": {
-        "model": "anthropic/claude-sonnet-4.5",
+        "model": {
+          "__rl": true,
+          "value": "glm-5.3",
+          "mode": "id"
+        },
         "options": {
           "temperature": 0.3,
-          "maxTokens": 8000
+          "maxTokens": 16000,
+          "timeout": 300000,
+          "maxRetries": 3
         }
       },
-      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
-      "typeVersion": 1,
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
       "position": [
         2520,
         260
@@ -425,7 +431,7 @@
     },
     {
       "parameters": {
-        "content": "## 81 il – tek workflow\nHer saat (06:05–22:05) sırası gelen **7 il** işlenir: en uzun süredir işlenmemiş il önce, bir il en erken 10 saat sonra tekrar. Böylece her il günde ~2 kez taranır. Ayarlar: *İl Seç* düğümünün başındaki AYAR (ilSayisi, enAzAralikSaat, oncelikli plakalar).\n\nHer il için: RSS + resmî sayfalar + sitedeki son haberler → eleme → yeni aday varsa ajan; yoksa model çağrılmaz.\n\n**Kurulum:** Dil Modeli credential + model seç; Site MCP ve Sitedeki Haberler'de MCP Bearer credential. Elle deneyip Active yap.\nSıra ve 'görülenler' hafızası yalnızca Active (production) çalışmalarda kalıcıdır; elle testte hep ilk iller seçilir.\nİl kaynağı değişince: il-kaynaklari/*.json güncelle → `python3 n8n/il_workflow_uret.py --tek` → yeniden içe aktar.",
+        "content": "## 81 il – tek workflow\nHer saat (06:05–22:05) sırası gelen **7 il** işlenir: en uzun süredir işlenmemiş il önce, bir il en erken 10 saat sonra tekrar. Böylece her il günde ~2 kez taranır. Ayarlar: *İl Seç* düğümünün başındaki AYAR (ilSayisi, enAzAralikSaat, oncelikli plakalar).\n\nHer il için: RSS + resmî sayfalar + sitedeki son haberler → eleme → yeni aday varsa ajan; yoksa model çağrılmaz.\n\n**Kurulum:** Dil Modeli: OpenAI credential (API Key evren_llm_..., Base URL https://evren-llmapi.ssyz.org.tr/v1), model glm-5.3; Site MCP ve Sitedeki Haberler'de MCP Bearer credential. Elle deneyip Active yap.\nSıra ve 'görülenler' hafızası yalnızca Active (production) çalışmalarda kalıcıdır; elle testte hep ilk iller seçilir.\nİl kaynağı değişince: il-kaynaklari/*.json güncelle → `python3 n8n/il_workflow_uret.py --tek` → yeniden içe aktar.",
         "height": 420,
         "width": 520
       },

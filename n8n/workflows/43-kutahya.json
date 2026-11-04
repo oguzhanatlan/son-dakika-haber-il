@@ -258,14 +258,20 @@
     },
     {
       "parameters": {
-        "model": "anthropic/claude-sonnet-4.5",
+        "model": {
+          "__rl": true,
+          "value": "glm-5.3",
+          "mode": "id"
+        },
         "options": {
           "temperature": 0.3,
-          "maxTokens": 8000
+          "maxTokens": 16000,
+          "timeout": 300000,
+          "maxRetries": 3
         }
       },
-      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
-      "typeVersion": 1,
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
       "position": [
         2080,
         140
@@ -386,7 +392,7 @@
     },
     {
       "parameters": {
-        "content": "## Kütahya yerel haber\n**Akış:** RSS + resmî duyuru sayfaları + AFAD + sitedeki son haberler → daha önce görülen ve sitede olanlar elenir → yeni aday varsa ajan doğrular, yazar, yayımlar.\n\n**Kurulum**\n1. *Dil Modeli*: OpenRouter credential ekle, modeli seç. İstersen düğümü silip OpenAI / Anthropic / Gemini / Ollama chat model bağla.\n2. *Site MCP* ve *Sitedeki Haberler*: Bearer credential = Admin > MCP Bağlantısı kişisel token'ı.\n3. Elle çalıştırıp dene, sonra Active yap.\n\n**Başka il:** yalnızca *İl Ayarları* düğümünü değiştir (repo: n8n/il_workflow_uret.py otomatik üretir).\n\"Görülenler\" listesi yalnızca Active (production) çalışmalarda kalıcıdır.",
+        "content": "## Kütahya yerel haber\n**Akış:** RSS + resmî duyuru sayfaları + AFAD + sitedeki son haberler → daha önce görülen ve sitede olanlar elenir → yeni aday varsa ajan doğrular, yazar, yayımlar.\n\n**Kurulum**\n1. *Dil Modeli*: OpenAI credential oluştur → API Key: evren_llm_..., Base URL: https://evren-llmapi.ssyz.org.tr/v1. Model: glm-5.3 (değiştirilebilir). Başka sağlayıcı için düğümü değiştirmen yeter.\n2. *Site MCP* ve *Sitedeki Haberler*: Bearer credential = Admin > MCP Bağlantısı kişisel token'ı.\n3. Elle çalıştırıp dene, sonra Active yap.\n\n**Başka il:** yalnızca *İl Ayarları* düğümünü değiştir (repo: n8n/il_workflow_uret.py otomatik üretir).\n\"Görülenler\" listesi yalnızca Active (production) çalışmalarda kalıcıdır.",
         "height": 380,
         "width": 520
       },

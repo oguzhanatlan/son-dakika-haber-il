@@ -249,8 +249,11 @@ def build(d):
         {"parameters": {"promptType": "define", "text": "={{ $json.prompt }}",
                         "options": {"systemMessage": "={{ $json.system }}", "maxIterations": 40}},
          "type": "@n8n/n8n-nodes-langchain.agent", "typeVersion": 1.7, "position": [2220, -120], "id": n(11), "name": "Muhabir Ajan"},
-        {"parameters": {"model": "anthropic/claude-sonnet-4.5", "options": {"temperature": 0.3, "maxTokens": 8000}},
-         "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter", "typeVersion": 1, "position": [2080, 140], "id": n(12), "name": "Dil Modeli (değiştirilebilir)"},
+        # EVREN LLM API (OpenAI uyumlu): credential'da Base URL = https://evren-llmapi.ssyz.org.tr/v1, API Key = evren_llm_...
+        # Akıl yürüten modellerde max_tokens düşünme + yanıt için ortak; düşük tutulursa yanıt yarım kalır.
+        {"parameters": {"model": {"__rl": True, "value": "glm-5.3", "mode": "id"},
+                        "options": {"temperature": 0.3, "maxTokens": 16000, "timeout": 300000, "maxRetries": 3}},
+         "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi", "typeVersion": 1.2, "position": [2080, 140], "id": n(12), "name": "Dil Modeli (değiştirilebilir)"},
         {"parameters": {"endpointUrl": "https://son-dakika-haber.com.tr/mcp", "serverTransport": "httpStreamable", "authentication": "bearerAuth",
                         "include": "selected", "includeTools": ["news_list", "news_get", "news_create", "news_update", "tags_list", "seo_inspect_url"], "options": {}},
          "type": "@n8n/n8n-nodes-langchain.mcpClientTool", "typeVersion": 1.1, "position": [2240, 140], "id": n(13), "name": "Site MCP", "credentials": MCP_CRED},
@@ -269,7 +272,7 @@ def build(d):
          "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [2600, -120], "id": n(16), "name": "Rapor"},
         {"parameters": {"jsCode": KOD_BOS},
          "type": "n8n-nodes-base.code", "typeVersion": 2, "position": [2220, 340], "id": n(17), "name": "Aday Yok"},
-        {"parameters": {"content": "## " + d['il'] + " yerel haber\n**Akış:** RSS + resmî duyuru sayfaları + AFAD + sitedeki son haberler → daha önce görülen ve sitede olanlar elenir → yeni aday varsa ajan doğrular, yazar, yayımlar.\n\n**Kurulum**\n1. *Dil Modeli*: OpenRouter credential ekle, modeli seç. İstersen düğümü silip OpenAI / Anthropic / Gemini / Ollama chat model bağla.\n2. *Site MCP* ve *Sitedeki Haberler*: Bearer credential = Admin > MCP Bağlantısı kişisel token'ı.\n3. Elle çalıştırıp dene, sonra Active yap.\n\n**Başka il:** yalnızca *İl Ayarları* düğümünü değiştir (repo: n8n/il_workflow_uret.py otomatik üretir).\n\"Görülenler\" listesi yalnızca Active (production) çalışmalarda kalıcıdır.", "height": 380, "width": 520},
+        {"parameters": {"content": "## " + d['il'] + " yerel haber\n**Akış:** RSS + resmî duyuru sayfaları + AFAD + sitedeki son haberler → daha önce görülen ve sitede olanlar elenir → yeni aday varsa ajan doğrular, yazar, yayımlar.\n\n**Kurulum**\n1. *Dil Modeli*: OpenAI credential oluştur → API Key: evren_llm_..., Base URL: https://evren-llmapi.ssyz.org.tr/v1. Model: glm-5.3 (değiştirilebilir). Başka sağlayıcı için düğümü değiştirmen yeter.\n2. *Site MCP* ve *Sitedeki Haberler*: Bearer credential = Admin > MCP Bağlantısı kişisel token'ı.\n3. Elle çalıştırıp dene, sonra Active yap.\n\n**Başka il:** yalnızca *İl Ayarları* düğümünü değiştir (repo: n8n/il_workflow_uret.py otomatik üretir).\n\"Görülenler\" listesi yalnızca Active (production) çalışmalarda kalıcıdır.", "height": 380, "width": 520},
          "type": "n8n-nodes-base.stickyNote", "typeVersion": 1, "position": [0, -440], "id": n(18), "name": "Not"},
     ]
     conn = {
@@ -358,7 +361,7 @@ def build_tek():
         "Her saat (06:05–22:05) sırası gelen **7 il** işlenir: en uzun süredir işlenmemiş il önce, bir il en erken 10 saat sonra tekrar. "
         "Böylece her il günde ~2 kez taranır. Ayarlar: *İl Seç* düğümünün başındaki AYAR (ilSayisi, enAzAralikSaat, oncelikli plakalar).\n\n"
         "Her il için: RSS + resmî sayfalar + sitedeki son haberler → eleme → yeni aday varsa ajan; yoksa model çağrılmaz.\n\n"
-        "**Kurulum:** Dil Modeli credential + model seç; Site MCP ve Sitedeki Haberler'de MCP Bearer credential. Elle deneyip Active yap.\n"
+        "**Kurulum:** Dil Modeli: OpenAI credential (API Key evren_llm_..., Base URL https://evren-llmapi.ssyz.org.tr/v1), model glm-5.3; Site MCP ve Sitedeki Haberler'de MCP Bearer credential. Elle deneyip Active yap.\n"
         "Sıra ve 'görülenler' hafızası yalnızca Active (production) çalışmalarda kalıcıdır; elle testte hep ilk iller seçilir.\n"
         "İl kaynağı değişince: il-kaynaklari/*.json güncelle → `python3 n8n/il_workflow_uret.py --tek` → yeniden içe aktar.")
     nodes['Not']['parameters']['height'] = 420
