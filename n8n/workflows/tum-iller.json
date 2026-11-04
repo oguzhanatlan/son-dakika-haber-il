@@ -344,7 +344,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Toplanan bilgileri tek bir metne dönüştürür, dil modelinden JSON haber ister (model yedekli), cevabı denetler.\nconst A = $('İl Döngüsü').first().json;\nconst L = $('LLM Ayarları').first().json;\nconst aday = $('Aday Hazırla').first().json;\nconst temizle = (s) => String(s || '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '\"').replace(/&#0?39;|&apos;/g, \"'\").replace(/&#(\\d+);/g, (m, n) => String.fromCharCode(+n)).replace(/\\s+/g, ' ').trim();\nconst govdeMetni = (html) => {\n  let h = String(html || '').replace(/<(script|style|noscript|svg|nav|header|footer|form|aside|iframe)\\b[\\s\\S]*?<\\/\\1>/gi, ' ');\n  const ana = h.match(/<(article|main)\\b[\\s\\S]*?<\\/\\1>/i);\n  if (ana) h = ana[0];\n  return temizle(h.replace(/<\\/(p|div|li|h\\d|tr|br)>/gi, '\\n').replace(/<br\\s*\\/?>/gi, '\\n').replace(/<[^>]+>/g, ' ')).slice(0, 3500);\n};\n\n// Kaynak numaraları: K1, K2 ... (modelin dayanak göstereceği kimlikler)\nconst kaynaklar = [];\nconst detayCevaplar = $('Detay Çek').all();\naday.detaylar.forEach((d, i) => {\n  const it = detayCevaplar[i];\n  const metin = it && !it.json.error && typeof it.json.data === 'string' ? govdeMetni(it.json.data) : '';\n  kaynaklar.push({ id: 'K' + (kaynaklar.length + 1), tur: 'resmi', kurum: d.kurum, baslik: d.baslik, link: d.link, metin, anahtar: d.anahtar });\n});\nfor (const r of aday.rss) {\n  kaynaklar.push({ id: 'K' + (kaynaklar.length + 1), tur: r.tur === 'resmi' ? 'resmi' : (r.metin ? 'basin' : 'baslik'), kurum: r.kaynak, baslik: r.baslik, link: r.link, metin: r.metin, tarih: r.tarih, anahtar: r.anahtar });\n}\nfor (const d of aday.depremler) {\n  kaynaklar.push({ id: 'K' + (kaynaklar.length + 1), tur: 'resmi', kurum: 'AFAD', baslik: `${d.yer} merkezli ${d.buyukluk} büyüklüğünde deprem`,\n    link: 'https://deprem.afad.gov.tr/last-earthquakes', metin: `AFAD verisi: ${d.tarih} (TSİ) ${d.yer}, büyüklük ${d.buyukluk}, derinlik ${d.derinlik} km.`, anahtar: d.anahtar });\n}\nconst kullanilabilir = kaynaklar.filter(k => k.metin);\nconst yalnizBaslik = kaynaklar.filter(k => !k.metin).slice(0, 25);\n\nconst simdiUzun = new Intl.DateTimeFormat('tr-TR', { timeZone: 'Europe/Istanbul', dateStyle: 'full', timeStyle: 'short' }).format(new Date());\nconst system = `Sen son-dakika-haber.com.tr için ${A.il} yerel haberleri yazan bir editörsün. Yalnızca kullanıcının verdiği kaynak metinleri kullanırsın; web'e erişimin yoktur, başka bilgi ekleyemezsin. Cevabın YALNIZCA geçerli bir JSON nesnesidir; açıklama, giriş cümlesi veya plan yazma.\n\nKURALLAR\n- Okur için değerli olan en fazla ${L.enFazlaHaber} haber seç: okul tatili, su/elektrik/doğalgaz kesintisi, yol kapanması ve ulaşım, hava uyarısı, deprem, can kaybı olan kaza/afet (resmî açıklamayla), valilik yasak ve kararları, belediye fiyat/tarife kararları, sağlık ve eğitim hizmetinde değişiklik, ilde önemli olaylar.\n- YAZMA: ziyaret, protokol, tören, ödül, kurs/etkinlik duyurusu, ihale ilanı, personel/atama listesi, kutlama mesajı, \"çalışmalar sürüyor\" türü bültenler, siyasi polemik, magazin. Değerli bir şey yoksa \"haberler\": [] döndür.\n- Dayanak: Her haber şu kaynaklardan birine dayanmalı: (a) resmî kurum metni, (b) AFAD verisi, (c) aynı olayı anlatan en az 2 farklı basın kaynağının metni. Yalnızca başlığı verilen maddeler tek başına dayanak olamaz.\n- Sitede zaten olan konuları yazma (listesi aşağıda).\n- Kaynak metinde olmayan hiçbir bilgiyi (sayı, isim, tarih, saat, mahalle) ekleme. Tahmin ve yorum yok. Kaza/suç haberlerinde kurban ve şüpheli ismi yazma.\n- Tamamen kendi cümlelerinle yaz; kaynaktan cümle kopyalama. Bilgiyi asıl sahibine atfet (\"${A.il} Valiliğinin duyurusuna göre\"). \"Basına yansıyan bilgilere göre\" deme. Haber sitelerinin adını yazma.\n- Başlık en fazla 70 karakter, olgusal, ünlemsiz; il veya ilçe adı başlıkta geçsin (Türkçe ek uyumuna dikkat). Spot 1-2 cümle.\n- İçerik HTML: 250-450 kelime; yalnızca <p>, <h2>, <ul>, <li>, <strong>. İlk paragrafta ne, nerede, ne zaman. 1-2 <h2> ara başlık. Kesinti/kapanma/tatil haberlerinde etkilenen mahalle, güzergâh, okul ve saatleri <ul> ile listele. Tarihleri açık yaz; olay bugün değilse \"bugün\" deme. Bağlantı ekleme (sistem ekler).\n- meta_title en fazla 60, meta_description 120-160 karakter.\n- kategori: gundem, ekonomi, egitim, saglik, spor değerlerinden biri.\n- etiketler: 3-5 adet; ilk etiket \"${A.il}\", varsa ilçe adı ve genel bir konu etiketi (\"su kesintisi\", \"elektrik kesintisi\", \"okul tatili\", \"deprem\", \"trafik kazası\" gibi).\n- son_dakika: yalnızca son 3 saatte olan 4.0+ deprem, can kaybı olan olay/afet veya okul tatili kararı ise true.\n\nJSON BİÇİMİ\n{\"haberler\":[{\"dayanak\":[\"K1\"],\"baslik\":\"\",\"spot\":\"\",\"icerik_html\":\"\",\"kategori\":\"gundem\",\"ilce\":\"\",\"etiketler\":[],\"meta_title\":\"\",\"meta_description\":\"\",\"kaynak_kurum\":\"\",\"son_dakika\":false}],\"atlananlar\":[{\"kaynak\":\"K2\",\"neden\":\"\"}]}`;\n\nconst satir = [`Şu an: ${simdiUzun}. İl: ${A.il}. İlçeler: ${A.ilceler.join(', ')}.`];\nsatir.push(`\\n# KAYNAK METİNLER`);\nfor (const k of kullanilabilir) satir.push(`\\n[${k.id}] (${k.tur === 'resmi' ? 'RESMÎ' : 'BASIN'} – ${k.kurum}${k.tarih ? ', ' + k.tarih : ''}) ${k.baslik}\\n${k.metin}`);\nif (yalnizBaslik.length) { satir.push(`\\n# YALNIZCA BAŞLIK (tek başına dayanak olamaz)`); for (const k of yalnizBaslik) satir.push(`[${k.id}] ${k.baslik} (${k.kurum})`); }\nsatir.push(`\\n# SİTEDE SON 3 GÜNDE ÇIKMIŞ ${A.il.toLocaleUpperCase('tr-TR')} HABERLERİ (tekrar yazma)`);\nsatir.push(aday.siteHaberleri.length ? aday.siteHaberleri.map(h => `- ${h.baslik}`).join('\\n') : '- (yok)');\nsatir.push(`\\nDeğerli konular: ${A.degerliKonular.join('; ')}.`);\nsatir.push(`\\nŞimdi yalnızca JSON döndür.`);\nconst prompt = satir.join('\\n');\n\n// --- Model çağrısı (sıralı yedek) ---\nconst jsonCoz = (t) => {\n  let s = String(t || '').replace(/<think>[\\s\\S]*?<\\/think>/g, '').replace(/```(?:json)?/gi, '').trim();\n  const a = s.indexOf('{'), b = s.lastIndexOf('}');\n  if (a < 0 || b <= a) throw new Error('JSON bulunamadı');\n  const j = JSON.parse(s.slice(a, b + 1));\n  if (!Array.isArray(j.haberler)) throw new Error('haberler alanı yok');\n  return j;\n};\nconst denemeler = [];\nlet sonuc = null, kullanilanModel = null, yetkiHatasi = false;\nconst anahtar = String(L.apiKey || '').trim();\nif (!/^evren_llm_|^sk-/.test(anahtar)) denemeler.push('UYARI: apiKey beklenen biçimde değil (evren_llm_... ile başlamalı)');\nfor (const model of L.modeller) {\n  for (const jsonModu of [true, false]) {\n    try {\n      const body = { model, max_tokens: L.maxTokens, temperature: 0.3, thinking: false,\n        messages: [{ role: 'system', content: system }, { role: 'user', content: prompt }] };\n      if (jsonModu) body.response_format = { type: 'json_object' };\n      const r = await this.helpers.httpRequest({ method: 'POST', url: L.baseUrl.replace(/\\/$/, '') + '/chat/completions',\n        headers: { Authorization: 'Bearer ' + anahtar, 'X-API-Key': anahtar, 'Content-Type': 'application/json' }, body, json: true, timeout: L.zamanAsimiSn * 1000 });\n      const metin = r?.choices?.[0]?.message?.content;\n      sonuc = jsonCoz(metin);\n      kullanilanModel = model;\n      break;\n    } catch (e) {\n      const kod = e.httpCode || e.response?.status || e.statusCode || e.cause?.response?.status || (String(e.message).match(/status code (\\d{3})/) || [])[1] || '';\n      // Servisin döndürdüğü hata gövdesi (ör. {\"error\":{\"code\":\"invalid_api_key\"}}) teşhis için rapora yazılır\n      let govde = e.response?.data ?? e.cause?.response?.data ?? e.response?.body ?? e.cause?.response?.body ?? e.description ?? '';\n      if (typeof govde !== 'string') { try { govde = JSON.stringify(govde); } catch (x) { govde = String(govde); } }\n      const mesaj = (String(e.message || e) + (govde ? ' | ' + govde : '')).slice(0, 400);\n      denemeler.push(`${model}${jsonModu ? '' : ' (json modu kapalı)'}: ${kod} ${mesaj}`);\n      if (String(kod) === '401' || String(kod) === '403') { yetkiHatasi = true; break; }\n      // 400 ve JSON hatalarında aynı modeli json modu kapalı dene; diğer hatalarda doğrudan sonraki modele geç\n      if (!(jsonModu && (String(kod) === '400' || /JSON|haberler/.test(mesaj)))) break;\n    }\n  }\n  if (sonuc || yetkiHatasi) break;\n}\nif (!sonuc) return [{ json: { yayin: false, denemeler, rapor: yetkiHatasi\n  ? 'API anahtarı reddedildi (401/403). LLM Ayarları\\'ndaki apiKey\\'i kontrol et; 403 terms_not_accepted ise EVREN kullanım şartlarını onayla.'\n  : 'Hiçbir model cevap veremedi.' } }];\n\n// --- Denetim: dayanak kaynaklarından adres/kimlik al, uydurma bağlantıları temizle ---\nconst izinli = ['gundem', 'ekonomi', 'egitim', 'saglik', 'spor'];\nconst haberler = [];\nfor (const h of (sonuc.haberler || []).slice(0, L.enFazlaHaber)) {\n  const dayanak = (h.dayanak || []).map(id => kaynaklar.find(k => k.id === id)).filter(Boolean);\n  const metinli = dayanak.filter(k => k.metin);\n  const resmiDayanak = metinli.find(k => k.tur === 'resmi');\n  if (!resmiDayanak && metinli.length < 2) { denemeler.push(`Elendi (dayanak yetersiz): ${h.baslik}`); continue; }\n  if (!h.baslik || !h.icerik_html) continue;\n  let icerik = String(h.icerik_html).replace(/<(script|style|iframe)\\b[\\s\\S]*?<\\/\\1>/gi, '').replace(/<a\\b[^>]*>([\\s\\S]*?)<\\/a>/gi, '$1').replace(/<(?!\\/?(p|h2|h3|ul|ol|li|strong)\\b)[^>]+>/gi, '');\n  icerik += `\\n<p>${A.il} ile ilgili diğer haberler için <a href=\"${A.sehirSayfasi}\">${A.il} haberleri</a> sayfamızı takip edebilirsiniz.</p>`;\n  const anaKaynak = resmiDayanak || metinli[0];\n  haberler.push({\n    title: String(h.baslik).slice(0, 120), spot: String(h.spot || '').slice(0, 400), content: icerik,\n    category: izinli.includes(h.kategori) ? h.kategori : 'gundem', province: A.il,\n    tags: [...new Set([A.il, ...(h.etiketler || [])].map(t => String(t).trim()).filter(Boolean))].slice(0, 6),\n    meta_title: String(h.meta_title || '').slice(0, 70), meta_description: String(h.meta_description || '').slice(0, 170),\n    source_name: String(h.kaynak_kurum || anaKaynak.kurum || '').slice(0, 150),\n    source_url: resmiDayanak && /^https?:/.test(resmiDayanak.link) && !/news\\.google/.test(resmiDayanak.link) ? resmiDayanak.link : undefined,\n    source_guid: String(anaKaynak.link).slice(0, 191),\n    is_breaking: !!h.son_dakika, is_headline: false, is_featured: false,\n    author_id: null, status: 'active', is_ai_assisted: true,\n  });\n}\nconst ozet = { model: kullanilanModel, denemeler, atlananlar: sonuc.atlananlar || [], kaynakSayisi: kullanilabilir.length };\nif (!haberler.length) return [{ json: { yayin: false, rapor: 'Yayımlanacak değerli haber yok.', ...ozet } }];\nreturn haberler.map(h => ({ json: { yayin: true, haber: h, ...ozet } }));"
+        "jsCode": "// Toplanan bilgileri dil modeline gidecek tek bir metne dönüştürür (model çağrısı ayrı HTTP düğümünde yapılır).\nconst A = $('İl Döngüsü').first().json;\nconst L = $('LLM Ayarları').first().json;\nconst aday = $('Aday Hazırla').first().json;\nconst temizle = (s) => String(s || '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '\"').replace(/&#0?39;|&apos;/g, \"'\").replace(/&#(\\d+);/g, (m, n) => String.fromCharCode(+n)).replace(/\\s+/g, ' ').trim();\nconst govdeMetni = (html) => {\n  let h = String(html || '').replace(/<(script|style|noscript|svg|nav|header|footer|form|aside|iframe)\\b[\\s\\S]*?<\\/\\1>/gi, ' ');\n  const ana = h.match(/<(article|main)\\b[\\s\\S]*?<\\/\\1>/i);\n  if (ana) h = ana[0];\n  return temizle(h.replace(/<\\/(p|div|li|h\\d|tr|br)>/gi, '\\n').replace(/<br\\s*\\/?>/gi, '\\n').replace(/<[^>]+>/g, ' ')).slice(0, 3500);\n};\n\n// Kaynak numaraları: K1, K2 ... (modelin dayanak göstereceği kimlikler)\nconst kaynaklar = [];\nconst detayCevaplar = $('Detay Çek').all();\naday.detaylar.forEach((d, i) => {\n  const it = detayCevaplar[i];\n  const metin = it && !it.json.error && typeof it.json.data === 'string' ? govdeMetni(it.json.data) : '';\n  kaynaklar.push({ id: 'K' + (kaynaklar.length + 1), tur: 'resmi', kurum: d.kurum, baslik: d.baslik, link: d.link, metin, anahtar: d.anahtar });\n});\nfor (const r of aday.rss) {\n  kaynaklar.push({ id: 'K' + (kaynaklar.length + 1), tur: r.tur === 'resmi' ? 'resmi' : (r.metin ? 'basin' : 'baslik'), kurum: r.kaynak, baslik: r.baslik, link: r.link, metin: r.metin, tarih: r.tarih, anahtar: r.anahtar });\n}\nfor (const d of aday.depremler) {\n  kaynaklar.push({ id: 'K' + (kaynaklar.length + 1), tur: 'resmi', kurum: 'AFAD', baslik: `${d.yer} merkezli ${d.buyukluk} büyüklüğünde deprem`,\n    link: 'https://deprem.afad.gov.tr/last-earthquakes', metin: `AFAD verisi: ${d.tarih} (TSİ) ${d.yer}, büyüklük ${d.buyukluk}, derinlik ${d.derinlik} km.`, anahtar: d.anahtar });\n}\nconst kullanilabilir = kaynaklar.filter(k => k.metin);\nconst yalnizBaslik = kaynaklar.filter(k => !k.metin).slice(0, 25);\n\nconst simdiUzun = new Intl.DateTimeFormat('tr-TR', { timeZone: 'Europe/Istanbul', dateStyle: 'full', timeStyle: 'short' }).format(new Date());\nconst system = `Sen son-dakika-haber.com.tr için ${A.il} yerel haberleri yazan bir editörsün. Yalnızca kullanıcının verdiği kaynak metinleri kullanırsın; web'e erişimin yoktur, başka bilgi ekleyemezsin. Cevabın YALNIZCA geçerli bir JSON nesnesidir; açıklama, giriş cümlesi veya plan yazma.\n\nKURALLAR\n- Okur için değerli olan en fazla ${L.enFazlaHaber} haber seç: okul tatili, su/elektrik/doğalgaz kesintisi, yol kapanması ve ulaşım, hava uyarısı, deprem, can kaybı olan kaza/afet (resmî açıklamayla), valilik yasak ve kararları, belediye fiyat/tarife kararları, sağlık ve eğitim hizmetinde değişiklik, ilde önemli olaylar.\n- YAZMA: ziyaret, protokol, tören, ödül, kurs/etkinlik duyurusu, ihale ilanı, personel/atama listesi, kutlama mesajı, \"çalışmalar sürüyor\" türü bültenler, siyasi polemik, magazin. Değerli bir şey yoksa \"haberler\": [] döndür.\n- Dayanak: Her haber şu kaynaklardan birine dayanmalı: (a) resmî kurum metni, (b) AFAD verisi, (c) aynı olayı anlatan en az 2 farklı basın kaynağının metni. Yalnızca başlığı verilen maddeler tek başına dayanak olamaz.\n- Sitede zaten olan konuları yazma (listesi aşağıda).\n- Kaynak metinde olmayan hiçbir bilgiyi (sayı, isim, tarih, saat, mahalle) ekleme. Tahmin ve yorum yok. Kaza/suç haberlerinde kurban ve şüpheli ismi yazma.\n- Tamamen kendi cümlelerinle yaz; kaynaktan cümle kopyalama. Bilgiyi asıl sahibine atfet (\"${A.il} Valiliğinin duyurusuna göre\"). \"Basına yansıyan bilgilere göre\" deme. Haber sitelerinin adını yazma.\n- Başlık en fazla 70 karakter, olgusal, ünlemsiz; il veya ilçe adı başlıkta geçsin (Türkçe ek uyumuna dikkat). Spot 1-2 cümle.\n- İçerik HTML: 250-450 kelime; yalnızca <p>, <h2>, <ul>, <li>, <strong>. İlk paragrafta ne, nerede, ne zaman. 1-2 <h2> ara başlık. Kesinti/kapanma/tatil haberlerinde etkilenen mahalle, güzergâh, okul ve saatleri <ul> ile listele. Tarihleri açık yaz; olay bugün değilse \"bugün\" deme. Bağlantı ekleme (sistem ekler).\n- meta_title en fazla 60, meta_description 120-160 karakter.\n- kategori: gundem, ekonomi, egitim, saglik, spor değerlerinden biri.\n- etiketler: 3-5 adet; ilk etiket \"${A.il}\", varsa ilçe adı ve genel bir konu etiketi (\"su kesintisi\", \"elektrik kesintisi\", \"okul tatili\", \"deprem\", \"trafik kazası\" gibi).\n- son_dakika: yalnızca son 3 saatte olan 4.0+ deprem, can kaybı olan olay/afet veya okul tatili kararı ise true.\n\nJSON BİÇİMİ\n{\"haberler\":[{\"dayanak\":[\"K1\"],\"baslik\":\"\",\"spot\":\"\",\"icerik_html\":\"\",\"kategori\":\"gundem\",\"ilce\":\"\",\"etiketler\":[],\"meta_title\":\"\",\"meta_description\":\"\",\"kaynak_kurum\":\"\",\"son_dakika\":false}],\"atlananlar\":[{\"kaynak\":\"K2\",\"neden\":\"\"}]}`;\n\nconst satir = [`Şu an: ${simdiUzun}. İl: ${A.il}. İlçeler: ${A.ilceler.join(', ')}.`];\nsatir.push(`\\n# KAYNAK METİNLER`);\nfor (const k of kullanilabilir) satir.push(`\\n[${k.id}] (${k.tur === 'resmi' ? 'RESMÎ' : 'BASIN'} – ${k.kurum}${k.tarih ? ', ' + k.tarih : ''}) ${k.baslik}\\n${k.metin}`);\nif (yalnizBaslik.length) { satir.push(`\\n# YALNIZCA BAŞLIK (tek başına dayanak olamaz)`); for (const k of yalnizBaslik) satir.push(`[${k.id}] ${k.baslik} (${k.kurum})`); }\nsatir.push(`\\n# SİTEDE SON 3 GÜNDE ÇIKMIŞ ${A.il.toLocaleUpperCase('tr-TR')} HABERLERİ (tekrar yazma)`);\nsatir.push(aday.siteHaberleri.length ? aday.siteHaberleri.map(h => `- ${h.baslik}`).join('\\n') : '- (yok)');\nsatir.push(`\\nDeğerli konular: ${A.degerliKonular.join('; ')}.`);\nsatir.push(`\\nŞimdi yalnızca JSON döndür.`);\nconst prompt = satir.join('\\n');\n\nconst anahtar = String(L.apiKey || '').trim();\nconst denemeler = /^evren_llm_|^sk-/.test(anahtar) ? [] : ['UYARI: apiKey beklenen biçimde değil (evren_llm_... ile başlamalı)'];\nreturn [{ json: { system, prompt, deneme: 0, denemeler, kaynakSayisi: kullanilabilir.length,\n  kaynaklar: kaynaklar.map(k => ({ id: k.id, tur: k.tur, kurum: k.kurum, link: k.link, metinli: !!k.metin })) } }];"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -353,7 +353,145 @@
         60
       ],
       "id": "d0000000-0000-4000-8000-000000000017",
-      "name": "Haber Yaz"
+      "name": "İstek Hazırla"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Sıradaki modeli seçer ve istek gövdesini hazırlar (ilk deneme 0; hata olursa Cevap Çöz bir artırıp buraya döner)\nconst j = $input.first().json;\nconst H = $('İstek Hazırla').first().json;\nconst L = $('LLM Ayarları').first().json;\nconst deneme = j.deneme || 0;\nconst model = L.modeller[deneme];\nreturn [{ json: { deneme, model, denemeler: j.denemeler || [], body: {\n  model, max_tokens: L.maxTokens, temperature: 0.3, thinking: false,\n  messages: [{ role: 'system', content: H.system }, { role: 'user', content: H.prompt }],\n} } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3220,
+        60
+      ],
+      "id": "d0000000-0000-4000-8000-000000000024",
+      "name": "Deneme Seç"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $('LLM Ayarları').first().json.baseUrl.replace(/\\/$/, '') + '/chat/completions' }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ 'Bearer ' + String($('LLM Ayarları').first().json.apiKey).trim() }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.body) }}",
+        "options": {
+          "timeout": "={{ $('LLM Ayarları').first().json.zamanAsimiSn * 1000 }}"
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3420,
+        60
+      ],
+      "id": "d0000000-0000-4000-8000-000000000025",
+      "name": "Model Çağır",
+      "onError": "continueRegularOutput",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Model cevabını çözer. Başarısızsa sıradaki modele geçmek için deneme sayısını artırır.\nconst r = $input.first().json;\nconst D = $('Deneme Seç').first().json;\nconst L = $('LLM Ayarları').first().json;\nconst jsonCoz = (t) => {\n  let s = String(t || '').replace(/<think>[\\s\\S]*?<\\/think>/g, '').replace(/```(?:json)?/gi, '').trim();\n  const a = s.indexOf('{'), b = s.lastIndexOf('}');\n  if (a < 0 || b <= a) throw new Error('cevapta JSON bulunamadı');\n  const j = JSON.parse(s.slice(a, b + 1));\n  if (!Array.isArray(j.haberler)) throw new Error('haberler alanı yok');\n  return j;\n};\nlet hata = null, kod = '';\nif (r.error) {\n  const e = r.error;\n  kod = String(e.httpCode || e.status || (String(e.message || '').match(/\\b([45]\\d\\d)\\b/) || [])[1] || '');\n  let ek = e.description || e.cause || '';\n  if (typeof ek !== 'string') { try { ek = JSON.stringify(ek); } catch (x) { ek = ''; } }\n  hata = (String(e.message || 'istek hatası') + (ek ? ' | ' + ek : '')).slice(0, 400);\n} else {\n  try {\n    const sonuc = jsonCoz(r.choices?.[0]?.message?.content);\n    return [{ json: { ok: true, model: D.model, sonuc, denemeler: D.denemeler } }];\n  } catch (e) { hata = 'cevap çözülemedi: ' + e.message; }\n}\nconst denemeler = [...D.denemeler, `${D.model}: ${kod} ${hata}`];\nconst yetki = kod === '401' || kod === '403';\nconst sonraki = D.deneme + 1;\nconst bitti = yetki || sonraki >= L.modeller.length;\nreturn [{ json: { ok: false, bitti, deneme: sonraki, denemeler, rapor: !bitti ? null : (yetki\n  ? 'API anahtarı reddedildi (401/403). LLM Ayarları\\'ndaki apiKey\\'i kontrol et; 403 terms_not_accepted ise EVREN kullanım şartlarını onayla.'\n  : 'Hiçbir model cevap veremedi.') } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3620,
+        60
+      ],
+      "id": "d0000000-0000-4000-8000-000000000026",
+      "name": "Cevap Çöz"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "c3",
+              "leftValue": "={{ $json.ok }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        3820,
+        60
+      ],
+      "id": "d0000000-0000-4000-8000-000000000027",
+      "name": "Cevap Tamam mı?"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "c4",
+              "leftValue": "={{ $json.bitti }}",
+              "rightValue": false,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        3820,
+        280
+      ],
+      "id": "d0000000-0000-4000-8000-000000000028",
+      "name": "Başka Model Var mı?"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Model cevabını denetler: dayanak kaynaklarından adres/kimlik alır, uydurma bağlantıları temizler.\nconst A = $('İl Döngüsü').first().json;\nconst L = $('LLM Ayarları').first().json;\nconst H = $('İstek Hazırla').first().json;\nconst c = $input.first().json;\nconst sonuc = c.sonuc, denemeler = [...c.denemeler], kullanilanModel = c.model;\nconst kaynaklar = H.kaynaklar.map(k => ({ ...k, metin: k.metinli }));\nconst kullanilabilir = { length: H.kaynakSayisi };\n// --- Denetim: dayanak kaynaklarından adres/kimlik al, uydurma bağlantıları temizle ---\nconst izinli = ['gundem', 'ekonomi', 'egitim', 'saglik', 'spor'];\nconst haberler = [];\nfor (const h of (sonuc.haberler || []).slice(0, L.enFazlaHaber)) {\n  const dayanak = (h.dayanak || []).map(id => kaynaklar.find(k => k.id === id)).filter(Boolean);\n  const metinli = dayanak.filter(k => k.metin);\n  const resmiDayanak = metinli.find(k => k.tur === 'resmi');\n  if (!resmiDayanak && metinli.length < 2) { denemeler.push(`Elendi (dayanak yetersiz): ${h.baslik}`); continue; }\n  if (!h.baslik || !h.icerik_html) continue;\n  let icerik = String(h.icerik_html).replace(/<(script|style|iframe)\\b[\\s\\S]*?<\\/\\1>/gi, '').replace(/<a\\b[^>]*>([\\s\\S]*?)<\\/a>/gi, '$1').replace(/<(?!\\/?(p|h2|h3|ul|ol|li|strong)\\b)[^>]+>/gi, '');\n  icerik += `\\n<p>${A.il} ile ilgili diğer haberler için <a href=\"${A.sehirSayfasi}\">${A.il} haberleri</a> sayfamızı takip edebilirsiniz.</p>`;\n  const anaKaynak = resmiDayanak || metinli[0];\n  haberler.push({\n    title: String(h.baslik).slice(0, 120), spot: String(h.spot || '').slice(0, 400), content: icerik,\n    category: izinli.includes(h.kategori) ? h.kategori : 'gundem', province: A.il,\n    tags: [...new Set([A.il, ...(h.etiketler || [])].map(t => String(t).trim()).filter(Boolean))].slice(0, 6),\n    meta_title: String(h.meta_title || '').slice(0, 70), meta_description: String(h.meta_description || '').slice(0, 170),\n    source_name: String(h.kaynak_kurum || anaKaynak.kurum || '').slice(0, 150),\n    source_url: resmiDayanak && /^https?:/.test(resmiDayanak.link) && !/news\\.google/.test(resmiDayanak.link) ? resmiDayanak.link : undefined,\n    source_guid: String(anaKaynak.link).slice(0, 191),\n    is_breaking: !!h.son_dakika, is_headline: false, is_featured: false,\n    author_id: null, status: 'active', is_ai_assisted: true,\n  });\n}\nconst ozet = { model: kullanilanModel, denemeler, atlananlar: sonuc.atlananlar || [], kaynakSayisi: kullanilabilir.length };\nif (!haberler.length) return [{ json: { yayin: false, rapor: 'Yayımlanacak değerli haber yok.', ...ozet } }];\nreturn haberler.map(h => ({ json: { yayin: true, haber: h, ...ozet } }));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        4020,
+        -40
+      ],
+      "id": "d0000000-0000-4000-8000-000000000029",
+      "name": "Haberleri Hazırla"
     },
     {
       "parameters": {
@@ -381,8 +519,8 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        3220,
-        60
+        4220,
+        -40
       ],
       "id": "d0000000-0000-4000-8000-000000000018",
       "name": "Haber Var mı?"
@@ -412,8 +550,8 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        3420,
-        -40
+        4420,
+        -140
       ],
       "id": "d0000000-0000-4000-8000-000000000019",
       "name": "Yayımla",
@@ -428,13 +566,13 @@
     },
     {
       "parameters": {
-        "jsCode": "// Yayın sonuçları + bu çalışmada görülen adaylar \"görüldü\" olarak işaretlenir.\nconst durum = $getWorkflowStaticData('global');\ndurum.gorulen = durum.gorulen || {};\nfor (const k of $('Aday Hazırla').first().json.yeniAnahtarlar || []) durum.gorulen[k] = Date.now();\nconst yazilan = $('Haber Yaz').all().map(i => i.json);\nconst sonuclar = $input.all().map((it, i) => {\n  let r = {};\n  try { r = JSON.parse(it.json.result?.content?.[0]?.text || '{}'); } catch (e) {}\n  const hata = it.json.result?.isError ? it.json.result?.content?.[0]?.text : (it.json.error?.message || it.json.error);\n  return { baslik: yazilan[i]?.haber?.title, url: r.url || null, hata: hata || null, uyarilar: r.warnings || [] };\n});\nreturn [{ json: { il: $('İl Döngüsü').first().json.il, model: yazilan[0]?.model, yayimlanan: sonuclar, denemeler: yazilan[0]?.denemeler } }];"
+        "jsCode": "// Yayın sonuçları + bu çalışmada görülen adaylar \"görüldü\" olarak işaretlenir.\nconst durum = $getWorkflowStaticData('global');\ndurum.gorulen = durum.gorulen || {};\nfor (const k of $('Aday Hazırla').first().json.yeniAnahtarlar || []) durum.gorulen[k] = Date.now();\nconst yazilan = $('Haberleri Hazırla').all().map(i => i.json);\nconst sonuclar = $input.all().map((it, i) => {\n  let r = {};\n  try { r = JSON.parse(it.json.result?.content?.[0]?.text || '{}'); } catch (e) {}\n  const hata = it.json.result?.isError ? it.json.result?.content?.[0]?.text : (it.json.error?.message || it.json.error);\n  return { baslik: yazilan[i]?.haber?.title, url: r.url || null, hata: hata || null, uyarilar: r.warnings || [] };\n});\nreturn [{ json: { il: $('İl Döngüsü').first().json.il, model: yazilan[0]?.model, yayimlanan: sonuclar, denemeler: yazilan[0]?.denemeler } }];"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        3620,
-        -40
+        4620,
+        -140
       ],
       "id": "d0000000-0000-4000-8000-000000000020",
       "name": "Rapor"
@@ -446,7 +584,7 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        3420,
+        4420,
         160
       ],
       "id": "d0000000-0000-4000-8000-000000000021",
@@ -467,7 +605,7 @@
     },
     {
       "parameters": {
-        "content": "## 81 il – yerel haber\nHer saat (06:05–22:05) sırası gelen illeri işler (*İl Seç* → AYAR: ilSayisi, enAzAralikSaat, sadece).\n\n**Akış (il başına):** RSS (Google Haberler, kurum RSS'leri, yerel gazete RSS'leri) + resmî duyuru sayfaları → yeni adaylar → resmî duyuruların detay sayfaları çekilir → **Haber Yaz**: dil modeli tek çağrıda yalnızca verilen metinlerden JSON haber yazar (araç kullanmaz) → **Yayımla**: MCP news_create.\n\n**Model yedeği:** *LLM Ayarları* → modeller listesi sırayla denenir; 503/429/zaman aşımı/bozuk cevapta sonrakine geçilir.\n\n**Kurulum:** 1) *LLM Ayarları*'na API anahtarı (veya sunucuda EVREN_API_KEY). 2) *Sitedeki Haberler* ve *Yayımla*'da MCP Bearer credential. 3) Test için İl Seç'te `sadece: ['43']`, sonra boşalt ve Active yap.\nSıra ve 'görülenler' hafızası yalnızca Active çalışmalarda kalıcıdır.",
+        "content": "## 81 il – yerel haber\nHer saat (06:05–22:05) sırası gelen illeri işler (*İl Seç* → AYAR: ilSayisi, enAzAralikSaat, sadece).\n\n**Akış (il başına):** RSS (Google Haberler, kurum RSS'leri, yerel gazete RSS'leri) + resmî duyuru sayfaları → yeni adaylar → resmî duyuruların detay sayfaları çekilir → **Model Çağır** (HTTP): dil modeli yalnızca verilen metinlerden JSON haber yazar (araç kullanmaz) → **Haberleri Hazırla**: denetim → **Yayımla**: MCP news_create.\n\n**Model yedeği:** *LLM Ayarları* → modeller listesi sırayla denenir; 503/429/zaman aşımı/bozuk cevapta sonrakine geçilir.\n\n**Kurulum:** 1) *LLM Ayarları*'na API anahtarı (veya sunucuda EVREN_API_KEY). 2) *Sitedeki Haberler* ve *Yayımla*'da MCP Bearer credential. 3) Test için İl Seç'te `sadece: ['43']`, sonra boşalt ve Active yap.\nSıra ve 'görülenler' hafızası yalnızca Active çalışmalarda kalıcıdır.",
         "height": 460,
         "width": 560
       },
@@ -654,14 +792,94 @@
       "main": [
         [
           {
-            "node": "Haber Yaz",
+            "node": "İstek Hazırla",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Haber Yaz": {
+    "İstek Hazırla": {
+      "main": [
+        [
+          {
+            "node": "Deneme Seç",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Deneme Seç": {
+      "main": [
+        [
+          {
+            "node": "Model Çağır",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Model Çağır": {
+      "main": [
+        [
+          {
+            "node": "Cevap Çöz",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Cevap Çöz": {
+      "main": [
+        [
+          {
+            "node": "Cevap Tamam mı?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Cevap Tamam mı?": {
+      "main": [
+        [
+          {
+            "node": "Haberleri Hazırla",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Başka Model Var mı?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Başka Model Var mı?": {
+      "main": [
+        [
+          {
+            "node": "Deneme Seç",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Rapor (haber yok)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Haberleri Hazırla": {
       "main": [
         [
           {

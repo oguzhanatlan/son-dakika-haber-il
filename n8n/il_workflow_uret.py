@@ -199,7 +199,7 @@ KOD_DETAY_LISTESI = r"""const d = $('Aday Hazırla').first().json.detaylar;
 // Detay yoksa da döngü sürsün diye boş bir istek gönderilir (hata olarak geçer)
 return (d.length ? d : [{ link: 'about:blank', bos: true }]).map(x => ({ json: x }));"""
 
-KOD_HABER_YAZ = r"""// Toplanan bilgileri tek bir metne dönüştürür, dil modelinden JSON haber ister (model yedekli), cevabı denetler.
+KOD_ISTEK = r"""// Toplanan bilgileri dil modeline gidecek tek bir metne dönüştürür (model çağrısı ayrı HTTP düğümünde yapılır).
 const A = $('İl Döngüsü').first().json;
 const L = $('LLM Ayarları').first().json;
 const aday = $('Aday Hazırla').first().json;
@@ -259,49 +259,63 @@ satir.push(`\nDeğerli konular: ${A.degerliKonular.join('; ')}.`);
 satir.push(`\nŞimdi yalnızca JSON döndür.`);
 const prompt = satir.join('\n');
 
-// --- Model çağrısı (sıralı yedek) ---
+const anahtar = String(L.apiKey || '').trim();
+const denemeler = /^evren_llm_|^sk-/.test(anahtar) ? [] : ['UYARI: apiKey beklenen biçimde değil (evren_llm_... ile başlamalı)'];
+return [{ json: { system, prompt, deneme: 0, denemeler, kaynakSayisi: kullanilabilir.length,
+  kaynaklar: kaynaklar.map(k => ({ id: k.id, tur: k.tur, kurum: k.kurum, link: k.link, metinli: !!k.metin })) } }];"""
+
+KOD_DENEME_SEC = r"""// Sıradaki modeli seçer ve istek gövdesini hazırlar (ilk deneme 0; hata olursa Cevap Çöz bir artırıp buraya döner)
+const j = $input.first().json;
+const H = $('İstek Hazırla').first().json;
+const L = $('LLM Ayarları').first().json;
+const deneme = j.deneme || 0;
+const model = L.modeller[deneme];
+return [{ json: { deneme, model, denemeler: j.denemeler || [], body: {
+  model, max_tokens: L.maxTokens, temperature: 0.3, thinking: false,
+  messages: [{ role: 'system', content: H.system }, { role: 'user', content: H.prompt }],
+} } }];"""
+
+KOD_CEVAP_COZ = r"""// Model cevabını çözer. Başarısızsa sıradaki modele geçmek için deneme sayısını artırır.
+const r = $input.first().json;
+const D = $('Deneme Seç').first().json;
+const L = $('LLM Ayarları').first().json;
 const jsonCoz = (t) => {
   let s = String(t || '').replace(/<think>[\s\S]*?<\/think>/g, '').replace(/```(?:json)?/gi, '').trim();
   const a = s.indexOf('{'), b = s.lastIndexOf('}');
-  if (a < 0 || b <= a) throw new Error('JSON bulunamadı');
+  if (a < 0 || b <= a) throw new Error('cevapta JSON bulunamadı');
   const j = JSON.parse(s.slice(a, b + 1));
   if (!Array.isArray(j.haberler)) throw new Error('haberler alanı yok');
   return j;
 };
-const denemeler = [];
-let sonuc = null, kullanilanModel = null, yetkiHatasi = false;
-const anahtar = String(L.apiKey || '').trim();
-if (!/^evren_llm_|^sk-/.test(anahtar)) denemeler.push('UYARI: apiKey beklenen biçimde değil (evren_llm_... ile başlamalı)');
-for (const model of L.modeller) {
-  for (const jsonModu of [true, false]) {
-    try {
-      const body = { model, max_tokens: L.maxTokens, temperature: 0.3, thinking: false,
-        messages: [{ role: 'system', content: system }, { role: 'user', content: prompt }] };
-      if (jsonModu) body.response_format = { type: 'json_object' };
-      const r = await this.helpers.httpRequest({ method: 'POST', url: L.baseUrl.replace(/\/$/, '') + '/chat/completions',
-        headers: { Authorization: 'Bearer ' + anahtar, 'X-API-Key': anahtar, 'Content-Type': 'application/json' }, body, json: true, timeout: L.zamanAsimiSn * 1000 });
-      const metin = r?.choices?.[0]?.message?.content;
-      sonuc = jsonCoz(metin);
-      kullanilanModel = model;
-      break;
-    } catch (e) {
-      const kod = e.httpCode || e.response?.status || e.statusCode || e.cause?.response?.status || (String(e.message).match(/status code (\d{3})/) || [])[1] || '';
-      // Servisin döndürdüğü hata gövdesi (ör. {"error":{"code":"invalid_api_key"}}) teşhis için rapora yazılır
-      let govde = e.response?.data ?? e.cause?.response?.data ?? e.response?.body ?? e.cause?.response?.body ?? e.description ?? '';
-      if (typeof govde !== 'string') { try { govde = JSON.stringify(govde); } catch (x) { govde = String(govde); } }
-      const mesaj = (String(e.message || e) + (govde ? ' | ' + govde : '')).slice(0, 400);
-      denemeler.push(`${model}${jsonModu ? '' : ' (json modu kapalı)'}: ${kod} ${mesaj}`);
-      if (String(kod) === '401' || String(kod) === '403') { yetkiHatasi = true; break; }
-      // 400 ve JSON hatalarında aynı modeli json modu kapalı dene; diğer hatalarda doğrudan sonraki modele geç
-      if (!(jsonModu && (String(kod) === '400' || /JSON|haberler/.test(mesaj)))) break;
-    }
-  }
-  if (sonuc || yetkiHatasi) break;
+let hata = null, kod = '';
+if (r.error) {
+  const e = r.error;
+  kod = String(e.httpCode || e.status || (String(e.message || '').match(/\b([45]\d\d)\b/) || [])[1] || '');
+  let ek = e.description || e.cause || '';
+  if (typeof ek !== 'string') { try { ek = JSON.stringify(ek); } catch (x) { ek = ''; } }
+  hata = (String(e.message || 'istek hatası') + (ek ? ' | ' + ek : '')).slice(0, 400);
+} else {
+  try {
+    const sonuc = jsonCoz(r.choices?.[0]?.message?.content);
+    return [{ json: { ok: true, model: D.model, sonuc, denemeler: D.denemeler } }];
+  } catch (e) { hata = 'cevap çözülemedi: ' + e.message; }
 }
-if (!sonuc) return [{ json: { yayin: false, denemeler, rapor: yetkiHatasi
+const denemeler = [...D.denemeler, `${D.model}: ${kod} ${hata}`];
+const yetki = kod === '401' || kod === '403';
+const sonraki = D.deneme + 1;
+const bitti = yetki || sonraki >= L.modeller.length;
+return [{ json: { ok: false, bitti, deneme: sonraki, denemeler, rapor: !bitti ? null : (yetki
   ? 'API anahtarı reddedildi (401/403). LLM Ayarları\'ndaki apiKey\'i kontrol et; 403 terms_not_accepted ise EVREN kullanım şartlarını onayla.'
-  : 'Hiçbir model cevap veremedi.' } }];
+  : 'Hiçbir model cevap veremedi.') } }];"""
 
+KOD_HABERLER = r"""// Model cevabını denetler: dayanak kaynaklarından adres/kimlik alır, uydurma bağlantıları temizler.
+const A = $('İl Döngüsü').first().json;
+const L = $('LLM Ayarları').first().json;
+const H = $('İstek Hazırla').first().json;
+const c = $input.first().json;
+const sonuc = c.sonuc, denemeler = [...c.denemeler], kullanilanModel = c.model;
+const kaynaklar = H.kaynaklar.map(k => ({ ...k, metin: k.metinli }));
+const kullanilabilir = { length: H.kaynakSayisi };
 // --- Denetim: dayanak kaynaklarından adres/kimlik al, uydurma bağlantıları temizle ---
 const izinli = ['gundem', 'ekonomi', 'egitim', 'saglik', 'spor'];
 const haberler = [];
@@ -334,7 +348,7 @@ KOD_RAPOR_YAYIN = r"""// Yayın sonuçları + bu çalışmada görülen adaylar 
 const durum = $getWorkflowStaticData('global');
 durum.gorulen = durum.gorulen || {};
 for (const k of $('Aday Hazırla').first().json.yeniAnahtarlar || []) durum.gorulen[k] = Date.now();
-const yazilan = $('Haber Yaz').all().map(i => i.json);
+const yazilan = $('Haberleri Hazırla').all().map(i => i.json);
 const sonuclar = $input.all().map((it, i) => {
   let r = {};
   try { r = JSON.parse(it.json.result?.content?.[0]?.text || '{}'); } catch (e) {}
@@ -410,20 +424,38 @@ def build_tek():
         code("Detay Listesi", KOD_DETAY_LISTESI, [2620, 60], n(15)),
         dict({"parameters": {"url": "={{ $json.link }}", "sendHeaders": True, "headerParameters": ua, "options": sayfa_opts},
               "type": "n8n-nodes-base.httpRequest", "typeVersion": 4.2, "position": [2820, 60], "id": n(16), "name": "Detay Çek"}, **tolerant),
-        code("Haber Yaz", KOD_HABER_YAZ, [3020, 60], n(17)),
+        code("İstek Hazırla", KOD_ISTEK, [3020, 60], n(17)),
+        code("Deneme Seç", KOD_DENEME_SEC, [3220, 60], n(24)),
+        # Model çağrısı normal HTTP düğümünde: Code düğümünün 300 sn sınırına takılmaz
+        dict({"parameters": {"method": "POST",
+                             "url": "={{ $('LLM Ayarları').first().json.baseUrl.replace(/\\/$/, '') + '/chat/completions' }}",
+                             "sendHeaders": True, "headerParameters": {"parameters": [
+                                 {"name": "Authorization", "value": "={{ 'Bearer ' + String($('LLM Ayarları').first().json.apiKey).trim() }}"},
+                                 {"name": "Content-Type", "value": "application/json"}]},
+                             "sendBody": True, "specifyBody": "json", "jsonBody": "={{ JSON.stringify($json.body) }}",
+                             "options": {"timeout": "={{ $('LLM Ayarları').first().json.zamanAsimiSn * 1000 }}"}},
+              "type": "n8n-nodes-base.httpRequest", "typeVersion": 4.2, "position": [3420, 60], "id": n(25), "name": "Model Çağır"}, **tolerant),
+        code("Cevap Çöz", KOD_CEVAP_COZ, [3620, 60], n(26)),
+        {"parameters": {"conditions": {"options": {"caseSensitive": True, "leftValue": "", "typeValidation": "loose"}, "combinator": "and",
+                                       "conditions": [{"id": "c3", "leftValue": "={{ $json.ok }}", "rightValue": True, "operator": {"type": "boolean", "operation": "equals"}}]}, "options": {}},
+         "type": "n8n-nodes-base.if", "typeVersion": 2.2, "position": [3820, 60], "id": n(27), "name": "Cevap Tamam mı?"},
+        {"parameters": {"conditions": {"options": {"caseSensitive": True, "leftValue": "", "typeValidation": "loose"}, "combinator": "and",
+                                       "conditions": [{"id": "c4", "leftValue": "={{ $json.bitti }}", "rightValue": False, "operator": {"type": "boolean", "operation": "equals"}}]}, "options": {}},
+         "type": "n8n-nodes-base.if", "typeVersion": 2.2, "position": [3820, 280], "id": n(28), "name": "Başka Model Var mı?"},
+        code("Haberleri Hazırla", KOD_HABERLER, [4020, -40], n(29)),
         {"parameters": {"conditions": {"options": {"caseSensitive": True, "leftValue": "", "typeValidation": "loose"}, "combinator": "and",
                                        "conditions": [{"id": "c2", "leftValue": "={{ $json.yayin }}", "rightValue": True, "operator": {"type": "boolean", "operation": "equals"}}]}, "options": {}},
-         "type": "n8n-nodes-base.if", "typeVersion": 2.2, "position": [3220, 60], "id": n(18), "name": "Haber Var mı?"},
-        mcp_http("Yayımla", [3420, -40], n(19), "{ name: 'news_create', arguments: $json.haber }", tolerant),
-        code("Rapor", KOD_RAPOR_YAYIN, [3620, -40], n(20)),
-        code("Rapor (haber yok)", KOD_RAPOR_YOK, [3420, 160], n(21)),
+         "type": "n8n-nodes-base.if", "typeVersion": 2.2, "position": [4220, -40], "id": n(18), "name": "Haber Var mı?"},
+        mcp_http("Yayımla", [4420, -140], n(19), "{ name: 'news_create', arguments: $json.haber }", tolerant),
+        code("Rapor", KOD_RAPOR_YAYIN, [4620, -140], n(20)),
+        code("Rapor (haber yok)", KOD_RAPOR_YOK, [4420, 160], n(21)),
         code("Aday Yok", KOD_ADAY_YOK, [2620, 300], n(22)),
         {"parameters": {"content":
             "## 81 il – yerel haber\n"
             "Her saat (06:05–22:05) sırası gelen illeri işler (*İl Seç* → AYAR: ilSayisi, enAzAralikSaat, sadece).\n\n"
             "**Akış (il başına):** RSS (Google Haberler, kurum RSS'leri, yerel gazete RSS'leri) + resmî duyuru sayfaları → yeni adaylar → "
-            "resmî duyuruların detay sayfaları çekilir → **Haber Yaz**: dil modeli tek çağrıda yalnızca verilen metinlerden JSON haber yazar "
-            "(araç kullanmaz) → **Yayımla**: MCP news_create.\n\n"
+            "resmî duyuruların detay sayfaları çekilir → **Model Çağır** (HTTP): dil modeli yalnızca verilen metinlerden JSON haber yazar "
+            "(araç kullanmaz) → **Haberleri Hazırla**: denetim → **Yayımla**: MCP news_create.\n\n"
             "**Model yedeği:** *LLM Ayarları* → modeller listesi sırayla denenir; 503/429/zaman aşımı/bozuk cevapta sonrakine geçilir.\n\n"
             "**Kurulum:** 1) *LLM Ayarları*'na API anahtarı (veya sunucuda EVREN_API_KEY). 2) *Sitedeki Haberler* ve *Yayımla*'da MCP Bearer credential. "
             "3) Test için İl Seç'te `sadece: ['43']`, sonra boşalt ve Active yap.\n"
@@ -446,8 +478,14 @@ def build_tek():
         "Aday Hazırla": {"main": [[m("Yeni Aday Var mı?")]]},
         "Yeni Aday Var mı?": {"main": [[m("Detay Listesi")], [m("Aday Yok")]]},
         "Detay Listesi": {"main": [[m("Detay Çek")]]},
-        "Detay Çek": {"main": [[m("Haber Yaz")]]},
-        "Haber Yaz": {"main": [[m("Haber Var mı?")]]},
+        "Detay Çek": {"main": [[m("İstek Hazırla")]]},
+        "İstek Hazırla": {"main": [[m("Deneme Seç")]]},
+        "Deneme Seç": {"main": [[m("Model Çağır")]]},
+        "Model Çağır": {"main": [[m("Cevap Çöz")]]},
+        "Cevap Çöz": {"main": [[m("Cevap Tamam mı?")]]},
+        "Cevap Tamam mı?": {"main": [[m("Haberleri Hazırla")], [m("Başka Model Var mı?")]]},
+        "Başka Model Var mı?": {"main": [[m("Deneme Seç")], [m("Rapor (haber yok)")]]},
+        "Haberleri Hazırla": {"main": [[m("Haber Var mı?")]]},
         "Haber Var mı?": {"main": [[m("Yayımla")], [m("Rapor (haber yok)")]]},
         "Yayımla": {"main": [[m("Rapor")]]},
         "Rapor": {"main": [[m("İl Döngüsü")]]},
